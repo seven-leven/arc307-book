@@ -1,0 +1,154 @@
+{
+ "section": "parti",
+ "island": "male",
+ "blocks": [
+  {
+   "t": "figure",
+   "main": true,
+   "src": "figures/03/male/136_1.webp",
+   "wpx": 1818,
+   "hpx": 1209,
+   "w": 606,
+   "h": 403,
+   "label": "Figure",
+   "num": "3.2.1M",
+   "text": "The parti: the port leaves, and four wings open Malé to the world, the ocean, its past and its future."
+  },
+  {
+   "t": "text",
+   "heading": "THE IDEA",
+   "paras": [
+    "One move frees the waterfront: the port and North Harbour leave for Thilafushi. Four wings then reconnect Malé to the world, the ocean, its past and its future. An amenity core of kiosks, a school and park, a sports centre and shops ties them together."
+   ]
+  },
+  {
+   "t": "legend",
+   "heading": "Legend",
+   "rows": [
+    {
+     "text": "Port relocation back-of-house leaves Malé",
+     "sym": {
+      "src": "figures/03/male/136_2.webp",
+      "wpx": 136,
+      "hpx": 45,
+      "w": 34,
+      "h": 11
+     }
+    },
+    {
+     "text": "Wing zone north, east, south and west",
+     "sym": {
+      "src": "figures/03/male/136_3.webp",
+      "wpx": 128,
+      "hpx": 61,
+      "w": 32,
+      "h": 15
+     }
+    },
+    {
+     "text": "Wing connection to the world, the ocean, the past and the future",
+     "sym": {
+      "src": "figures/03/male/136_4.webp",
+      "wpx": 140,
+      "hpx": 29,
+      "w": 35,
+      "h": 7
+     }
+    },
+    {
+     "text": "Amenity core node everyday needs between wings",
+     "sym": {
+      "src": "figures/03/male/136_5.webp",
+      "wpx": 56,
+      "hpx": 61,
+      "w": 14,
+      "h": 15
+     }
+    },
+    {
+     "text": "Stitch link wing to wing",
+     "sym": {
+      "src": "figures/03/male/136_6.webp",
+      "wpx": 136,
+      "hpx": 29,
+      "w": 34,
+      "h": 7
+     }
+    },
+    {
+     "text": "Vista / breeze cut through the reclaimed grid to the sea",
+     "sym": {
+      "src": "figures/03/male/136_7.webp",
+      "wpx": 132,
+      "hpx": 53,
+      "w": 33,
+      "h": 13
+     }
+    }
+   ]
+  },
+  {
+   "t": "steps",
+   "steps": [
+    {
+     "n": 1,
+     "title": "Malé to the world",
+     "kicker": "EAST WING | THE HUB OF THE ATOLLS",
+     "text": "Every island connects through Malé. The East wing turns that traffic into a proper arrival: one terminal for ferries, airport boats and bridge buses.",
+     "pic": {
+      "src": "figures/03/male/137_1.webp",
+      "wpx": 726,
+      "hpx": 396,
+      "w": 242,
+      "h": 132
+     }
+    },
+    {
+     "n": 2,
+     "title": "Malé to the ocean",
+     "kicker": "WEST WING | AN ISLAND THAT TURNED ITS BACK ON THE SEA",
+     "text": "Seawalls ring Malé, with only two soft edges left to the water. The West wing reopens one of them as the Ocean Hub: a beach, diving and swimming.",
+     "pic": {
+      "src": "figures/03/male/137_2.webp",
+      "wpx": 654,
+      "hpx": 408,
+      "w": 218,
+      "h": 136
+     }
+    },
+    {
+     "n": 3,
+     "title": "Malé to its past",
+     "kicker": "SOUTH WING | HOUSES IN GARDENS",
+     "text": "Old Malé was low homes set in walled compounds, with shade, trees and air inside every plot. The South wing brings that back through breeze cuts, superblocks and pocket parks.",
+     "pic": {
+      "src": "figures/03/male/137_3.webp",
+      "wpx": 561,
+      "hpx": 414,
+      "w": 187,
+      "h": 138
+     }
+    },
+    {
+     "n": 4,
+     "title": "Malé to its future",
+     "kicker": "NORTH WING | ROOM TO BREATHE",
+     "text": "Taller homes lifted on green bases, cut open with courtyards for cross-ventilation, with one plot left free as open space. The North wing’s capstone plots follow the new guidelines.",
+     "pic": {
+      "src": "figures/03/male/137_4.webp",
+      "wpx": 582,
+      "hpx": 411,
+      "w": 194,
+      "h": 137
+     }
+    }
+   ]
+  },
+  {
+   "t": "caption",
+   "label": "Figures",
+   "num": "3.2.2M to 3.2.5M",
+   "text": "The parti in four steps, one for each wing of Fahi-Malé."
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "section": "non-residential",
+ "island": "male",
+ "blocks": [
+  {
+   "t": "figure",
+   "main": true,
+   "src": "figures/03/male/144_1.webp",
+   "wpx": 1818,
+   "hpx": 1143,
+   "w": 606,
+   "h": 381,
+   "label": "Figure",
+   "num": "3.6.1M",
+   "text": "What the area offers besides homes: the terminal, the markets, the Ocean Hub and the amenity core. Numbers refer to the views below."
+  },
+  {
+   "t": "text",
+   "heading": "WHAT THE SITE OFFERS",
+   "paras": [
+    "The East wing gives arrivals a terminal, with the fish and farmers’ markets beside it. The West wing holds the Ocean Hub, for diving, swimming lessons and marine research. Between them, an amenity core of kiosks, shops and a sports centre serves daily life."
+   ]
+  },
+  {
+   "t": "legend",
+   "heading": "Legend",
+   "rows": [
+    {
+     "text": "Civic / arrival terminal East wing gateway",
+     "sym": {
+      "src": "figures/03/male/144_2.webp",
+      "wpx": 136,
+      "hpx": 61,
+      "w": 34,
+      "h": 15
+     }
+    },
+    {
+     "text": "Commercial / retail / F&B lounge, food stalls, souvenirs",
+     "sym": {
+      "src": "figures/03/male/144_3.webp",
+      "wpx": 136,
+      "hpx": 61,
+      "w": 34,
+      "h": 15
+     }
+    },
+    {
+     "text": "Fish and farmers’ market redesigned",
+     "sym": {
+      "src": "figures/03/male/144_4.webp",
+      "wpx": 136,
+      "hpx": 61,
+      "w": 34,
+      "h": 15
+     }
+    },
+    {
+     "text": "Ocean Hub diving, marine centre, water park",
+     "sym": {
+      "src": "figures/03/male/144_5.webp",
+      "wpx": 136,
+      "hpx": 61,
+      "w": 34,
+      "h": 15
+     }
+    },
+    {
+     "text": "Amenity core school and kiosk",
+     "sym": {
+      "src": "figures/03/male/144_6.webp",
+      "wpx": 112,
+      "hpx": 61,
+      "w": 28,
+      "h": 15
+     }
+    }
+   ]
+  },
+  {
+   "t": "heading",
+   "text": "Views"
+  },
+  {
+   "t": "cards",
+   "cols": 2,
+   "cards": [
+    {
+     "n": 1,
+     "title": "In front of the market",
+     "text": "The redesigned fish and farmers’ markets, in front of the arrival terminal.",
+     "pic": {
+      "src": "figures/03/male/145_1.webp",
+      "wpx": 1062,
+      "hpx": 594,
+      "w": 354,
+      "h": 198
+     }
+    },
+    {
+     "n": 2,
+     "title": "Arrival terminal",
+     "text": "One terminal for ferries, airport boats and bridge buses, with a lounge and food stalls.",
+     "pic": {
+      "src": "figures/03/male/145_2.webp",
+      "wpx": 1063,
+      "hpx": 594,
+      "w": 354,
+      "h": 198
+     }
+    },
+    {
+     "n": 3,
+     "title": "Ocean Hub",
+     "text": "Diving, swimming lessons and marine research, with a beach for beginners.",
+     "pic": {
+      "src": "figures/03/male/145_3.webp",
+      "wpx": 1062,
+      "hpx": 595,
+      "w": 354,
+      "h": 198
+     }
+    },
+    {
+     "n": 4,
+     "title": "Barbecue area",
+     "text": "A barbecue area at the water’s edge.",
+     "pic": {
+      "src": "figures/03/male/145_4.webp",
+      "wpx": 1063,
+      "hpx": 595,
+      "w": 354,
+      "h": 198
+     }
+    }
+   ]
+  },
+  {
+   "t": "caption",
+   "label": "Figures",
+   "num": "3.6.2M to 3.6.5M",
+   "text": "Views of the non-residential programme. Each number matches a marker on the drawing above."
+  },
+  {
+   "t": "text",
+   "heading": "WHO IT SERVES",
+   "paras": [
+    "Arrivals no longer wait for speedboats on the street. Residents learn to swim and dive at the Ocean Hub, and six dive sites within a 30-minute boat ride draw visitors from across Greater Malé. Shops, school and sport are all a short walk from home."
+   ]
+  }
+ ]
+}

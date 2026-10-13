@@ -1,0 +1,166 @@
+{
+ "section": "existing-conditions",
+ "island": "male",
+ "blocks": [
+  {
+   "t": "figure",
+   "main": true,
+   "src": "figures/03/male/138_1.webp",
+   "wpx": 2172,
+   "hpx": 1230,
+   "w": 724,
+   "h": 410,
+   "label": "Figure",
+   "num": "3.3.1M",
+   "text": "What stands on the site today: what is kept, what is adapted and what is demolished."
+  },
+  {
+   "t": "text",
+   "heading": "WHAT IS THERE NOW",
+   "paras": [
+    "The port, cargo yards and warehouses hold 9.90 ha, 74% of the 13.43 ha area. They block the sea and fill the streets with trucks. Behind them, 9,230 people live on 2.53 ha of homes. The plan has to give this edge back to the city."
+   ]
+  },
+  {
+   "t": "legend",
+   "heading": "Legend",
+   "rows": [
+    {
+     "text": "Existing building, retained",
+     "sym": {
+      "src": "figures/03/male/138_2.webp",
+      "wpx": 128,
+      "hpx": 61,
+      "w": 32,
+      "h": 15
+     }
+    },
+    {
+     "text": "To be demolished port structures and widening cuts",
+     "sym": {
+      "src": "figures/03/male/138_3.webp",
+      "wpx": 128,
+      "hpx": 61,
+      "w": 32,
+      "h": 15
+     }
+    },
+    {
+     "text": "Retained and adapted for example warehouses to terminal",
+     "sym": {
+      "src": "figures/03/male/138_4.webp",
+      "wpx": 128,
+      "hpx": 61,
+      "w": 32,
+      "h": 15
+     }
+    },
+    {
+     "text": "Port operations (relocating) North Harbour to Thilafushi",
+     "sym": {
+      "src": "figures/03/male/138_5.webp",
+      "wpx": 120,
+      "hpx": 57,
+      "w": 30,
+      "h": 14
+     }
+    }
+   ]
+  },
+  {
+   "t": "heading",
+   "text": "Existing issues"
+  },
+  {
+   "t": "cards",
+   "cols": 3,
+   "cards": [
+    {
+     "n": 1,
+     "title": "A blocked waterfront",
+     "text": "Waterfront blocked by industrial and godown uses, limiting public access.",
+     "pic": {
+      "src": "figures/03/male/139_1.webp",
+      "wpx": 690,
+      "hpx": 558,
+      "w": 230,
+      "h": 186
+     }
+    },
+    {
+     "n": 2,
+     "title": "No room to play",
+     "text": "High building density leaves little space for public recreation.",
+     "pic": {
+      "src": "figures/03/male/139_2.webp",
+      "wpx": 690,
+      "hpx": 558,
+      "w": 230,
+      "h": 186
+     }
+    },
+    {
+     "n": 3,
+     "title": "Far from the bus",
+     "text": "Distant bus stops increase dependence on private vehicles.",
+     "pic": {
+      "src": "figures/03/male/139_3.webp",
+      "wpx": 690,
+      "hpx": 558,
+      "w": 230,
+      "h": 186
+     }
+    },
+    {
+     "n": 4,
+     "title": "Pipes in the way",
+     "text": "Exposed roadside pipes obstruct pedestrian movement.",
+     "pic": {
+      "src": "figures/03/male/139_4.webp",
+      "wpx": 690,
+      "hpx": 559,
+      "w": 230,
+      "h": 186
+     }
+    },
+    {
+     "n": 5,
+     "title": "A traffic barrier",
+     "text": "A busy road acts as a barrier.",
+     "pic": {
+      "src": "figures/03/male/139_5.webp",
+      "wpx": 690,
+      "hpx": 559,
+      "w": 230,
+      "h": 186
+     }
+    },
+    {
+     "n": 6,
+     "title": "One strip for all",
+     "text": "Narrow roads force pedestrians and vehicles to share unsafe space.",
+     "pic": {
+      "src": "figures/03/male/139_6.webp",
+      "wpx": 690,
+      "hpx": 559,
+      "w": 230,
+      "h": 186
+     }
+    }
+   ]
+  },
+  {
+   "t": "caption",
+   "label": "Figures",
+   "num": "3.3.2M to 3.3.7M",
+   "text": "Six problems seen on site."
+  },
+  {
+   "t": "text",
+   "heading": "WHAT THE IMAGES SHOW",
+   "paras": [
+    "On the ground, the edge feels closed. Warehouse walls stand where the sea should be, and buildings press close, with no room left for play. Narrow roads leave people and motorbikes to share one strip, and bus stops are far, so many people drive."
+   ]
+  }
+ ]
+}

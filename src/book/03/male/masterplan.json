@@ -1,0 +1,372 @@
+{
+ "section": "masterplan",
+ "island": "male",
+ "blocks": [
+  {
+   "t": "figure",
+   "main": true,
+   "src": "figures/03/male/148_1.webp",
+   "wpx": 2205,
+   "hpx": 1455,
+   "w": 735,
+   "h": 485,
+   "label": "Figure",
+   "num": "3.8.1M",
+   "text": "Fahi-Malé masterplan. Numbers refer to the legend."
+  },
+  {
+   "t": "text",
+   "heading": "FAHI-MALÉ AS ONE PLACE",
+   "paras": [
+    "On the northern waterfront, Malé’s back of house, the port, cargo yards and warehouses, occupies the city’s most valuable edge. It blocks the sea and fills the streets with trucks. Fahi-Malé moves the port to Thilafushi and hands the waterfront back to the city.",
+    "Four wings reconnect Malé: to the world through a new arrival terminal, to the ocean through the Ocean Hub, to its past through a breathable old core, and to its future through new homes on the former port land. An amenity core stitches them together. Malé moves up the value chain, from a back-of-house island to a front-of-house city."
+   ]
+  },
+  {
+   "t": "list",
+   "heading": "Legend",
+   "groups": [
+    {
+     "heading": "COMMERCIAL AND CIVIC",
+     "items": [
+      {
+       "text": "Gaadiyaa",
+       "sym": {
+        "src": "figures/03/male/149_1.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      },
+      {
+       "text": "Commercial and parking Indoor sports and parking Atoll shops 1",
+       "sym": {
+        "src": "figures/03/male/149_2.webp",
+        "wpx": 85,
+        "hpx": 257,
+        "w": 21,
+        "h": 64
+       }
+      },
+      {
+       "text": "Atoll shops 2",
+       "sym": {
+        "src": "figures/03/male/149_3.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      },
+      {
+       "text": "Local market",
+       "sym": {
+        "src": "figures/03/male/149_4.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      },
+      {
+       "text": "Food court",
+       "sym": {
+        "src": "figures/03/male/149_5.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      },
+      {
+       "text": "Ferry terminal",
+       "sym": {
+        "src": "figures/03/male/149_6.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      },
+      {
+       "text": "Commercial and parking Fish market",
+       "sym": {
+        "src": "figures/03/male/149_7.webp",
+        "wpx": 85,
+        "hpx": 169,
+        "w": 21,
+        "h": 42
+       }
+      }
+     ]
+    },
+    {
+     "heading": "TRANSPORT AND DOCKS",
+     "items": [
+      {
+       "text": "Parking",
+       "sym": {
+        "src": "figures/03/male/149_8.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      },
+      {
+       "text": "Bus terminal",
+       "sym": {
+        "src": "figures/03/male/149_9.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      },
+      {
+       "text": "Launch dockyard",
+       "sym": {
+        "src": "figures/03/male/149_10.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      },
+      {
+       "text": "Local produce dock",
+       "sym": {
+        "src": "figures/03/male/149_11.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      },
+      {
+       "text": "Fishing boat dock",
+       "sym": {
+        "src": "figures/03/male/149_12.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      },
+      {
+       "text": "Underground tunnel",
+       "sym": {
+        "src": "figures/03/male/149_13.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      }
+     ]
+    },
+    {
+     "heading": "Key map",
+     "pic": {
+      "src": "figures/03/male/149_14.webp",
+      "wpx": 610,
+      "hpx": 418,
+      "w": 203,
+      "h": 139
+     }
+    },
+    {
+     "heading": "HOUSING",
+     "items": [
+      {
+       "text": "Social housing 1",
+       "sym": {
+        "src": "figures/03/male/149_15.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      },
+      {
+       "text": "Social housing 2",
+       "sym": {
+        "src": "figures/03/male/149_16.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      },
+      {
+       "text": "Old organic fabric Capstone building 1",
+       "sym": {
+        "src": "figures/03/male/149_17.webp",
+        "wpx": 85,
+        "hpx": 169,
+        "w": 21,
+        "h": 42
+       }
+      },
+      {
+       "text": "Capstone building 2",
+       "sym": {
+        "src": "figures/03/male/149_18.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      },
+      {
+       "text": "Capstone building 3",
+       "sym": {
+        "src": "figures/03/male/149_19.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      },
+      {
+       "text": "Capstone building 4",
+       "sym": {
+        "src": "figures/03/male/149_20.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      },
+      {
+       "text": "Capstone building 5",
+       "sym": {
+        "src": "figures/03/male/149_21.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      }
+     ]
+    },
+    {
+     "heading": "OPEN SPACE",
+     "items": [
+      {
+       "text": "Beach",
+       "sym": {
+        "src": "figures/03/male/149_22.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      },
+      {
+       "text": "Pocket parks",
+       "sym": {
+        "src": "figures/03/male/149_23.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      },
+      {
+       "text": "Water park",
+       "sym": {
+        "src": "figures/03/male/149_24.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      },
+      {
+       "text": "Mas Fengandu",
+       "sym": {
+        "src": "figures/03/male/149_25.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      },
+      {
+       "text": "Fishing platform",
+       "sym": {
+        "src": "figures/03/male/149_26.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      }
+     ]
+    },
+    {
+     "heading": "LANDMARKS",
+     "items": [
+      {
+       "text": "Ocean Hub",
+       "sym": {
+        "src": "figures/03/male/149_27.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      },
+      {
+       "text": "Ocean Hub dock",
+       "sym": {
+        "src": "figures/03/male/149_28.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      },
+      {
+       "text": "Mosque and social complex",
+       "sym": {
+        "src": "figures/03/male/149_29.webp",
+        "wpx": 85,
+        "hpx": 85,
+        "w": 21,
+        "h": 21
+       }
+      }
+     ]
+    },
+    {
+     "heading": "ROUTES",
+     "items": [
+      {
+       "text": "Bus route",
+       "sym": {
+        "src": "figures/03/male/149_30.webp",
+        "wpx": 121,
+        "hpx": 29,
+        "w": 30,
+        "h": 7
+       }
+      },
+      {
+       "text": "Vehicle routes",
+       "sym": {
+        "src": "figures/03/male/149_31.webp",
+        "wpx": 121,
+        "hpx": 29,
+        "w": 30,
+        "h": 7
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

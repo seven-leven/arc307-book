@@ -1,145 +1,215 @@
 {
  "folio": 13,
- "type": "sheet",
+ "type": "three",
  "heading": "THE THREE ISLANDS",
+ "subtitle": null,
  "claim": null,
- "picture": {
-  "src": "figures/01/13_page.webp",
-  "wpx": 2226,
-  "hpx": 2076
- },
- "text": [
+ "blocks": [
   {
-   "type": "heading",
-   "text": "SETTLED"
+   "t": "table",
+   "corner": "",
+   "header": [
+    [
+     {
+      "type": "sub",
+      "text": "MALÉ",
+      "island": "male"
+     },
+     {
+      "type": "para",
+      "text": "The capital. Dense and organically grown, the centre of work and trade for the whole region."
+     }
+    ],
+    [
+     {
+      "type": "sub",
+      "text": "VILLIMALÉ",
+      "island": "villimale"
+     },
+     {
+      "type": "para",
+      "text": "The smallest. Resettled in 1990 to relieve overcrowding in Malé, and still the greenest of the three."
+     }
+    ],
+    [
+     {
+      "type": "sub",
+      "text": "HULHUMALÉ",
+      "island": "hulhumale"
+     },
+     {
+      "type": "para",
+      "text": "The newest. Reclaimed from 1997 as a planned settlement and still growing, phase by phase."
+     }
+    ]
+   ],
+   "rows": [
+    {
+     "label": [
+      {
+       "type": "heading",
+       "text": "SETTLED"
+      }
+     ],
+     "cells": [
+      [
+       {
+        "type": "sub",
+        "text": "Before 1153"
+       }
+      ],
+      [
+       {
+        "type": "sub",
+        "text": "Resettled 1990"
+       }
+      ],
+      [
+       {
+        "type": "sub",
+        "text": "First residents 2004"
+       }
+      ]
+     ]
+    },
+    {
+     "label": [
+      {
+       "type": "heading",
+       "text": "AREA (HA)"
+      }
+     ],
+     "cells": [
+      [
+       {
+        "type": "note",
+        "text": "208.03"
+       }
+      ],
+      [
+       {
+        "type": "note",
+        "text": "35.52"
+       }
+      ],
+      [
+       {
+        "type": "note",
+        "text": "497"
+       }
+      ]
+     ]
+    },
+    {
+     "label": [
+      {
+       "type": "heading",
+       "text": "POPULATION (CENSUS 2022)"
+      }
+     ],
+     "cells": [
+      [
+       {
+        "type": "note",
+        "text": "137,238"
+       }
+      ],
+      [
+       {
+        "type": "note",
+        "text": "6,755"
+       }
+      ],
+      [
+       {
+        "type": "note",
+        "text": "65,714"
+       }
+      ]
+     ]
+    },
+    {
+     "label": [
+      {
+       "type": "note",
+       "text": "POPULATION DENSITY (p/ha)"
+      }
+     ],
+     "cells": [
+      [
+       {
+        "type": "note",
+        "text": "660"
+       },
+       {
+        "type": "sub",
+        "text": "4.4 times the guide",
+        "island": "male"
+       }
+      ],
+      [
+       {
+        "type": "note",
+        "text": "190"
+       }
+      ],
+      [
+       {
+        "type": "note",
+        "text": "132"
+       }
+      ]
+     ],
+     "note": [
+      {
+       "type": "note",
+       "text": "Guide: UN-Habitat recommends at least 150p/ha for a compact, walkable neighbourhood"
+      }
+     ]
+    },
+    {
+     "label": [
+      {
+       "type": "heading",
+       "text": "LINKED TO MALÉ BY"
+      }
+     ],
+     "cells": [
+      [
+       {
+        "type": "sub",
+        "text": "The hub: every route starts or ends here"
+       }
+      ],
+      [
+       {
+        "type": "sub",
+        "text": "Ferry; Thilamalé bridge from 2026"
+       }
+      ],
+      [
+       {
+        "type": "sub",
+        "text": "Sinamalé bridge through Hulhulé; ferry"
+       }
+      ]
+     ]
+    }
+   ]
   },
   {
-   "type": "heading",
-   "text": "AREA (HA)"
-  },
-  {
-   "type": "heading",
-   "text": "POPULATION (CENSUS 2022)"
-  },
-  {
-   "type": "note",
-   "text": "POPULATION DENSITY (p/ ha)"
-  },
-  {
-   "type": "heading",
-   "text": "LINKED TO MALÉ BY"
-  },
-  {
-   "type": "heading",
-   "text": "THEN"
-  },
-  {
-   "type": "heading",
-   "text": "WHERE THEY DIVERGE"
-  },
-  {
-   "type": "para",
-   "text": "One region, three very different islands: one grew for centuries, one was resettled, one was planned and built. The rest of this chapter takes them one at a time, through the same topics in the same order."
-  },
-  {
-   "type": "note",
-   "text": "Sources"
-  },
-  {
-   "type": "sub",
-   "text": "MALÉ"
-  },
-  {
-   "type": "para",
-   "text": "The capital. Dense and organically grown, the centre of work and trade for the whole region."
-  },
-  {
-   "type": "sub",
-   "text": "Before 1153"
-  },
-  {
-   "type": "note",
-   "text": "208.03"
-  },
-  {
-   "type": "note",
-   "text": "137,238"
-  },
-  {
-   "type": "note",
-   "text": "660"
-  },
-  {
-   "type": "sub",
-   "text": "4.4 times the guide"
-  },
-  {
-   "type": "note",
-   "text": "Guide: UN-Habitat recommends at least 150p/ha for a compact, walkable neighbourhood"
-  },
-  {
-   "type": "sub",
-   "text": "The hub: every route starts or ends here"
-  },
-  {
-   "type": "note",
-   "text": "Census 2022."
-  },
-  {
-   "type": "sub",
-   "text": "VILLIMALÉ"
-  },
-  {
-   "type": "para",
-   "text": "The smallest. Resettled in 1990 to relieve overcrowding in Malé, and still the greenest of the three."
-  },
-  {
-   "type": "sub",
-   "text": "Resettled 1990"
-  },
-  {
-   "type": "note",
-   "text": "35.52"
-  },
-  {
-   "type": "note",
-   "text": "6,755"
-  },
-  {
-   "type": "note",
-   "text": "190"
-  },
-  {
-   "type": "sub",
-   "text": "Ferry; Thilamalé bridge from 2026"
-  },
-  {
-   "type": "sub",
-   "text": "HULHUMALÉ"
-  },
-  {
-   "type": "para",
-   "text": "The newest. Reclaimed from 1997 as a planned settlement and still growing, phase by phase."
-  },
-  {
-   "type": "sub",
-   "text": "First residents 2004"
-  },
-  {
-   "type": "note",
-   "text": "497"
-  },
-  {
-   "type": "note",
-   "text": "65,714"
-  },
-  {
-   "type": "note",
-   "text": "132"
-  },
-  {
-   "type": "sub",
-   "text": "Sinamalé bridge through Hulhulé; ferry"
+   "t": "flow",
+   "items": [
+    {
+     "type": "heading",
+     "text": "WHERE THEY DIVERGE"
+    },
+    {
+     "type": "para",
+     "text": "One region, three very different islands: one grew for centuries, one was resettled, one was planned and built. The rest of this chapter takes them one at a time, through the same topics in the same order."
+    }
+   ]
   }
- ]
+ ],
+ "sources": "Census 2022."
 }

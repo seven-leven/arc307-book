@@ -15,6 +15,9 @@ interface Props {
 }
 const { page, title, first = false } = Astro.props;
 const id = `sheet-${page.folio}`;
+// a page whose own heading only repeats the section's title does not print it twice
+const bare = (s: string) => s.replace(/^\d+\.\d+\s+/, "").toLowerCase().trim();
+const same = (a: string, b: string) => bare(a) === bare(b);
 ---
 {!page.type && <BookPage page={page} title={title} />}
 
@@ -45,6 +48,60 @@ const id = `sheet-${page.folio}`;
       </div>
     </details>}
     {page.after && <p class="t-caption draft">{page.after}</p>}
+  </section>
+)}
+
+{page.type === "three" && (
+  <section class="three-page">
+    {page.heading && !same(page.heading, title) && <h2 class="t-heading">{page.heading}</h2>}
+    {page.subtitle && <p class="t-subtitle">{page.subtitle}</p>}
+    {page.blocks.map((b: any) => {
+      const piece = (it: any) =>
+        it.type === "picture" ? <img class="pic" src={url(`/${it.src}`)} width={it.wpx} height={it.hpx} alt={`Drawing: ${title}`} loading="lazy" decoding="async" />
+        : it.type === "sub" || it.type === "claim" ? <p class="t-subheading" data-island={it.island}><span class:list={{ "accent-text": !!it.island }}>{it.text}</span></p>
+        : it.type === "heading" ? <p class="t-small" data-island={it.island}><span class:list={{ "accent-text": !!it.island }}>{it.text}</span></p>
+        : it.type === "number" ? <p class="t-number" data-island={it.island}><span class="num3">{it.text}</span></p>
+        : it.type === "para" ? <p class="t-body">{it.text}</p>
+        : it.type === "italic" ? <p class="t-subtitle">{it.text}</p>
+        : it.type === "strong" || it.type === "strongnote" ? <p class="t-caption strong3">{it.text}</p>
+        : it.type === "point" ? <p class="t-body point"><span class="badge3" aria-hidden="true">{it.n}</span><span>{it.text}</span></p>
+        : <p class="t-caption">{it.text}</p>;
+      if (b.t === "table") return (
+        <table class="t3">
+          {page.caption && <caption class="t-caption"><strong class="capnum">{`${page.caption.label} ${page.caption.num}`}</strong> {page.caption.text}</caption>}
+          <thead>
+            <tr>
+              <th scope="col" class="t-small corner">{b.corner || <span class="visually-hidden">Measure</span>}</th>
+              {b.header.map((c: any[], k: number) => (
+                <th scope="col" data-island={ISLANDS[k].key} class="colhead">
+                  {c.map((it, j) => j === 0 ? <span class="t-subheading name accent-text">{it.text}</span> : <span class={it.type === "para" ? "t-body lead3" : "t-caption lead3"}>{it.text}</span>)}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {b.rows.map((r: any) => (
+              <>
+                <tr>
+                  <th scope="row">{r.label.map((it: any) => <span class={it.type === "sub" ? "t-subheading rl" : "t-small rl"} data-island={it.island}>{it.text}</span>)}</th>
+                  {r.cells.map((c: any[], k: number) => <td data-island={ISLANDS[k].key} data-name={ISLANDS[k].name}>{c.map(piece)}</td>)}
+                </tr>
+                {r.note && <tr class="rownote"><td></td><td colspan="3">{r.note.map((it: any) => <p class="t-caption">{it.text}</p>)}</td></tr>}
+              </>
+            ))}
+          </tbody>
+        </table>
+      );
+      if (b.t === "cols") return (
+        <div class="three cols3">
+          {b.cols.map((c: any[], k: number) => <div class="col3" data-island={ISLANDS[k].key}>{c.map(piece)}</div>)}
+        </div>
+      );
+      return <div class="flow3">{b.items.map(piece)}</div>;
+    })}
+    {page.caption && !page.blocks.some((b: any) => b.t === "table") && <p class="t-caption"><strong class="capnum">{`${page.caption.label} ${page.caption.num}`}</strong> {page.caption.text}</p>}
+    {page.sources && <p class="t-caption src3"><strong>Sources</strong> {page.sources}</p>}
+    {page.notes?.map((n: string) => <p class="t-caption src3">{n}</p>)}
   </section>
 )}
 
@@ -154,6 +211,48 @@ const id = `sheet-${page.folio}`;
   .pan { overflow: auto; min-height: 0; }
   .pan img { width: max(100%, 1400px); max-width: none; height: auto; }
   .close { justify-self: end; background: none; border: 0; cursor: pointer; padding: var(--s2); color: var(--ink); text-decoration: underline; }
+  /* three-column shared pages */
+  .three-page { display: grid; gap: var(--s4); }
+  .t3 { border-collapse: collapse; width: 100%; min-width: 0; table-layout: fixed; }
+  .t3 caption { caption-side: bottom; text-align: left; padding-top: var(--s3); }
+  .t3 th, .t3 td { text-align: left; vertical-align: top; padding: var(--s3) var(--s3) var(--s3) var(--s2); width: auto; font-weight: 400; }
+  .t3 .corner, .t3 tbody th { width: 22%; }
+  .colhead { border-top: 5px solid var(--accent); }
+  .colhead .name { display: block; text-transform: uppercase; letter-spacing: 0.06em; }
+  .lead3 { display: block; margin-top: var(--s2); font-weight: 400; color: var(--ink); }
+  .t3 tbody tr:nth-child(odd) { background: none; }
+  .t3 tbody tr { border-top: 1px solid var(--rule); }
+  .t3 .rownote { border-top: 0; }
+  .t3 .rownote td { padding-top: 0; color: var(--grey-dark); }
+  .rl { display: block; }
+  .rl[data-island] { color: var(--accent-text); }
+  .t3 td > :global(* + *), .col3 > :global(* + *), .flow3 > :global(* + *) { margin-top: var(--s2); }
+  .t3 td :global(.t-caption) { font-size: var(--body-size); }
+  .t3 td :global(.t-subheading + .t-caption) { font-size: var(--caption-size); color: var(--grey-dark); }
+  .col3 { min-width: 0; border-top: 5px solid var(--accent); padding-top: var(--s3); }
+  .col3 :global(.pic) { width: 100%; aspect-ratio: 1 / 1; object-fit: contain; }   /* one size, so the three columns stay level */
+  .col3 :global(.t-small) { margin-top: var(--s3); }
+  .col3 :global(.t-small:first-child) { margin-top: 0; }
+  .num3 { color: var(--accent); }
+  .strong3 { font-weight: 700; }
+  .flow3 { max-width: var(--measure); }
+  .flow3 :global(.t-small) { margin-top: var(--s4); }
+  .point { display: flex; gap: var(--s2); align-items: baseline; }
+  .badge3 { flex: none; width: 1.6em; height: 1.6em; border-radius: 50%; background: var(--panel); font-size: var(--caption-size); font-weight: 700; display: inline-grid; place-items: center; }
+  .src3 { color: var(--grey-dark); max-width: var(--measure); }
+  .src3 strong { color: var(--ink); margin-right: 0.6em; }
+  /* on a phone a row becomes its label, then the three islands one under another, each named */
+  @media (max-width: 700px) {
+    .t3, .t3 tbody, .t3 tr, .t3 th, .t3 td, .t3 thead { display: block; width: auto !important; }
+    .t3 thead .corner { display: none; }
+    .t3 caption { display: block; }
+    .t3 thead th { padding-left: 0; margin-bottom: var(--s3); }
+    .t3 tbody th { padding: var(--s3) 0 0; }
+    .t3 td { padding: var(--s2) 0 var(--s2) var(--s3); border-left: 4px solid var(--accent-light); margin-top: var(--s2); }
+    .t3 td[data-name]::before { content: attr(data-name); display: block; font-size: var(--small-size); font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-text); }
+    .t3 .rownote td:first-child { display: none; }
+    .t3 .rownote td { border-left: 0; padding-left: 0; }
+  }
   /* comparison */
   .cmp { display: grid; gap: var(--s5); }
   .tk { margin-top: var(--s2); display: grid; gap: var(--s1); }

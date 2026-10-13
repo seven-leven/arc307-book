@@ -6,8 +6,9 @@ interface Props {
   chapter: Chapter;
   current: string; // section slug
   view: View | null; // null on a shared page: the links then follow the remembered island
+  spy?: boolean; // a long page: mark the section on screen while scrolling
 }
-const { chapter, current, view } = Astro.props;
+const { chapter, current, view, spy = false } = Astro.props;
 const items = chapter.sections.map((s) => ({
   s,
   href: sectionHref(chapter, s, view ?? "male"),
@@ -19,7 +20,7 @@ const items = chapter.sections.map((s) => ({
   },
 }));
 ---
-<nav class="rail" aria-label={`Sections of chapter ${chapter.num}`}>
+<nav class="rail" aria-label={`Sections of chapter ${chapter.num}`} data-spy={spy ? "" : undefined}>
   <p class="t-small">{chapter.num} {chapter.title}</p>
   <ol role="list">
     {items.map(({ s, href, per }) => (
@@ -32,7 +33,7 @@ const items = chapter.sections.map((s) => ({
   </ol>
 </nav>
 
-<details class="sheet" data-sheet>
+<details class="sheet" data-sheet data-spy={spy ? "" : undefined}>
   <summary>Sections</summary>
   <nav aria-label={`Sections of chapter ${chapter.num}, list`}>
     <p class="t-small">{chapter.num} {chapter.title}</p>

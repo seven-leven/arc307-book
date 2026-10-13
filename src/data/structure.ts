@@ -27,6 +27,7 @@ export interface Chapter {
   holds: string; // one line for the home grid
   tagline: string; // from the chapter's cover in the book
   opening: string[];
+  long?: boolean; // its per-island sections sit on one long page per island (and one for compare)
   sections: Section[];
 }
 
@@ -55,6 +56,7 @@ export const CHAPTERS: Chapter[] = [
   {
     num: "01",
     slug: "macro-analysis",
+    long: true,
     title: "Macro analysis",
     holds: "Each island as a whole: history, climate, people, form, movement, open space.",
     tagline: "The islands as they are.",
@@ -98,6 +100,7 @@ export const CHAPTERS: Chapter[] = [
   {
     num: "03",
     slug: "masterplan",
+    long: true,
     title: "Masterplan",
     holds: "What each group proposes for its study area, layer by layer.",
     tagline: "The islands, redrawn.",
@@ -154,8 +157,12 @@ export const island = (key: IslandKey) => ISLANDS.find((i) => i.key === key)!;
 export const isIsland = (v: string | null | undefined): v is IslandKey => ISLANDS.some((i) => i.key === v);
 export const viewName = (v: View) => (v === "compare" ? "Compare" : island(v).name);
 
+/** A long chapter's page for one island, or for compare. */
+export const longHref = (ch: Chapter, view: View) => url(`/${ch.slug}/${view}/`);
+
 export function sectionHref(ch: Chapter, s: Section, view: View): string {
-  return s.shared ? url(`/${ch.slug}/${s.slug}/`) : url(`/${ch.slug}/${s.slug}/${view}/`);
+  if (s.shared) return url(`/${ch.slug}/${s.slug}/`);
+  return ch.long ? `${longHref(ch, view)}#${s.slug}` : url(`/${ch.slug}/${s.slug}/${view}/`);
 }
 
 /** The book's reading order for one island (or for compare): every section of every chapter, shared pages included. */

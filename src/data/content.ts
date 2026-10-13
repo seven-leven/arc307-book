@@ -29,7 +29,9 @@ export function folioHref(folio: number): string | null {
     for (const [section, views] of Object.entries(sections)) {
       for (const [view, folios] of Object.entries(views)) {
         if (folios.includes(folio) || (folio === 127 && folios.includes(126))) {
-          return url(view === "shared" ? `/${chapter}/${section}/` : `/${chapter}/${section}/${view}/`);
+          if (view === "shared") return url(`/${chapter}/${section}/`);
+          const long = chapter === "macro-analysis" || chapter === "masterplan";
+          return long ? url(`/${chapter}/${view}/#${section}`) : url(`/${chapter}/${section}/${view}/`);
         }
       }
     }

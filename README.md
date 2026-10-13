@@ -44,7 +44,11 @@ deno task check-links
 
 ## Addresses
 
-Chapter, section, island: `/masterplan/public-and-green-space/hulhumale/`. `compare` in place of the island shows all three. Shared pages have no island part: `/toolkit/what-we-found/`. Addresses do not change once published.
+- **Chapters 01 and 03:** one long page per island, and one for compare: `/masterplan/male/`, `/masterplan/compare/`. Each section is an anchor: `/masterplan/male/#vision`. The older per-section addresses (`/masterplan/vision/male/`) forward there.
+- **Chapter 02:** a page per section and island: `/toolkit/theme-2-shade/hulhumale/`, with `compare` in place of the island.
+- **Shared pages** have no island part: `/toolkit/what-we-found/`.
+
+Addresses do not change once published; when one has to, the old one must forward.
 
 ## Rules that already apply
 

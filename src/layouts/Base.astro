@@ -15,12 +15,13 @@ interface Props {
   chapter?: string | null; // chapter slug, to mark it in the top bar
   targets?: Record<View, string>;
   description?: string;
+  keepHash?: boolean; // a long page: the island switcher keeps the section on screen
 }
-const { title, view = null, chapter = null, targets, description } = Astro.props;
+const { title, view = null, chapter = null, targets, description, keepHash = false } = Astro.props;
 const islandAttr = isIsland(view) ? view : undefined;
 ---
 <!doctype html>
-<html lang="en" data-island={islandAttr} data-view={view ?? "shared"}>
+<html lang="en" data-island={islandAttr} data-view={view ?? "shared"} data-keep-hash={keepHash ? "" : undefined}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />

@@ -1,33 +1,113 @@
 ---
-// A shared section: one page for all three islands (1.1, 1.9, 2.2, 2.8, 3.0, 3.10).
+// Two kinds of page share this address shape (/chapter/x/):
+//   a shared section, one page for all three islands (1.1, 1.9, 2.2, 2.8, 3.0, 3.10);
+//   in Chapters 01 and 03, one long page per island, and one for compare, holding every per-island section of the
+//   chapter in the book's order. Each section is an anchor (/masterplan/male/#vision).
+import Base from "../../../layouts/Base.astro";
 import SectionLayout from "../../../layouts/SectionLayout.astro";
+import SectionRail from "../../../components/SectionRail.astro";
+import SectionHeader from "../../../components/SectionHeader.astro";
+import SectionBody from "../../../components/SectionBody.astro";
 import SectionPattern from "../../../components/SectionPattern.astro";
 import HandOn from "../../../components/HandOn.astro";
 import BookContent from "../../../components/BookContent.astro";
 import { bookPages } from "../../../data/content";
-import { CHAPTERS, ISLANDS, neighbours } from "../../../data/structure";
+import { CHAPTERS, ISLANDS, VIEWS, island, isIsland, neighbours, longHref, url, EXTRA, type Chapter, type Section, type View } from "../../../data/structure";
 
 export function getStaticPaths() {
-  return CHAPTERS.flatMap((chapter) =>
+  const shared = CHAPTERS.flatMap((chapter) =>
     chapter.sections.filter((s) => s.shared).map((section) => ({
       params: { chapter: chapter.slug, section: section.slug },
-      props: { chapter, section },
+      props: { chapter, section, long: null },
     }))
   );
+  const long = CHAPTERS.filter((c) => c.long).flatMap((chapter) =>
+    VIEWS.map((view) => ({ params: { chapter: chapter.slug, section: view }, props: { chapter, section: null, long: view } }))
+  );
+  return [...shared, ...long];
 }
-const { chapter, section } = Astro.props;
-const pages = bookPages(chapter.slug, section.slug, "shared");
-const onward = ISLANDS.map((i) => ({ i, next: neighbours(chapter.slug, section.slug, i.key).next })).filter((x) => x.next && !x.next.section.shared);
+const chapter = Astro.props.chapter as Chapter;
+const section = Astro.props.section as Section | null;
+const view = Astro.props.long as View | null;
+
+// shared section
+const pages = section ? bookPages(chapter.slug, section.slug, "shared") : [];
+const onward = section ? ISLANDS.map((i) => ({ i, next: neighbours(chapter.slug, section.slug, i.key).next })).filter((x) => x.next && !x.next.section.shared) : [];
+
+// long page
+const own = chapter.sections.filter((s) => !s.shared);
+const who = view ? (isIsland(view) ? island(view).name : "Compare") : null;
+const before = view ? neighbours(chapter.slug, own[0].slug, view).prev : undefined;
+const after = view ? neighbours(chapter.slug, own[own.length - 1].slug, view).next : undefined;
+const targets = view ? Object.fromEntries(VIEWS.map((v) => [v, longHref(chapter, v)])) as Record<View, string> : undefined;
+const claim = (s: Section) => {
+  const c = view ? bookPages(chapter.slug, s.slug, view)[0]?.claim : null;
+  return c && !s.title.toLowerCase().includes(String(c).toLowerCase()) ? String(c) : null;
+};
 ---
-<SectionLayout chapter={chapter} section={section} view={null}>
-  {pages.length > 0
-    ? <div class="stack-lg">{pages.map((p, k) => <BookContent first={k === 0} page={p} title={`${section.num} ${section.title}`} />)}</div>
-    : <SectionPattern chapter={chapter} section={section} />}
-  {onward.length > 0 && (
-    <div class="three">
-      {onward.map(({ i, next }) => (
-        <HandOn href={next!.href} to={`${next!.section.num} ${next!.section.title}`} islandKey={i.key} />
-      ))}
+{section && (
+  <SectionLayout chapter={chapter} section={section} view={null}>
+    {pages.length > 0
+      ? <div class="stack-lg">{pages.map((p, k) => <BookContent first={k === 0} page={p} title={`${section.num} ${section.title}`} />)}</div>
+      : <SectionPattern chapter={chapter} section={section} />}
+    {onward.length > 0 && (
+      <div class="three">
+        {onward.map(({ i, next }) => (
+          <HandOn href={next!.href} to={`${next!.section.num} ${next!.section.title}`} islandKey={i.key} />
+        ))}
+      </div>
+    )}
+  </SectionLayout>
+)}
+
+{view && (
+  <Base title={`${chapter.num} ${chapter.title}, ${who}`} view={view} chapter={chapter.slug} targets={targets} keepHash>
+    <div class="frame page">
+      <SectionRail chapter={chapter} current="" view={view} spy />
+      <article class="body">
+        <SectionHeader label={`Chapter ${chapter.num}`} title={chapter.title} islandName={who} subtitle={chapter.tagline} />
+        {before && (
+          <p class="t-caption lead-in">Before this: <a href={before.href}>{`${before.section.num} ${before.section.title}`}</a>, shared by the three islands.</p>
+        )}
+        {own.map((s, k) => (
+          <section id={s.slug} class="sec" data-spy-section aria-labelledby={`h-${s.slug}`}>
+            <header class="sec-head">
+              <h2 class="t-heading" id={`h-${s.slug}`}><span class="num">{s.num}</span>{s.title}</h2>
+              {claim(s) && <p class="t-subtitle">{claim(s)}</p>}
+            </header>
+            <SectionBody chapter={chapter} section={s} view={view} first={k === 0} />
+          </section>
+        ))}
+        <nav class="pn" aria-label="Before and after this chapter">
+          {before ? (
+            <a href={before.href} rel="prev"><span class="t-small">Previous</span><span class="t-subheading">{`${before.section.num} ${before.section.title}`}</span><span class="t-caption">All three islands</span></a>
+          ) : <span />}
+          {after ? (
+            <a class="next" href={after.href} rel="next"><span class="t-small">Next</span><span class="t-subheading">{`${after.section.num} ${after.section.title}`}</span><span class="t-caption">All three islands</span></a>
+          ) : (
+            <a class="next" href={url(`/${EXTRA.reflections.slug}/`)} rel="next"><span class="t-small">Next</span><span class="t-subheading">{`${EXTRA.reflections.num} ${EXTRA.reflections.title}`}</span></a>
+          )}
+        </nav>
+      </article>
     </div>
-  )}
-</SectionLayout>
+  </Base>
+)}
+
+<style>
+  .page { padding-top: var(--s5); }
+  .body { min-width: 0; }
+  .lead-in { margin-top: var(--s4); color: var(--grey-dark); }
+  .lead-in a { color: var(--ink); }
+  .sec { margin-top: var(--s7); padding-top: var(--s4); border-top: 4px solid var(--accent-light); display: grid; gap: var(--s5); scroll-margin-top: var(--bar); }
+  .sec:first-of-type { margin-top: var(--s5); }
+  .sec-head { display: grid; gap: var(--s2); }
+  .num { color: var(--accent-text); margin-right: 0.6em; }
+  .pn { display: grid; grid-template-columns: 1fr 1fr; gap: var(--gutter); margin-top: var(--s7); border-top: 1px solid var(--rule); padding-top: var(--s4); }
+  .pn a { display: grid; gap: var(--s1); text-decoration: none; color: var(--ink); padding: var(--s2) 0; }
+  .pn a:hover .t-subheading { text-decoration: underline; text-underline-offset: 0.18em; }
+  .pn .t-caption { color: var(--grey-dark); }
+  .next { text-align: right; justify-items: end; }
+  @media (min-width: 1025px) {
+    .page { display: grid; grid-template-columns: var(--rail) minmax(0, 1fr); gap: var(--s6); padding-top: var(--s6); }
+  }
+</style>

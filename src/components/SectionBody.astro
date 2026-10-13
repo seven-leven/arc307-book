@@ -1,0 +1,45 @@
+---
+// The content of one section for one view: real web blocks where they exist, else the book's pages, else the empty
+// pattern. For "compare": the three islands side by side, each with its first page and a link to the full section.
+import Blocks from "./Blocks.astro";
+import BookContent from "./BookContent.astro";
+import SectionPattern from "./SectionPattern.astro";
+import { bookPages, nativeBlocks } from "../data/content";
+import { ISLANDS, island, isIsland, sectionHref, type Chapter, type Section, type View } from "../data/structure";
+
+interface Props {
+  chapter: Chapter;
+  section: Section;
+  view: View;
+  first?: boolean; // the first section on the page: its first picture is not lazy
+}
+const { chapter, section, view, first = true } = Astro.props;
+const pages = bookPages(chapter.slug, section.slug, view);
+const native = nativeBlocks(section.slug, view);
+const label = (v: string) => `${section.num} ${section.title}${isIsland(v) ? `, ${island(v).name}` : ""}`;
+const firstOf = (v: string) => bookPages(chapter.slug, section.slug, v)[0];
+---
+{native ? (
+  <Blocks blocks={native} title={label(view)} />
+) : pages.length > 0 ? (
+  <div class="stack-lg">{pages.map((p, k) => <BookContent first={first && k === 0} page={p} title={label(view)} />)}</div>
+) : isIsland(view) ? (
+  <SectionPattern chapter={chapter} section={section} letter={island(view).letter} />
+) : (
+  <div class="three">
+    {ISLANDS.map((i) => (
+      <section class="col stack" data-island={i.key} aria-label={`${i.name}: ${section.title}`}>
+        <h3 class="t-subheading who">{i.name}</h3>
+        {firstOf(i.key)
+          ? <BookContent page={{ ...firstOf(i.key), heading: null, text: [] }} title={label(i.key)} />
+          : <SectionPattern chapter={chapter} section={section} letter={i.letter} compact />}
+        <p class="t-caption"><a href={sectionHref(chapter, section, i.key)}>Read {section.num} for {i.name} in full</a></p>
+      </section>
+    ))}
+  </div>
+)}
+
+<style>
+  .who { color: var(--accent-text); border-bottom: 4px solid var(--accent-light); padding-bottom: var(--s2); }
+  .col { min-width: 0; }
+</style>

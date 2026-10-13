@@ -1,7 +1,9 @@
-# Builds the site and publishes it to GitHub Pages. It runs only when started by hand (Actions tab, "Run workflow"),
-# so nothing goes online by accident. Pages on a free account also needs the repository to be public.
+# Builds the site and publishes it to GitHub Pages every time main changes (a pull request is merged), so the live
+# site is always the latest version. It can also be started by hand from the Actions tab.
 name: Publish to GitHub Pages
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read

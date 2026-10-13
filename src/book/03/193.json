@@ -1,85 +1,89 @@
 {
  "folio": 193,
- "type": "sheet",
+ "type": "three",
  "heading": "WHAT THE THREE PLANS SHOW",
+ "subtitle": "Three directions on density, one answer for public life.",
  "claim": null,
- "picture": {
-  "src": "figures/03/193_page.webp",
-  "wpx": 2226,
-  "hpx": 2088
- },
- "text": [
+ "blocks": [
   {
-   "type": "italic",
-   "text": "Three directions on density, one answer for public life."
+   "t": "flow",
+   "items": [
+    {
+     "type": "heading",
+     "text": "PEOPLE IN THE AREA, BEFORE AND AFTER"
+    }
+   ]
   },
   {
-   "type": "heading",
-   "text": "PEOPLE IN THE AREA, BEFORE AND AFTER"
+   "t": "cols",
+   "cols": [
+    [
+     {
+      "type": "number",
+      "text": "+14%",
+      "island": "male"
+     },
+     {
+      "type": "strongnote",
+      "text": "Fahi-Malé"
+     }
+    ],
+    [
+     {
+      "type": "number",
+      "text": "×2",
+      "island": "villimale"
+     },
+     {
+      "type": "strongnote",
+      "text": "Villi-Veshi"
+     }
+    ],
+    [
+     {
+      "type": "number",
+      "text": "−63%",
+      "island": "hulhumale"
+     },
+     {
+      "type": "strongnote",
+      "text": "Hiyaa-Vehi"
+     }
+    ]
+   ]
   },
   {
-   "type": "number",
-   "text": "+14%"
-  },
-  {
-   "type": "strongnote",
-   "text": "Fahi-Malé"
-  },
-  {
-   "type": "para",
-   "text": "Malé’s plan adds a few people, Villimalé’s doubles them and Hulhumalé’s moves most of them out. Density goes three ways. What each plan does for the street does not. Chapter 02 found that public life depends on how a place is designed more than on how dense or how new it is, and the three plans answer it in the same way."
-  },
-  {
-   "type": "heading",
-   "text": "WHAT ALL THREE DO"
-  },
-  {
-   "type": "strongnote",
-   "text": "1"
-  },
-  {
-   "type": "strongnote",
-   "text": "2"
-  },
-  {
-   "type": "strongnote",
-   "text": "3"
-  },
-  {
-   "type": "strongnote",
-   "text": "4"
-  },
-  {
-   "type": "para",
-   "text": "Cars are kept to the edge, so the streets inside belong to people on foot."
-  },
-  {
-   "type": "para",
-   "text": "Streets and paths are shaded by trees, canopies and the buildings themselves."
-  },
-  {
-   "type": "para",
-   "text": "Ground floors face the street with shops, workshops and places to sit."
-  },
-  {
-   "type": "para",
-   "text": "Each plan sets rules for how buildings meet the street, so the plan holds as it is built."
-  },
-  {
-   "type": "number",
-   "text": "×2"
-  },
-  {
-   "type": "strongnote",
-   "text": "Villi-Veshi"
-  },
-  {
-   "type": "number",
-   "text": "−63%"
-  },
-  {
-   "type": "strongnote",
-   "text": "Hiyaa-Vehi"
+   "t": "flow",
+   "items": [
+    {
+     "type": "para",
+     "text": "Malé’s plan adds a few people, Villimalé’s doubles them and Hulhumalé’s moves most of them out. Density goes three ways. What each plan does for the street does not. Chapter 02 found that public life depends on how a place is designed more than on how dense or how new it is, and the three plans answer it in the same way."
+    },
+    {
+     "type": "heading",
+     "text": "WHAT ALL THREE DO"
+    },
+    {
+     "type": "point",
+     "text": "Cars are kept to the edge, so the streets inside belong to people on foot.",
+     "n": "1"
+    },
+    {
+     "type": "point",
+     "text": "Streets and paths are shaded by trees, canopies and the buildings themselves.",
+     "n": "2"
+    },
+    {
+     "type": "point",
+     "text": "Ground floors face the street with shops, workshops and places to sit.",
+     "n": "3"
+    },
+    {
+     "type": "point",
+     "text": "Each plan sets rules for how buildings meet the street, so the plan holds as it is built.",
+     "n": "4"
+    }
+   ]
   }
  ]
 }

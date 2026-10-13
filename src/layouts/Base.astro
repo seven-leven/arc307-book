@@ -1,0 +1,42 @@
+---
+// The frame every page sits in: skip link, edge strip, top bar, footer. `view` is the island on screen, "compare",
+// or null on a shared page; `targets` is where each name in the island switcher leads from this page.
+import "@fontsource/jost/400.css";
+import "@fontsource/jost/400-italic.css";
+import "@fontsource/jost/700.css";
+import "../styles/global.css";
+import TopBar from "../components/TopBar.astro";
+import SiteFooter from "../components/SiteFooter.astro";
+import { SITE, type View, isIsland, url } from "../data/structure";
+
+interface Props {
+  title: string;
+  view?: View | null;
+  chapter?: string | null; // chapter slug, to mark it in the top bar
+  targets?: Record<View, string>;
+  description?: string;
+}
+const { title, view = null, chapter = null, targets, description } = Astro.props;
+const islandAttr = isIsland(view) ? view : undefined;
+---
+<!doctype html>
+<html lang="en" data-island={islandAttr} data-view={view ?? "shared"}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} · {SITE.title}</title>
+    <meta name="description" content={description ?? `${SITE.title}: ${SITE.subtitle}. ${SITE.credit}.`} />
+    <meta name="robots" content="noindex" />
+    <link rel="icon" type="image/svg+xml" href={url("/favicon.svg")} />
+  </head>
+  <body>
+    <a class="skip" href="#content">Skip to content</a>
+    <div class="edge" aria-hidden="true"><span class="male"></span><span class="villimale"></span><span class="hulhumale"></span></div>
+    <TopBar view={view} chapter={chapter} targets={targets} />
+    <main id="content"><slot /></main>
+    <SiteFooter />
+    <script>
+      import "../scripts/site.ts";
+    </script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+---
+// The most important control on the site: the same section, another island. Set as in the book's header: the
+// island on screen in full colour, the others lighter; all three full on shared pages. Then Compare.
+import { ISLANDS, type View } from "../data/structure";
+
+interface Props {
+  view: View | null;
+  targets: Record<View, string>;
+}
+const { view, targets } = Astro.props;
+---
+<nav class="switcher" aria-label="Island" data-switcher>
+  {ISLANDS.map((i) => (
+    <a href={targets[i.key]} data-island={i.key} class:list={{ dim: view !== null && view !== i.key }}
+       aria-current={view === i.key ? "page" : undefined}>{i.name}</a>
+  ))}
+  <a href={targets.compare} class="compare" aria-current={view === "compare" ? "page" : undefined}>Compare</a>
+</nav>
+
+<style>
+  .switcher { display: flex; align-items: center; gap: var(--s3); }
+  a {
+    font-size: var(--small-size); font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+    text-decoration: none; padding: var(--s2) 0; border-bottom: 2px solid transparent; color: var(--accent-text);
+  }
+  a.dim { color: var(--grey-dark); }
+  a.dim:hover { color: var(--accent-text); }
+  a[aria-current] { border-bottom-color: var(--accent); }
+  .compare { color: var(--grey-dark); margin-left: var(--s2); padding-left: var(--s3); border-left: 1px solid var(--rule); }
+  .compare[aria-current] { color: var(--ink); border-bottom-color: var(--ink); }
+</style>

@@ -1,0 +1,80 @@
+---
+// The chapter's sections: a narrow list down the left on wide screens, a "Sections" button and sheet on a phone.
+import { sectionHref, type Chapter, type View } from "../data/structure";
+
+interface Props {
+  chapter: Chapter;
+  current: string; // section slug
+  view: View | null; // null on a shared page: the links then follow the remembered island
+}
+const { chapter, current, view } = Astro.props;
+const items = chapter.sections.map((s) => ({
+  s,
+  href: sectionHref(chapter, s, view ?? "male"),
+  per: s.shared || view ? {} : {
+    "data-href-male": sectionHref(chapter, s, "male"),
+    "data-href-villimale": sectionHref(chapter, s, "villimale"),
+    "data-href-hulhumale": sectionHref(chapter, s, "hulhumale"),
+    "data-href-compare": sectionHref(chapter, s, "compare"),
+  },
+}));
+---
+<nav class="rail" aria-label={`Sections of chapter ${chapter.num}`}>
+  <p class="t-small">{chapter.num} {chapter.title}</p>
+  <ol role="list">
+    {items.map(({ s, href, per }) => (
+      <li>
+        <a href={href} {...per} aria-current={s.slug === current ? "page" : undefined}>
+          <span class="num">{s.num}</span>{s.short}{s.shared && <span class="shared"> · shared</span>}
+        </a>
+      </li>
+    ))}
+  </ol>
+</nav>
+
+<details class="sheet" data-sheet>
+  <summary>Sections</summary>
+  <nav aria-label={`Sections of chapter ${chapter.num}, list`}>
+    <p class="t-small">{chapter.num} {chapter.title}</p>
+    <ol role="list">
+      {items.map(({ s, href, per }) => (
+        <li>
+          <a href={href} {...per} aria-current={s.slug === current ? "page" : undefined}>
+            <span class="num">{s.num}</span>{s.short}
+          </a>
+        </li>
+      ))}
+    </ol>
+  </nav>
+</details>
+
+<style>
+  ol { margin-top: var(--s3); }
+  a {
+    display: flex; gap: var(--s2); padding: 6px 0 6px var(--s3); border-left: 2px solid var(--rule);
+    font-size: var(--caption-size); line-height: 1.35; color: var(--grey-dark); text-decoration: none;
+  }
+  a:hover { color: var(--ink); }
+  a[aria-current] { color: var(--ink); font-weight: 700; border-left-color: var(--accent); }
+  .num { min-width: 2.4em; font-variant-numeric: tabular-nums; }
+  .shared { font-weight: 400; color: var(--grey-dark); }
+
+  .rail { display: none; }
+  @media (min-width: 1025px) {
+    .rail { display: block; position: sticky; top: calc(var(--bar) + var(--s5)); align-self: start; }
+    .sheet { display: none; }
+  }
+
+  /* phone and tablet: a button fixed at the foot, opening the same list as a sheet */
+  .sheet { position: fixed; right: var(--margin); bottom: var(--s3); z-index: 25; }
+  .sheet summary {
+    list-style: none; cursor: pointer; background: var(--ink); color: var(--paper); padding: 10px var(--s3);
+    font-size: var(--small-size); font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; border-radius: 999px;
+    width: fit-content; margin-left: auto;
+  }
+  .sheet summary::-webkit-details-marker { display: none; }
+  .sheet[open] { left: 0; right: 0; bottom: 0; background: var(--paper); border-top: 1px solid var(--rule); padding: var(--s3) var(--margin) var(--s4); max-height: 75vh; overflow: auto; }
+  .sheet[open] summary { margin-bottom: var(--s3); }
+  .sheet[open] summary::after { content: " ×"; }
+  .sheet a { padding-top: 10px; padding-bottom: 10px; font-size: var(--body-size); }
+</style>

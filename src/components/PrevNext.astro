@@ -1,0 +1,52 @@
+---
+// Previous and next section for the same island, in the book's reading order. On a shared page the links follow
+// the island the reader last chose (site.ts swaps the addresses); without scripts they lead to Malé.
+import { neighbours, viewName, VIEWS, type View, type Page } from "../data/structure";
+
+interface Props {
+  chapter: string;
+  section: string;
+  view: View | null;
+}
+const { chapter, section, view } = Astro.props;
+const all = Object.fromEntries(VIEWS.map((v) => [v, neighbours(chapter, section, v)])) as Record<View, { prev?: Page; next?: Page }>;
+const shown = all[view ?? "male"];
+
+function attrs(side: "prev" | "next") {
+  if (view) return {};
+  const out: Record<string, string> = {};
+  for (const v of VIEWS) {
+    const p = all[v][side];
+    if (p) {
+      out[`data-href-${v}`] = p.href;
+      out[`data-label-${v}`] = viewName(v);
+    }
+  }
+  return out;
+}
+const sides = [
+  { side: "prev" as const, word: "Previous", page: shown.prev },
+  { side: "next" as const, word: "Next", page: shown.next },
+];
+---
+<nav class="pn" aria-label="Previous and next section">
+  {sides.map(({ side, word, page }) => page ? (
+    <a class={side} href={page.href} rel={side} {...attrs(side)}>
+      <span class="t-small">{word}</span>
+      <span class="t-subheading"><span class="num">{page.section.num}</span> {page.section.title}</span>
+      {!page.section.shared && <span class="t-caption who" data-view-label data-island={view ?? "male"}>{viewName(view ?? "male")}</span>}
+      {page.section.shared && <span class="t-caption shared">All three islands</span>}
+    </a>
+  ) : <span />)}
+</nav>
+
+<style>
+  .pn { display: grid; grid-template-columns: 1fr 1fr; gap: var(--gutter); margin-top: var(--s7); border-top: 1px solid var(--rule); padding-top: var(--s4); }
+  a { display: grid; gap: var(--s1); text-decoration: none; color: var(--ink); padding: var(--s2) 0; }
+  a:hover .t-subheading { text-decoration: underline; text-underline-offset: 0.18em; }
+  .next { text-align: right; justify-items: end; }
+  .num { color: var(--accent-text); }
+  .who { color: var(--accent-text); font-weight: 700; }
+  .shared { color: var(--grey-dark); }
+  @media (max-width: 640px) { .pn { grid-template-columns: 1fr; } .next { text-align: left; justify-items: start; } }
+</style>

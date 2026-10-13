@@ -1,0 +1,21 @@
+---
+// Foot of every page: who made the book (no names: design guide, part 12) and the pages outside the grid.
+import { EXTRA, SITE, url } from "../data/structure";
+---
+<footer class="foot">
+  <div class="frame in">
+    <p class="t-small">{SITE.credit}</p>
+    <nav aria-label="About and reference">
+      <a href={url(`/${EXTRA.about.slug}/`)}>About this book</a>
+      <a href={url(`/${EXTRA.reflections.slug}/`)}>Reflections</a>
+      <a href={url(`/${EXTRA.reference.slug}/`)}>Reference</a>
+    </nav>
+  </div>
+</footer>
+
+<style>
+  .foot { border-top: 1px solid var(--rule); margin-top: var(--s7); padding: var(--s5) 0 var(--s7); }
+  .in { display: flex; flex-wrap: wrap; gap: var(--s3) var(--s5); justify-content: space-between; align-items: baseline; }
+  nav { display: flex; flex-wrap: wrap; gap: var(--s4); }
+  a { font-size: var(--caption-size); color: var(--ink); }
+</style>

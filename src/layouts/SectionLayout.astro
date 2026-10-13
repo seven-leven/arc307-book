@@ -1,0 +1,38 @@
+---
+// A section page inside a chapter: the section rail at the left, then header, the page's content, previous and next.
+import Base from "./Base.astro";
+import SectionRail from "../components/SectionRail.astro";
+import SectionHeader from "../components/SectionHeader.astro";
+import PrevNext from "../components/PrevNext.astro";
+import { island, isIsland, switcherTargets, type Chapter, type Section, type View } from "../data/structure";
+
+interface Props {
+  chapter: Chapter;
+  section: Section;
+  view: View | null;
+  subtitle?: string;
+}
+const { chapter, section, view, subtitle } = Astro.props;
+const who = isIsland(view) ? island(view).name : view === "compare" ? "Compare" : null;
+const title = `${section.num} ${section.title}${who ? `, ${who}` : ""}`;
+---
+<Base title={title} view={view} chapter={chapter.slug} targets={switcherTargets(chapter, section)}>
+  <div class="frame page">
+    <SectionRail chapter={chapter} current={section.slug} view={view} />
+    <article class="body">
+      <SectionHeader label={`Chapter ${chapter.num} · ${chapter.title}`} num={section.num} title={section.title}
+        islandName={who} subtitle={subtitle} />
+      <div class="content stack-lg"><slot /></div>
+      <PrevNext chapter={chapter.slug} section={section.slug} view={view} />
+    </article>
+  </div>
+</Base>
+
+<style>
+  .page { padding-top: var(--s5); }
+  .content { margin-top: var(--s5); }
+  .body { min-width: 0; }
+  @media (min-width: 1025px) {
+    .page { display: grid; grid-template-columns: var(--rail) minmax(0, 1fr); gap: var(--s6); padding-top: var(--s6); }
+  }
+</style>

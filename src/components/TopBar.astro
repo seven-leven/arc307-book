@@ -1,0 +1,54 @@
+---
+// Top bar, the same on every page: the book's name (home), the four chapters, the island switcher.
+import IslandSwitcher from "./IslandSwitcher.astro";
+import { CHAPTERS, EXTRA, SITE, url, switcherTargets, type View } from "../data/structure";
+
+interface Props {
+  view: View | null;
+  chapter: string | null;
+  targets?: Record<View, string>;
+}
+const { view, chapter, targets = switcherTargets(CHAPTERS[0], null) } = Astro.props;
+const items = [
+  ...CHAPTERS.map((c) => ({ num: c.num, title: c.title, slug: c.slug, href: url(`/${c.slug}/`) })),
+  { num: EXTRA.reflections.num, title: EXTRA.reflections.title, slug: EXTRA.reflections.slug, href: url(`/${EXTRA.reflections.slug}/`) },
+];
+---
+<header class="bar">
+  <div class="bar-in">
+    <a class="name t-small" href={url("/")}>{SITE.title}</a>
+    <nav class="chapters" aria-label="Chapters">
+      <ul role="list">
+        {items.map((c) => (
+          <li>
+            <a href={c.href} aria-current={c.slug === chapter ? "true" : undefined}>
+              <span class="num">{c.num}</span><span class="word"> {c.title}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+    <IslandSwitcher view={view} targets={targets} />
+  </div>
+</header>
+
+<style>
+  .bar { position: sticky; top: 0; z-index: 20; background: var(--paper); border-bottom: 1px solid var(--rule); }
+  .bar-in {
+    max-width: calc(var(--content) + 2 * var(--margin)); margin: 0 auto; padding: var(--s2) var(--margin);
+    display: flex; flex-wrap: wrap; align-items: center; gap: var(--s1) var(--s4); min-height: var(--bar);
+  }
+  .name { color: var(--ink); text-decoration: none; margin-right: auto; }
+  .chapters ul { display: flex; gap: var(--s3); }
+  .chapters a {
+    font-size: var(--small-size); font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--grey-dark); text-decoration: none; padding: var(--s2) 0; display: block; border-bottom: 2px solid transparent;
+  }
+  .chapters a:hover { color: var(--ink); }
+  .chapters a[aria-current] { color: var(--ink); border-bottom-color: var(--accent); }
+  /* on a phone the chapters show as numbers; the words stay for screen readers */
+  @media (max-width: 900px) {
+    .word { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+    .chapters ul { gap: var(--s4); }
+  }
+</style>

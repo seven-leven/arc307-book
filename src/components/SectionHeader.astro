@@ -1,0 +1,26 @@
+---
+// The head of every section page, always the same: label, title with the island's name at the right, subtitle.
+interface Props {
+  label: string; // "Chapter 03 · Masterplan"
+  num?: string;
+  title: string;
+  islandName?: string | null; // null on shared pages
+  subtitle?: string;
+}
+const { label, num, title, islandName = null, subtitle } = Astro.props;
+---
+<header class="head">
+  <p class="t-small">{label}</p>
+  <div class="row">
+    <h1 class="t-title">{num && <span class="num">{num}</span>}{title}</h1>
+    {islandName && <p class="t-title island" aria-hidden="true">{islandName}</p>}
+  </div>
+  {subtitle ? <p class="t-subtitle">{subtitle}</p> : <slot name="subtitle" />}
+</header>
+
+<style>
+  .head > * + * { margin-top: var(--s2); }
+  .row { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: var(--s2) var(--s5); }
+  .num { margin-right: 0.6em; }
+  .island { color: var(--accent); }
+</style>

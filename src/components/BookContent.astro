@@ -5,6 +5,7 @@
 //   comparison  a theme's comparison page, as a table, notes, chart and conclusion
 //   found       2.8, the five themes against the three islands, then each masterplan's tasks
 import BookPage from "./BookPage.astro";
+import Blocks from "./Blocks.astro";
 import VerdictMark from "./VerdictMark.astro";
 import { ISLANDS, island, url, type IslandKey } from "../data/structure";
 
@@ -20,6 +21,13 @@ const bare = (s: string) => s.replace(/^\d+\.\d+\s+/, "").toLowerCase().trim();
 const same = (a: string, b: string) => bare(a) === bare(b);
 ---
 {!page.type && <BookPage page={page} title={title} />}
+
+{page.type === "blocks" && (
+  <section class="three-page">
+    {page.heading && !same(page.heading, title) && <h2 class="t-heading">{page.heading}</h2>}
+    <Blocks blocks={page.blocks} title={title} />
+  </section>
+)}
 
 {page.type === "sheet" && (
   <section class="sheet">

@@ -1,321 +1,170 @@
 {
  "folio": 104,
- "type": "sheet",
- "heading": "2.2 THE TOOLKIT",
- "claim": null,
- "picture": {
-  "src": "figures/02/104_page.webp",
-  "wpx": 2226,
-  "hpx": 2088
- },
- "text": [
-  {
-   "type": "italic",
-   "text": "Three texts, six instruments, one method on all three islands."
-  },
-  {
-   "type": "para",
-   "text": "Before going on site, each group read one text on public life and turned it into two field instruments, called toolkits. Every group then used all six, the same way, in its own area. We surveyed each island on two days, one weekday and one rest day, each in three blocks: 10:00 to 12:00, 16:00 to 18:00 and 20:00 to 22:00. Because the method is the same, the three islands can be set side by side."
-  },
-  {
-   "type": "heading",
-   "text": "MALÉ GROUP"
-  },
-  {
-   "type": "italic",
-   "text": "Public Spaces and Public Life: Perth 2009"
-  },
-  {
-   "type": "note",
-   "text": "Gehl Architects, 2009"
-  },
-  {
-   "type": "strong",
-   "text": "1"
-  },
-  {
-   "type": "sub",
-   "text": "Land use and building scale"
-  },
-  {
-   "type": "note",
-   "text": "What each street face is made of: storeys, uses, doors and blank wall, graded A (active) to E (inactive)."
-  },
-  {
-   "type": "note",
-   "text": "Surveyed, street segments:"
-  },
-  {
-   "type": "number",
-   "text": "10"
-  },
-  {
-   "type": "note",
-   "text": "Malé"
-  },
-  {
-   "type": "strong",
-   "text": "2"
-  },
-  {
-   "type": "sub",
-   "text": "Activity, comfort and safety"
-  },
-  {
-   "type": "note",
-   "text": "What people do when they stop in the street, and what lets them stay."
-  },
-  {
-   "type": "note",
-   "text": "Surveyed, survey areas:"
-  },
-  {
-   "type": "number",
-   "text": "6"
-  },
-  {
-   "type": "note",
-   "text": "Malé"
-  },
-  {
-   "type": "heading",
-   "text": "TOOLKIT 1 · LAND USE"
-  },
-  {
-   "type": "number",
-   "text": "15"
-  },
-  {
-   "type": "number",
-   "text": "6"
-  },
-  {
-   "type": "note",
-   "text": "Villimalé"
-  },
-  {
-   "type": "note",
-   "text": "Hulhumalé"
-  },
-  {
-   "type": "heading",
-   "text": "TOOLKIT 2 · ACTIVITY"
-  },
-  {
-   "type": "number",
-   "text": "8"
-  },
-  {
-   "type": "number",
-   "text": "6"
-  },
-  {
-   "type": "note",
-   "text": "Villimalé"
-  },
-  {
-   "type": "note",
-   "text": "Hulhumalé"
-  },
-  {
-   "type": "heading",
-   "text": "VILLIMALÉ GROUP"
-  },
-  {
-   "type": "italic",
-   "text": "Soft City: Building Density for Everyday Life"
-  },
-  {
-   "type": "note",
-   "text": "David Sim, 2019"
-  },
-  {
-   "type": "strong",
-   "text": "3"
-  },
-  {
-   "type": "heading",
-   "text": "TOOLKIT 3 · DENSITY"
-  },
-  {
-   "type": "sub",
-   "text": "Density and housing quality"
-  },
-  {
-   "type": "note",
-   "text": "How densely each plot is built and lived in, beside a housing quality score out of 32."
-  },
-  {
-   "type": "note",
-   "text": "Surveyed, plots:"
-  },
-  {
-   "type": "number",
-   "text": "36"
-  },
-  {
-   "type": "note",
-   "text": "Malé"
-  },
-  {
-   "type": "strong",
-   "text": "4"
-  },
-  {
-   "type": "heading",
-   "text": "TOOLKIT 4 · CONDITION"
-  },
-  {
-   "type": "sub",
-   "text": "Layering vs stacking"
-  },
-  {
-   "type": "note",
-   "text": "Whether a building changes from front to back and from ground to roof, or repeats one floor."
-  },
-  {
-   "type": "note",
-   "text": "Surveyed, plots:"
-  },
-  {
-   "type": "number",
-   "text": "36"
-  },
-  {
-   "type": "note",
-   "text": "Malé"
-  },
-  {
-   "type": "number",
-   "text": "69"
-  },
-  {
-   "type": "number",
-   "text": "8"
-  },
-  {
-   "type": "note",
-   "text": "Villimalé"
-  },
-  {
-   "type": "note",
-   "text": "Hulhumalé"
-  },
-  {
-   "type": "number",
-   "text": "60"
-  },
-  {
-   "type": "number",
-   "text": "8"
-  },
-  {
-   "type": "note",
-   "text": "Villimalé"
-  },
-  {
-   "type": "note",
-   "text": "Hulhumalé"
-  },
-  {
-   "type": "heading",
-   "text": "HULHUMALÉ GROUP"
-  },
-  {
-   "type": "italic",
-   "text": "Cities for People"
-  },
-  {
-   "type": "note",
-   "text": "Jan Gehl, 2010"
-  },
-  {
-   "type": "strong",
-   "text": "5"
-  },
-  {
-   "type": "heading",
-   "text": "TOOLKIT 5 · MOVEMENT"
-  },
-  {
-   "type": "sub",
-   "text": "Walking activity and movement count"
-  },
-  {
-   "type": "note",
-   "text": "Everyone passing a line across the street in ten minutes, tallied in shade or in sun."
-  },
-  {
-   "type": "note",
-   "text": "Surveyed, survey areas:"
-  },
-  {
-   "type": "number",
-   "text": "6"
-  },
-  {
-   "type": "number",
-   "text": "8"
-  },
-  {
-   "type": "note",
-   "text": "Malé"
-  },
-  {
-   "type": "note",
-   "text": "Villimalé"
-  },
-  {
-   "type": "strong",
-   "text": "6"
-  },
-  {
-   "type": "heading",
-   "text": "TOOLKIT 6 · PERCEPTION"
-  },
-  {
-   "type": "sub",
-   "text": "Public space quality and microclimate"
-  },
-  {
-   "type": "note",
-   "text": "Thirteen qualities of each public space, from safety to shade, scored 1 to 5."
-  },
-  {
-   "type": "note",
-   "text": "Surveyed, spaces:"
-  },
-  {
-   "type": "number",
-   "text": "10"
-  },
-  {
-   "type": "number",
-   "text": "11"
-  },
-  {
-   "type": "note",
-   "text": "Malé"
-  },
-  {
-   "type": "note",
-   "text": "Villimalé"
-  },
-  {
-   "type": "number",
-   "text": "6"
-  },
-  {
-   "type": "note",
-   "text": "Hulhumalé"
-  },
-  {
-   "type": "number",
-   "text": "6"
-  },
-  {
-   "type": "note",
-   "text": "Hulhumalé"
+ "type": "blocks",
+ "claim": "Three texts, six instruments, one method on all three islands.",
+ "heading": null,
+ "blocks": [
+  {
+   "t": "text",
+   "heading": "",
+   "paras": [
+    "Before going on site, each group read one text on public life and turned it into two field instruments, called toolkits. Every group then used all six, the same way, in its own area. We surveyed each island on two days, one weekday and one rest day, each in three blocks: 10:00 to 12:00, 16:00 to 18:00 and 20:00 to 22:00. Because the method is the same, the three islands can be set side by side."
+   ]
+  },
+  {
+   "t": "toolkits",
+   "cols": [
+    {
+     "island": "male",
+     "group": "MALÉ GROUP",
+     "source": "Public Spaces and Public Life: Perth 2009",
+     "author": "Gehl Architects, 2009",
+     "kits": [
+      {
+       "n": "1",
+       "tag": "LAND USE",
+       "title": "Land use and building scale",
+       "text": "What each street face is made of: storeys, uses, doors and blank wall, graded A (active) to E (inactive).",
+       "surveyed": "street segments",
+       "counts": [
+        {
+         "island": "male",
+         "value": "10"
+        },
+        {
+         "island": "villimale",
+         "value": "15"
+        },
+        {
+         "island": "hulhumale",
+         "value": "6"
+        }
+       ]
+      },
+      {
+       "n": "2",
+       "tag": "ACTIVITY",
+       "title": "Activity, comfort and safety",
+       "text": "What people do when they stop in the street, and what lets them stay.",
+       "surveyed": "survey areas",
+       "counts": [
+        {
+         "island": "male",
+         "value": "6"
+        },
+        {
+         "island": "villimale",
+         "value": "8"
+        },
+        {
+         "island": "hulhumale",
+         "value": "6"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "island": "villimale",
+     "group": "VILLIMALÉ GROUP",
+     "source": "Soft City: Building Density for Everyday Life",
+     "author": "David Sim, 2019",
+     "kits": [
+      {
+       "n": "3",
+       "tag": "DENSITY",
+       "title": "Density and housing quality",
+       "text": "How densely each plot is built and lived in, beside a housing quality score out of 32.",
+       "surveyed": "plots",
+       "counts": [
+        {
+         "island": "male",
+         "value": "36"
+        },
+        {
+         "island": "villimale",
+         "value": "69"
+        },
+        {
+         "island": "hulhumale",
+         "value": "8"
+        }
+       ]
+      },
+      {
+       "n": "4",
+       "tag": "CONDITION",
+       "title": "Layering vs stacking",
+       "text": "Whether a building changes from front to back and from ground to roof, or repeats one floor.",
+       "surveyed": "plots",
+       "counts": [
+        {
+         "island": "male",
+         "value": "36"
+        },
+        {
+         "island": "villimale",
+         "value": "60"
+        },
+        {
+         "island": "hulhumale",
+         "value": "8"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "island": "hulhumale",
+     "group": "HULHUMALÉ GROUP",
+     "source": "Cities for People",
+     "author": "Jan Gehl, 2010",
+     "kits": [
+      {
+       "n": "5",
+       "tag": "MOVEMENT",
+       "title": "Walking activity and movement count",
+       "text": "Everyone passing a line across the street in ten minutes, tallied in shade or in sun.",
+       "surveyed": "survey areas",
+       "counts": [
+        {
+         "island": "male",
+         "value": "6"
+        },
+        {
+         "island": "villimale",
+         "value": "8"
+        },
+        {
+         "island": "hulhumale",
+         "value": "6"
+        }
+       ]
+      },
+      {
+       "n": "6",
+       "tag": "PERCEPTION",
+       "title": "Public space quality and microclimate",
+       "text": "Thirteen qualities of each public space, from safety to shade, scored 1 to 5.",
+       "surveyed": "spaces",
+       "counts": [
+        {
+         "island": "male",
+         "value": "10"
+        },
+        {
+         "island": "villimale",
+         "value": "11"
+        },
+        {
+         "island": "hulhumale",
+         "value": "6"
+        }
+       ]
+      }
+     ]
+    }
+   ]
   }
  ]
 }

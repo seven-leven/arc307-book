@@ -2,7 +2,7 @@
 // A section as real web content: a list of blocks written by book/export_web_ch03_male.py (in the Book folder).
 // Words are text; each drawing is its own picture that opens large. A text block followed by a legend sit side by
 // side on a wide screen, as on the book's layer pages.
-import { url } from "../data/structure";
+import { ISLANDS, url } from "../data/structure";
 
 interface Props {
   blocks: any[];
@@ -45,7 +45,7 @@ let fig = 0;
       );
     }
     if (b.t === "text") return (
-      <section class="text"><h2 class="t-small">{b.heading}</h2>{b.paras.map((p: string) => <p class="t-body">{p}</p>)}</section>
+      <section class="text">{b.heading && <h2 class="t-small">{b.heading}</h2>}{b.paras.map((p: string) => <p class="t-body">{p}</p>)}</section>
     );
     if (b.t === "pair") return (
       <div class="pair">
@@ -109,11 +109,11 @@ let fig = 0;
     if (b.t === "note") return <p class="t-caption note">{b.text}</p>;
     if (b.t === "keyfigures") return (
       <section class="stack">
-        <h2 class="t-heading">{b.heading}</h2>
+        <h2 class={b.small ? "t-small" : "t-heading"}>{b.heading}</h2>
         <div class="cards" style="--n:3">
           {b.items.map((i: any) => (
             <div class="kf">
-              <p class="t-small">{i.heading}</p>
+              {i.heading && <p class="t-small">{i.heading}</p>}
               <p class="t-number">{i.value}{i.unit && <span class="unit"> {i.unit}</span>}</p>
               {i.note && <p class="t-caption">{i.note}</p>}
             </div>
@@ -134,16 +134,94 @@ let fig = 0;
         </table>
       </div>
     );
+    if (b.t === "steplist") return (
+      <section class="stack">
+        <h2 class="t-small">{b.heading}</h2>
+        {b.intro && <p class="t-caption note">{b.intro}</p>}
+        <ol role="list" class="steplist">
+          {b.steps.map((s: any) => (
+            <li>
+              <span class="sw">{s.sym && <img src={src(s.sym)} width={s.sym.w} height={s.sym.h} alt="" loading="lazy" />}</span>
+              <span class="t-subheading sn">{s.num ?? ""}</span>
+              <span><span class="t-subheading">{s.title}</span><span class="t-caption sd">{s.text}</span></span>
+            </li>
+          ))}
+        </ol>
+      </section>
+    );
+    if (b.t === "toolkits") return (
+      <div class="cards tk" style="--n:3">
+        {b.cols.map((c: any) => (
+          <section class="tkcol" data-island={c.island}>
+            <h2 class="t-small"><span class="accent-text">{c.group}</span></h2>
+            <p class="t-body tksrc"><em>{c.source}</em></p>
+            <p class="t-caption">{c.author}</p>
+            {c.kits.map((k: any) => (
+              <article class="kit">
+                <p class="t-small ktag"><span class="badge">{k.n}</span><span class="accent-text">{`Toolkit ${k.n} · ${k.tag}`}</span></p>
+                <h3 class="t-subheading">{k.title}</h3>
+                <p class="t-caption">{k.text}</p>
+                <p class="t-caption surv">Surveyed, {k.surveyed}:</p>
+                <dl class="counts">
+                  {k.counts.map((x: any) => (
+                    <div data-island={x.island}><dd class="t-heading cv">{x.value}</dd><dt class="t-caption">{ISLANDS.find((i) => i.key === x.island)?.name}</dt></div>
+                  ))}
+                </dl>
+              </article>
+            ))}
+          </section>
+        ))}
+      </div>
+    );
+    if (b.t === "matrix") return (
+      <div class="scroll" tabindex="0" role="region" aria-label="Which toolkits each theme reads">
+        <table class="matrix">
+          <caption class="visually-hidden">Which toolkits each theme reads</caption>
+          <thead>
+            <tr>
+              <th scope="col" class="t-small">Theme</th>
+              {b.toolkits.map((k: any) => (
+                <th scope="col" data-island={k.island}><span class="badge">{k.n}</span><span class="t-caption tkname">{k.name}</span></th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {b.rows.map((r: any) => (
+              <tr>
+                <th scope="row"><span class="t-number mn">{r.n}</span><span><span class="t-subheading">{r.title}</span><span class="t-caption sd">{r.note}</span></span></th>
+                {r.used.map((u: boolean, k: number) => (
+                  <td data-island={b.toolkits[k].island}>{u ? <span class="dot on"><span class="visually-hidden">uses toolkit {k + 1}</span></span> : <span class="dot"><span class="visually-hidden">not used</span></span>}</td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <p class="t-caption key"><span class="dot on"></span> the theme uses this toolkit <span class="dot gap"></span> not used</p>
+      </div>
+    );
+    if (b.t === "run") return (
+      <section class="stack">
+        <h2 class="t-small">{b.heading}</h2>
+        <ol role="list" class="cards" style="--n:4">
+          {b.steps.map((s: any) => (
+            <li class="runstep" data-island={s.island ?? undefined}>
+              <span class="t-heading rn">{s.n}</span>
+              <span><span class="t-body strongb">{s.label}</span><span class="t-caption sd">{s.text}</span></span>
+            </li>
+          ))}
+        </ol>
+      </section>
+    );
     if (b.t === "list") return (
       <section class="stack">
-        <h2 class="t-heading">{b.heading}</h2>
+        <h2 class={b.small ? "t-small" : "t-heading"}>{b.heading}</h2>
         <div class="groups">
           {b.groups.map((g: any) => (
             <div class="group">
-              <h3 class="t-small">{g.heading}</h3>
+              {g.heading && <h3 class="t-small">{g.heading}</h3>}
               {g.pic && <img src={src(g.pic)} width={g.pic.wpx} height={g.pic.hpx} alt="Key map: where the masterplan area sits on Malé." loading="lazy" />}
               {g.items && <ul role="list">{g.items.map((i: any) => (
-                <li class="t-caption"><span class="sym">{i.sym && <img src={src(i.sym)} width={i.sym.w} height={i.sym.h} alt="" loading="lazy" />}</span><span>{i.text}</span></li>
+                <li class="t-caption"><span class="sym">{i.sym ? <img src={src(i.sym)} width={i.sym.w} height={i.sym.h} alt="" loading="lazy" /> : i.n ? <span class="badge">{i.n}</span> : null}</span><span>{i.text}</span></li>
               ))}</ul>}
             </div>
           ))}
@@ -197,6 +275,38 @@ let fig = 0;
   .groups { display: grid; gap: var(--s4) var(--gutter); grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
   .group { display: grid; gap: var(--s2); align-content: start; }
   .group li { grid-template-columns: 28px minmax(0, 1fr); }
+  /* how to read: the steps in each plan */
+  .steplist { display: grid; }
+  .steplist li { display: grid; grid-template-columns: 44px 3em minmax(0, 1fr); gap: var(--s2); align-items: start; padding: var(--s2) 0; border-top: 1px solid var(--rule); }
+  .sw img { max-height: 22px; width: auto; }
+  .sn { color: var(--grey-dark); font-variant-numeric: tabular-nums; }
+  .sd { display: block; color: var(--grey-dark); margin-top: 2px; }
+  /* the toolkit */
+  .tkcol { display: grid; gap: var(--s2); align-content: start; border-top: 5px solid var(--accent); padding-top: var(--s3); }
+  .tksrc { margin-top: var(--s1); min-height: 3.2em; }   /* two lines, so the three columns stay level */
+  .kit { display: grid; gap: var(--s2); align-content: start; margin-top: var(--s4); padding-top: var(--s3); border-top: 1px solid var(--rule); }
+  .ktag { display: flex; align-items: center; gap: var(--s2); }
+  .surv { color: var(--grey-dark); margin-top: var(--s2); }
+  .counts { display: flex; gap: var(--s4); margin: 0; }
+  .counts div { display: grid; }
+  .cv { color: var(--accent-300, var(--accent)); }
+  .counts dt { color: var(--grey-dark); }
+  .matrix { border-collapse: collapse; width: 100%; min-width: 640px; }
+  .matrix th, .matrix td { padding: var(--s3) var(--s2); text-align: center; vertical-align: middle; font-weight: 400; }
+  .matrix thead th { vertical-align: bottom; border-top: 4px solid var(--accent-light); }
+  .matrix thead th:first-child { border-top: 0; text-align: left; }
+  .matrix tbody th { text-align: left; display: flex; gap: var(--s3); align-items: baseline; }
+  .matrix tbody tr { border-top: 1px solid var(--rule); }
+  .matrix tbody tr:nth-child(odd) { background: none; }
+  .tkname { display: block; margin-top: var(--s1); }
+  .mn { color: var(--grey); font-size: var(--heading-size); }
+  .dot { display: inline-block; width: 14px; height: 14px; border-radius: 50%; background: var(--panel); vertical-align: middle; }
+  .dot.on { background: var(--accent); }
+  .dot.gap { margin-left: var(--s4); }
+  .key { margin-top: var(--s3); color: var(--grey-dark); }
+  .runstep { display: flex; gap: var(--s3); align-items: baseline; border-top: 4px solid var(--accent-light, var(--rule)); padding-top: var(--s3); }
+  .rn { color: var(--accent); }
+  .strongb { font-weight: 700; display: block; }
   .viewer { border: 0; padding: var(--s3); width: 100vw; height: 100vh; max-width: none; max-height: none; background: var(--paper); }
   .viewer[open] { display: grid; grid-template-rows: auto 1fr auto; gap: var(--s2); }
   .viewer::backdrop { background: var(--paper); }

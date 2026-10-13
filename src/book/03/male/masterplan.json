@@ -40,27 +40,27 @@
        }
       },
       {
-       "text": "Commercial and parking Indoor sports and parking Atoll shops 1",
+       "text": "Commercial and parking",
        "sym": {
         "src": "figures/03/male/149_2.webp",
         "wpx": 85,
-        "hpx": 257,
+        "hpx": 153,
         "w": 21,
-        "h": 64
+        "h": 38
        }
       },
       {
-       "text": "Atoll shops 2",
+       "text": "Indoor sports and parking",
        "sym": {
         "src": "figures/03/male/149_3.webp",
         "wpx": 85,
-        "hpx": 81,
+        "hpx": 153,
         "w": 21,
-        "h": 20
+        "h": 38
        }
       },
       {
-       "text": "Local market",
+       "text": "Atoll shops 1",
        "sym": {
         "src": "figures/03/male/149_4.webp",
         "wpx": 85,
@@ -70,7 +70,7 @@
        }
       },
       {
-       "text": "Food court",
+       "text": "Atoll shops 2",
        "sym": {
         "src": "figures/03/male/149_5.webp",
         "wpx": 85,
@@ -80,7 +80,7 @@
        }
       },
       {
-       "text": "Ferry terminal",
+       "text": "Local market",
        "sym": {
         "src": "figures/03/male/149_6.webp",
         "wpx": 85,
@@ -90,13 +90,43 @@
        }
       },
       {
-       "text": "Commercial and parking Fish market",
+       "text": "Food court",
        "sym": {
         "src": "figures/03/male/149_7.webp",
         "wpx": 85,
-        "hpx": 169,
+        "hpx": 81,
         "w": 21,
-        "h": 42
+        "h": 20
+       }
+      },
+      {
+       "text": "Ferry terminal",
+       "sym": {
+        "src": "figures/03/male/149_8.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
+       }
+      },
+      {
+       "text": "Commercial and parking",
+       "sym": {
+        "src": "figures/03/male/149_9.webp",
+        "wpx": 85,
+        "hpx": 153,
+        "w": 21,
+        "h": 38
+       }
+      },
+      {
+       "text": "Fish market",
+       "sym": {
+        "src": "figures/03/male/149_10.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
        }
       }
      ]
@@ -107,7 +137,7 @@
       {
        "text": "Parking",
        "sym": {
-        "src": "figures/03/male/149_8.webp",
+        "src": "figures/03/male/149_11.webp",
         "wpx": 85,
         "hpx": 81,
         "w": 21,
@@ -117,7 +147,7 @@
       {
        "text": "Bus terminal",
        "sym": {
-        "src": "figures/03/male/149_9.webp",
+        "src": "figures/03/male/149_12.webp",
         "wpx": 85,
         "hpx": 81,
         "w": 21,
@@ -127,7 +157,7 @@
       {
        "text": "Launch dockyard",
        "sym": {
-        "src": "figures/03/male/149_10.webp",
+        "src": "figures/03/male/149_13.webp",
         "wpx": 85,
         "hpx": 81,
         "w": 21,
@@ -137,7 +167,7 @@
       {
        "text": "Local produce dock",
        "sym": {
-        "src": "figures/03/male/149_11.webp",
+        "src": "figures/03/male/149_14.webp",
         "wpx": 85,
         "hpx": 81,
         "w": 21,
@@ -147,7 +177,7 @@
       {
        "text": "Fishing boat dock",
        "sym": {
-        "src": "figures/03/male/149_12.webp",
+        "src": "figures/03/male/149_15.webp",
         "wpx": 85,
         "hpx": 81,
         "w": 21,
@@ -157,7 +187,7 @@
       {
        "text": "Underground tunnel",
        "sym": {
-        "src": "figures/03/male/149_13.webp",
+        "src": "figures/03/male/149_16.webp",
         "wpx": 85,
         "hpx": 81,
         "w": 21,
@@ -169,7 +199,7 @@
     {
      "heading": "Key map",
      "pic": {
-      "src": "figures/03/male/149_14.webp",
+      "src": "figures/03/male/149_17.webp",
       "wpx": 610,
       "hpx": 418,
       "w": 203,
@@ -182,7 +212,7 @@
       {
        "text": "Social housing 1",
        "sym": {
-        "src": "figures/03/male/149_15.webp",
+        "src": "figures/03/male/149_18.webp",
         "wpx": 85,
         "hpx": 81,
         "w": 21,
@@ -192,7 +222,7 @@
       {
        "text": "Social housing 2",
        "sym": {
-        "src": "figures/03/male/149_16.webp",
+        "src": "figures/03/male/149_19.webp",
         "wpx": 85,
         "hpx": 81,
         "w": 21,
@@ -200,19 +230,29 @@
        }
       },
       {
-       "text": "Old organic fabric Capstone building 1",
+       "text": "Old organic fabric",
        "sym": {
-        "src": "figures/03/male/149_17.webp",
+        "src": "figures/03/male/149_20.webp",
         "wpx": 85,
-        "hpx": 169,
+        "hpx": 153,
         "w": 21,
-        "h": 42
+        "h": 38
+       }
+      },
+      {
+       "text": "Capstone building 1",
+       "sym": {
+        "src": "figures/03/male/149_21.webp",
+        "wpx": 85,
+        "hpx": 81,
+        "w": 21,
+        "h": 20
        }
       },
       {
        "text": "Capstone building 2",
        "sym": {
-        "src": "figures/03/male/149_18.webp",
+        "src": "figures/03/male/149_22.webp",
         "wpx": 85,
         "hpx": 81,
         "w": 21,
@@ -222,7 +262,7 @@
       {
        "text": "Capstone building 3",
        "sym": {
-        "src": "figures/03/male/149_19.webp",
+        "src": "figures/03/male/149_23.webp",
         "wpx": 85,
         "hpx": 81,
         "w": 21,
@@ -232,7 +272,7 @@
       {
        "text": "Capstone building 4",
        "sym": {
-        "src": "figures/03/male/149_20.webp",
+        "src": "figures/03/male/149_24.webp",
         "wpx": 85,
         "hpx": 81,
         "w": 21,
@@ -242,7 +282,7 @@
       {
        "text": "Capstone building 5",
        "sym": {
-        "src": "figures/03/male/149_21.webp",
+        "src": "figures/03/male/149_25.webp",
         "wpx": 85,
         "hpx": 81,
         "w": 21,
@@ -257,7 +297,7 @@
       {
        "text": "Beach",
        "sym": {
-        "src": "figures/03/male/149_22.webp",
+        "src": "figures/03/male/149_26.webp",
         "wpx": 85,
         "hpx": 81,
         "w": 21,
@@ -267,7 +307,7 @@
       {
        "text": "Pocket parks",
        "sym": {
-        "src": "figures/03/male/149_23.webp",
+        "src": "figures/03/male/149_27.webp",
         "wpx": 85,
         "hpx": 81,
         "w": 21,
@@ -277,7 +317,7 @@
       {
        "text": "Water park",
        "sym": {
-        "src": "figures/03/male/149_24.webp",
+        "src": "figures/03/male/149_28.webp",
         "wpx": 85,
         "hpx": 81,
         "w": 21,
@@ -287,7 +327,7 @@
       {
        "text": "Mas Fengandu",
        "sym": {
-        "src": "figures/03/male/149_25.webp",
+        "src": "figures/03/male/149_29.webp",
         "wpx": 85,
         "hpx": 81,
         "w": 21,
@@ -297,7 +337,7 @@
       {
        "text": "Fishing platform",
        "sym": {
-        "src": "figures/03/male/149_26.webp",
+        "src": "figures/03/male/149_30.webp",
         "wpx": 85,
         "hpx": 81,
         "w": 21,
@@ -312,7 +352,7 @@
       {
        "text": "Ocean Hub",
        "sym": {
-        "src": "figures/03/male/149_27.webp",
+        "src": "figures/03/male/149_31.webp",
         "wpx": 85,
         "hpx": 81,
         "w": 21,
@@ -322,7 +362,7 @@
       {
        "text": "Ocean Hub dock",
        "sym": {
-        "src": "figures/03/male/149_28.webp",
+        "src": "figures/03/male/149_32.webp",
         "wpx": 85,
         "hpx": 81,
         "w": 21,
@@ -332,7 +372,7 @@
       {
        "text": "Mosque and social complex",
        "sym": {
-        "src": "figures/03/male/149_29.webp",
+        "src": "figures/03/male/149_33.webp",
         "wpx": 85,
         "hpx": 85,
         "w": 21,
@@ -347,7 +387,7 @@
       {
        "text": "Bus route",
        "sym": {
-        "src": "figures/03/male/149_30.webp",
+        "src": "figures/03/male/149_34.webp",
         "wpx": 121,
         "hpx": 29,
         "w": 30,
@@ -357,7 +397,7 @@
       {
        "text": "Vehicle routes",
        "sym": {
-        "src": "figures/03/male/149_31.webp",
+        "src": "figures/03/male/149_35.webp",
         "wpx": 121,
         "hpx": 29,
         "w": 30,

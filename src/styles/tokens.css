@@ -1,0 +1,74 @@
+/* Colour, type and spacing tokens (guides/WEB_DESIGN_GUIDE.md, part 4). The values are the book's, from
+   templates/_scripts/book_style.py. Never type a hex value into a page or a component: use a token. */
+:root {
+  --ink: #2b2b2b;
+  --grey-dark: #6b6b6b;
+  --grey: #8a8a8a;      /* 3.5:1 on white: large or secondary text only */
+  --rule: #cfcfcf;
+  --panel: #f7f5f2;
+  --paper: #ffffff;
+
+  /* island ramps: pale, light, 300, main, dark */
+  --male-pale: #fcefed;      --male-light: #f3c4c0;      --male-300: #e18b85;      --male: #ca483d;      --male-dark: #81211b;
+  --villimale-pale: #f8fae5; --villimale-light: #deeabb; --villimale-300: #bdd27a; --villimale: #819939; --villimale-dark: #53621f;
+  --hulhumale-pale: #eff2fc; --hulhumale-light: #d0d9f7; --hulhumale-300: #8da7de; --hulhumale: #3867ad; --hulhumale-dark: #1b3765;
+
+  /* the page's accent: ink on shared pages, the island's colour on island pages (set by data-island below) */
+  --accent: var(--ink);
+  --accent-text: var(--ink);   /* safe for small text on white */
+  --accent-pale: var(--panel);
+  --accent-light: var(--rule);
+  --accent-dark: var(--ink);
+
+  --font: "Century Gothic", "Jost", "Avenir Next", Futura, sans-serif;
+
+  /* eight styles, phone sizes first */
+  --title-size: 1.75rem;      /* 28 */
+  --subtitle-size: 1rem;      /* 16 */
+  --heading-size: 1.25rem;    /* 20 */
+  --subheading-size: 1.0625rem; /* 17 */
+  --body-size: 1rem;          /* 16 */
+  --caption-size: 0.8125rem;  /* 13 */
+  --number-size: 2rem;        /* 32 */
+  --small-size: 0.75rem;      /* 12 */
+
+  --margin: 24px;             /* outer margin: 24 phone, 40 tablet, 60 desktop */
+  --gutter: 24px;
+  --content: 1200px;
+  --measure: 68ch;
+  --bar: 56px;                /* top bar height */
+  --rail: 208px;              /* section rail width on wide screens */
+
+  --s1: 4px; --s2: 8px; --s3: 16px; --s4: 24px; --s5: 40px; --s6: 64px; --s7: 96px;
+}
+
+@media (min-width: 641px) {
+  :root { --margin: 40px; }
+}
+
+@media (min-width: 1025px) {
+  :root {
+    --margin: 60px;
+    --title-size: 2.5rem;       /* 40 */
+    --subtitle-size: 1.125rem;  /* 18 */
+    --heading-size: 1.5rem;     /* 24 */
+    --subheading-size: 1.1875rem; /* 19 */
+    --body-size: 1.0625rem;     /* 17 */
+    --caption-size: 0.875rem;   /* 14 */
+    --number-size: 2.75rem;     /* 44 */
+  }
+}
+
+[data-island="male"] {
+  --accent: var(--male); --accent-text: var(--male); --accent-pale: var(--male-pale);
+  --accent-light: var(--male-light); --accent-300: var(--male-300); --accent-dark: var(--male-dark);
+}
+[data-island="villimale"] {
+  /* the main green is 3.2:1 on white, so small text takes the darkest step (6.7:1) */
+  --accent: var(--villimale); --accent-text: var(--villimale-dark); --accent-pale: var(--villimale-pale);
+  --accent-light: var(--villimale-light); --accent-300: var(--villimale-300); --accent-dark: var(--villimale-dark);
+}
+[data-island="hulhumale"] {
+  --accent: var(--hulhumale); --accent-text: var(--hulhumale); --accent-pale: var(--hulhumale-pale);
+  --accent-light: var(--hulhumale-light); --accent-300: var(--hulhumale-300); --accent-dark: var(--hulhumale-dark);
+}

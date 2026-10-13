@@ -1,0 +1,60 @@
+---
+// A chapter's opening page: what the chapter holds, then every section, with the three islands across.
+import Base from "../../layouts/Base.astro";
+import SectionHeader from "../../components/SectionHeader.astro";
+import Slot from "../../components/Slot.astro";
+import { CHAPTERS, ISLANDS, sectionHref, switcherTargets } from "../../data/structure";
+
+export function getStaticPaths() {
+  return CHAPTERS.map((chapter) => ({ params: { chapter: chapter.slug }, props: { chapter } }));
+}
+const { chapter } = Astro.props;
+---
+<Base title={`${chapter.num} ${chapter.title}`} chapter={chapter.slug} targets={switcherTargets(chapter, null)}>
+  <div class="frame stack-lg top">
+    <SectionHeader label={`Chapter ${chapter.num}`} title={chapter.title} subtitle={chapter.holds} />
+    <Slot what="Chapter opening text" note="From the chapter cover in the book" />
+    <table class="toc">
+      <caption class="visually-hidden">Sections of chapter {chapter.num}</caption>
+      <thead>
+        <tr>
+          <th scope="col" class="t-small">Section</th>
+          {ISLANDS.map((i) => <th scope="col" class="t-small" data-island={i.key}><span class="accent-text">{i.name}</span></th>)}
+          <th scope="col" class="t-small">Compare</th>
+        </tr>
+      </thead>
+      <tbody>
+        {chapter.sections.map((s) => (
+          <tr>
+            <th scope="row"><span class="num">{s.num}</span>{s.title}</th>
+            {s.shared ? (
+              <td colspan="4"><a class="ink" href={sectionHref(chapter, s, "male")}>All three islands</a></td>
+            ) : (
+              <>
+                {ISLANDS.map((i) => <td data-island={i.key}><a href={sectionHref(chapter, s, i.key)}>{i.name}<span class="visually-hidden">: {s.title}</span></a></td>)}
+                <td><a class="ink" href={sectionHref(chapter, s, "compare")}>Compare<span class="visually-hidden">: {s.title}</span></a></td>
+              </>
+            )}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</Base>
+
+<style>
+  .top { padding-top: var(--s6); }
+  .toc { width: 100%; border-collapse: collapse; font-size: var(--caption-size); }
+  th, td { text-align: left; padding: 10px var(--s3) 10px var(--s2); vertical-align: baseline; }
+  tbody th { font-size: var(--body-size); font-weight: 700; }
+  tbody tr:nth-child(odd) { background: var(--panel); }
+  .num { display: inline-block; min-width: 2.8em; font-variant-numeric: tabular-nums; }
+  .ink { color: var(--ink); }
+  /* on a phone the table becomes a list: section, then its links in a row */
+  @media (max-width: 640px) {
+    thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+    tr { display: flex; flex-wrap: wrap; padding: var(--s2) 0; }
+    tbody th { flex: 0 0 100%; padding-bottom: 2px; }
+    td { padding-top: 4px; padding-bottom: 4px; }
+  }
+</style>

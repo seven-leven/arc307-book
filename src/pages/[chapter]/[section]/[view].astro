@@ -1,0 +1,40 @@
+---
+// A per-island section, on one island or as "compare": the three islands in three columns, same order as the book,
+// each shortened to its first block and key figures with "Read in full" under it.
+import SectionLayout from "../../../layouts/SectionLayout.astro";
+import SectionPattern from "../../../components/SectionPattern.astro";
+import { CHAPTERS, ISLANDS, VIEWS, island, isIsland, sectionHref, type View } from "../../../data/structure";
+
+export function getStaticPaths() {
+  return CHAPTERS.flatMap((chapter) =>
+    chapter.sections.filter((s) => !s.shared).flatMap((section) =>
+      VIEWS.map((view) => ({
+        params: { chapter: chapter.slug, section: section.slug, view },
+        props: { chapter, section, view },
+      }))
+    )
+  );
+}
+const { chapter, section } = Astro.props;
+const view = Astro.props.view as View;
+---
+<SectionLayout chapter={chapter} section={section} view={view}>
+  {isIsland(view) ? (
+    <SectionPattern chapter={chapter} section={section} letter={island(view).letter} />
+  ) : (
+    <div class="three">
+      {ISLANDS.map((i) => (
+        <section class="col stack" data-island={i.key} aria-label={i.name}>
+          <h2 class="t-heading who">{i.name}</h2>
+          <SectionPattern chapter={chapter} section={section} letter={i.letter} compact />
+          <p class="t-caption"><a href={sectionHref(chapter, section, i.key)}>Read {section.num} for {i.name} in full</a></p>
+        </section>
+      ))}
+    </div>
+  )}
+</SectionLayout>
+
+<style>
+  .who { color: var(--accent); position: sticky; top: var(--bar); background: var(--paper); padding: var(--s2) 0; z-index: 5; border-bottom: 4px solid var(--accent-light); }
+  .col { min-width: 0; }
+</style>

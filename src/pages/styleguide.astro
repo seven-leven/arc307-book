@@ -1,0 +1,120 @@
+---
+// Every token, text style and component on one page, in each island's colour. This is where the look and the
+// behaviour are judged before any real content goes in. All text and numbers here are samples, not book content.
+import Base from "../layouts/Base.astro";
+import SectionHeader from "../components/SectionHeader.astro";
+import TextBlock from "../components/TextBlock.astro";
+import KeyFigure from "../components/KeyFigure.astro";
+import Figure from "../components/Figure.astro";
+import LayerViewer from "../components/LayerViewer.astro";
+import BeforeAfter from "../components/BeforeAfter.astro";
+import ComparisonRow from "../components/ComparisonRow.astro";
+import VerdictMark from "../components/VerdictMark.astro";
+import DataTable from "../components/DataTable.astro";
+import HandOn from "../components/HandOn.astro";
+import SourcesLine from "../components/SourcesLine.astro";
+import GlossaryTerm from "../components/GlossaryTerm.astro";
+import Slot from "../components/Slot.astro";
+import { ISLANDS, url } from "../data/structure";
+
+const NEUTRAL = ["ink", "grey-dark", "grey", "rule", "panel", "paper"];
+const STEPS = ["pale", "light", "300", "", "dark"];
+const STYLES = [
+  ["t-title", "Page title", "Public and green space"],
+  ["t-subtitle", "Subtitle", "One line under the title, in italic grey."],
+  ["t-heading", "Heading", "What each plan has to answer"],
+  ["t-subheading", "Subheading", "The claim line, and card titles"],
+  ["t-body", "Body", "Body text runs no wider than about 68 characters, left-aligned, never justified. It is never smaller than 16 px on any screen."],
+  ["t-caption", "Caption", "Figure captions, legend labels and notes."],
+  ["t-number", "Number", "2,603"],
+  ["t-small", "Small caps", "What we counted"],
+];
+---
+<Base title="Style guide">
+  <div class="frame stack-lg top">
+    <SectionHeader label="For the makers" title="Style guide" subtitle="Tokens, the eight text styles and every component. Sample text and sample numbers only." />
+
+    <section class="stack">
+      <h2 class="t-heading">Colour</h2>
+      <div class="sw-row">{NEUTRAL.map((n) => <div class="sw"><span style={`background:var(--${n})`}></span><code>{n}</code></div>)}</div>
+      {ISLANDS.map((i) => (
+        <div class="sw-row">
+          {STEPS.map((s) => { const t = s ? `${i.key}-${s}` : i.key; return <div class="sw"><span style={`background:var(--${t})`}></span><code>{t}</code></div>; })}
+        </div>
+      ))}
+      <p class="t-caption">One island colour per page. Villimalé's main green is 3.2:1 on white, so text under 18 px takes <code>villimale-dark</code>; the tokens do this through <code>--accent-text</code>.</p>
+    </section>
+
+    <section class="stack">
+      <h2 class="t-heading">Type</h2>
+      {STYLES.map(([cls, name, sample]) => (
+        <div class="ty"><p class="t-small">{name}</p><p class={cls}>{sample}</p></div>
+      ))}
+    </section>
+
+    <section class="stack-lg">
+      <h2 class="t-heading">Components, per island</h2>
+      {ISLANDS.map((i) => (
+        <div class="stack-lg isl" data-island={i.key}>
+          <SectionHeader label="Chapter 03 · Masterplan" num="3.5" title="Public and green space" islandName={i.name} subtitle="Sample section header." />
+          <div class="grid">
+            <div class="col-7 stack">
+              <TextBlock heading="The idea" claim="A sample claim line, set as a subheading.">
+                <p>Sample body text with a glossary word, <GlossaryTerm meaning="Sample meaning: a woven rope seat on a frame." lang="dv">joali</GlossaryTerm>, and <a href="#">a link in running text</a>. Links take the island's colour and are underlined.</p>
+              </TextBlock>
+              <p><VerdictMark verdict="holds" /> &nbsp; <VerdictMark verdict="part" /> &nbsp; <VerdictMark verdict="not" /> &nbsp; <VerdictMark verdict="untested" /></p>
+              <SourcesLine>Sample source line. <a href="#">Toolkit data</a>.</SourcesLine>
+              <HandOn href="#" to="3.6 Non-residential" islandKey={i.key} />
+            </div>
+            <div class="col-5 stack">
+              <KeyFigure value="14.5" unit="m²" label="Sample: open space per person" note="sample" />
+              <KeyFigure value="2,603" label="Sample: residents" />
+            </div>
+          </div>
+          <Figure num={`3.5.1${i.letter}`} caption="A sample caption. The number is bold in the island's colour." ratio="21 / 9" />
+        </div>
+      ))}
+    </section>
+
+    <section class="stack">
+      <h2 class="t-heading">Shared components</h2>
+      <div class="grid">
+        <div class="col-6 stack">
+          <ComparisonRow measure="Sample measure, three islands" unit="%" values={[64, 89, 26]} max={100} note="Sample values. The 300 shades; names and values are text." />
+          <DataTable collapsed caption="Sample measure by island" head={["Island", "Share", "Count"]} rows={[["Malé", "64%", 556], ["Villimalé", "89%", 51], ["Hulhumalé", "26%", 1034]]} />
+        </div>
+        <div class="col-6 stack">
+          <BeforeAfter>
+            <Slot slot="before" what="Existing" ratio="4 / 3" />
+            <Slot slot="after" what="Proposed" ratio="4 / 3" />
+          </BeforeAfter>
+        </div>
+      </div>
+      <LayerViewer name="sg-layers" />
+      <DataTable caption="Sample table: alternate-row tint, no rules" head={["Measure", "Malé", "Villimalé", "Hulhumalé"]} rows={[["Sample row one", 12, 34, 56], ["Sample row two", 7, 8, 9], ["Sample row three", "n/a", 3, 4]]} />
+    </section>
+
+    <section class="stack">
+      <h2 class="t-heading">Pages to try</h2>
+      <ul class="t-body">
+        <li><a href={url("/")}>Home grid</a></li>
+        <li><a href={url("/masterplan/")}>A chapter opening</a></li>
+        <li><a href={url("/masterplan/public-and-green-space/male/")}>An island section</a>: switch islands, the section stays</li>
+        <li><a href={url("/masterplan/public-and-green-space/compare/")}>Compare</a></li>
+        <li><a href={url("/toolkit/what-we-found/")}>A shared page</a>: previous and next follow the island last chosen</li>
+        <li><a href={url("/masterplan/masterplan/male/")}>3.8 with the layer viewer</a></li>
+      </ul>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .top { padding-top: var(--s6); }
+  .sw-row { display: flex; flex-wrap: wrap; gap: var(--s3); }
+  .sw { display: grid; gap: var(--s1); }
+  .sw span { width: 96px; height: 56px; display: block; box-shadow: inset 0 0 0 1px var(--rule); }
+  code { font-family: inherit; font-size: var(--small-size); color: var(--grey-dark); }
+  .ty { display: grid; gap: var(--s1); }
+  .isl { border-top: 4px solid var(--accent); padding-top: var(--s4); }
+  ul { padding-left: 1.2em; }
+</style>

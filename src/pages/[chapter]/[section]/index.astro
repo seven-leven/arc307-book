@@ -1,0 +1,28 @@
+---
+// A shared section: one page for all three islands (1.1, 1.9, 2.2, 2.8, 3.0, 3.10).
+import SectionLayout from "../../../layouts/SectionLayout.astro";
+import SectionPattern from "../../../components/SectionPattern.astro";
+import HandOn from "../../../components/HandOn.astro";
+import { CHAPTERS, ISLANDS, neighbours } from "../../../data/structure";
+
+export function getStaticPaths() {
+  return CHAPTERS.flatMap((chapter) =>
+    chapter.sections.filter((s) => s.shared).map((section) => ({
+      params: { chapter: chapter.slug, section: section.slug },
+      props: { chapter, section },
+    }))
+  );
+}
+const { chapter, section } = Astro.props;
+const onward = ISLANDS.map((i) => ({ i, next: neighbours(chapter.slug, section.slug, i.key).next })).filter((x) => x.next && !x.next.section.shared);
+---
+<SectionLayout chapter={chapter} section={section} view={null}>
+  <SectionPattern chapter={chapter} section={section} />
+  {onward.length > 0 && (
+    <div class="three">
+      {onward.map(({ i, next }) => (
+        <HandOn href={next!.href} to={`${next!.section.num} ${next!.section.title}`} islandKey={i.key} />
+      ))}
+    </div>
+  )}
+</SectionLayout>

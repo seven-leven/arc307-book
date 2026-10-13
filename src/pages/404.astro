@@ -1,0 +1,15 @@
+---
+import Base from "../layouts/Base.astro";
+import SectionHeader from "../components/SectionHeader.astro";
+import { url } from "../data/structure";
+---
+<Base title="Page not found">
+  <div class="frame stack top">
+    <SectionHeader label="Not found" title="This page is not in the book" />
+    <p class="t-body">The address may be mistyped. <a href={url("/")}>The home page</a> shows every chapter and island.</p>
+  </div>
+</Base>
+
+<style>
+  .top { padding-top: var(--s6); }
+</style>

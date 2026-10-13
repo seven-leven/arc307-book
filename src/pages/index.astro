@@ -1,0 +1,82 @@
+---
+// Home is the grid: three island columns, three chapter rows, each cell a link. A reader sees the whole book's
+// shape before clicking anything. No cover image with a button.
+import Base from "../layouts/Base.astro";
+import Slot from "../components/Slot.astro";
+import { CHAPTERS, EXTRA, ISLANDS, SITE, firstIslandPage, sectionHref, url } from "../data/structure";
+---
+<Base title="Home">
+  <div class="frame stack-lg top">
+    <header class="stack">
+      <p class="t-small">{SITE.credit}</p>
+      <h1 class="t-title">{SITE.title}</h1>
+      <p class="t-subtitle">{SITE.subtitle}</p>
+      <Slot what="The book's argument, in two sentences" note="From NARRATIVE.md part 1. Beside it: the fan line art from the cover" />
+      <Slot what="How to use this site" note="One short paragraph: pick an island and stay on it, or open any section as Compare" />
+    </header>
+
+    <section aria-labelledby="grid-title" class="stack">
+      <h2 class="t-small" id="grid-title">The book: three chapters, three islands</h2>
+      <div class="hg">
+        <div class="hg-head" aria-hidden="true">
+          <span></span>
+          {ISLANDS.map((i) => <span class="t-heading isl" data-island={i.key}>{i.name}</span>)}
+        </div>
+        {CHAPTERS.map((ch) => {
+          const shared = ch.sections.filter((s) => s.shared);
+          const per = ch.sections.filter((s) => !s.shared);
+          return (
+            <div class="hg-row">
+              <div class="hg-ch">
+                <a href={url(`/${ch.slug}/`)}><span class="t-number num">{ch.num}</span><span class="t-heading">{ch.title}</span></a>
+                <p class="t-caption">{ch.holds}</p>
+                <p class="t-caption sh">
+                  Shared: {shared.map((s, k) => <>{k > 0 && " · "}<a href={sectionHref(ch, s, "male")}>{s.num} {s.title}</a></>)}
+                </p>
+              </div>
+              {ISLANDS.map((i) => (
+                <a class="cell" data-island={i.key} href={firstIslandPage(ch, i.key).href}>
+                  <span class="t-small who">{i.name}<span class="visually-hidden">, chapter {ch.num} {ch.title}</span></span>
+                  <span class="t-subheading">{per[0].num} to {per[per.length - 1].num}</span>
+                  <span class="t-caption">{per.length} sections, from {per[0].short.toLowerCase()} to {per[per.length - 1].short.toLowerCase()}</span>
+                </a>
+              ))}
+            </div>
+          );
+        })}
+      </div>
+    </section>
+
+    <nav class="three" aria-label="More">
+      <a class="more" href={url(`/${EXTRA.about.slug}/`)}><span class="t-subheading">About this book</span><span class="t-caption">Introduction, how to read, methodology, acknowledgements</span></a>
+      <a class="more" href={url(`/${EXTRA.reflections.slug}/`)}><span class="t-subheading">04 Reflections</span><span class="t-caption">The editor and the three groups look back</span></a>
+      <a class="more" href={url(`/${EXTRA.reference.slug}/`)}><span class="t-subheading">Reference</span><span class="t-caption">Glossary, toolkit data, references, figures and tables</span></a>
+    </nav>
+  </div>
+</Base>
+
+<style>
+  .top { padding-top: var(--s6); }
+  .hg { display: grid; gap: var(--s3); }
+  .hg-head, .hg-row { display: grid; gap: var(--s3) var(--gutter); grid-template-columns: minmax(0, 1fr); }
+  .hg-head { display: none; }
+  .hg-ch { display: grid; gap: var(--s2); align-content: start; }
+  .hg-ch > a { display: flex; align-items: baseline; gap: var(--s3); color: var(--ink); text-decoration: none; }
+  .hg-ch > a:hover .t-heading { text-decoration: underline; text-underline-offset: 0.18em; }
+  .num { color: var(--grey); }
+  .sh { color: var(--grey-dark); }
+  .sh a { color: var(--ink); }
+  .isl { color: var(--accent); }
+  .cell { display: grid; gap: var(--s1); align-content: start; padding: var(--s3); background: var(--accent-pale); color: var(--ink); text-decoration: none; border-top: 4px solid var(--accent); min-height: 120px; }
+  .cell:hover { background: var(--accent-light); }
+  .who { color: var(--accent-dark); }
+  .hg-row { padding-top: var(--s4); border-top: 1px solid var(--rule); }
+  .more { display: grid; gap: var(--s1); color: var(--ink); text-decoration: none; padding: var(--s3) 0; border-top: 1px solid var(--rule); }
+  .more:hover .t-subheading { text-decoration: underline; text-underline-offset: 0.18em; }
+  @media (min-width: 801px) {
+    .hg-head, .hg-row { grid-template-columns: minmax(0, 1.25fr) repeat(3, minmax(0, 1fr)); }
+    .hg-head { display: grid; }
+    .cell .who { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+    .cell { position: relative; }
+  }
+</style>

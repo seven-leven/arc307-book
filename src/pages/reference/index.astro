@@ -1,0 +1,21 @@
+---
+// The book's back matter: glossary, toolkit data, references, lists of figures and tables.
+import Base from "../../layouts/Base.astro";
+import SectionHeader from "../../components/SectionHeader.astro";
+import { EXTRA, REFERENCE_PARTS, url } from "../../data/structure";
+---
+<Base title={EXTRA.reference.title}>
+  <div class="frame stack-lg top">
+    <SectionHeader label="Reference" title={EXTRA.reference.title} subtitle="Where to check a word, a number or a source." />
+    <ul role="list" class="list">
+      {REFERENCE_PARTS.map((p) => <li><a class="t-subheading" href={url(`/${EXTRA.reference.slug}/${p.slug}/`)}>{p.title}</a></li>)}
+    </ul>
+  </div>
+</Base>
+
+<style>
+  .top { padding-top: var(--s6); }
+  .list li { border-top: 1px solid var(--rule); }
+  .list a { display: block; padding: var(--s3) 0; color: var(--ink); text-decoration: none; }
+  .list a:hover { text-decoration: underline; text-underline-offset: 0.18em; }
+</style>

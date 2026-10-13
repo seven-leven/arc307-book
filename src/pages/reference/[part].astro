@@ -1,0 +1,28 @@
+---
+import Base from "../../layouts/Base.astro";
+import SectionHeader from "../../components/SectionHeader.astro";
+import Slot from "../../components/Slot.astro";
+import { EXTRA, REFERENCE_PARTS, url } from "../../data/structure";
+
+export function getStaticPaths() {
+  return REFERENCE_PARTS.map((part) => ({ params: { part: part.slug }, props: { part } }));
+}
+const { part } = Astro.props;
+const NOTES: Record<string, string> = {
+  "glossary": "Every glossary term, grouped as in the book. Each term here is what the dotted-underline pop-ups read from",
+  "toolkit-data": "One table per toolkit, from the book's Appendix A. Readable as tables; not offered as downloads",
+  "references": "The book's reference list. Links that leave the site say so",
+  "figures-and-tables": "Every figure and table by number, linking to the section it is in",
+};
+---
+<Base title={part.title}>
+  <div class="frame stack-lg top">
+    <SectionHeader label="Reference" title={part.title} />
+    <Slot what={part.title} note={NOTES[part.slug]} />
+    <p class="t-caption"><a href={url(`/${EXTRA.reference.slug}/`)}>All reference pages</a></p>
+  </div>
+</Base>
+
+<style>
+  .top { padding-top: var(--s6); }
+</style>

@@ -1,0 +1,31 @@
+---
+// Chapter 04: the editor and the three group leaders look back. Each is signed with the group's name only.
+import Base from "../layouts/Base.astro";
+import SectionHeader from "../components/SectionHeader.astro";
+import Slot from "../components/Slot.astro";
+import { EXTRA, REFLECTION_PARTS } from "../data/structure";
+---
+<Base title={EXTRA.reflections.title} chapter={EXTRA.reflections.slug}>
+  <div class="frame stack-lg top">
+    <SectionHeader label="Chapter 04" title={EXTRA.reflections.title} subtitle="What the studio learned, in its own words." />
+    <nav aria-label="On this page" class="jump">
+      {REFLECTION_PARTS.map((p) => <a href={`#${p.id}`} data-island={p.island ?? undefined}>{p.title}</a>)}
+    </nav>
+    {REFLECTION_PARTS.map((p) => (
+      <section id={p.id} class="stack part" data-island={p.island ?? undefined}>
+        <h2 class="t-heading who">{p.title}</h2>
+        <Slot what="Reflection" note="Personal text: the writer's own words, never a draft by anyone else" />
+        <p class="t-caption sign">{p.title}</p>
+      </section>
+    ))}
+  </div>
+</Base>
+
+<style>
+  .top { padding-top: var(--s6); }
+  .jump { display: flex; flex-wrap: wrap; gap: var(--s2) var(--s4); }
+  .jump a { font-size: var(--caption-size); font-weight: 700; }
+  .who { color: var(--accent); }
+  .part { max-width: 760px; border-top: 4px solid var(--accent-light); padding-top: var(--s4); }
+  .sign { color: var(--grey-dark); font-style: italic; }
+</style>

@@ -1,0 +1,45 @@
+---
+// What the book's front matter held, on one page: the book, the editor's introduction, how to read, methodology,
+// the three groups, acknowledgements. Nobody is named (design guide, part 12): the credit line stands for everyone.
+import Base from "../layouts/Base.astro";
+import SectionHeader from "../components/SectionHeader.astro";
+import Slot from "../components/Slot.astro";
+import { ABOUT_PARTS, EXTRA, ISLANDS, SITE } from "../data/structure";
+---
+<Base title={EXTRA.about.title}>
+  <div class="frame page">
+    <nav class="toc" aria-label="On this page">
+      <p class="t-small">On this page</p>
+      <ol role="list">{ABOUT_PARTS.map((p) => <li><a href={`#${p.id}`}>{p.title}</a></li>)}</ol>
+    </nav>
+    <article class="stack-lg">
+      <SectionHeader label="About" title={EXTRA.about.title} subtitle={SITE.credit} />
+      {ABOUT_PARTS.map((p) => (
+        <section id={p.id} class="stack">
+          <h2 class="t-heading">{p.title}</h2>
+          {p.id === "the-three-groups" ? (
+            <div class="three">
+              {ISLANDS.map((i) => (
+                <div class="stack" data-island={i.key}>
+                  <h3 class="t-subheading accent-text">The {i.name} group</h3>
+                  <Slot what="What the group studied" note={`Study area, toolkits, masterplan name (${i.plan}). No names or photographs`} />
+                </div>
+              ))}
+            </div>
+          ) : <Slot what={p.title} note={`From the book: ${p.from}`} />}
+        </section>
+      ))}
+    </article>
+  </div>
+</Base>
+
+<style>
+  .page { padding-top: var(--s6); display: grid; gap: var(--s5); }
+  .toc ol { margin-top: var(--s3); display: flex; flex-wrap: wrap; gap: var(--s2) var(--s4); }
+  .toc a { font-size: var(--caption-size); color: var(--ink); }
+  @media (min-width: 1025px) {
+    .page { grid-template-columns: var(--rail) minmax(0, 1fr); gap: var(--s6); }
+    .toc { position: sticky; top: calc(var(--bar) + var(--s5)); align-self: start; }
+    .toc ol { display: grid; gap: var(--s2); }
+  }
+</style>

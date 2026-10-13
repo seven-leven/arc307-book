@@ -11,8 +11,9 @@ import { ISLANDS, island, url, type IslandKey } from "../data/structure";
 interface Props {
   page: any;
   title: string;
+  first?: boolean; // the first page on screen: its picture is not lazy
 }
-const { page, title } = Astro.props;
+const { page, title, first = false } = Astro.props;
 const id = `sheet-${page.folio}`;
 ---
 {!page.type && <BookPage page={page} title={title} />}
@@ -22,14 +23,16 @@ const id = `sheet-${page.folio}`;
     {page.heading && <h2 class="t-heading">{page.heading}</h2>}
     {page.draft && <p class="t-caption draft">Draft drawing. {page.draft}</p>}
     <button type="button" class="open" data-figure-open={id} aria-label="Open this page large">
-      <img src={url(`/${page.picture.src}`)} width={page.picture.wpx} height={page.picture.hpx} loading="lazy" decoding="async"
+      <img src={url(`/${page.picture.src}`)} width={page.picture.wpx} height={page.picture.hpx}
+           loading={first ? "eager" : "lazy"} fetchpriority={first ? "high" : undefined} decoding="async"
            alt={`Page from the book: ${title}. Its text is given below, under "Read this page as text".`} />
+      <span class="t-caption zoom" aria-hidden="true">Open large</span>
     </button>
     <dialog id={id} class="viewer" aria-label={title}>
       <button type="button" class="close t-small" data-figure-close>Close</button>
-      <div class="pan"><img src={url(`/${page.picture.src}`)} alt="" /></div>
+      <div class="pan"><img src={url(`/${page.picture.src}`)} alt="" loading="lazy" /></div>
     </dialog>
-    {page.text.length > 0 && <details>
+    {page.text.length > 0 && <details data-astext>
       <summary class="t-caption">Read this page as text</summary>
       <div class="astext">
         {page.text.map((it: any) =>
@@ -137,8 +140,11 @@ const id = `sheet-${page.folio}`;
   /* sheet */
   .sheet { display: grid; gap: var(--s3); }
   .draft { font-style: italic; color: var(--grey-dark); border-left: 4px solid var(--accent-light); padding-left: var(--s3); }
-  .open { padding: 0; border: 0; background: none; cursor: zoom-in; display: block; width: 100%; }
+  .open { padding: 0; border: 0; background: none; cursor: zoom-in; display: block; width: 100%; position: relative; }
   .open img { width: 100%; height: auto; }
+  .zoom { position: absolute; right: 0; top: 0; background: var(--ink); color: var(--paper); padding: 4px 10px; opacity: 0; }
+  .open:hover .zoom, .open:focus-visible .zoom { opacity: 1; }
+  @media (hover: none) { .zoom { opacity: 1; } }
   summary { cursor: pointer; text-decoration: underline; text-underline-offset: 0.18em; width: fit-content; }
   .astext { margin-top: var(--s3); display: grid; gap: var(--s2); max-width: var(--measure); }
   .astext :global(h3) { margin-top: var(--s3); }

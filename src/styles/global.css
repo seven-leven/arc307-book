@@ -4,6 +4,7 @@
 *, *::before, *::after { box-sizing: border-box; }
 
 html { font-size: 100%; -webkit-text-size-adjust: 100%; scroll-padding-top: calc(var(--bar) + var(--s4)); }
+@media (max-width: 900px) { html { scroll-padding-top: 120px; } }   /* the top bar is two rows on a narrow screen */
 
 body {
   margin: 0;

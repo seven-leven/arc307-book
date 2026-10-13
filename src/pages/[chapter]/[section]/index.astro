@@ -21,7 +21,7 @@ const onward = ISLANDS.map((i) => ({ i, next: neighbours(chapter.slug, section.s
 ---
 <SectionLayout chapter={chapter} section={section} view={null}>
   {pages.length > 0
-    ? <div class="stack-lg">{pages.map((p) => <BookContent page={p} title={`${section.num} ${section.title}`} />)}</div>
+    ? <div class="stack-lg">{pages.map((p, k) => <BookContent first={k === 0} page={p} title={`${section.num} ${section.title}`} />)}</div>
     : <SectionPattern chapter={chapter} section={section} />}
   {onward.length > 0 && (
     <div class="three">

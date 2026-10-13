@@ -55,7 +55,12 @@ document.addEventListener("keydown", (e) => {
   }
 });
 
-// 5. The "Sections" sheet on a phone closes when a section is chosen or Esc is pressed.
+// 5. On a phone the page pictures are small, so their text starts open.
+if (window.matchMedia("(max-width: 640px)").matches) {
+  document.querySelectorAll<HTMLDetailsElement>("details[data-astext]").forEach((d) => (d.open = true));
+}
+
+// 6. The "Sections" sheet on a phone closes when a section is chosen or Esc is pressed.
 document.querySelectorAll<HTMLDetailsElement>("details[data-sheet]").forEach((sheet) => {
   sheet.addEventListener("keydown", (e) => {
     if (e.key === "Escape") {

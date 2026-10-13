@@ -1,7 +1,7 @@
 ---
 // Previous and next section for the same island, in the book's reading order. On a shared page the links follow
 // the island the reader last chose (site.ts swaps the addresses); without scripts they lead to Malé.
-import { neighbours, viewName, VIEWS, type View, type Page } from "../data/structure";
+import { neighbours, viewName, VIEWS, EXTRA, url, type View, type Page } from "../data/structure";
 
 interface Props {
   chapter: string;
@@ -36,6 +36,12 @@ const sides = [
       <span class="t-subheading"><span class="num">{page.section.num}</span> {page.section.title}</span>
       {!page.section.shared && <span class="t-caption who" data-view-label data-island={view ?? "male"}>{viewName(view ?? "male")}</span>}
       {page.section.shared && <span class="t-caption shared">All three islands</span>}
+    </a>
+  ) : side === "next" ? (
+    <a class="next" href={url(`/${EXTRA.reflections.slug}/`)} rel="next">
+      <span class="t-small">Next</span>
+      <span class="t-subheading"><span class="num">{EXTRA.reflections.num}</span> {EXTRA.reflections.title}</span>
+      <span class="t-caption shared">All three islands</span>
     </a>
   ) : <span />)}
 </nav>

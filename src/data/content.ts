@@ -1,11 +1,11 @@
 // Book content that has been exported for the site (book/export_web_ch02.py in the Book folder): chapters 01, 02 and 03. A section with no
 // exported pages still shows the empty page pattern.
 import { url } from "./structure";
-import index01 from "../content/01/index.json";
-import index02 from "../content/02/index.json";
-import index03 from "../content/03/index.json";
+import index01 from "../book/01/index.json";
+import index02 from "../book/02/index.json";
+import index03 from "../book/03/index.json";
 
-const files = import.meta.glob("../content/*/[0-9]*.json", { eager: true }) as Record<string, { default: BookPageData }>;
+const files = import.meta.glob("../book/*/[0-9]*.json", { eager: true }) as Record<string, { default: BookPageData }>;
 
 export interface BookPageData {
   folio: number;

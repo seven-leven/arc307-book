@@ -1,12 +1,11 @@
 ---
-// A per-island section, on one island or as "compare": the three islands in three columns, same order as the book,
-// each shortened to its first block and key figures with "Read in full" under it.
+// A per-island section on its own page: Chapter 02's sections and themes, on one island or as "compare".
+// In Chapters 01 and 03 the per-island sections now sit on one long page per island, so their old addresses
+// (/masterplan/vision/male/) forward to the section's place on that page (/masterplan/male/#vision).
 import SectionLayout from "../../../layouts/SectionLayout.astro";
-import SectionPattern from "../../../components/SectionPattern.astro";
-import BookContent from "../../../components/BookContent.astro";
-import Blocks from "../../../components/Blocks.astro";
-import { bookPages, nativeBlocks } from "../../../data/content";
-import { CHAPTERS, ISLANDS, VIEWS, island, isIsland, sectionHref, type View } from "../../../data/structure";
+import SectionBody from "../../../components/SectionBody.astro";
+import { bookPages } from "../../../data/content";
+import { CHAPTERS, VIEWS, sectionHref, type View } from "../../../data/structure";
 
 export function getStaticPaths() {
   return CHAPTERS.flatMap((chapter) =>
@@ -20,42 +19,9 @@ export function getStaticPaths() {
 }
 const { chapter, section } = Astro.props;
 const view = Astro.props.view as View;
-const pages = bookPages(chapter.slug, section.slug, view);
-const native = chapter.slug === "masterplan" ? nativeBlocks(section.slug, view) : null;
-const label = (v: string) => `${section.num} ${section.title}${isIsland(v) ? `, ${island(v).name}` : ""}`;
-const firstOf = (v: string) => bookPages(chapter.slug, section.slug, v)[0];
+if (chapter.long) return Astro.redirect(sectionHref(chapter, section, view));
+const claim = bookPages(chapter.slug, section.slug, view)[0]?.claim;
 ---
-<SectionLayout chapter={chapter} section={section} view={view} subtitle={pages[0]?.claim && !section.title.toLowerCase().includes(pages[0].claim.toLowerCase()) ? pages[0].claim : undefined}>
-  {native ? (
-    <Blocks blocks={native} title={label(view)} />
-  ) : pages.length > 0 ? (
-    <div class="stack-lg">{pages.map((p, k) => <BookContent first={k === 0} page={p} title={label(view)} />)}</div>
-  ) : isIsland(view) ? (
-    <SectionPattern chapter={chapter} section={section} letter={island(view).letter} />
-  ) : ISLANDS.some((i) => firstOf(i.key)) ? (
-    <div class="three">
-      {ISLANDS.map((i) => (
-        <section class="col stack" data-island={i.key} aria-label={i.name}>
-          <h2 class="t-heading who">{i.name}</h2>
-          {firstOf(i.key) && <BookContent page={{ ...firstOf(i.key), heading: null, text: [] }} title={label(i.key)} />}
-          <p class="t-caption"><a href={sectionHref(chapter, section, i.key)}>Read {section.num} for {i.name} in full</a></p>
-        </section>
-      ))}
-    </div>
-  ) : (
-    <div class="three">
-      {ISLANDS.map((i) => (
-        <section class="col stack" data-island={i.key} aria-label={i.name}>
-          <h2 class="t-heading who">{i.name}</h2>
-          <SectionPattern chapter={chapter} section={section} letter={i.letter} compact />
-          <p class="t-caption"><a href={sectionHref(chapter, section, i.key)}>Read {section.num} for {i.name} in full</a></p>
-        </section>
-      ))}
-    </div>
-  )}
+<SectionLayout chapter={chapter} section={section} view={view} subtitle={claim && !section.title.toLowerCase().includes(String(claim).toLowerCase()) ? String(claim) : undefined}>
+  <SectionBody chapter={chapter} section={section} view={view} />
 </SectionLayout>
-
-<style>
-  .who { color: var(--accent); position: sticky; top: var(--bar); background: var(--paper); padding: var(--s2) 0; z-index: 5; border-bottom: 4px solid var(--accent-light); }
-  .col { min-width: 0; }
-</style>

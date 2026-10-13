@@ -1,5 +1,7 @@
 # Greater Malé Region: web edition
 
+**Live site: https://seven-leven.github.io/arc307-book/**
+
 The website of the ARC307 class book on Malé, Villimalé and Hulhumalé. The print book is the source of truth; this is a second way to read it. What the site should look like and how it should behave is in `guides/WEB_DESIGN_GUIDE.md` (in the Book folder, one level up); the order of work is in `guides/WEB_ROADMAP.md`.
 
 **State (13 October 2026):** Chapters 01 to 03 and the front and back matter are in, from the book. Chapter pages are pictures of the book page with their text also given as text; the comparison pages, 2.8, About, Reflections and Reference are real web pages. The toolkit data page is still empty.
@@ -44,7 +46,11 @@ deno task check-links
 
 ## Addresses
 
-Chapter, section, island: `/masterplan/public-and-green-space/hulhumale/`. `compare` in place of the island shows all three. Shared pages have no island part: `/toolkit/what-we-found/`. Addresses do not change once published.
+- **Chapters 01 and 03:** one long page per island, and one for compare: `/masterplan/male/`, `/masterplan/compare/`. Each section is an anchor: `/masterplan/male/#vision`. The older per-section addresses (`/masterplan/vision/male/`) forward there.
+- **Chapter 02:** a page per section and island: `/toolkit/theme-2-shade/hulhumale/`, with `compare` in place of the island.
+- **Shared pages** have no island part: `/toolkit/what-we-found/`.
+
+Addresses do not change once published; when one has to, the old one must forward.
 
 ## Rules that already apply
 

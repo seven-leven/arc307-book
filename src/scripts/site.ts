@@ -26,6 +26,36 @@ document.querySelectorAll<HTMLAnchorElement>("a[data-href-male]").forEach((a) =>
   }
 });
 
+// 1b. Long pages (one island's whole chapter): the rail marks the section on screen, and the island switcher
+// carries that section across, so "same section, other island" still holds.
+const spied = [...document.querySelectorAll<HTMLElement>("[data-spy-section]")];
+if (spied.length) {
+  let now = location.hash.slice(1) || spied[0].id;
+  const mark = () => {
+    document.querySelectorAll<HTMLAnchorElement>("[data-spy] a").forEach((a) => {
+      const on = a.hash === `#${now}`;
+      if (on) a.setAttribute("aria-current", "true");
+      else a.removeAttribute("aria-current");
+    });
+  };
+  const seen = new IntersectionObserver(
+    (entries) => {
+      for (const e of entries) if (e.isIntersecting) now = e.target.id;
+      mark();
+    },
+    { rootMargin: "-20% 0px -70% 0px" },
+  );
+  spied.forEach((s) => seen.observe(s));
+  mark();
+  if (document.documentElement.hasAttribute("data-keep-hash")) {
+    document.querySelectorAll<HTMLAnchorElement>("[data-switcher] a").forEach((a) => {
+      a.addEventListener("click", () => {
+        a.hash = now;
+      });
+    });
+  }
+}
+
 // 2. Island switcher: left and right arrows move between the names.
 document.querySelectorAll<HTMLElement>("[data-switcher]").forEach((nav) => {
   const links = [...nav.querySelectorAll<HTMLAnchorElement>("a")];

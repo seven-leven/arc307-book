@@ -40,11 +40,12 @@ import { CHAPTERS, EXTRA, ISLANDS, SITE, firstIslandPage, sectionHref, url } fro
                 </p>
               </div>
               {ISLANDS.map((i) => (
-                <a class="cell" data-island={i.key} href={firstIslandPage(ch, i.key).href}>
-                  <span class="t-small who">{i.name}<span class="visually-hidden">, chapter {ch.num} {ch.title}</span></span>
-                  <span class="t-subheading">{per[0].num} to {per[per.length - 1].num}</span>
-                  <span class="t-caption">{per.length} sections, from {per[0].short.toLowerCase()} to {per[per.length - 1].short.toLowerCase()}</span>
-                </a>
+                <nav class="cell" data-island={i.key} aria-label={`${i.name}, chapter ${ch.num} ${ch.title}`}>
+                  <a class="t-small who" href={firstIslandPage(ch, i.key).href}>{i.name}</a>
+                  <ol role="list">
+                    {per.map((s) => <li><a href={sectionHref(ch, s, i.key)}><span class="n">{s.num}</span><span>{s.short}</span></a></li>)}
+                  </ol>
+                </nav>
               ))}
             </div>
           );
@@ -77,9 +78,13 @@ import { CHAPTERS, EXTRA, ISLANDS, SITE, firstIslandPage, sectionHref, url } fro
   .sh { color: var(--grey-dark); }
   .sh a { color: var(--ink); }
   .isl { color: var(--accent); }
-  .cell { display: grid; gap: var(--s1); align-content: start; padding: var(--s3); background: var(--accent-pale); color: var(--ink); text-decoration: none; border-top: 4px solid var(--accent); min-height: 120px; }
-  .cell:hover { background: var(--accent-light); }
-  .who { color: var(--accent-dark); }
+  .cell { display: grid; gap: var(--s2); align-content: start; padding: var(--s3); background: var(--accent-pale); border-top: 4px solid var(--accent); }
+  .cell a { color: var(--ink); text-decoration: none; }
+  .cell a:hover { text-decoration: underline; text-underline-offset: 0.18em; }
+  .cell .who { color: var(--accent-dark); }
+  .cell ol { display: grid; }
+  .cell li a { display: flex; gap: var(--s2); padding: 3px 0; font-size: var(--caption-size); line-height: 1.4; }
+  .cell .n { flex: none; width: 2.2em; font-weight: 700; color: var(--accent-dark); font-variant-numeric: tabular-nums; }
   .hg-row { padding-top: var(--s4); border-top: 1px solid var(--rule); }
   .more { display: grid; gap: var(--s1); color: var(--ink); text-decoration: none; padding: var(--s3) 0; border-top: 1px solid var(--rule); }
   .more:hover .t-subheading { text-decoration: underline; text-underline-offset: 0.18em; }
@@ -87,6 +92,5 @@ import { CHAPTERS, EXTRA, ISLANDS, SITE, firstIslandPage, sectionHref, url } fro
     .hg-head, .hg-row { grid-template-columns: minmax(0, 1.25fr) repeat(3, minmax(0, 1fr)); }
     .hg-head { display: grid; }
     .cell .who { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
-    .cell { position: relative; }
   }
 </style>

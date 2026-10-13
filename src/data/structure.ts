@@ -25,6 +25,8 @@ export interface Chapter {
   slug: string;
   title: string;
   holds: string; // one line for the home grid
+  tagline: string; // from the chapter's cover in the book
+  opening: string[];
   sections: Section[];
 }
 
@@ -55,14 +57,19 @@ export const CHAPTERS: Chapter[] = [
     slug: "macro-analysis",
     title: "Macro analysis",
     holds: "Each island as a whole: history, climate, people, form, movement, open space.",
+    tagline: "The islands as they are.",
+    opening: [
+      "This chapter reads each island as a whole, before any area is chosen. It opens with the Greater Malé Region, the one setting the three islands share, and then follows Malé, Villimalé and Hulhumalé in turn.",
+      "Each island is taken through the same topics, from its history and climate to its streets and public space. It draws on published sources: the Rethink Malé StoryMap, the HDC’s plans for Hulhumalé, the 2022 census, Google Maps and Wikipedia, all listed in the references.",
+    ],
     sections: [
       { num: "1.1", slug: "regional-context", title: "Regional context", short: "Regional context", shared: true },
       { num: "1.2", slug: "island-introduction", title: "Island introduction", short: "Introduction" },
       { num: "1.3", slug: "history-and-culture", title: "History and culture", short: "History and culture" },
       { num: "1.4", slug: "environment-and-climate", title: "Environment and climate", short: "Environment" },
-      { num: "1.5", slug: "population", title: "Population", short: "Population" },
-      { num: "1.6", slug: "urban-form", title: "Urban form", short: "Urban form" },
-      { num: "1.7", slug: "movement", title: "Movement", short: "Movement" },
+      { num: "1.5", slug: "population", title: "Population and demographics", short: "Population" },
+      { num: "1.6", slug: "urban-form", title: "Urban form and built environment", short: "Urban form" },
+      { num: "1.7", slug: "movement", title: "Movement and mobility", short: "Movement" },
       { num: "1.8", slug: "public-and-open-space", title: "Public and open space", short: "Open space" },
       { num: "1.9", slug: "three-islands-side-by-side", title: "Three islands, side by side", short: "Side by side", shared: true },
     ],
@@ -72,6 +79,11 @@ export const CHAPTERS: Chapter[] = [
     slug: "toolkit",
     title: "Toolkit",
     holds: "One study area per island, measured with the same six toolkits and tested against five ideas.",
+    tagline: "The islands, measured.",
+    opening: [
+      "This chapter moves from the whole island to one walkable area on each. It begins with the area each group chose, why, and the problems found by walking it.",
+      "It then sets out the shared toolkit: six field instruments, drawn from three texts on public life and used in the same way on all three islands. What they recorded is read as five themes, each shown island by island and then compared. The chapter closes with what we found, and what each masterplan in Chapter 03 has to answer.",
+    ],
     sections: [
       { num: "2.1", slug: "site-selection-and-diagnosis", title: "Site selection and diagnosis", short: "Site and diagnosis" },
       { num: "2.2", slug: "the-toolkit", title: "The toolkit", short: "The toolkit", shared: true },
@@ -88,6 +100,11 @@ export const CHAPTERS: Chapter[] = [
     slug: "masterplan",
     title: "Masterplan",
     holds: "What each group proposes for its study area, layer by layer.",
+    tagline: "The islands, redrawn.",
+    opening: [
+      "This chapter proposes a masterplan for each of the three areas: Fahi-Malé, Villi-Veshi and Hiyaa-Vehi.",
+      "Each plan decides what to rebuild and what to keep. In Malé, the port land is rebuilt and the old lanes beside it are repaired. In Villimalé, an idle industrial corner is rebuilt and the island around it is touched lightly. In Hulhumalé, a block of identical towers is rethought. Every plan is told in the same order, from its vision to its rules.",
+    ],
     sections: [
       { num: "3.0", slug: "how-to-read-this-chapter", title: "How to read this chapter", short: "How to read", shared: true },
       { num: "3.1", slug: "vision", title: "Vision", short: "Vision" },

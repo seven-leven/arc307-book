@@ -2,7 +2,7 @@
 
 The website of the ARC307 class book on Malé, Villimalé and Hulhumalé. The print book is the source of truth; this is a second way to read it. What the site should look like and how it should behave is in `guides/WEB_DESIGN_GUIDE.md` (in the Book folder, one level up); the order of work is in `guides/WEB_ROADMAP.md`.
 
-**State (13 October 2026): the skeleton.** Styles, components and every address exist. No book content is in yet: pages show tinted slots where drawings and text will go.
+**State (13 October 2026):** Chapters 01 to 03 and the front and back matter are in, from the book. Chapter pages are pictures of the book page with their text also given as text; the comparison pages, 2.8, About, Reflections and Reference are real web pages. The toolkit data page is still empty.
 
 ## Run it
 
@@ -37,6 +37,7 @@ deno task check-links
 | `src/styles/global.css` | Base rules, the eight text styles (`t-title` … `t-small`), the grid. |
 | `src/layouts/` | `Base` (top bar, edge strip, footer) and `SectionLayout` (section rail, header, previous and next). |
 | `src/components/` | One file per component of the design guide, part 5. `Slot` and `SectionPattern` are scaffolding and go when content arrives. |
+| `src/book/` | The book's pages and words, written by `book/export_web_ch02.py` and `book/export_web_matter.py` in the Book folder. Do not edit by hand: change the book, export a PDF, run the scripts. |
 | `src/pages/` | Home grid, chapter openings, shared sections, island sections and compare, About, Reflections, Reference, style guide. |
 | `src/scripts/site.ts` | The only script: remembers the island, arrow keys on the switcher, the figure viewer. |
 | `astro.config.mjs` | The site's address. The repository name is part of it (`BASE`). |

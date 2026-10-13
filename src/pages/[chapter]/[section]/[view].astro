@@ -25,7 +25,7 @@ const firstOf = (v: string) => bookPages(chapter.slug, section.slug, v)[0];
 ---
 <SectionLayout chapter={chapter} section={section} view={view} subtitle={pages[0]?.claim && !section.title.toLowerCase().includes(pages[0].claim.toLowerCase()) ? pages[0].claim : undefined}>
   {pages.length > 0 ? (
-    <div class="stack-lg">{pages.map((p) => <BookContent page={p} title={label(view)} />)}</div>
+    <div class="stack-lg">{pages.map((p, k) => <BookContent first={k === 0} page={p} title={label(view)} />)}</div>
   ) : isIsland(view) ? (
     <SectionPattern chapter={chapter} section={section} letter={island(view).letter} />
   ) : ISLANDS.some((i) => firstOf(i.key)) ? (

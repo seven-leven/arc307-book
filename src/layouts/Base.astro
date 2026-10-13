@@ -27,6 +27,11 @@ const islandAttr = isIsland(view) ? view : undefined;
     <title>{title} · {SITE.title}</title>
     <meta name="description" content={description ?? `${SITE.title}: ${SITE.subtitle}. ${SITE.credit}.`} />
     <meta name="robots" content="noindex" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE.title} />
+    <meta property="og:title" content={`${title} · ${SITE.title}`} />
+    <meta property="og:description" content={description ?? `${SITE.subtitle}. ${SITE.credit}.`} />
+    <meta name="theme-color" content="#ffffff" />
     <link rel="icon" type="image/svg+xml" href={url("/favicon.svg")} />
   </head>
   <body>

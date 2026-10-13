@@ -2,7 +2,6 @@
 // A chapter's opening page: what the chapter holds, then every section, with the three islands across.
 import Base from "../../layouts/Base.astro";
 import SectionHeader from "../../components/SectionHeader.astro";
-import Slot from "../../components/Slot.astro";
 import { CHAPTERS, ISLANDS, sectionHref, switcherTargets } from "../../data/structure";
 
 export function getStaticPaths() {
@@ -12,8 +11,8 @@ const { chapter } = Astro.props;
 ---
 <Base title={`${chapter.num} ${chapter.title}`} chapter={chapter.slug} targets={switcherTargets(chapter, null)}>
   <div class="frame stack-lg top">
-    <SectionHeader label={`Chapter ${chapter.num}`} title={chapter.title} subtitle={chapter.holds} />
-    <Slot what="Chapter opening text" note="From the chapter cover in the book" />
+    <SectionHeader label={`Chapter ${chapter.num}`} title={chapter.title} subtitle={chapter.tagline} />
+    <div class="stack opening">{chapter.opening.map((p) => <p class="t-body">{p}</p>)}</div>
     <table class="toc">
       <caption class="visually-hidden">Sections of chapter {chapter.num}</caption>
       <thead>

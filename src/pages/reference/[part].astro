@@ -1,12 +1,12 @@
 ---
 // The book's back matter: glossary and abbreviations, references, the lists of figures and tables. The words come
-// from the book (src/content/00/, written by book/export_web_matter.py in the Book folder). Toolkit data is not in
+// from the book (src/book/00/, written by book/export_web_matter.py in the Book folder). Toolkit data is not in
 // yet: it needs the book's Appendix A.
 import Base from "../../layouts/Base.astro";
 import SectionHeader from "../../components/SectionHeader.astro";
 import Slot from "../../components/Slot.astro";
-import matter from "../../content/00/matter.json";
-import figures from "../../content/00/figures.json";
+import matter from "../../book/00/matter.json";
+import figures from "../../book/00/figures.json";
 import { folioHref } from "../../data/content";
 import { EXTRA, REFERENCE_PARTS, url } from "../../data/structure";
 

@@ -8,10 +8,15 @@ import { CHAPTERS, EXTRA, ISLANDS, SITE, firstIslandPage, sectionHref, url } fro
 <Base title="Home">
   <div class="frame stack-lg top">
     <header class="stack">
-      <p class="t-small">{SITE.credit}</p>
-      <h1 class="t-title">{SITE.title}</h1>
-      <p class="t-subtitle">{SITE.subtitle}</p>
-      <Slot what="The book's argument, in two sentences" note="From NARRATIVE.md part 1. Beside it: the fan line art from the cover" />
+      <div class="hero">
+        <div class="stack">
+          <p class="t-small">{SITE.credit}</p>
+          <h1 class="t-title">{SITE.title}</h1>
+          <p class="t-subtitle">{SITE.subtitle}</p>
+          <Slot what="The book's argument, in two sentences" note="From NARRATIVE.md part 1" />
+        </div>
+        <img class="fan" src={url("/fan.svg")} alt="The cover's three triangles: Villimalé in green, Malé in red, Hulhumalé in blue." width="560" height="377" />
+      </div>
       <Slot what="How to use this site" note="One short paragraph: pick an island and stay on it, or open any section as Compare" />
     </header>
 
@@ -57,6 +62,9 @@ import { CHAPTERS, EXTRA, ISLANDS, SITE, firstIslandPage, sectionHref, url } fro
 
 <style>
   .top { padding-top: var(--s6); }
+  .hero { display: grid; gap: var(--s4) var(--gutter); align-items: center; }
+  .fan { width: 100%; max-width: 520px; height: auto; justify-self: center; }
+  @media (min-width: 801px) { .hero { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); } }
   .hg { display: grid; gap: var(--s3); }
   .hg-head, .hg-row { display: grid; gap: var(--s3) var(--gutter); grid-template-columns: minmax(0, 1fr); }
   .hg-head { display: none; }

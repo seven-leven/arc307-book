@@ -16,7 +16,7 @@ const items = [
 ---
 <header class="bar">
   <div class="bar-in">
-    <a class="name t-small" href={url("/")}>{SITE.title}</a>
+    <a class="name t-small" href={url("/")}><img src={url("/logo.svg")} alt="" width="45" height="28" />{SITE.title}</a>
     <nav class="chapters" aria-label="Chapters">
       <ul role="list">
         {items.map((c) => (
@@ -38,7 +38,8 @@ const items = [
     max-width: calc(var(--content) + 2 * var(--margin)); margin: 0 auto; padding: var(--s2) var(--margin);
     display: flex; flex-wrap: wrap; align-items: center; gap: var(--s1) var(--s4); min-height: var(--bar);
   }
-  .name { color: var(--ink); text-decoration: none; margin-right: auto; }
+  .name { color: var(--ink); text-decoration: none; margin-right: auto; display: flex; align-items: center; gap: var(--s2); }
+  .name img { height: 28px; width: auto; }
   .chapters ul { display: flex; gap: var(--s3); }
   .chapters a {
     font-size: var(--small-size); font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;

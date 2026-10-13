@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" fill="#fff"/><path d="M4 22 L13 13 L16 22Z" fill="#819939"/><path d="M9 27 L16 12 L23 27Z" fill="#CA483D"/><path d="M17 12 L29 8 L24 26Z" fill="#3867AD"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-236.9 -212.5 574.8 574.8" role="img" aria-label="Three triangles: Villimalé, Malé and Hulhumalé">
+<polygon points="-8.8,4.7 -212.9,29.9 -127.1,141.2" fill="#819939" stroke="#819939" stroke-width="8" stroke-linejoin="round"/>
+<polygon points="-0.5,10.0 -151.0,223.8 133.8,251.6" fill="#CA483D" stroke="#CA483D" stroke-width="8" stroke-linejoin="round"/>
+<polygon points="9.5,3.1 176.3,242.7 313.8,-102.0" fill="#3867AD" stroke="#3867AD" stroke-width="8" stroke-linejoin="round"/>
+</svg>

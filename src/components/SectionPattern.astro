@@ -1,0 +1,45 @@
+---
+// The page pattern for one section (design guide, 4.3), drawn with empty slots: main drawing at full width, text
+// blocks beside key figures, supporting figures, sources. Replaced section by section as content arrives.
+import Slot from "./Slot.astro";
+import Figure from "./Figure.astro";
+import LayerViewer from "./LayerViewer.astro";
+import type { Chapter, Section } from "../data/structure";
+
+interface Props {
+  chapter: Chapter;
+  section: Section;
+  letter?: string; // island letter for figure numbers; none on shared pages
+  compact?: boolean; // compare mode: first block and key figures only
+}
+const { chapter, section, letter = "", compact = false } = Astro.props;
+const layered = chapter.num === "03" && ["3.3", "3.4", "3.5", "3.6", "3.7", "3.8"].includes(section.num);
+const n = (k: number) => `${section.num}.${k}${letter}`;
+---
+{compact ? (
+  <div class="stack">
+    <Figure num={n(1)} caption="Main drawing." ratio="4 / 3" />
+    <Slot what="First text block" note="The section's opening block, 60 words at most" />
+    <Slot what="Key figures" note="Up to three, each with its unit" />
+  </div>
+) : (
+  <div class="stack-lg">
+    {layered && section.num === "3.8"
+      ? <LayerViewer name={`layers-${letter || "s"}`} />
+      : <Figure num={n(1)} caption="Main drawing, at full content width." ratio="16 / 9" />}
+    <div class="grid">
+      <div class="col-7 stack">
+        <Slot what="Text block" note="Small caps heading, then body. 60 words at most" />
+        <Slot what="Text block" />
+      </div>
+      <div class="col-5 stack">
+        <Slot what="Key figures" note="Number in the island's colour, with unit and what it measures" />
+      </div>
+    </div>
+    <div class="grid">
+      <div class="col-6"><Figure num={n(2)} caption="Supporting figure." /></div>
+      <div class="col-6"><Figure num={n(3)} caption="Supporting figure." /></div>
+    </div>
+    <Slot what="Sources" />
+  </div>
+)}

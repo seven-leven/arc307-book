@@ -1,0 +1,19 @@
+---
+// A small caps heading and body text. Headings come from the book ("What we counted", "What it means", "The idea").
+// No block over 60 words.
+interface Props {
+  heading: string;
+  claim?: string; // optional subheading: the claim line
+}
+const { heading, claim } = Astro.props;
+---
+<section class="block">
+  <h2 class="t-small">{heading}</h2>
+  {claim && <p class="t-subheading">{claim}</p>}
+  <div class="t-body"><slot /></div>
+</section>
+
+<style>
+  .block > * + * { margin-top: var(--s2); }
+  .t-body :global(p + p) { margin-top: var(--s3); }
+</style>

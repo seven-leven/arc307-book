@@ -1,0 +1,19 @@
+---
+// Scaffolding only: marks where content will go while the pages are empty. Not a component of the finished site;
+// the build should have none left when a page goes live (design guide, part 11).
+interface Props {
+  what: string; // "Main drawing"
+  note?: string;
+  ratio?: string; // CSS aspect-ratio for picture slots, e.g. "16 / 9"
+}
+const { what, note, ratio } = Astro.props;
+---
+<div class="slot" style={ratio ? `aspect-ratio:${ratio}` : undefined}>
+  <p class="t-small">{what}</p>
+  {note && <p class="t-caption">{note}</p>}
+</div>
+
+<style>
+  .slot { background: var(--accent-pale); padding: var(--s3); display: grid; align-content: start; gap: var(--s1); min-height: 72px; }
+  .t-caption { color: var(--grey-dark); }
+</style>

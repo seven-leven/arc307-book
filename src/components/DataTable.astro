@@ -1,0 +1,42 @@
+---
+// The "view as table" under every chart, and the tables of the toolkit data pages. Alternate-row tint is the only
+// table device: no rules. The first column is the row's name.
+interface Props {
+  caption: string;
+  head: string[];
+  rows: (string | number)[][];
+  collapsed?: boolean; // true under a chart: shown as a "View as table" disclosure
+}
+const { caption, head, rows, collapsed = false } = Astro.props;
+---
+{collapsed ? (
+  <details class="dt">
+    <summary class="t-caption">View as table</summary>
+    <div class="scroll" tabindex="0" role="region" aria-label={caption}>
+      <table>
+        <caption class="t-caption">{caption}</caption>
+        <thead><tr>{head.map((h) => <th scope="col" class="t-small">{h}</th>)}</tr></thead>
+        <tbody>{rows.map((r) => <tr>{r.map((c, i) => i === 0 ? <th scope="row">{c}</th> : <td>{c}</td>)}</tr>)}</tbody>
+      </table>
+    </div>
+  </details>
+) : (
+  <div class="scroll" tabindex="0" role="region" aria-label={caption}>
+    <table>
+      <caption class="t-caption">{caption}</caption>
+      <thead><tr>{head.map((h) => <th scope="col" class="t-small">{h}</th>)}</tr></thead>
+      <tbody>{rows.map((r) => <tr>{r.map((c, i) => i === 0 ? <th scope="row">{c}</th> : <td>{c}</td>)}</tr>)}</tbody>
+    </table>
+  </div>
+)}
+
+<style>
+  summary { cursor: pointer; text-decoration: underline; text-underline-offset: 0.18em; width: fit-content; }
+  .scroll { overflow-x: auto; margin-top: var(--s2); }
+  table { border-collapse: collapse; width: 100%; font-size: var(--caption-size); line-height: 1.45; }
+  caption { text-align: left; color: var(--grey-dark); padding-bottom: var(--s2); }
+  th, td { text-align: left; padding: var(--s2) var(--s3) var(--s2) var(--s2); vertical-align: top; }
+  td { font-variant-numeric: tabular-nums; }
+  tbody th { font-weight: 700; }
+  tbody tr:nth-child(odd) { background: var(--panel); }
+</style>

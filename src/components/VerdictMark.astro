@@ -1,0 +1,20 @@
+---
+// Holds / holds in part / does not hold / cannot be tested: the dot styles from 2.8, always with the words beside
+// them, never the dot alone.
+interface Props {
+  verdict: "holds" | "part" | "not" | "untested";
+}
+const { verdict } = Astro.props;
+const WORDS = { holds: "Holds", part: "Holds in part", not: "Does not hold", untested: "Cannot be tested" };
+---
+<span class="vm" data-verdict={verdict}><span class="dot" aria-hidden="true"></span><span class="t-small word">{WORDS[verdict]}</span></span>
+
+<style>
+  .vm { display: inline-flex; align-items: center; gap: var(--s2); }
+  .dot { width: 12px; height: 12px; border-radius: 50%; flex: none; box-sizing: border-box; }
+  [data-verdict="holds"] .dot { background: var(--accent); }
+  [data-verdict="part"] .dot { background: var(--accent-light); }
+  [data-verdict="not"] .dot { background: var(--paper); border: 2px solid var(--accent); }
+  [data-verdict="untested"] .dot { background: var(--rule); }
+  .word { color: var(--ink); }
+</style>

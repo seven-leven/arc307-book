@@ -1,0 +1,20 @@
+---
+// A number and what it measures. The number takes the island's colour. Always give the unit. Up to three in a row.
+interface Props {
+  value: string;
+  unit?: string;
+  label: string;
+  note?: string; // e.g. "estimate", "2022 census"
+}
+const { value, unit, label, note } = Astro.props;
+---
+<div class="kf">
+  <p class="t-number">{value}{unit && <span class="unit"> {unit}</span>}</p>
+  <p class="t-caption">{label}{note && <span class="note"> ({note})</span>}</p>
+</div>
+
+<style>
+  .kf { display: grid; gap: var(--s2); border-top: 4px solid var(--accent-light); padding-top: var(--s3); }
+  .unit { font-size: var(--subheading-size); }
+  .note { color: var(--grey-dark); }
+</style>

@@ -1,0 +1,21 @@
+---
+// The book's coloured hand-on ("Continues on p. N"), as a link to where the reader goes next.
+import { island, type IslandKey } from "../data/structure";
+
+interface Props {
+  href: string;
+  to: string; // "3.1 Vision"
+  islandKey?: IslandKey;
+}
+const { href, to, islandKey } = Astro.props;
+---
+<a class="ho" href={href} data-island={islandKey}>
+  <span class="t-caption">Continues in{islandKey && ` ${island(islandKey).name}`}</span>
+  <span class="t-subheading to">{to}<svg viewBox="0 0 10 14" width="10" height="14" aria-hidden="true"><path d="M2 1 L8 7 L2 13" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></span>
+</a>
+
+<style>
+  .ho { display: inline-grid; gap: 2px; text-decoration: none; color: var(--ink); }
+  .to { color: var(--accent-text); display: inline-flex; align-items: center; gap: var(--s2); }
+  .ho:hover .to { text-decoration: underline; text-underline-offset: 0.18em; }
+</style>

@@ -1,0 +1,19 @@
+---
+// Two states of one thing (metrics, land-use bars, road sections), side by side; stacked on a phone.
+// Not a drag-slider: the two pictures rarely line up exactly.
+interface Props {
+  before?: string;
+  after?: string;
+}
+const { before = "Before", after = "After" } = Astro.props;
+---
+<div class="ba">
+  <div><p class="t-small">{before}</p><slot name="before" /></div>
+  <div><p class="t-small">{after}</p><slot name="after" /></div>
+</div>
+
+<style>
+  .ba { display: grid; gap: var(--s4) var(--gutter); }
+  .ba > div { display: grid; gap: var(--s2); align-content: start; }
+  @media (min-width: 641px) { .ba { grid-template-columns: 1fr 1fr; } }
+</style>

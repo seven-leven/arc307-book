@@ -1,0 +1,55 @@
+---
+// Chapter 03: the masterplan's layers over one base. One layer on at a time by default, plus the whole plan.
+// Works without scripts (radio buttons and CSS). Layer colours are the book's layer colours, the same on all three
+// islands, not the island colours: fill them in from templates/03_masterplan/assets/layer_legend_sheet.svg when the
+// layer pictures arrive. Needs each layer as its own transparent image.
+import Slot from "./Slot.astro";
+
+interface Props {
+  name: string; // unique per page, for the radio group
+  layers?: { key: string; label: string; src?: string }[];
+}
+const {
+  name,
+  layers = [
+    { key: "existing", label: "Existing" },
+    { key: "movement", label: "Movement" },
+    { key: "green", label: "Public and green" },
+    { key: "non-residential", label: "Non-residential" },
+    { key: "residential", label: "Residential" },
+    { key: "all", label: "Whole plan" },
+  ],
+} = Astro.props;
+---
+<fieldset class="lv">
+  <legend class="t-small">Layers</legend>
+  <div class="pick">
+    {layers.map((l, i) => (
+      <label><input type="radio" name={name} value={l.key} checked={i === 0} /><span>{l.label}</span></label>
+    ))}
+  </div>
+  <div class="stage">
+    {layers.map((l) => (
+      <div class="layer" data-layer={l.key}>
+        {l.src ? <img src={l.src} alt={`${l.label} layer`} loading="lazy" /> : <Slot what={`Layer: ${l.label}`} note="Transparent layer picture to come" ratio="3 / 2" />}
+      </div>
+    ))}
+  </div>
+</fieldset>
+
+<style>
+  .lv { border: 0; padding: 0; margin: 0; display: grid; gap: var(--s3); min-width: 0; }
+  .pick { display: flex; flex-wrap: wrap; gap: var(--s2); }
+  label { cursor: pointer; }
+  input { position: absolute; opacity: 0; }
+  label span { display: block; padding: 6px 12px; font-size: var(--caption-size); background: var(--panel); border-radius: 999px; }
+  input:checked + span { background: var(--ink); color: var(--paper); }
+  input:focus-visible + span { outline: 2px solid var(--ink); outline-offset: 3px; }
+  .layer { display: none; }
+  .lv:has(input[value="existing"]:checked) [data-layer="existing"],
+  .lv:has(input[value="movement"]:checked) [data-layer="movement"],
+  .lv:has(input[value="green"]:checked) [data-layer="green"],
+  .lv:has(input[value="non-residential"]:checked) [data-layer="non-residential"],
+  .lv:has(input[value="residential"]:checked) [data-layer="residential"],
+  .lv:has(input[value="all"]:checked) [data-layer="all"] { display: block; }
+</style>

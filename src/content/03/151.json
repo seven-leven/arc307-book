@@ -1,0 +1,99 @@
+{
+ "folio": 151,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Building regulations: the district",
+ "picture": {
+  "src": "figures/03/151_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Building regulations: the district"
+  },
+  {
+   "type": "note",
+   "text": "No permanent foundations within 10 m of the high-water line. Planting and raised timber decks only."
+  },
+  {
+   "type": "note",
+   "text": "Inner streets carry pedestrians, bicycles and two-wheelers at 15 km/h."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "3.9.2M"
+  },
+  {
+   "type": "strongnote",
+   "text": "200 m"
+  },
+  {
+   "type": "strong",
+   "text": "A 10 m coastal buffer"
+  },
+  {
+   "type": "strong",
+   "text": "Streets for people"
+  },
+  {
+   "type": "note",
+   "text": "District rules: movement, the coast and services. Numbers refer to the rules below."
+  },
+  {
+   "type": "strongnote",
+   "text": "60 m"
+  },
+  {
+   "type": "strong",
+   "text": "The beach stays public"
+  },
+  {
+   "type": "note",
+   "text": "A public corridor runs from the streets to the beach every 60 m."
+  },
+  {
+   "type": "strong",
+   "text": "Parking at the edge"
+  },
+  {
+   "type": "note",
+   "text": "All parking sits in hubs within 200 m, a 3-minute walk, of any door."
+  },
+  {
+   "type": "strong",
+   "text": "Cars keep to the edge"
+  },
+  {
+   "type": "note",
+   "text": "Four-wheeled vehicles use only the ring road and the primary corridors."
+  },
+  {
+   "type": "strong",
+   "text": "One logistics hub"
+  },
+  {
+   "type": "note",
+   "text": "Deliveries unload at the edge and go the last stretch by electric cart, off-peak."
+  },
+  {
+   "type": "strong",
+   "text": "No private traffic"
+  },
+  {
+   "type": "note",
+   "text": "Private cars, taxis and ride-hailing do not enter the district."
+  },
+  {
+   "type": "strong",
+   "text": "Open to emergencies"
+  },
+  {
+   "type": "note",
+   "text": "Fire, ambulance and police reach every street and path, at all hours."
+  }
+ ]
+}

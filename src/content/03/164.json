@@ -1,0 +1,72 @@
+{
+ "folio": 164,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/03/164_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "heading",
+   "text": "WHAT THE SITE OFFERS"
+  },
+  {
+   "type": "para",
+   "text": "The plan adds offices and other public buildings, shops and cafés, and an active waterfront that makes the beach a place to visit. Small stalls, seating and a wellness centre line the beach, and the sports grounds open to the community."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "3.6.1V"
+  },
+  {
+   "type": "note",
+   "text": "What the area offers besides homes: public buildings, shops and the waterfront."
+  },
+  {
+   "type": "heading",
+   "text": "LEGEND"
+  },
+  {
+   "type": "note",
+   "text": "Civic / terminal"
+  },
+  {
+   "type": "note",
+   "text": "Commercial / retail / F&B"
+  },
+  {
+   "type": "note",
+   "text": "Market"
+  },
+  {
+   "type": "note",
+   "text": "Waterfront hub"
+  },
+  {
+   "type": "note",
+   "text": "Ceremonial / cultural"
+  },
+  {
+   "type": "note",
+   "text": "Amenity core"
+  },
+  {
+   "type": "note",
+   "text": "Active ground-floor frontage"
+  },
+  {
+   "type": "note",
+   "text": "Masterplan boundary"
+  },
+  {
+   "type": "note",
+   "text": "Sea / lagoon"
+  }
+ ],
+ "draft": "Masterplan waiting to be finalised."
+}

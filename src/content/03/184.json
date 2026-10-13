@@ -1,0 +1,71 @@
+{
+ "folio": 184,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/03/184_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "heading",
+   "text": "WHAT THE SITE OFFERS"
+  },
+  {
+   "type": "para",
+   "text": "The plan spreads shops, civic, cultural and other daily uses through the area. Shops face the streets at ground level, the Ruhgandu holds community life and recreation, and civic and cultural buildings anchor the main public spaces. Each residential block has its own shared amenities."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "3.6.1H"
+  },
+  {
+   "type": "note",
+   "text": "What the area offers besides homes: shops, workshops, the mosque and sport."
+  },
+  {
+   "type": "heading",
+   "text": "LEGEND"
+  },
+  {
+   "type": "note",
+   "text": "Civic / terminal"
+  },
+  {
+   "type": "note",
+   "text": "Commercial / retail / F&B"
+  },
+  {
+   "type": "note",
+   "text": "Market"
+  },
+  {
+   "type": "note",
+   "text": "Waterfront hub"
+  },
+  {
+   "type": "note",
+   "text": "Ceremonial / cultural"
+  },
+  {
+   "type": "note",
+   "text": "Amenity core"
+  },
+  {
+   "type": "note",
+   "text": "Active ground-floor frontage"
+  },
+  {
+   "type": "note",
+   "text": "Masterplan boundary"
+  },
+  {
+   "type": "note",
+   "text": "Sea / lagoon"
+  }
+ ]
+}

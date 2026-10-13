@@ -1,0 +1,411 @@
+{
+ "folio": 155,
+ "type": "sheet",
+ "heading": "METRICS BEFORE → AFTER",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/155_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "heading",
+   "text": "POPULATION ON SITE"
+  },
+  {
+   "type": "note",
+   "text": "from 1,283 people"
+  },
+  {
+   "type": "number",
+   "text": "2,603"
+  },
+  {
+   "type": "note",
+   "text": "+1,320 residents; 260 rehoused on site"
+  },
+  {
+   "type": "heading",
+   "text": "LIVING AREA PER PERSON"
+  },
+  {
+   "type": "note",
+   "text": "from 28.03 m²"
+  },
+  {
+   "type": "number",
+   "text": "44.19"
+  },
+  {
+   "type": "note",
+   "text": "more room for each resident"
+  },
+  {
+   "type": "heading",
+   "text": "SITE METRICS, EXISTING AND PROPOSED"
+  },
+  {
+   "type": "heading",
+   "text": "INTERVENTION AREA, 4 HA"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Table",
+   "num": "3.1.1V"
+  },
+  {
+   "type": "note",
+   "text": "proposed. The cards above are for the 12 ha masterplan area unless they say otherwise."
+  },
+  {
+   "type": "heading",
+   "text": "LAND USE, BEFORE AND AFTER"
+  },
+  {
+   "type": "heading",
+   "text": "BEFORE"
+  },
+  {
+   "type": "heading",
+   "text": "AFTER"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "3.1.4V"
+  },
+  {
+   "type": "strongnote",
+   "text": "m²"
+  },
+  {
+   "type": "para",
+   "text": "Area (ha) People Open share of area Open area (ha) Open space per person (m²) People per hectare"
+  },
+  {
+   "type": "note",
+   "text": "The 4 ha intervention area, existing and"
+  },
+  {
+   "type": "strongnote",
+   "text": "9.9"
+  },
+  {
+   "type": "strongnote",
+   "text": "8.2"
+  },
+  {
+   "type": "strongnote",
+   "text": "9.8"
+  },
+  {
+   "type": "strongnote",
+   "text": "21.1"
+  },
+  {
+   "type": "note",
+   "text": "Land use, before and after, as a share of the site. Grey is roads and other land. Source: the Villimalé group’s metrics tables."
+  },
+  {
+   "type": "heading",
+   "text": "FLOOR SPACE INDEX"
+  },
+  {
+   "type": "note",
+   "text": "from 0.50"
+  },
+  {
+   "type": "number",
+   "text": "1.10"
+  },
+  {
+   "type": "note",
+   "text": "more floor space on the same 12 ha"
+  },
+  {
+   "type": "heading",
+   "text": "GROSS FLOOR AREA"
+  },
+  {
+   "type": "note",
+   "text": "from 60,469 m²"
+  },
+  {
+   "type": "number",
+   "text": "132,205"
+  },
+  {
+   "type": "note",
+   "text": "119% more floor area"
+  },
+  {
+   "type": "heading",
+   "text": "EXISTING"
+  },
+  {
+   "type": "heading",
+   "text": "PROPOSED"
+  },
+  {
+   "type": "heading",
+   "text": "CHANGE"
+  },
+  {
+   "type": "strong",
+   "text": "4"
+  },
+  {
+   "type": "para",
+   "text": "4"
+  },
+  {
+   "type": "strong",
+   "text": "1,220"
+  },
+  {
+   "type": "para",
+   "text": "191"
+  },
+  {
+   "type": "para",
+   "text": "+1,029"
+  },
+  {
+   "type": "strong",
+   "text": "63.7%"
+  },
+  {
+   "type": "para",
+   "text": "73.5%"
+  },
+  {
+   "type": "para",
+   "text": "−9.9 pts"
+  },
+  {
+   "type": "strong",
+   "text": "2.55 20.9"
+  },
+  {
+   "type": "para",
+   "text": "2.94"
+  },
+  {
+   "type": "para",
+   "text": "154"
+  },
+  {
+   "type": "strong",
+   "text": "305"
+  },
+  {
+   "type": "para",
+   "text": "48"
+  },
+  {
+   "type": "note",
+   "text": "share of the site, %"
+  },
+  {
+   "type": "strongnote",
+   "text": "23.7"
+  },
+  {
+   "type": "strongnote",
+   "text": "11.8"
+  },
+  {
+   "type": "strongnote",
+   "text": "m²"
+  },
+  {
+   "type": "heading",
+   "text": "CAPSTONE HOUSING, 4 HA"
+  },
+  {
+   "type": "para",
+   "text": "none"
+  },
+  {
+   "type": "para",
+   "text": "Plot footprint (m²) Residential floors Gross floor area (m²) Residents Homes Average home (sq ft) Living area per person (sq ft)"
+  },
+  {
+   "type": "para",
+   "text": "−0.40"
+  },
+  {
+   "type": "para",
+   "text": "−133 +257"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Table",
+   "num": "3.1.2V"
+  },
+  {
+   "type": "note",
+   "text": "Capstone housing on the 4 ha. Five buildings"
+  },
+  {
+   "type": "note",
+   "text": "of 80 homes each: 20 three-bedroom (1,000 sq ft), 20 two- bedroom (750 sq ft) and 40 one-bedroom (645 sq ft). Floor area assumes 6 to 8 full floors on 2,000 to 2,500 m² plots."
+  },
+  {
+   "type": "strongnote",
+   "text": "26.6"
+  },
+  {
+   "type": "heading",
+   "text": "OPEN SPACE PER PERSON"
+  },
+  {
+   "type": "note",
+   "text": "from 18 m², whole island"
+  },
+  {
+   "type": "number",
+   "text": "14.5"
+  },
+  {
+   "type": "strongnote",
+   "text": "m²"
+  },
+  {
+   "type": "note",
+   "text": "less each, as more people share it"
+  },
+  {
+   "type": "heading",
+   "text": "ISLAND DENSITY"
+  },
+  {
+   "type": "note",
+   "text": "from 175 people per ha"
+  },
+  {
+   "type": "number",
+   "text": "209"
+  },
+  {
+   "type": "strongnote",
+   "text": "per ha"
+  },
+  {
+   "type": "note",
+   "text": "20% more people on the island"
+  },
+  {
+   "type": "heading",
+   "text": "ONE BUILDING"
+  },
+  {
+   "type": "para",
+   "text": "2,000–2,500"
+  },
+  {
+   "type": "para",
+   "text": "6–8"
+  },
+  {
+   "type": "para",
+   "text": "12,000–20,000"
+  },
+  {
+   "type": "para",
+   "text": "316"
+  },
+  {
+   "type": "para",
+   "text": "80"
+  },
+  {
+   "type": "para",
+   "text": "760"
+  },
+  {
+   "type": "para",
+   "text": "192.41"
+  },
+  {
+   "type": "strongnote",
+   "text": "Residential (mixed)"
+  },
+  {
+   "type": "strongnote",
+   "text": "Commercial"
+  },
+  {
+   "type": "strongnote",
+   "text": "Industrial"
+  },
+  {
+   "type": "strongnote",
+   "text": "Institutional"
+  },
+  {
+   "type": "strongnote",
+   "text": "Sports and recreation"
+  },
+  {
+   "type": "strongnote",
+   "text": "Open and green space"
+  },
+  {
+   "type": "heading",
+   "text": "ALL FIVE"
+  },
+  {
+   "type": "strong",
+   "text": "10,000–12,500"
+  },
+  {
+   "type": "strong",
+   "text": "6–8"
+  },
+  {
+   "type": "strong",
+   "text": "60,000–100,000"
+  },
+  {
+   "type": "strong",
+   "text": "1,580"
+  },
+  {
+   "type": "strong",
+   "text": "400 760"
+  },
+  {
+   "type": "strong",
+   "text": "192.41"
+  },
+  {
+   "type": "note",
+   "text": "9.9% → 21.1%"
+  },
+  {
+   "type": "note",
+   "text": "0.4% → 2.5%"
+  },
+  {
+   "type": "note",
+   "text": "8.2% → 0%"
+  },
+  {
+   "type": "note",
+   "text": "9.9% → 11.9%"
+  },
+  {
+   "type": "note",
+   "text": "12.6% → 13.8%"
+  },
+  {
+   "type": "note",
+   "text": "23.7% → 26.6%"
+  }
+ ]
+}

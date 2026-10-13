@@ -1,0 +1,55 @@
+{
+ "folio": 161,
+ "type": "sheet",
+ "heading": "ROAD SECTIONS VILLIMALÉ",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/161_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "note",
+   "text": "Dedicated walking paths within the residential areas, allowing residents to move around safely on foot."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figures",
+   "num": "3.4.2V to 3.4.4V"
+  },
+  {
+   "type": "heading",
+   "text": "WHAT CHANGES ON THE STREET"
+  },
+  {
+   "type": "para",
+   "text": "Each road gives more of its width to people. Among the homes, lanes are for walking only. Cycle and pedestrian lanes link homes to work and to the rest of the island, and buses and cycles share the roads at the edge, so traffic stays out of the centre."
+  },
+  {
+   "type": "sub",
+   "text": "Pedestrian lanes"
+  },
+  {
+   "type": "note",
+   "text": "Three types of road in plan and section, at one scale."
+  },
+  {
+   "type": "sub",
+   "text": "Cycle and pedestrian lanes"
+  },
+  {
+   "type": "note",
+   "text": "Dedicated routes for people who cycle or walk to work and around the island."
+  },
+  {
+   "type": "sub",
+   "text": "Bus and cycle roads"
+  },
+  {
+   "type": "note",
+   "text": "A road network along the perimeter and key edges of the residential zone, with dedicated bus lanes along high-traffic routes."
+  }
+ ]
+}

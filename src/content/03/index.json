@@ -1,0 +1,140 @@
+{
+ "vision": {
+  "male": [
+   134,
+   135
+  ],
+  "villimale": [
+   154,
+   155
+  ],
+  "hulhumale": [
+   174,
+   175
+  ]
+ },
+ "parti": {
+  "male": [
+   136,
+   137
+  ],
+  "villimale": [
+   156,
+   157
+  ],
+  "hulhumale": [
+   176,
+   177
+  ]
+ },
+ "existing-conditions": {
+  "male": [
+   138,
+   139
+  ],
+  "villimale": [
+   158,
+   159
+  ],
+  "hulhumale": [
+   178,
+   179
+  ]
+ },
+ "movement-network": {
+  "male": [
+   140,
+   141
+  ],
+  "villimale": [
+   160,
+   161
+  ],
+  "hulhumale": [
+   180,
+   181
+  ]
+ },
+ "public-and-green-space": {
+  "male": [
+   142,
+   143
+  ],
+  "villimale": [
+   162,
+   163
+  ],
+  "hulhumale": [
+   182,
+   183
+  ]
+ },
+ "non-residential": {
+  "male": [
+   144,
+   145
+  ],
+  "villimale": [
+   164,
+   165
+  ],
+  "hulhumale": [
+   184,
+   185
+  ]
+ },
+ "residential": {
+  "male": [
+   146,
+   147
+  ],
+  "villimale": [
+   166,
+   167
+  ],
+  "hulhumale": [
+   186,
+   187
+  ]
+ },
+ "masterplan": {
+  "male": [
+   148,
+   149
+  ],
+  "villimale": [
+   168,
+   169
+  ],
+  "hulhumale": [
+   188,
+   189
+  ]
+ },
+ "policy-and-guidelines": {
+  "male": [
+   150,
+   151
+  ],
+  "villimale": [
+   170,
+   171
+  ],
+  "hulhumale": [
+   190,
+   191
+  ]
+ },
+ "how-to-read-this-chapter": {
+  "shared": [
+   130,
+   131
+  ]
+ },
+ "three-masterplans-side-by-side": {
+  "shared": [
+   192,
+   193
+  ]
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "folio": 189,
+ "type": "sheet",
+ "heading": "LEGEND",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/189_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "heading",
+   "text": "RECREATION AND GREENERY"
+  },
+  {
+   "type": "para",
+   "text": "Ruhgandu"
+  },
+  {
+   "type": "para",
+   "text": "Futsal courts"
+  },
+  {
+   "type": "para",
+   "text": "Outdoor gym"
+  },
+  {
+   "type": "para",
+   "text": "Skate park"
+  },
+  {
+   "type": "para",
+   "text": "Children’s park"
+  },
+  {
+   "type": "heading",
+   "text": "COMMERCIAL"
+  },
+  {
+   "type": "para",
+   "text": "Kiosks"
+  },
+  {
+   "type": "para",
+   "text": "Underground parking entrance"
+  },
+  {
+   "type": "para",
+   "text": "Roller coaster"
+  },
+  {
+   "type": "para",
+   "text": "Food stalls"
+  },
+  {
+   "type": "para",
+   "text": "Gaming stalls"
+  },
+  {
+   "type": "para",
+   "text": "Business stalls"
+  },
+  {
+   "type": "heading",
+   "text": "KEY MAP"
+  },
+  {
+   "type": "heading",
+   "text": "INSTITUTIONAL"
+  },
+  {
+   "type": "para",
+   "text": "Multi-purpose mosque"
+  },
+  {
+   "type": "heading",
+   "text": "CAPSTONE HOUSING"
+  },
+  {
+   "type": "para",
+   "text": "Capstone building 1"
+  },
+  {
+   "type": "para",
+   "text": "Capstone building 2"
+  },
+  {
+   "type": "para",
+   "text": "Capstone building 3"
+  },
+  {
+   "type": "para",
+   "text": "Capstone building 4"
+  },
+  {
+   "type": "para",
+   "text": "Capstone building 5"
+  },
+  {
+   "type": "heading",
+   "text": "ROUTES"
+  },
+  {
+   "type": "para",
+   "text": "Vehicle routes"
+  },
+  {
+   "type": "para",
+   "text": "Pedestrian routes"
+  },
+  {
+   "type": "para",
+   "text": "Masterplan area, 12 ha"
+  },
+  {
+   "type": "heading",
+   "text": "LAND USE AND HEIGHTS"
+  }
+ ]
+}

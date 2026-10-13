@@ -1,0 +1,51 @@
+{
+ "folio": 138,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/03/138_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "heading",
+   "text": "WHAT IS THERE NOW"
+  },
+  {
+   "type": "para",
+   "text": "The port, cargo yards and warehouses hold 9.90 ha, 74% of the 13.43 ha area. They block the sea and fill the streets with trucks. Behind them, 9,230 people live on 2.53 ha of homes. The plan has to give this edge back to the city."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "3.3.1M"
+  },
+  {
+   "type": "note",
+   "text": "What stands on the site today: what is kept, what is adapted and what is demolished."
+  },
+  {
+   "type": "heading",
+   "text": "LEGEND"
+  },
+  {
+   "type": "note",
+   "text": "Existing building, retained"
+  },
+  {
+   "type": "note",
+   "text": "To be demolished port structures and widening cuts"
+  },
+  {
+   "type": "note",
+   "text": "Retained and adapted for example warehouses to terminal"
+  },
+  {
+   "type": "note",
+   "text": "Port operations (relocating) North Harbour to Thilafushi"
+  }
+ ]
+}

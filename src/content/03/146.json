@@ -1,0 +1,55 @@
+{
+ "folio": 146,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/03/146_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "heading",
+   "text": "WHERE PEOPLE LIVE"
+  },
+  {
+   "type": "para",
+   "text": "Five capstone buildings on the former port land add 400 homes for 1,220 people. Road widening displaces 1,000 residents, and all of them are rehoused in social housing on the same lot, with 250 more places. In all, 10,500 people live here, up from 9,230."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "3.7.1M"
+  },
+  {
+   "type": "note",
+   "text": "Where people live: the old lanes, social housing and five capstone buildings. Numbers refer to the views below."
+  },
+  {
+   "type": "heading",
+   "text": "LEGEND"
+  },
+  {
+   "type": "note",
+   "text": "Retained organic housing south fabric, rejuvenated"
+  },
+  {
+   "type": "note",
+   "text": "New residential at most 15 floors and a 3,000 m² footprint"
+  },
+  {
+   "type": "note",
+   "text": "Capstone plot C1–C5 capped at 8 to 10 floors"
+  },
+  {
+   "type": "note",
+   "text": "Height tag floors"
+  },
+  {
+   "type": "note",
+   "text": "Social / subsidised housing rehousing from widening cuts"
+  }
+ ]
+}

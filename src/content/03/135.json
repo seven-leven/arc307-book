@@ -1,0 +1,441 @@
+{
+ "folio": 135,
+ "type": "sheet",
+ "heading": "METRICS BEFORE → AFTER",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/135_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "heading",
+   "text": "POPULATION ON SITE"
+  },
+  {
+   "type": "note",
+   "text": "from 9,230 people"
+  },
+  {
+   "type": "number",
+   "text": "10,500"
+  },
+  {
+   "type": "note",
+   "text": "+1,270 residents, 14% more"
+  },
+  {
+   "type": "heading",
+   "text": "RESIDENTIAL LAND"
+  },
+  {
+   "type": "note",
+   "text": "from 2.53 ha"
+  },
+  {
+   "type": "number",
+   "text": "4.24"
+  },
+  {
+   "type": "note",
+   "text": "68% more land for homes"
+  },
+  {
+   "type": "heading",
+   "text": "SITE METRICS, EXISTING AND PROPOSED"
+  },
+  {
+   "type": "heading",
+   "text": "WHOLE SITE"
+  },
+  {
+   "type": "caption",
+   "text": "and 3.1.2M",
+   "label": "Tables",
+   "num": "3.1.1M"
+  },
+  {
+   "type": "note",
+   "text": "pedestrian streets. A home averages 55,000 sq ft ÷ 80 homes; living area is 55,000 sq ft ÷ 244 people."
+  },
+  {
+   "type": "heading",
+   "text": "LAND USE, BEFORE AND AFTER"
+  },
+  {
+   "type": "heading",
+   "text": "BEFORE"
+  },
+  {
+   "type": "heading",
+   "text": "AFTER"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "3.1.4M"
+  },
+  {
+   "type": "strongnote",
+   "text": "ha"
+  },
+  {
+   "type": "para",
+   "text": "Site area (ha)"
+  },
+  {
+   "type": "para",
+   "text": "People on site"
+  },
+  {
+   "type": "para",
+   "text": "Open share of site"
+  },
+  {
+   "type": "para",
+   "text": "Open area (ha)"
+  },
+  {
+   "type": "para",
+   "text": "Open space per person (m²)"
+  },
+  {
+   "type": "para",
+   "text": "People per hectare"
+  },
+  {
+   "type": "note",
+   "text": "Site metrics, and capstone housing, existing and proposed. Open area includes"
+  },
+  {
+   "type": "strongnote",
+   "text": "2.53"
+  },
+  {
+   "type": "strongnote",
+   "text": "1.00"
+  },
+  {
+   "type": "strongnote",
+   "text": "4.24"
+  },
+  {
+   "type": "note",
+   "text": "Land use on the 13.43 ha site, before and after, in hectares. Source: the Malé group’s land-use and housing worksheets."
+  },
+  {
+   "type": "heading",
+   "text": "DENSITY OF HOUSING LAND"
+  },
+  {
+   "type": "note",
+   "text": "from 3,648 people per ha"
+  },
+  {
+   "type": "number",
+   "text": "2,476"
+  },
+  {
+   "type": "note",
+   "text": "a third fewer: homes get more room"
+  },
+  {
+   "type": "heading",
+   "text": "INDUSTRIAL PORT LAND"
+  },
+  {
+   "type": "note",
+   "text": "from 9.90 ha"
+  },
+  {
+   "type": "number",
+   "text": "0 ha"
+  },
+  {
+   "type": "note",
+   "text": "the port moves to Thilafushi"
+  },
+  {
+   "type": "heading",
+   "text": "EXISTING"
+  },
+  {
+   "type": "heading",
+   "text": "PROPOSED"
+  },
+  {
+   "type": "heading",
+   "text": "CHANGE"
+  },
+  {
+   "type": "strong",
+   "text": "13.43"
+  },
+  {
+   "type": "para",
+   "text": "13.43"
+  },
+  {
+   "type": "strong",
+   "text": "10,500"
+  },
+  {
+   "type": "para",
+   "text": "9,230"
+  },
+  {
+   "type": "para",
+   "text": "+1,270"
+  },
+  {
+   "type": "strong",
+   "text": "38%"
+  },
+  {
+   "type": "para",
+   "text": "0%"
+  },
+  {
+   "type": "para",
+   "text": "+38 pts"
+  },
+  {
+   "type": "strong",
+   "text": "5.15"
+  },
+  {
+   "type": "para",
+   "text": "0"
+  },
+  {
+   "type": "strong",
+   "text": "4.9"
+  },
+  {
+   "type": "para",
+   "text": "0"
+  },
+  {
+   "type": "strong",
+   "text": "782"
+  },
+  {
+   "type": "para",
+   "text": "687"
+  },
+  {
+   "type": "note",
+   "text": "hectares, 13.43 ha site"
+  },
+  {
+   "type": "strongnote",
+   "text": "1.50"
+  },
+  {
+   "type": "strongnote",
+   "text": "2.54"
+  },
+  {
+   "type": "strongnote",
+   "text": "per ha"
+  },
+  {
+   "type": "heading",
+   "text": "CAPSTONE HOUSING, PROPOSED"
+  },
+  {
+   "type": "para",
+   "text": "none"
+  },
+  {
+   "type": "para",
+   "text": "Plot footprint (m²)"
+  },
+  {
+   "type": "para",
+   "text": "Residential floors"
+  },
+  {
+   "type": "para",
+   "text": "Gross floor area (m²)"
+  },
+  {
+   "type": "para",
+   "text": "+5.15"
+  },
+  {
+   "type": "para",
+   "text": "Residents"
+  },
+  {
+   "type": "para",
+   "text": "+4.9"
+  },
+  {
+   "type": "para",
+   "text": "Average home (sq ft)"
+  },
+  {
+   "type": "para",
+   "text": "+95"
+  },
+  {
+   "type": "para",
+   "text": "Living area per person (sq ft)"
+  },
+  {
+   "type": "strongnote",
+   "text": "9.90"
+  },
+  {
+   "type": "heading",
+   "text": "OPEN SPACE PER PERSON"
+  },
+  {
+   "type": "note",
+   "text": "from 0 m²"
+  },
+  {
+   "type": "number",
+   "text": "3.8"
+  },
+  {
+   "type": "strongnote",
+   "text": "m²"
+  },
+  {
+   "type": "note",
+   "text": "4.9 m² with pedestrian streets"
+  },
+  {
+   "type": "heading",
+   "text": "HOMES, NEW OR REBUILT"
+  },
+  {
+   "type": "note",
+   "text": "400 capstone + about 272 social"
+  },
+  {
+   "type": "number",
+   "text": "672"
+  },
+  {
+   "type": "strongnote",
+   "text": "homes"
+  },
+  {
+   "type": "note",
+   "text": "for 2,470 residents"
+  },
+  {
+   "type": "heading",
+   "text": "ONE BUILDING"
+  },
+  {
+   "type": "strongnote",
+   "text": "Residential"
+  },
+  {
+   "type": "strongnote",
+   "text": "Port + industrial"
+  },
+  {
+   "type": "strongnote",
+   "text": "Transport + terminal"
+  },
+  {
+   "type": "strongnote",
+   "text": "Non-residential"
+  },
+  {
+   "type": "strongnote",
+   "text": "Public + green"
+  },
+  {
+   "type": "strongnote",
+   "text": "1.11"
+  },
+  {
+   "type": "strongnote",
+   "text": "Pedestrian streets"
+  },
+  {
+   "type": "heading",
+   "text": "ALL FIVE"
+  },
+  {
+   "type": "strong",
+   "text": "15,000"
+  },
+  {
+   "type": "para",
+   "text": "3,000"
+  },
+  {
+   "type": "strong",
+   "text": "6"
+  },
+  {
+   "type": "para",
+   "text": "6"
+  },
+  {
+   "type": "strong",
+   "text": "90,000"
+  },
+  {
+   "type": "para",
+   "text": "18,000"
+  },
+  {
+   "type": "strong",
+   "text": "1,220"
+  },
+  {
+   "type": "para",
+   "text": "244"
+  },
+  {
+   "type": "strong",
+   "text": "688"
+  },
+  {
+   "type": "para",
+   "text": "688"
+  },
+  {
+   "type": "strong",
+   "text": "225"
+  },
+  {
+   "type": "para",
+   "text": "225"
+  },
+  {
+   "type": "note",
+   "text": "19% → 32%"
+  },
+  {
+   "type": "note",
+   "text": "74% → 0%"
+  },
+  {
+   "type": "note",
+   "text": "0% → 19%"
+  },
+  {
+   "type": "note",
+   "text": "7% → 11%"
+  },
+  {
+   "type": "note",
+   "text": "0% → 30%"
+  },
+  {
+   "type": "note",
+   "text": "0% → 8%"
+  }
+ ]
+}

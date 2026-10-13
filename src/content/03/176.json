@@ -1,0 +1,79 @@
+{
+ "folio": 176,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/03/176_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "heading",
+   "text": "THE IDEA"
+  },
+  {
+   "type": "para",
+   "text": "Paths radiate out from a central core and cross at a series of nodes. This gives the site a clear order, guides people through it and shapes the whole masterplan."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "3.2.1H"
+  },
+  {
+   "type": "note",
+   "text": "The parti: paths that radiate from a centre."
+  },
+  {
+   "type": "heading",
+   "text": "LEGEND"
+  },
+  {
+   "type": "note",
+   "text": "Main relocation move"
+  },
+  {
+   "type": "note",
+   "text": "Concept zone"
+  },
+  {
+   "type": "note",
+   "text": "Concept connection"
+  },
+  {
+   "type": "note",
+   "text": "Amenity core node"
+  },
+  {
+   "type": "note",
+   "text": "Stitch link"
+  },
+  {
+   "type": "note",
+   "text": "Vista / breeze cut"
+  },
+  {
+   "type": "note",
+   "text": "Hulhangu monsoon"
+  },
+  {
+   "type": "note",
+   "text": "Iruvai monsoon"
+  },
+  {
+   "type": "note",
+   "text": "Parti step"
+  },
+  {
+   "type": "note",
+   "text": "Masterplan boundary"
+  },
+  {
+   "type": "note",
+   "text": "Sea / lagoon"
+  }
+ ]
+}

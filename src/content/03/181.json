@@ -1,0 +1,55 @@
+{
+ "folio": 181,
+ "type": "sheet",
+ "heading": "ROAD SECTIONS HULHUMALÉ",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/181_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "note",
+   "text": "Proposed 21 m road, Nirolhu Magu."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figures",
+   "num": "3.4.2H to 3.4.4H"
+  },
+  {
+   "type": "heading",
+   "text": "WHAT CHANGES ON THE STREET"
+  },
+  {
+   "type": "para",
+   "text": "The widest road, Nirolhu Magu at 21 m, carries buses and general traffic at the edge of the block. On 12 m streets, vehicles slow down and people on foot get more room. Inside, some streets become fully pedestrian, with space for walking, trees and shade."
+  },
+  {
+   "type": "sub",
+   "text": "21 m road"
+  },
+  {
+   "type": "note",
+   "text": "Road sections and plans, at one scale. Each letter matches a road on the drawing above."
+  },
+  {
+   "type": "sub",
+   "text": "12 m road"
+  },
+  {
+   "type": "note",
+   "text": "Proposed 12 m wide road."
+  },
+  {
+   "type": "sub",
+   "text": "Pedestrian road"
+  },
+  {
+   "type": "note",
+   "text": "Proposed pedestrian road with trees."
+  }
+ ]
+}

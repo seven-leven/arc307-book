@@ -1,0 +1,63 @@
+{
+ "folio": 147,
+ "type": "sheet",
+ "heading": "VIEWS MALÉ",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/147_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "note",
+   "text": "Capstone buildings on green bases, seen from the north-east."
+  },
+  {
+   "type": "note",
+   "text": "Looking west along the line of capstone buildings."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figures",
+   "num": "3.7.2M to 3.7.5M"
+  },
+  {
+   "type": "heading",
+   "text": "WHO LIVES HERE"
+  },
+  {
+   "type": "para",
+   "text": "Land for homes grows from 2.53 ha to 4.24 ha, so homes get more room: people per hectare of housing fall by a third, from 3,648 to 2,476. Each capstone building has 80 homes, from one to three bedrooms, for 244 people."
+  },
+  {
+   "type": "sub",
+   "text": "North-east"
+  },
+  {
+   "type": "sub",
+   "text": "East-west"
+  },
+  {
+   "type": "note",
+   "text": "Views of the housing. Each number matches a marker on the drawing above."
+  },
+  {
+   "type": "sub",
+   "text": "South to north"
+  },
+  {
+   "type": "note",
+   "text": "Looking north from the old lanes to the new homes on the port land."
+  },
+  {
+   "type": "sub",
+   "text": "Balcony view"
+  },
+  {
+   "type": "note",
+   "text": "From a balcony: planted terraces looking out to the sea."
+  }
+ ]
+}

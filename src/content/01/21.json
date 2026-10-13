@@ -1,0 +1,69 @@
+{
+ "folio": 21,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/01/21_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "note",
+   "text": "That night, the traveller stayed alone in the temple by the shore."
+  },
+  {
+   "type": "note",
+   "text": "Morning has come!"
+  },
+  {
+   "type": "note",
+   "text": "He is alive!"
+  },
+  {
+   "type": "note",
+   "text": "Rannamaari became a story of fear, faith, and transformation in Malé."
+  },
+  {
+   "type": "note",
+   "text": "(reciting Qur’an)"
+  },
+  {
+   "type": "note",
+   "text": "The truth is greater"
+  },
+  {
+   "type": "note",
+   "text": "than fear."
+  },
+  {
+   "type": "note",
+   "text": "Teach us your faith."
+  },
+  {
+   "type": "note",
+   "text": "I will."
+  },
+  {
+   "type": "note",
+   "text": "The wind howled. The sea roared. But he did not flee."
+  },
+  {
+   "type": "note",
+   "text": "The monster never returned."
+  },
+  {
+   "type": "note",
+   "text": "Then… where is"
+  },
+  {
+   "type": "note",
+   "text": "Rannamaari?"
+  },
+  {
+   "type": "note",
+   "text": "And so, the story says, Malé changed forever."
+  }
+ ]
+}

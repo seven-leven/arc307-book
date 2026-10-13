@@ -1,0 +1,59 @@
+{
+ "folio": 140,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/03/140_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "heading",
+   "text": "HOW PEOPLE MOVE"
+  },
+  {
+   "type": "para",
+   "text": "Cars and trucks keep to the widened ring road. All parking moves to hubs at the edge, within a 200 m walk of any door. Inside, motorbikes, bicycles and scooters slow to 15 km/h and people have priority. Some lanes are for people only."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "3.4.1M"
+  },
+  {
+   "type": "note",
+   "text": "The road system: cars on the ring road, parking at the edge, and slow streets inside."
+  },
+  {
+   "type": "heading",
+   "text": "LEGEND"
+  },
+  {
+   "type": "note",
+   "text": "Two-lane roads"
+  },
+  {
+   "type": "note",
+   "text": "Single-lane roads"
+  },
+  {
+   "type": "note",
+   "text": "Pedestrian-only roads no vehicles allowed"
+  },
+  {
+   "type": "note",
+   "text": "Ferry / speedboat route regional water link"
+  },
+  {
+   "type": "note",
+   "text": "Terminal / jetty"
+  },
+  {
+   "type": "note",
+   "text": "Bus stop"
+  }
+ ]
+}

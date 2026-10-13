@@ -1,0 +1,87 @@
+{
+ "folio": 137,
+ "type": "sheet",
+ "heading": "3.2 PARTI MALÉ",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/137_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "strong",
+   "text": "2"
+  },
+  {
+   "type": "heading",
+   "text": "WEST WING | AN ISLAND THAT TURNED ITS BACK ON THE SEA"
+  },
+  {
+   "type": "para",
+   "text": "Seawalls ring Malé, with only two soft edges left to the water. The West wing reopens one of them as the Ocean Hub: a beach, diving and swimming."
+  },
+  {
+   "type": "strong",
+   "text": "4"
+  },
+  {
+   "type": "heading",
+   "text": "NORTH WING | ROOM TO BREATHE"
+  },
+  {
+   "type": "para",
+   "text": "Taller homes lifted on green bases, cut open with courtyards for cross-ventilation, with one plot left free as open space. The North wing’s capstone plots follow the new guidelines."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figures",
+   "num": "3.2.2M to 3.2.5M"
+  },
+  {
+   "type": "sub",
+   "text": "Malé to the ocean"
+  },
+  {
+   "type": "sub",
+   "text": "Malé to its future"
+  },
+  {
+   "type": "note",
+   "text": "The parti in four steps, one for each wing of Fahi-Malé."
+  },
+  {
+   "type": "strong",
+   "text": "1"
+  },
+  {
+   "type": "heading",
+   "text": "EAST WING | THE HUB OF THE ATOLLS"
+  },
+  {
+   "type": "para",
+   "text": "Every island connects through Malé. The East wing turns that traffic into a proper arrival: one terminal for ferries, airport boats and bridge buses."
+  },
+  {
+   "type": "strong",
+   "text": "3"
+  },
+  {
+   "type": "heading",
+   "text": "SOUTH WING | HOUSES IN GARDENS"
+  },
+  {
+   "type": "para",
+   "text": "Old Malé was low homes set in walled compounds, with shade, trees and air inside every plot. The South wing brings that back through breeze cuts, superblocks and pocket parks."
+  },
+  {
+   "type": "sub",
+   "text": "Malé to the world"
+  },
+  {
+   "type": "sub",
+   "text": "Malé to its past"
+  }
+ ]
+}

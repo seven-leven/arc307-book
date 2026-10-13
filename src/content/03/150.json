@@ -1,0 +1,143 @@
+{
+ "folio": 150,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Building regulations: the plot and the building",
+ "picture": {
+  "src": "figures/03/150_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Building regulations: the plot and the building"
+  },
+  {
+   "type": "note",
+   "text": "No building rises above 10 storeys, 30.48 m overall."
+  },
+  {
+   "type": "note",
+   "text": "At least 40% of the roof carries solar panels, and every roof collects rainwater."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "3.9.1M"
+  },
+  {
+   "type": "strongnote",
+   "text": "Under 600 sqft"
+  },
+  {
+   "type": "strongnote",
+   "text": "600 to 1,000 sqft"
+  },
+  {
+   "type": "note",
+   "text": "3 storeys, 9 m"
+  },
+  {
+   "type": "note",
+   "text": "8 storeys, 24.6 m"
+  },
+  {
+   "type": "strongnote",
+   "text": "No setback"
+  },
+  {
+   "type": "strongnote",
+   "text": "1 m setback"
+  },
+  {
+   "type": "strong",
+   "text": "Ten storeys at most"
+  },
+  {
+   "type": "strong",
+   "text": "Roofs that work"
+  },
+  {
+   "type": "note",
+   "text": "Building rules: what each plot size allows. Numbers refer to the rules below."
+  },
+  {
+   "type": "strong",
+   "text": "Plot size sets height"
+  },
+  {
+   "type": "note",
+   "text": "The smallest plots stay at walk-up scale. Height is earned with plot area."
+  },
+  {
+   "type": "strong",
+   "text": "Twice the site in green"
+  },
+  {
+   "type": "note",
+   "text": "Green plot ratio of 2.0: roof gardens, planted facades and ground planting."
+  },
+  {
+   "type": "strongnote",
+   "text": "30.48 m"
+  },
+  {
+   "type": "strongnote",
+   "text": "1,000 to 2,500 sqft"
+  },
+  {
+   "type": "note",
+   "text": "10 storeys, 30.48 m"
+  },
+  {
+   "type": "strongnote",
+   "text": "1.2 m setback"
+  },
+  {
+   "type": "strong",
+   "text": "Setbacks on two sides"
+  },
+  {
+   "type": "note",
+   "text": "Buildings step back from one side and the back of the plot, more as the plot grows."
+  },
+  {
+   "type": "strong",
+   "text": "Shaded east and west"
+  },
+  {
+   "type": "note",
+   "text": "Louvres, deep balconies or 1.2 m overhangs on facades above 12 m."
+  },
+  {
+   "type": "strongnote",
+   "text": "2,500 sqft and above"
+  },
+  {
+   "type": "note",
+   "text": "10 storeys, 30.48 m"
+  },
+  {
+   "type": "strongnote",
+   "text": "1.5 m setback"
+  },
+  {
+   "type": "strong",
+   "text": "Density is capped"
+  },
+  {
+   "type": "note",
+   "text": "Plots over 600 sqft keep a floor area ratio between 4.5 and 5.5."
+  },
+  {
+   "type": "strong",
+   "text": "Open to the breeze"
+  },
+  {
+   "type": "note",
+   "text": "Deep floor plates need single-loaded corridors or an open lightwell."
+  }
+ ]
+}

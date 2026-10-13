@@ -1,0 +1,45 @@
+{
+ "folio": 43,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/01/43_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "sub",
+   "text": "1972"
+  },
+  {
+   "type": "para",
+   "text": "Villingili became Kolige Resort, the second resort in the Maldives after Kurumba Village."
+  },
+  {
+   "type": "sub",
+   "text": "1990"
+  },
+  {
+   "type": "para",
+   "text": "Kolige Resort closed, and Villingili was resettled to ease overcrowding in Malé."
+  },
+  {
+   "type": "sub",
+   "text": "1998"
+  },
+  {
+   "type": "para",
+   "text": "Villingili became Malé’s fifth administrative district, and was renamed Villimalé."
+  },
+  {
+   "type": "sub",
+   "text": "2026"
+  },
+  {
+   "type": "para",
+   "text": "The Thilamalé bridge is being built, linking Malé, Villimalé, Gulhifalhu and Thilafushi."
+  }
+ ]
+}

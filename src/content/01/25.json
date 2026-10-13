@@ -1,0 +1,63 @@
+{
+ "folio": 25,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Risk map",
+ "picture": {
+  "src": "figures/01/25_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Risk map"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.4.2M"
+  },
+  {
+   "type": "heading",
+   "text": "WHAT THE MAP SHOWS"
+  },
+  {
+   "type": "para",
+   "text": "The risk map sets the hazards found on site against the forces in the environment map above: swells and currents in both monsoons, the north-east and south-west winds, and the sun’s path across the island."
+  },
+  {
+   "type": "note",
+   "text": "Risk map of Malé. Source: Rethink Malé; Google Maps."
+  },
+  {
+   "type": "note",
+   "text": "Soil erosion area"
+  },
+  {
+   "type": "note",
+   "text": "Sewage outfall"
+  },
+  {
+   "type": "note",
+   "text": "Wave and swell risk"
+  },
+  {
+   "type": "note",
+   "text": "Recorded fire incidents"
+  },
+  {
+   "type": "note",
+   "text": "Flood"
+  },
+  {
+   "type": "note",
+   "text": "Most prone"
+  },
+  {
+   "type": "note",
+   "text": "Least prone"
+  }
+ ]
+}

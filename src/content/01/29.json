@@ -1,0 +1,173 @@
+{
+ "folio": 29,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Highest land use",
+ "picture": {
+  "src": "figures/01/29_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Highest land use"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.6.2M"
+  },
+  {
+   "type": "para",
+   "text": "Malé’s land use plan is led by homes: residential use takes 42.7% of the available land, followed by roads (16.9%) and institutional and community facilities (14.1%). Sports and recreation (7.0%), transportation (4.7%) and utility and municipal services (4.4%) also hold notable shares."
+  },
+  {
+   "type": "sub",
+   "text": "Number of facilities"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.6.3M"
+  },
+  {
+   "type": "note",
+   "text": "Land use plan distribution: share of available land. Source: Rethink Malé."
+  },
+  {
+   "type": "strongnote",
+   "text": "Schools and education"
+  },
+  {
+   "type": "number",
+   "text": "44"
+  },
+  {
+   "type": "note",
+   "text": "School, preschool, educational facilities"
+  },
+  {
+   "type": "strongnote",
+   "text": "Mosque"
+  },
+  {
+   "type": "number",
+   "text": "26"
+  },
+  {
+   "type": "note",
+   "text": "Religious facilities"
+  },
+  {
+   "type": "note",
+   "text": "Public facilities in Malé, by type. Source: Rethink Malé."
+  },
+  {
+   "type": "note",
+   "text": "Residential"
+  },
+  {
+   "type": "note",
+   "text": "Roads"
+  },
+  {
+   "type": "note",
+   "text": "Institutional and community"
+  },
+  {
+   "type": "note",
+   "text": "Sports and recreation"
+  },
+  {
+   "type": "note",
+   "text": "Transportation"
+  },
+  {
+   "type": "note",
+   "text": "Utility and municipal services"
+  },
+  {
+   "type": "note",
+   "text": "Commercial"
+  },
+  {
+   "type": "strongnote",
+   "text": "Health facilities"
+  },
+  {
+   "type": "number",
+   "text": "125"
+  },
+  {
+   "type": "note",
+   "text": "Health centre, clinic"
+  },
+  {
+   "type": "note",
+   "text": "Parks and open spaces"
+  },
+  {
+   "type": "note",
+   "text": "Public housing"
+  },
+  {
+   "type": "note",
+   "text": "Commercial housing"
+  },
+  {
+   "type": "note",
+   "text": "Industrial"
+  },
+  {
+   "type": "note",
+   "text": "Revetment and groynes"
+  },
+  {
+   "type": "note",
+   "text": "Tourism"
+  },
+  {
+   "type": "para",
+   "text": "Commercial use takes 3.2%, parks and open spaces 3.0%, industry 1.6%, revetments and groynes 1.4%, public housing 0.5%, commercial housing 0.3% and tourism 0.2%. Malé is a highly urbanised island where homes and roads dominate, and green, commercial and tourism space remains limited."
+  },
+  {
+   "type": "strongnote",
+   "text": "Police and public safety"
+  },
+  {
+   "type": "number",
+   "text": "05"
+  },
+  {
+   "type": "note",
+   "text": "Police station, security facility"
+  },
+  {
+   "type": "strongnote",
+   "text": "Transport facilities"
+  },
+  {
+   "type": "number",
+   "text": "03"
+  },
+  {
+   "type": "note",
+   "text": "Ferry terminal, Wamco"
+  },
+  {
+   "type": "strongnote",
+   "text": "Government"
+  },
+  {
+   "type": "number",
+   "text": "15"
+  },
+  {
+   "type": "note",
+   "text": "Council, government office"
+  }
+ ]
+}

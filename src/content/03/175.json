@@ -1,0 +1,461 @@
+{
+ "folio": 175,
+ "type": "sheet",
+ "heading": "METRICS",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/175_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "heading",
+   "text": "POPULATION ON SITE"
+  },
+  {
+   "type": "note",
+   "text": "from 32,000 people"
+  },
+  {
+   "type": "number",
+   "text": "11,800"
+  },
+  {
+   "type": "note",
+   "text": "20,200 residents relocate, 63% fewer"
+  },
+  {
+   "type": "heading",
+   "text": "LIVING AREA PER PERSON"
+  },
+  {
+   "type": "note",
+   "text": "from 15 m²"
+  },
+  {
+   "type": "number",
+   "text": "27"
+  },
+  {
+   "type": "note",
+   "text": "80% more room for each resident"
+  },
+  {
+   "type": "heading",
+   "text": "SITE METRICS, EXISTING AND PROPOSED"
+  },
+  {
+   "type": "heading",
+   "text": "WHOLE SITE"
+  },
+  {
+   "type": "note",
+   "text": "Footprint is per building; GFA is the total for all buildings of that type, in m². The all-buildings row uses the sheet totals. Average home is 980.86 sq ft; living area is 27 m² (291 sq ft) per person. Open space per person is open area ÷ people, rounded."
+  },
+  {
+   "type": "heading",
+   "text": "LAND USE, BEFORE AND AFTER"
+  },
+  {
+   "type": "heading",
+   "text": "BEFORE"
+  },
+  {
+   "type": "heading",
+   "text": "AFTER"
+  },
+  {
+   "type": "strongnote",
+   "text": "Sources"
+  },
+  {
+   "type": "note",
+   "text": "BEFORE → AFTER"
+  },
+  {
+   "type": "strongnote",
+   "text": "m²"
+  },
+  {
+   "type": "para",
+   "text": "Site area (ha)"
+  },
+  {
+   "type": "para",
+   "text": "People on site"
+  },
+  {
+   "type": "para",
+   "text": "Open share of site"
+  },
+  {
+   "type": "para",
+   "text": "Open area (ha)"
+  },
+  {
+   "type": "para",
+   "text": "Open space per person (m²)"
+  },
+  {
+   "type": "para",
+   "text": "People per hectare"
+  },
+  {
+   "type": "strongnote",
+   "text": "1.92"
+  },
+  {
+   "type": "strongnote",
+   "text": "2.66"
+  },
+  {
+   "type": "note",
+   "text": "MASTERPLAN_METRICS.xlsx, 12 ha site. Working figures."
+  },
+  {
+   "type": "heading",
+   "text": "PEOPLE PER HECTARE"
+  },
+  {
+   "type": "note",
+   "text": "from 2,667 people per ha"
+  },
+  {
+   "type": "number",
+   "text": "983"
+  },
+  {
+   "type": "strongnote",
+   "text": "per ha"
+  },
+  {
+   "type": "note",
+   "text": "63% fewer people on each hectare"
+  },
+  {
+   "type": "heading",
+   "text": "GROSS FLOOR AREA"
+  },
+  {
+   "type": "note",
+   "text": "from 488,000 m²"
+  },
+  {
+   "type": "number",
+   "text": "318,500"
+  },
+  {
+   "type": "note",
+   "text": "35% less floor area on the same site"
+  },
+  {
+   "type": "heading",
+   "text": "EXISTING"
+  },
+  {
+   "type": "heading",
+   "text": "PROPOSED"
+  },
+  {
+   "type": "heading",
+   "text": "CHANGE"
+  },
+  {
+   "type": "strong",
+   "text": "12.00"
+  },
+  {
+   "type": "para",
+   "text": "12.00"
+  },
+  {
+   "type": "strong",
+   "text": "11,800"
+  },
+  {
+   "type": "para",
+   "text": "32,000"
+  },
+  {
+   "type": "para",
+   "text": "−20,200"
+  },
+  {
+   "type": "strong",
+   "text": "53%"
+  },
+  {
+   "type": "para",
+   "text": "75%"
+  },
+  {
+   "type": "para",
+   "text": "−22 pts"
+  },
+  {
+   "type": "strong",
+   "text": "6.36"
+  },
+  {
+   "type": "para",
+   "text": "8.98"
+  },
+  {
+   "type": "strong",
+   "text": "5"
+  },
+  {
+   "type": "para",
+   "text": "3"
+  },
+  {
+   "type": "strong",
+   "text": "983"
+  },
+  {
+   "type": "para",
+   "text": "2,667"
+  },
+  {
+   "type": "para",
+   "text": "−1,683"
+  },
+  {
+   "type": "note",
+   "text": "hectares, 12 ha site"
+  },
+  {
+   "type": "strongnote",
+   "text": "0.94"
+  },
+  {
+   "type": "strongnote",
+   "text": "m²"
+  },
+  {
+   "type": "heading",
+   "text": "BUILDINGS"
+  },
+  {
+   "type": "para",
+   "text": "none"
+  },
+  {
+   "type": "para",
+   "text": "15 floors"
+  },
+  {
+   "type": "para",
+   "text": "10 floors"
+  },
+  {
+   "type": "para",
+   "text": "8 floors"
+  },
+  {
+   "type": "para",
+   "text": "−2.62"
+  },
+  {
+   "type": "para",
+   "text": "8 floors"
+  },
+  {
+   "type": "strong",
+   "text": "All buildings"
+  },
+  {
+   "type": "para",
+   "text": "+2"
+  },
+  {
+   "type": "strongnote",
+   "text": "6.20"
+  },
+  {
+   "type": "strongnote",
+   "text": "3.20"
+  },
+  {
+   "type": "heading",
+   "text": "OPEN SPACE PER PERSON"
+  },
+  {
+   "type": "note",
+   "text": "from 3 m²"
+  },
+  {
+   "type": "number",
+   "text": "5"
+  },
+  {
+   "type": "strongnote",
+   "text": "m²"
+  },
+  {
+   "type": "note",
+   "text": "more each, though open area shrinks 29%"
+  },
+  {
+   "type": "heading",
+   "text": "AVERAGE HOME SIZE"
+  },
+  {
+   "type": "note",
+   "text": "from 554 sq ft"
+  },
+  {
+   "type": "number",
+   "text": "981"
+  },
+  {
+   "type": "strongnote",
+   "text": "sq ft"
+  },
+  {
+   "type": "note",
+   "text": "77% larger homes"
+  },
+  {
+   "type": "heading",
+   "text": "FOOTPRINT"
+  },
+  {
+   "type": "heading",
+   "text": "RES. FLOORS"
+  },
+  {
+   "type": "para",
+   "text": "3,000"
+  },
+  {
+   "type": "para",
+   "text": "13"
+  },
+  {
+   "type": "para",
+   "text": "2,500"
+  },
+  {
+   "type": "para",
+   "text": "7"
+  },
+  {
+   "type": "para",
+   "text": "3,000"
+  },
+  {
+   "type": "para",
+   "text": "6"
+  },
+  {
+   "type": "para",
+   "text": "2,500"
+  },
+  {
+   "type": "para",
+   "text": "6"
+  },
+  {
+   "type": "strong",
+   "text": "36,000"
+  },
+  {
+   "type": "strong",
+   "text": "–"
+  },
+  {
+   "type": "strongnote",
+   "text": "Residential"
+  },
+  {
+   "type": "strongnote",
+   "text": "0.80"
+  },
+  {
+   "type": "strongnote",
+   "text": "Commercial"
+  },
+  {
+   "type": "strongnote",
+   "text": "Green area"
+  },
+  {
+   "type": "strongnote",
+   "text": "Roads + movement"
+  },
+  {
+   "type": "strongnote",
+   "text": "Utilities + parking"
+  },
+  {
+   "type": "heading",
+   "text": "BLDGS"
+  },
+  {
+   "type": "heading",
+   "text": "GFA"
+  },
+  {
+   "type": "para",
+   "text": "5"
+  },
+  {
+   "type": "para",
+   "text": "195,000"
+  },
+  {
+   "type": "para",
+   "text": "5"
+  },
+  {
+   "type": "para",
+   "text": "87,500"
+  },
+  {
+   "type": "para",
+   "text": "2"
+  },
+  {
+   "type": "para",
+   "text": "36,000"
+  },
+  {
+   "type": "para",
+   "text": "1"
+  },
+  {
+   "type": "para",
+   "text": "15,000"
+  },
+  {
+   "type": "strong",
+   "text": "13"
+  },
+  {
+   "type": "strong",
+   "text": "318,500"
+  },
+  {
+   "type": "note",
+   "text": "16% → 22%"
+  },
+  {
+   "type": "note",
+   "text": "1% → 8%"
+  },
+  {
+   "type": "note",
+   "text": "25% → 43%"
+  },
+  {
+   "type": "note",
+   "text": "52% → 27%"
+  },
+  {
+   "type": "note",
+   "text": "7% → 0%"
+  }
+ ]
+}

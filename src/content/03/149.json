@@ -1,0 +1,161 @@
+{
+ "folio": 149,
+ "type": "sheet",
+ "heading": "LEGEND",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/149_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "heading",
+   "text": "COMMERCIAL AND CIVIC"
+  },
+  {
+   "type": "para",
+   "text": "Gaadiyaa"
+  },
+  {
+   "type": "para",
+   "text": "Commercial and parking Indoor sports and parking Atoll shops 1"
+  },
+  {
+   "type": "para",
+   "text": "Atoll shops 2"
+  },
+  {
+   "type": "para",
+   "text": "Local market"
+  },
+  {
+   "type": "para",
+   "text": "Food court"
+  },
+  {
+   "type": "para",
+   "text": "Ferry terminal"
+  },
+  {
+   "type": "para",
+   "text": "Commercial and parking Fish market"
+  },
+  {
+   "type": "heading",
+   "text": "TRANSPORT AND DOCKS"
+  },
+  {
+   "type": "para",
+   "text": "Parking"
+  },
+  {
+   "type": "para",
+   "text": "Bus terminal"
+  },
+  {
+   "type": "para",
+   "text": "Launch dockyard"
+  },
+  {
+   "type": "para",
+   "text": "Local produce dock"
+  },
+  {
+   "type": "para",
+   "text": "Fishing boat dock"
+  },
+  {
+   "type": "para",
+   "text": "Underground tunnel"
+  },
+  {
+   "type": "heading",
+   "text": "KEY MAP"
+  },
+  {
+   "type": "heading",
+   "text": "HOUSING"
+  },
+  {
+   "type": "para",
+   "text": "Social housing 1"
+  },
+  {
+   "type": "para",
+   "text": "Social housing 2"
+  },
+  {
+   "type": "para",
+   "text": "Old organic fabric Capstone building 1"
+  },
+  {
+   "type": "para",
+   "text": "Capstone building 2"
+  },
+  {
+   "type": "para",
+   "text": "Capstone building 3"
+  },
+  {
+   "type": "para",
+   "text": "Capstone building 4"
+  },
+  {
+   "type": "para",
+   "text": "Capstone building 5"
+  },
+  {
+   "type": "heading",
+   "text": "OPEN SPACE"
+  },
+  {
+   "type": "para",
+   "text": "Beach"
+  },
+  {
+   "type": "para",
+   "text": "Pocket parks"
+  },
+  {
+   "type": "para",
+   "text": "Water park"
+  },
+  {
+   "type": "para",
+   "text": "Mas Fengandu"
+  },
+  {
+   "type": "para",
+   "text": "Fishing platform"
+  },
+  {
+   "type": "heading",
+   "text": "LANDMARKS"
+  },
+  {
+   "type": "para",
+   "text": "Ocean Hub"
+  },
+  {
+   "type": "para",
+   "text": "Ocean Hub dock"
+  },
+  {
+   "type": "para",
+   "text": "Mosque and social complex"
+  },
+  {
+   "type": "heading",
+   "text": "ROUTES"
+  },
+  {
+   "type": "para",
+   "text": "Bus route"
+  },
+  {
+   "type": "para",
+   "text": "Vehicle routes"
+  }
+ ]
+}

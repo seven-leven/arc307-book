@@ -1,0 +1,63 @@
+{
+ "folio": 31,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Building heights",
+ "picture": {
+  "src": "figures/01/31_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Building heights"
+  },
+  {
+   "type": "note",
+   "text": "Lower-rise cluster"
+  },
+  {
+   "type": "note",
+   "text": "Mostly 1 to 3 storeys: a lower-rise pocket in Malé’s dense fabric."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.6.5M"
+  },
+  {
+   "type": "note",
+   "text": "Building heights, in storeys. Source: Rethink Malé; Google Maps."
+  },
+  {
+   "type": "note",
+   "text": "Higher-rise cluster"
+  },
+  {
+   "type": "note",
+   "text": "Mostly 4 to 6 storeys and more: a taller, more vertically dense part of the island."
+  },
+  {
+   "type": "note",
+   "text": "6 storeys and more"
+  },
+  {
+   "type": "note",
+   "text": "4 to 5 storeys"
+  },
+  {
+   "type": "note",
+   "text": "2 to 3 storeys"
+  },
+  {
+   "type": "note",
+   "text": "1 storey"
+  },
+  {
+   "type": "note",
+   "text": "Not residential"
+  }
+ ]
+}

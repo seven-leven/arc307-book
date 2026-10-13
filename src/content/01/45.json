@@ -1,0 +1,56 @@
+{
+ "folio": 45,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Significant landmarks",
+ "picture": {
+  "src": "figures/01/45_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Significant landmarks"
+  },
+  {
+   "type": "sub",
+   "text": "100-year-old banyan tree"
+  },
+  {
+   "type": "para",
+   "text": "There were once four century-old banyan trees on the island. Two remain. The other two were cut down when their roots began to damage pipes, walls and the foundations of nearby homes."
+  },
+  {
+   "type": "sub",
+   "text": "Marugas tree"
+  },
+  {
+   "type": "para",
+   "text": "This marugas tree is about 70 years old, and thought to be the only one on the island. Local stories say prisoners were once buried beneath it."
+  },
+  {
+   "type": "caption",
+   "text": "Four significant landmarks. Illustrations by the Villimalé group.",
+   "label": "Figures",
+   "num": "1.3.3V to 1.3.6V"
+  },
+  {
+   "type": "sub",
+   "text": "Kolige Resort ruins"
+  },
+  {
+   "type": "para",
+   "text": "These are the ruins of a villa from Kolige Resort, which opened in 1972. Most of the resort’s buildings are now rented out as rooms, but this villa, about 54 years old, stands untouched in the island’s woods."
+  },
+  {
+   "type": "sub",
+   "text": "Jackfruit tree"
+  },
+  {
+   "type": "para",
+   "text": "In the yard of the mosque stands a jackfruit tree, believed to be the only one on the island."
+  }
+ ],
+ "after": "Folklore: coming soon."
+}

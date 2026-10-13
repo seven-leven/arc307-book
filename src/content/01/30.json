@@ -1,0 +1,39 @@
+{
+ "folio": 30,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Solid and void",
+ "picture": {
+  "src": "figures/01/30_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Solid and void"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.6.4M"
+  },
+  {
+   "type": "para",
+   "text": "The solid and void map shows Malé’s buildings in solid colour and its open ground in white. Most of the island is fine-grained: small plots, packed buildings and narrow lanes. Towards the south the grain is coarser, with larger plots and more open space between them."
+  },
+  {
+   "type": "note",
+   "text": "Solid and void, with fine and coarse grain shown in detail. Source: Rethink Malé; Google Maps."
+  },
+  {
+   "type": "note",
+   "text": "Fine grain"
+  },
+  {
+   "type": "note",
+   "text": "Coarse grain"
+  }
+ ]
+}

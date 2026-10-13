@@ -1,0 +1,43 @@
+{
+ "folio": 78,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Solid and void",
+ "picture": {
+  "src": "figures/01/78_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Solid and void"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.6.4H"
+  },
+  {
+   "type": "sub",
+   "text": "Fine grain"
+  },
+  {
+   "type": "para",
+   "text": "The first settlement, from 2004, is fine-grained: small, separate buildings with generous open space between them, in a low pattern."
+  },
+  {
+   "type": "note",
+   "text": "Solid and void, with fine and coarse grain shown in detail. Source: HDC; Google Maps."
+  },
+  {
+   "type": "para",
+   "text": "The Hiyaa towers are coarse-grained: large, tall blocks set close together, with open space laid out around them. They mark Hulhumalé’s shift to compact, high-rise living."
+  },
+  {
+   "type": "sub",
+   "text": "Coarse grain"
+  }
+ ]
+}

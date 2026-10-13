@@ -1,0 +1,63 @@
+{
+ "folio": 167,
+ "type": "sheet",
+ "heading": "VIEWS VILLIMALÉ",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/167_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "note",
+   "text": "Keep and strengthen the island’s greenery: trees removed during development are replaced, with vertical planting and green spaces built in."
+  },
+  {
+   "type": "note",
+   "text": "Residential blocks are divided into two or three smaller blocks, for a human scale, more ways through and the small, individual character of Villimalé."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figures",
+   "num": "3.7.2V to 3.7.5V"
+  },
+  {
+   "type": "heading",
+   "text": "WHO LIVES HERE"
+  },
+  {
+   "type": "para",
+   "text": "In the 4 ha intervention area, five capstone buildings add 400 homes, and the number of people per hectare rises from 48 to 305. Smaller blocks, living ground floors and shared levels keep that growth at a human scale."
+  },
+  {
+   "type": "sub",
+   "text": "Greenery and vertical planting"
+  },
+  {
+   "type": "sub",
+   "text": "Block division"
+  },
+  {
+   "type": "note",
+   "text": "Four ideas for the housing."
+  },
+  {
+   "type": "sub",
+   "text": "People-oriented ground floors"
+  },
+  {
+   "type": "note",
+   "text": "Ground floors hold residential and community activities, not a continuous commercial belt, keeping the island’s everyday street life and human scale."
+  },
+  {
+   "type": "sub",
+   "text": "Vertical mixed-use integration"
+  },
+  {
+   "type": "note",
+   "text": "Commercial and shared spaces sit at different levels of the residential buildings, making active spaces that support everyday community life."
+  }
+ ]
+}

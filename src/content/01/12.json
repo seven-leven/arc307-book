@@ -1,0 +1,119 @@
+{
+ "folio": 12,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/01/12_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "para",
+   "text": "Malé, Villimalé and Hulhumalé are not three separate cities. They are three islands of one urban region, the Greater Malé Region, tied together by bridges and ferries and by the people who cross between them every day. This spread reads the region as a whole. From the next page on, each island is read on its own."
+  },
+  {
+   "type": "note",
+   "text": "Bridge or causeway Bridge, opening 2026 Ferry / Boat / Launch route"
+  },
+  {
+   "type": "note",
+   "text": "Giraavaru"
+  },
+  {
+   "type": "sub",
+   "text": "FERRY ROUTES"
+  },
+  {
+   "type": "note",
+   "text": "Male’ - Villimale’"
+  },
+  {
+   "type": "note",
+   "text": "Male’ - Gulhifalhu"
+  },
+  {
+   "type": "note",
+   "text": "Male’ - Thilafushi"
+  },
+  {
+   "type": "note",
+   "text": "Male’ to Velana"
+  },
+  {
+   "type": "note",
+   "text": "Hulhumale’ - Male’"
+  },
+  {
+   "type": "note",
+   "text": "Hulhumale’ - Gulhifalhu"
+  },
+  {
+   "type": "note",
+   "text": "Hulhumale’ - Thilafushi"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.1.1"
+  },
+  {
+   "type": "note",
+   "text": "How the three islands are connected"
+  },
+  {
+   "type": "note",
+   "text": "Sources Google Maps."
+  },
+  {
+   "type": "note",
+   "text": "Thilafushi"
+  },
+  {
+   "type": "note",
+   "text": "Gulhifalhu"
+  },
+  {
+   "type": "note",
+   "text": "Thilamale’ Bridge 3.55 km"
+  },
+  {
+   "type": "note",
+   "text": "Villingili"
+  },
+  {
+   "type": "note",
+   "text": "Hulhumale’"
+  },
+  {
+   "type": "note",
+   "text": "Male’"
+  },
+  {
+   "type": "note",
+   "text": "Sinamale’ Bridge 4.15 km"
+  },
+  {
+   "type": "note",
+   "text": "2km"
+  },
+  {
+   "type": "sub",
+   "text": "N"
+  },
+  {
+   "type": "para",
+   "text": "Velana International Airport"
+  },
+  {
+   "type": "note",
+   "text": "1km"
+  },
+  {
+   "type": "note",
+   "text": "0"
+  }
+ ]
+}

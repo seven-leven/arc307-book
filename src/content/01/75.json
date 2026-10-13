@@ -1,0 +1,187 @@
+{
+ "folio": 75,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Population growth",
+ "picture": {
+  "src": "figures/01/75_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Population growth"
+  },
+  {
+   "type": "sub",
+   "text": "Number of households vs population"
+  },
+  {
+   "type": "note",
+   "text": "140,000"
+  },
+  {
+   "type": "note",
+   "text": "120,000"
+  },
+  {
+   "type": "note",
+   "text": "100,000"
+  },
+  {
+   "type": "caption",
+   "text": "and 1.5.3H",
+   "label": "Figures",
+   "num": "1.5.2H"
+  },
+  {
+   "type": "note",
+   "text": "Source: HDC; Census 2022, Maldives Bureau of Statistics."
+  },
+  {
+   "type": "note",
+   "text": "Male"
+  },
+  {
+   "type": "note",
+   "text": "84,000"
+  },
+  {
+   "type": "note",
+   "text": "72,000"
+  },
+  {
+   "type": "note",
+   "text": "60,000"
+  },
+  {
+   "type": "note",
+   "text": "48,000"
+  },
+  {
+   "type": "note",
+   "text": "36,000"
+  },
+  {
+   "type": "note",
+   "text": "24,000"
+  },
+  {
+   "type": "note",
+   "text": "12,000"
+  },
+  {
+   "type": "note",
+   "text": "0"
+  },
+  {
+   "type": "note",
+   "text": "2004"
+  },
+  {
+   "type": "heading",
+   "text": "PROJECTED, 2050"
+  },
+  {
+   "type": "note",
+   "text": "80,000"
+  },
+  {
+   "type": "note",
+   "text": "60,000"
+  },
+  {
+   "type": "note",
+   "text": "40,000"
+  },
+  {
+   "type": "note",
+   "text": "20,000"
+  },
+  {
+   "type": "note",
+   "text": "0"
+  },
+  {
+   "type": "note",
+   "text": "2004"
+  },
+  {
+   "type": "note",
+   "text": "2006"
+  },
+  {
+   "type": "note",
+   "text": "Households"
+  },
+  {
+   "type": "note",
+   "text": "Population growth, 2004 to 2050 (projected), and households against population."
+  },
+  {
+   "type": "note",
+   "text": "Female"
+  },
+  {
+   "type": "note",
+   "text": "2006"
+  },
+  {
+   "type": "note",
+   "text": "2014"
+  },
+  {
+   "type": "heading",
+   "text": "DENSITY INCREASE"
+  },
+  {
+   "type": "number",
+   "text": "+64.7%"
+  },
+  {
+   "type": "note",
+   "text": "2014"
+  },
+  {
+   "type": "note",
+   "text": "2022"
+  },
+  {
+   "type": "note",
+   "text": "Population"
+  },
+  {
+   "type": "note",
+   "text": "Expats"
+  },
+  {
+   "type": "note",
+   "text": "2022"
+  },
+  {
+   "type": "note",
+   "text": "Year"
+  },
+  {
+   "type": "para",
+   "text": "Hulhumalé opened on 12 May 2004 with about 1,000 residents. After the Sinamalé Bridge and the Hiyaa flats, it had 78,299 people in 2022: 65,714 residents and 12,585 expatriates. Growth is expected to stay strong, with the Thilamalé bridge and building in all three phases. At full build-out, the plan houses about 349,094 people by 2050."
+  },
+  {
+   "type": "note",
+   "text": "2026"
+  },
+  {
+   "type": "note",
+   "text": "2045"
+  },
+  {
+   "type": "note",
+   "text": "2035"
+  },
+  {
+   "type": "note",
+   "text": "2050"
+  }
+ ]
+}

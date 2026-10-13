@@ -1,0 +1,41 @@
+{
+ "folio": 60,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Pedestrian circulation issues and obstacles",
+ "picture": {
+  "src": "figures/01/60_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Pedestrian circulation issues and obstacles"
+  },
+  {
+   "type": "number",
+   "text": "2"
+  },
+  {
+   "type": "para",
+   "text": "With few bicycle racks, bicycles are left along roadsides, paths and building edges, in the way of people walking."
+  },
+  {
+   "type": "number",
+   "text": "1"
+  },
+  {
+   "type": "para",
+   "text": "Electric vehicles are hard to hear, so people on foot risk being hit, on narrow and wide shared roads alike."
+  },
+  {
+   "type": "number",
+   "text": "3"
+  },
+  {
+   "type": "para",
+   "text": "Roadside parking narrows the road, so people on foot, bicycles and vehicles compete for space, most of all on narrow residential roads."
+  }
+ ]
+}

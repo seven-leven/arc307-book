@@ -1,0 +1,123 @@
+{
+ "folio": 131,
+ "type": "sheet",
+ "heading": "THREE MASTERPLANS",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/131_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "italic",
+   "text": "A first look. Each plan follows in full, in island order."
+  },
+  {
+   "type": "heading",
+   "text": "MALÉ"
+  },
+  {
+   "type": "sub",
+   "text": "Fahi-Malé"
+  },
+  {
+   "type": "italic",
+   "text": "Giving the edge back"
+  },
+  {
+   "type": "para",
+   "text": "The port and its warehouses hold the northern waterfront, hard against homes. Fahi-Malé moves the port to Thilafushi. Its land becomes four wings facing the world, the ocean, the past and the future."
+  },
+  {
+   "type": "heading",
+   "text": "MASTERPLAN AREA"
+  },
+  {
+   "type": "para",
+   "text": "13.43 ha"
+  },
+  {
+   "type": "heading",
+   "text": "RESIDENTS"
+  },
+  {
+   "type": "para",
+   "text": "9,230 now, 10,500 proposed"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figures",
+   "num": "3.0.1 to 3.0.3"
+  },
+  {
+   "type": "note",
+   "text": "The three masterplans. Each is shown in full in its own section 3.8."
+  },
+  {
+   "type": "heading",
+   "text": "VILLIMALÉ"
+  },
+  {
+   "type": "sub",
+   "text": "Villi-Veshi"
+  },
+  {
+   "type": "italic",
+   "text": "Growing without losing itself"
+  },
+  {
+   "type": "para",
+   "text": "The smallest and greenest island, quiet and low, with the Thilamalé bridge about to land. Villi-Veshi lets nature lead, keeps the island’s natural flows and turns dead edges into shared space."
+  },
+  {
+   "type": "heading",
+   "text": "MASTERPLAN AREA"
+  },
+  {
+   "type": "para",
+   "text": "12 ha"
+  },
+  {
+   "type": "heading",
+   "text": "RESIDENTS"
+  },
+  {
+   "type": "para",
+   "text": "1,283 now, 2,603 proposed"
+  },
+  {
+   "type": "heading",
+   "text": "HULHUMALÉ"
+  },
+  {
+   "type": "sub",
+   "text": "Hiyaa-Vehi"
+  },
+  {
+   "type": "italic",
+   "text": "People, not numbers"
+  },
+  {
+   "type": "para",
+   "text": "A block of identical 25-storey towers, with little shade or reason to stay outdoors. Hiyaa-Vehi gives it a centre to gather around: a radial plan, no straight paths and slower movement."
+  },
+  {
+   "type": "heading",
+   "text": "MASTERPLAN AREA"
+  },
+  {
+   "type": "para",
+   "text": "12 ha"
+  },
+  {
+   "type": "heading",
+   "text": "RESIDENTS"
+  },
+  {
+   "type": "para",
+   "text": "32,000 now, 11,800 proposed"
+  }
+ ]
+}

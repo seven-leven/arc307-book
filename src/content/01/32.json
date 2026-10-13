@@ -1,0 +1,123 @@
+{
+ "folio": 32,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Population density",
+ "picture": {
+  "src": "figures/01/32_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Population density"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.6.6M"
+  },
+  {
+   "type": "note",
+   "text": "1"
+  },
+  {
+   "type": "para",
+   "text": "Small plots, subdivided over generations, built up to seven storeys and more. More than twice the people of area 2 live on each hectare."
+  },
+  {
+   "type": "number",
+   "text": "1,450"
+  },
+  {
+   "type": "heading",
+   "text": "PEOPLE / HA"
+  },
+  {
+   "type": "note",
+   "text": "Sources"
+  },
+  {
+   "type": "note",
+   "text": "Population density of Malé, by plot. Source: Rethink Malé; Google Maps."
+  },
+  {
+   "type": "sub",
+   "text": "Denser area"
+  },
+  {
+   "type": "number",
+   "text": "620"
+  },
+  {
+   "type": "heading",
+   "text": "PLOT SIZE (SQFT)"
+  },
+  {
+   "type": "note",
+   "text": "Estimates for the two sample areas; to be confirmed with census figures."
+  },
+  {
+   "type": "note",
+   "text": "1"
+  },
+  {
+   "type": "number",
+   "text": "7"
+  },
+  {
+   "type": "heading",
+   "text": "STOREYS"
+  },
+  {
+   "type": "note",
+   "text": "2"
+  },
+  {
+   "type": "sub",
+   "text": "Less dense area"
+  },
+  {
+   "type": "note",
+   "text": "2"
+  },
+  {
+   "type": "para",
+   "text": "Larger plots and more institutional land. Buildings are lower, and each hectare carries less than half the people of area 1."
+  },
+  {
+   "type": "number",
+   "text": "640"
+  },
+  {
+   "type": "heading",
+   "text": "PEOPLE / HA"
+  },
+  {
+   "type": "note",
+   "text": "Low"
+  },
+  {
+   "type": "number",
+   "text": "1,480"
+  },
+  {
+   "type": "heading",
+   "text": "PLOT SIZE (SQFT)"
+  },
+  {
+   "type": "note",
+   "text": "High"
+  },
+  {
+   "type": "number",
+   "text": "5"
+  },
+  {
+   "type": "heading",
+   "text": "STOREYS"
+  }
+ ]
+}

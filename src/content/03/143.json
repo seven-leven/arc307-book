@@ -1,0 +1,63 @@
+{
+ "folio": 143,
+ "type": "sheet",
+ "heading": "VIEWS MALÉ",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/143_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "note",
+   "text": "The park and school complex at the heart of the amenity core."
+  },
+  {
+   "type": "note",
+   "text": "Pocket parks on the plots that road widening frees in the old area."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figures",
+   "num": "3.5.2M to 3.5.5M"
+  },
+  {
+   "type": "heading",
+   "text": "WHAT THE SPACES OFFER"
+  },
+  {
+   "type": "para",
+   "text": "Every space is a short walk from every home. Trees and canopies shade the breeze corridors, and the public beach gives the sea back to the city, with a path to the beach every 60 m."
+  },
+  {
+   "type": "sub",
+   "text": "Park and school complex"
+  },
+  {
+   "type": "sub",
+   "text": "Pocket parks in the old area"
+  },
+  {
+   "type": "note",
+   "text": "Views of the public spaces. Each number matches a marker on the drawing above."
+  },
+  {
+   "type": "sub",
+   "text": "Pocket park"
+  },
+  {
+   "type": "note",
+   "text": "A pocket park in the future zone, near the beach."
+  },
+  {
+   "type": "sub",
+   "text": "Tunnel public green"
+  },
+  {
+   "type": "note",
+   "text": "A park over the tunnel that carries through traffic under the site."
+  }
+ ]
+}

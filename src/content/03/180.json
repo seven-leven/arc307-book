@@ -1,0 +1,83 @@
+{
+ "folio": 180,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/03/180_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "heading",
+   "text": "HOW PEOPLE MOVE"
+  },
+  {
+   "type": "para",
+   "text": "The proposal sets a clear hierarchy of perimeter roads, neighbourhood connectors and pedestrian-priority streets. Four-wheelers keep to the perimeter, while the inner neighbourhood favours pedestrians and slower movement. Motorbikes follow set routes, supported by parking pockets, bus stops and water links."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "3.4.1H"
+  },
+  {
+   "type": "note",
+   "text": "The road system: perimeter roads, connectors and streets for people. Letters refer to the road sections below."
+  },
+  {
+   "type": "heading",
+   "text": "LEGEND"
+  },
+  {
+   "type": "note",
+   "text": "Perimeter road"
+  },
+  {
+   "type": "note",
+   "text": "Neighbourhood connector"
+  },
+  {
+   "type": "note",
+   "text": "Superblock street"
+  },
+  {
+   "type": "note",
+   "text": "Slow motorbike access"
+  },
+  {
+   "type": "note",
+   "text": "Pedestrian-only / shaded walk"
+  },
+  {
+   "type": "note",
+   "text": "Ferry / speedboat route"
+  },
+  {
+   "type": "note",
+   "text": "Terminal / jetty"
+  },
+  {
+   "type": "note",
+   "text": "Parking pocket"
+  },
+  {
+   "type": "note",
+   "text": "Bus stop"
+  },
+  {
+   "type": "note",
+   "text": "Road section cut"
+  },
+  {
+   "type": "note",
+   "text": "Masterplan boundary"
+  },
+  {
+   "type": "note",
+   "text": "Sea / lagoon"
+  }
+ ]
+}

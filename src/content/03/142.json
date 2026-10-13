@@ -1,0 +1,59 @@
+{
+ "folio": 142,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/03/142_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "heading",
+   "text": "WHERE THE SITE BREATHES"
+  },
+  {
+   "type": "para",
+   "text": "Today the area has no parks at all. The plan adds 4.04 ha of parks, sports and beach: 3.8 m² for each person, or 4.9 m² with the pedestrian streets. Breeze corridors and a continuous waterfront link them, each a short walk from every home."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "3.5.1M"
+  },
+  {
+   "type": "note",
+   "text": "Parks, shaded links and the waterfront. Numbers refer to the views below."
+  },
+  {
+   "type": "heading",
+   "text": "LEGEND"
+  },
+  {
+   "type": "note",
+   "text": "Park / green space"
+  },
+  {
+   "type": "note",
+   "text": "Beach West wing"
+  },
+  {
+   "type": "note",
+   "text": "Pocket park from widening-affected blocks"
+  },
+  {
+   "type": "note",
+   "text": "Tree canopy / shade"
+  },
+  {
+   "type": "note",
+   "text": "Green breeze and vista corridor"
+  },
+  {
+   "type": "note",
+   "text": "BBQ area West wing"
+  }
+ ]
+}

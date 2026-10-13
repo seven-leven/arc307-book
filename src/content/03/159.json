@@ -1,0 +1,79 @@
+{
+ "folio": 159,
+ "type": "sheet",
+ "heading": "EXISTING ISSUES VILLIMALÉ",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/159_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "note",
+   "text": "Few shops and everyday amenities in the area, so residents travel elsewhere for basic needs."
+  },
+  {
+   "type": "note",
+   "text": "Poor road conditions and inadequate drainage cause flooding when it rains."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figures",
+   "num": "3.3.2V to 3.3.7V"
+  },
+  {
+   "type": "heading",
+   "text": "WHAT THE IMAGES SHOW"
+  },
+  {
+   "type": "para",
+   "text": "On the ground, the area feels cut off. Homes sit beside industrial yards, unpaved roads flood after rain, and the beach is mostly closed to the public. Large plots stand idle while trees are cleared, and there are few shops within walking distance."
+  },
+  {
+   "type": "sub",
+   "text": "Lack of shops"
+  },
+  {
+   "type": "sub",
+   "text": "Flooding"
+  },
+  {
+   "type": "note",
+   "text": "Six problems seen on site."
+  },
+  {
+   "type": "sub",
+   "text": "Industry beside homes"
+  },
+  {
+   "type": "note",
+   "text": "Industry and homes share the same area, and work activities conflict with residential life."
+  },
+  {
+   "type": "sub",
+   "text": "Underutilised land"
+  },
+  {
+   "type": "note",
+   "text": "Large areas of land stand underused, leaving inactive spaces and little room for community use."
+  },
+  {
+   "type": "sub",
+   "text": "Deforestation"
+  },
+  {
+   "type": "note",
+   "text": "Development pressure is removing trees and vegetation and reducing natural green areas."
+  },
+  {
+   "type": "sub",
+   "text": "Blocked-off beaches"
+  },
+  {
+   "type": "note",
+   "text": "Beach and coastal areas are cut off from the community, limiting public access to the coast."
+  }
+ ]
+}

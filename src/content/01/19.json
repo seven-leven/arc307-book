@@ -1,0 +1,39 @@
+{
+ "folio": 19,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Significant locations",
+ "picture": {
+  "src": "figures/01/19_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Significant locations"
+  },
+  {
+   "type": "para",
+   "text": "Mulee’aage was built between 1914 and 1919 for Prince Hassan Izzuddeen, and later became the official presidential residence."
+  },
+  {
+   "type": "caption",
+   "text": "Four significant locations. Illustrations by the Malé group.",
+   "label": "Figures",
+   "num": "1.3.3M to 1.3.6M"
+  },
+  {
+   "type": "para",
+   "text": "Hukuru Miskiy, the Old Friday Mosque, was built in the 17th century from finely carved coral stone. It is one of Malé’s most important landmarks."
+  },
+  {
+   "type": "para",
+   "text": "Sultan Park stands on the grounds of the old royal palace. It marks the change from monarchy to republic, and hosts national celebrations."
+  },
+  {
+   "type": "para",
+   "text": "Jumhooree Maidhaan, Republic Square, is Malé’s main civic space, used for national ceremonies and public celebrations."
+  }
+ ]
+}

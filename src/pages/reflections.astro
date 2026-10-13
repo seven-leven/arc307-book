@@ -1,21 +1,29 @@
 ---
-// Chapter 04: the editor and the three group leaders look back. Each is signed with the group's name only.
+// Chapter 04: what the studio learned, then each group leader's reflection (in the book these sit on the group
+// pages of the front matter). The words are the writers' own, from the book; each is signed with the group's name
+// only (design guide, part 12).
 import Base from "../layouts/Base.astro";
 import SectionHeader from "../components/SectionHeader.astro";
-import Slot from "../components/Slot.astro";
-import { EXTRA, REFLECTION_PARTS } from "../data/structure";
+import matter from "../content/00/matter.json";
+import { EXTRA, ISLANDS } from "../data/structure";
+
+const parts = [
+  { id: "studio", title: "What we learned in making this book", island: undefined, text: matter.reflections.studio, sign: "The Sem VI 2026 studio" },
+  ...ISLANDS.map((i) => ({ id: i.key, title: i.name, island: i.key, text: matter.reflections[i.key], sign: `The ${i.name} group leader` })),
+];
 ---
 <Base title={EXTRA.reflections.title} chapter={EXTRA.reflections.slug}>
   <div class="frame stack-lg top">
-    <SectionHeader label="Chapter 04" title={EXTRA.reflections.title} subtitle="What the studio learned, in its own words." />
+    <SectionHeader label="Chapter 04" title={EXTRA.reflections.title} subtitle="What we learned in making this book, and a reflection from each group leader." />
     <nav aria-label="On this page" class="jump">
-      {REFLECTION_PARTS.map((p) => <a href={`#${p.id}`} data-island={p.island ?? undefined}>{p.title}</a>)}
+      {parts.map((p) => <a href={`#${p.id}`} data-island={p.island}>{p.island ? p.title : "The studio"}</a>)}
     </nav>
-    {REFLECTION_PARTS.map((p) => (
-      <section id={p.id} class="stack part" data-island={p.island ?? undefined}>
+    {parts.map((p) => (
+      <section id={p.id} class="stack part" data-island={p.island}>
         <h2 class="t-heading who">{p.title}</h2>
-        <Slot what="Reflection" note="Personal text: the writer's own words, never a draft by anyone else" />
-        <p class="t-caption sign">{p.title}</p>
+        {p.island && <p class="t-subtitle">A reflection from the group leader</p>}
+        {p.text.map((t) => <p class="t-body">{t}</p>)}
+        <p class="t-caption sign">{p.sign}</p>
       </section>
     ))}
   </div>

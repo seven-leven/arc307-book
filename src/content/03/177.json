@@ -1,0 +1,59 @@
+{
+ "folio": 177,
+ "type": "sheet",
+ "heading": "3.2 PARTI HULHUMALÉ",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/177_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "strong",
+   "text": "2"
+  },
+  {
+   "type": "para",
+   "text": "A central node becomes the point the buildings are arranged around, in a radial plan."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figures",
+   "num": "3.2.2H to 3.2.4H"
+  },
+  {
+   "type": "sub",
+   "text": "A centre to gather around"
+  },
+  {
+   "type": "note",
+   "text": "The parti in three steps, from the existing paths to the proposed arrangement."
+  },
+  {
+   "type": "strong",
+   "text": "1"
+  },
+  {
+   "type": "para",
+   "text": "Existing paths cross at nodes. Placing buildings on the nodes slows the area down, and makes a new node at the centre."
+  },
+  {
+   "type": "strong",
+   "text": "3"
+  },
+  {
+   "type": "para",
+   "text": "Buildings are set out of line so that no path runs straight, and people slow down naturally."
+  },
+  {
+   "type": "sub",
+   "text": "Buildings on the nodes"
+  },
+  {
+   "type": "sub",
+   "text": "No straight paths"
+  }
+ ]
+}

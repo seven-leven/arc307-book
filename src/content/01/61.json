@@ -1,0 +1,43 @@
+{
+ "folio": 61,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/01/61_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "number",
+   "text": "4"
+  },
+  {
+   "type": "para",
+   "text": "Unpaved internal roads flood and break up, leaving uneven ground that is hard to walk on."
+  },
+  {
+   "type": "number",
+   "text": "6"
+  },
+  {
+   "type": "para",
+   "text": "Few street names and signs make it hard to find the way, most of all on the smaller streets."
+  },
+  {
+   "type": "caption",
+   "text": "Six obstacles to walking in Villimalé. Illustrations by the Villimalé group.",
+   "label": "Figures",
+   "num": "1.7.4V to 1.7.9V"
+  },
+  {
+   "type": "number",
+   "text": "5"
+  },
+  {
+   "type": "para",
+   "text": "Unpaved roads throw up dust in dry weather: uncomfortable for people walking and cycling, and for the homes beside them."
+  }
+ ]
+}

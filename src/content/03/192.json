@@ -1,0 +1,235 @@
+{
+ "folio": 192,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/03/192_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "italic",
+   "text": "What each plan changes, in the same measures."
+  },
+  {
+   "type": "heading",
+   "text": "MEASURE"
+  },
+  {
+   "type": "sub",
+   "text": "The one move"
+  },
+  {
+   "type": "sub",
+   "text": "People in the area"
+  },
+  {
+   "type": "sub",
+   "text": "Density"
+  },
+  {
+   "type": "sub",
+   "text": "Open space per person"
+  },
+  {
+   "type": "sub",
+   "text": "Room at home"
+  },
+  {
+   "type": "sub",
+   "text": "Cars"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Table",
+   "num": "3.10.1"
+  },
+  {
+   "type": "note",
+   "text": "The three masterplans in the same measures, from each island’s 3.1 metrics (pages 135, 155 and 175). Malé’s density is of its housing land; Villimalé’s is of the whole island."
+  },
+  {
+   "type": "heading",
+   "text": "MALÉ"
+  },
+  {
+   "type": "strongnote",
+   "text": "Fahi-Malé"
+  },
+  {
+   "type": "note",
+   "text": "13.43 ha"
+  },
+  {
+   "type": "sub",
+   "text": "Port to Thilafushi"
+  },
+  {
+   "type": "note",
+   "text": "Four wings open the waterfront to the city."
+  },
+  {
+   "type": "sub",
+   "text": "9,230 → 10,500"
+  },
+  {
+   "type": "note",
+   "text": "14% more people."
+  },
+  {
+   "type": "sub",
+   "text": "3,648 → 2,476"
+  },
+  {
+   "type": "note",
+   "text": "People per hectare of housing land."
+  },
+  {
+   "type": "sub",
+   "text": "0 → 3.8 m²"
+  },
+  {
+   "type": "note",
+   "text": "4.9 m² with the pedestrian streets."
+  },
+  {
+   "type": "sub",
+   "text": "21 m² each"
+  },
+  {
+   "type": "note",
+   "text": "Living space per person in the new capstone homes."
+  },
+  {
+   "type": "sub",
+   "text": "To the edge"
+  },
+  {
+   "type": "note",
+   "text": "Ring road only; parking within a 200 m walk."
+  },
+  {
+   "type": "heading",
+   "text": "VILLIMALÉ"
+  },
+  {
+   "type": "strongnote",
+   "text": "Villi-Veshi"
+  },
+  {
+   "type": "note",
+   "text": "12 ha, 4 ha rebuilt"
+  },
+  {
+   "type": "sub",
+   "text": "Industry leaves"
+  },
+  {
+   "type": "note",
+   "text": "Streets bend to the trees; dead edges become shared space."
+  },
+  {
+   "type": "sub",
+   "text": "1,283 → 2,603"
+  },
+  {
+   "type": "note",
+   "text": "About twice as many."
+  },
+  {
+   "type": "sub",
+   "text": "175 → 209"
+  },
+  {
+   "type": "note",
+   "text": "People per hectare, whole island."
+  },
+  {
+   "type": "sub",
+   "text": "18 → 14.5 m²"
+  },
+  {
+   "type": "note",
+   "text": "Whole island: more people share it."
+  },
+  {
+   "type": "sub",
+   "text": "28 → 44 m² each"
+  },
+  {
+   "type": "note",
+   "text": "Living space per person."
+  },
+  {
+   "type": "sub",
+   "text": "To the edge"
+  },
+  {
+   "type": "note",
+   "text": "Buses and cycles outside; inner streets for people."
+  },
+  {
+   "type": "heading",
+   "text": "HULHUMALÉ"
+  },
+  {
+   "type": "strongnote",
+   "text": "Hiyaa-Vehi"
+  },
+  {
+   "type": "note",
+   "text": "12 ha"
+  },
+  {
+   "type": "sub",
+   "text": "A centre"
+  },
+  {
+   "type": "note",
+   "text": "A radial plan round a plaza, with no straight paths."
+  },
+  {
+   "type": "sub",
+   "text": "32,000 → 11,800"
+  },
+  {
+   "type": "note",
+   "text": "63% fewer; 20,200 move to a new development elsewhere in the region."
+  },
+  {
+   "type": "sub",
+   "text": "2,667 → 983"
+  },
+  {
+   "type": "note",
+   "text": "People per hectare."
+  },
+  {
+   "type": "sub",
+   "text": "3 → 5 m²"
+  },
+  {
+   "type": "note",
+   "text": "Round a central park and plaza."
+  },
+  {
+   "type": "sub",
+   "text": "15 → 27 m² each"
+  },
+  {
+   "type": "note",
+   "text": "Living space per person."
+  },
+  {
+   "type": "sub",
+   "text": "To the edge"
+  },
+  {
+   "type": "note",
+   "text": "Perimeter roads; a vehicle- free core."
+  }
+ ]
+}

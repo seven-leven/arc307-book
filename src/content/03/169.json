@@ -1,0 +1,45 @@
+{
+ "folio": 169,
+ "type": "sheet",
+ "heading": "3.8 MASTERPLAN",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/169_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "strong",
+   "text": "LAND USE"
+  },
+  {
+   "type": "strong",
+   "text": "MOVEMENT AND NETWORK"
+  },
+  {
+   "type": "strong",
+   "text": "HOUSING"
+  },
+  {
+   "type": "strong",
+   "text": "INSTITIUTIONAL"
+  },
+  {
+   "type": "strong",
+   "text": "COMMERCIAL"
+  },
+  {
+   "type": "strong",
+   "text": "OPEN SPACE"
+  },
+  {
+   "type": "strong",
+   "text": "UTILITY"
+  },
+  {
+   "type": "strong",
+   "text": "INDUSTRIAL"
+  }
+ ]
+}

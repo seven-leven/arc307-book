@@ -1,0 +1,63 @@
+{
+ "folio": 185,
+ "type": "sheet",
+ "heading": "VIEWS HULHUMALÉ",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/185_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "note",
+   "text": "A flexible public space for small vendors, informal gatherings and everyday activities: an active social heart within the neighbourhood."
+  },
+  {
+   "type": "note",
+   "text": "The mosque combines spiritual, social and communal functions, creating a shared focal point that strengthens interaction and community identity."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figures",
+   "num": "3.6.2H to 3.6.5H"
+  },
+  {
+   "type": "heading",
+   "text": "WHO IT SERVES"
+  },
+  {
+   "type": "para",
+   "text": "Daily needs move inside the neighbourhood. Stalls and workshops give residents places to earn and to learn, the mosque gives the area a shared centre, and sport is close to home."
+  },
+  {
+   "type": "sub",
+   "text": "Central plaza stalls"
+  },
+  {
+   "type": "sub",
+   "text": "Central mixed-use mosque"
+  },
+  {
+   "type": "note",
+   "text": "Four of the non-residential spaces."
+  },
+  {
+   "type": "sub",
+   "text": "Carpentry workshops"
+  },
+  {
+   "type": "note",
+   "text": "Shared workshops provide space for local skills, making and small-scale enterprise, while creating opportunities for residents to learn, work and interact."
+  },
+  {
+   "type": "sub",
+   "text": "Recreation space"
+  },
+  {
+   "type": "note",
+   "text": "Accessible sports facilities encourage physical activity and social interaction, providing residents with a shared space for recreation close to home."
+  }
+ ]
+}

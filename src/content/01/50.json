@@ -1,0 +1,251 @@
+{
+ "folio": 50,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Population pyramid",
+ "picture": {
+  "src": "figures/01/50_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Population pyramid"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.5.1V"
+  },
+  {
+   "type": "para",
+   "text": "Villimalé has a young, working-age population: 6,755 residents in the 2022 census. Expatriates are 11.61% of residents. Most Maldivians are young people (33%) or of working age (32.4%); children are 30.1% and older people only 4.5%."
+  },
+  {
+   "type": "note",
+   "text": "75+"
+  },
+  {
+   "type": "note",
+   "text": "70–74"
+  },
+  {
+   "type": "note",
+   "text": "65–69"
+  },
+  {
+   "type": "note",
+   "text": "60–64"
+  },
+  {
+   "type": "note",
+   "text": "55–59"
+  },
+  {
+   "type": "note",
+   "text": "50–54"
+  },
+  {
+   "type": "note",
+   "text": "45–49"
+  },
+  {
+   "type": "note",
+   "text": "40–44"
+  },
+  {
+   "type": "note",
+   "text": "35–39"
+  },
+  {
+   "type": "note",
+   "text": "30–34"
+  },
+  {
+   "type": "note",
+   "text": "25–29"
+  },
+  {
+   "type": "note",
+   "text": "20–24"
+  },
+  {
+   "type": "note",
+   "text": "15–19"
+  },
+  {
+   "type": "note",
+   "text": "10–14"
+  },
+  {
+   "type": "note",
+   "text": "5–9"
+  },
+  {
+   "type": "note",
+   "text": "0–4"
+  },
+  {
+   "type": "note",
+   "text": "600"
+  },
+  {
+   "type": "note",
+   "text": "Maldivian women, 2026"
+  },
+  {
+   "type": "note",
+   "text": "2014 profile, women"
+  },
+  {
+   "type": "note",
+   "text": "Population by age and sex, 2026, with the 2014 profile and the 2050 projection. Source: Census 2022, Maldives Bureau of Statistics."
+  },
+  {
+   "type": "heading",
+   "text": "POPULATION CHANGE"
+  },
+  {
+   "type": "note",
+   "text": "2014 TO 2022"
+  },
+  {
+   "type": "number",
+   "text": "-15.4%"
+  },
+  {
+   "type": "note",
+   "text": "FROM 7,988 TO 6,755 PEOPLE"
+  },
+  {
+   "type": "note",
+   "text": "MEN"
+  },
+  {
+   "type": "note",
+   "text": "2050"
+  },
+  {
+   "type": "note",
+   "text": "2000"
+  },
+  {
+   "type": "note",
+   "text": "400"
+  },
+  {
+   "type": "note",
+   "text": "200"
+  },
+  {
+   "type": "note",
+   "text": "Maldivian men, 2026"
+  },
+  {
+   "type": "note",
+   "text": "2014 profile, men"
+  },
+  {
+   "type": "heading",
+   "text": "YEARLY CHANGE"
+  },
+  {
+   "type": "number",
+   "text": "-2.1%"
+  },
+  {
+   "type": "note",
+   "text": "PER YEAR"
+  },
+  {
+   "type": "note",
+   "text": "0"
+  },
+  {
+   "type": "note",
+   "text": "Foreign men, 2026"
+  },
+  {
+   "type": "note",
+   "text": "2050 projection, women"
+  },
+  {
+   "type": "para",
+   "text": "Projections show growth in every age group, strongest among young and working-age people. Older groups grow too, but the island stays mostly young."
+  },
+  {
+   "type": "sub",
+   "text": "Locals"
+  },
+  {
+   "type": "number",
+   "text": "2,941"
+  },
+  {
+   "type": "sub",
+   "text": "Male"
+  },
+  {
+   "type": "number",
+   "text": "3,030"
+  },
+  {
+   "type": "sub",
+   "text": "Female"
+  },
+  {
+   "type": "heading",
+   "text": "WOMEN"
+  },
+  {
+   "type": "note",
+   "text": "2050"
+  },
+  {
+   "type": "note",
+   "text": "2000"
+  },
+  {
+   "type": "note",
+   "text": "200"
+  },
+  {
+   "type": "note",
+   "text": "400"
+  },
+  {
+   "type": "note",
+   "text": "Foreign women, 2026"
+  },
+  {
+   "type": "note",
+   "text": "2050 projection, men"
+  },
+  {
+   "type": "sub",
+   "text": "Female"
+  },
+  {
+   "type": "note",
+   "text": "600"
+  },
+  {
+   "type": "sub",
+   "text": "Expats"
+  },
+  {
+   "type": "number",
+   "text": "640"
+  },
+  {
+   "type": "sub",
+   "text": "Male"
+  },
+  {
+   "type": "number",
+   "text": "144"
+  }
+ ]
+}

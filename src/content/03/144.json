@@ -1,0 +1,55 @@
+{
+ "folio": 144,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/03/144_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "heading",
+   "text": "WHAT THE SITE OFFERS"
+  },
+  {
+   "type": "para",
+   "text": "The East wing gives arrivals a terminal, with the fish and farmers’ markets beside it. The West wing holds the Ocean Hub, for diving, swimming lessons and marine research. Between them, an amenity core of kiosks, shops and a sports centre serves daily life."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "3.6.1M"
+  },
+  {
+   "type": "note",
+   "text": "What the area offers besides homes: the terminal, the markets, the Ocean Hub and the amenity core. Numbers refer to the views below."
+  },
+  {
+   "type": "heading",
+   "text": "LEGEND"
+  },
+  {
+   "type": "note",
+   "text": "Civic / arrival terminal East wing gateway"
+  },
+  {
+   "type": "note",
+   "text": "Commercial / retail / F&B lounge, food stalls, souvenirs"
+  },
+  {
+   "type": "note",
+   "text": "Fish and farmers’ market redesigned"
+  },
+  {
+   "type": "note",
+   "text": "Ocean Hub diving, marine centre, water park"
+  },
+  {
+   "type": "note",
+   "text": "Amenity core school and kiosk"
+  }
+ ]
+}

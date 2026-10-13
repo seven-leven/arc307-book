@@ -1,0 +1,157 @@
+{
+ "folio": 65,
+ "type": "sheet",
+ "heading": "ISLAND AT A GLANCE",
+ "claim": null,
+ "picture": {
+  "src": "figures/01/65_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "heading",
+   "text": "LAND AREA (HA)"
+  },
+  {
+   "type": "note",
+   "text": "497 ha"
+  },
+  {
+   "type": "heading",
+   "text": "DENSITY (PEOPLE PER HA)"
+  },
+  {
+   "type": "note",
+   "text": "262 per ha (2026)"
+  },
+  {
+   "type": "heading",
+   "text": "DISTANCE FROM MALÉ"
+  },
+  {
+   "type": "note",
+   "text": "4.15 km"
+  },
+  {
+   "type": "heading",
+   "text": "DOMINANT LAND USE"
+  },
+  {
+   "type": "note",
+   "text": "Residential (45.7% of the land)"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Table",
+   "num": "1.2.1H"
+  },
+  {
+   "type": "heading",
+   "text": "LOCATION AND ROLE IN THE REGION"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.2.2H"
+  },
+  {
+   "type": "note",
+   "text": "Sources"
+  },
+  {
+   "type": "note",
+   "text": "Hulhumalé at a glance. Population and households: HDC, 2026. The 2022 census counted 65,714 residents (132 per ha)."
+  },
+  {
+   "type": "note",
+   "text": "Giraavaru"
+  },
+  {
+   "type": "note",
+   "text": "Thilafushi"
+  },
+  {
+   "type": "note",
+   "text": "Hulhumalé in the Greater Malé Region."
+  },
+  {
+   "type": "note",
+   "text": "HDC (hdc.mv); Google Maps."
+  },
+  {
+   "type": "note",
+   "text": "Malé"
+  },
+  {
+   "type": "note",
+   "text": "Gulhifalhu"
+  },
+  {
+   "type": "note",
+   "text": "Villimalé"
+  },
+  {
+   "type": "heading",
+   "text": "POPULATION (YEAR)"
+  },
+  {
+   "type": "note",
+   "text": "130,197 (2026)"
+  },
+  {
+   "type": "heading",
+   "text": "HOUSEHOLDS"
+  },
+  {
+   "type": "note",
+   "text": "35,088"
+  },
+  {
+   "type": "heading",
+   "text": "ROLE IN THE REGION"
+  },
+  {
+   "type": "note",
+   "text": "Malé’s planned extension"
+  },
+  {
+   "type": "heading",
+   "text": "MAIN ACCESS"
+  },
+  {
+   "type": "note",
+   "text": "Bridge and ferry"
+  },
+  {
+   "type": "note",
+   "text": "Hulhumalé"
+  },
+  {
+   "type": "para",
+   "text": "Velana International Airport"
+  },
+  {
+   "type": "para",
+   "text": "The Sinamalé Bridge and ferries link Hulhumalé to Malé. Hulhumalé gives the capital homes, hospitals and industry, and depends on Malé for government, business and finance."
+  },
+  {
+   "type": "sub",
+   "text": "HULHUMALÉ"
+  },
+  {
+   "type": "note",
+   "text": "Housing"
+  },
+  {
+   "type": "note",
+   "text": "Employment"
+  },
+  {
+   "type": "note",
+   "text": "Leisure"
+  }
+ ]
+}

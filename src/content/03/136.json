@@ -1,0 +1,59 @@
+{
+ "folio": 136,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/03/136_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "heading",
+   "text": "THE IDEA"
+  },
+  {
+   "type": "para",
+   "text": "One move frees the waterfront: the port and North Harbour leave for Thilafushi. Four wings then reconnect Malé to the world, the ocean, its past and its future. An amenity core of kiosks, a school and park, a sports centre and shops ties them together."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "3.2.1M"
+  },
+  {
+   "type": "note",
+   "text": "The parti: the port leaves, and four wings open Malé to the world, the ocean, its past and its future."
+  },
+  {
+   "type": "heading",
+   "text": "LEGEND"
+  },
+  {
+   "type": "note",
+   "text": "Port relocation back-of-house leaves Malé"
+  },
+  {
+   "type": "note",
+   "text": "Wing zone north, east, south and west"
+  },
+  {
+   "type": "note",
+   "text": "Wing connection to the world, the ocean, the past and the future"
+  },
+  {
+   "type": "note",
+   "text": "Amenity core node everyday needs between wings"
+  },
+  {
+   "type": "note",
+   "text": "Stitch link wing to wing"
+  },
+  {
+   "type": "note",
+   "text": "Vista / breeze cut through the reclaimed grid to the sea"
+  }
+ ]
+}

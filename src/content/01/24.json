@@ -1,0 +1,103 @@
+{
+ "folio": 24,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Environment map",
+ "picture": {
+  "src": "figures/01/24_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Environment map"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.4.1M"
+  },
+  {
+   "type": "note",
+   "text": "Atoll waves"
+  },
+  {
+   "type": "note",
+   "text": "S.W Current"
+  },
+  {
+   "type": "note",
+   "text": "S.W Swell"
+  },
+  {
+   "type": "note",
+   "text": "S.W Wind"
+  },
+  {
+   "type": "para",
+   "text": "Sun path"
+  },
+  {
+   "type": "para",
+   "text": "Vegetation"
+  },
+  {
+   "type": "note",
+   "text": "Environment map of Malé: the sun’s path, winds, swells and currents. Source: Rethink Malé; Google Maps."
+  },
+  {
+   "type": "note",
+   "text": "S.W Swell"
+  },
+  {
+   "type": "note",
+   "text": "S.W Swell"
+  },
+  {
+   "type": "para",
+   "text": "Wind"
+  },
+  {
+   "type": "note",
+   "text": "Deep sea waves"
+  },
+  {
+   "type": "para",
+   "text": "Swells"
+  },
+  {
+   "type": "para",
+   "text": "Waves"
+  },
+  {
+   "type": "note",
+   "text": "N.E Wind"
+  },
+  {
+   "type": "para",
+   "text": "Tidal current"
+  },
+  {
+   "type": "note",
+   "text": "N.E Swell"
+  },
+  {
+   "type": "note",
+   "text": "N.E Current"
+  },
+  {
+   "type": "note",
+   "text": "Surf spot"
+  },
+  {
+   "type": "note",
+   "text": "N.E Swell"
+  },
+  {
+   "type": "para",
+   "text": "Surf spot"
+  }
+ ]
+}

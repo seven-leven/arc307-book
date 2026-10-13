@@ -1,0 +1,83 @@
+{
+ "folio": 33,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Walkability",
+ "picture": {
+  "src": "figures/01/33_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Walkability"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.6.7M"
+  },
+  {
+   "type": "para",
+   "text": "Within Malé’s tight island fabric, almost every 400 m, five-minute walking radius contains a wide range of essential facilities. Any service beyond one radius is still just a short walk away along the narrow galis, keeping daily life accessible and close for everyone on the island."
+  },
+  {
+   "type": "note",
+   "text": "Facilities within a 400 m, five-minute walk, across Malé. Source: Rethink Malé; Google Maps."
+  },
+  {
+   "type": "heading",
+   "text": "WITHIN A FIVE-MINUTE WALK"
+  },
+  {
+   "type": "note",
+   "text": "Harbour"
+  },
+  {
+   "type": "note",
+   "text": "Mosque"
+  },
+  {
+   "type": "note",
+   "text": "Football ground"
+  },
+  {
+   "type": "note",
+   "text": "Hulhumalé terminal"
+  },
+  {
+   "type": "note",
+   "text": "Island council"
+  },
+  {
+   "type": "note",
+   "text": "Hospital and pharmacy"
+  },
+  {
+   "type": "note",
+   "text": "Education facilities"
+  },
+  {
+   "type": "note",
+   "text": "Park"
+  },
+  {
+   "type": "note",
+   "text": "School and preschool"
+  },
+  {
+   "type": "note",
+   "text": "Police"
+  },
+  {
+   "type": "note",
+   "text": "Restaurant or café"
+  },
+  {
+   "type": "note",
+   "text": "400 m radius: a five- minute walk"
+  }
+ ]
+}

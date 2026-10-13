@@ -1,0 +1,49 @@
+{
+ "folio": 16,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Historical timeline",
+ "picture": {
+  "src": "figures/01/16_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Historical timeline"
+  },
+  {
+   "type": "number",
+   "text": "Before 1153"
+  },
+  {
+   "type": "para",
+   "text": "A settled trading island, its four wards named by Giraavaru fishermen."
+  },
+  {
+   "type": "number",
+   "text": "1888"
+  },
+  {
+   "type": "para",
+   "text": "2,148 people live on less than a square mile of coral stone."
+  },
+  {
+   "type": "number",
+   "text": "1925–27"
+  },
+  {
+   "type": "para",
+   "text": "Shamsuddeen III pulls down forts and walls, widens roads and clears graves for housing."
+  },
+  {
+   "type": "number",
+   "text": "1963–68"
+  },
+  {
+   "type": "para",
+   "text": "Monarchy abolished. Palace, forts, bastions come down. Only the National Museum and Friday Mosque survive."
+  }
+ ]
+}

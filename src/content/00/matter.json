@@ -1,0 +1,365 @@
+{
+ "acknowledgements": [
+  "Our deepest appreciation goes to the residents of Malé, Villimalé and Hulhumalé for their openness and willingness to share what they know of their islands. The older residents who spoke to us about how these places looked and felt in earlier decades gave this study a memory that no map could.",
+  "We are sincerely grateful to our lecturers for their continuous guidance, challenge and encouragement from the first reading to the final masterplan. Their direction shaped how we learned to read an island, and then how to design for it.",
+  "We thank the authors whose work gave us our methods: the City of Perth, David Sim and Jan Gehl. Their texts became the six instruments that all three groups used on site.",
+  "We also thank every member of the three groups for their dedication and collective effort. Three islands were studied by one studio, with one toolkit, and this book is the result of that shared work.",
+  "This study was a chance to learn, to walk, to count and to question. It deepened our understanding of how Greater Malé is changing, and how its older and newer neighbourhoods can be made to work together."
+ ],
+ "introduction": [
+  "When the brief landed at the start of the semester, we knew the book would be the hardest part. Three groups, three islands, three ways of working, and one volume that had to read as if a single studio wrote it. Being our last semester, we also wanted it to be the best book we had made.",
+  "So we treated it like a project of its own. We formed an editorial team with member from each group, assigned roles, and kept a Gantt chart that more than a few of us grew tired of seeing. We agreed early on a shared template, typeface, colour system and a common way of presenting the numbers, so that a land-use table from Malé could sit next to one from Hulhumalé and be read the same way.",
+  "What surprised us most was how differently the three islands answered the same questions. Malé is old and organic, still shedding the weight of its port. Villimalé is quiet and green, with a pace you feel the moment you step off the ferry. Hulhumalé is planned from scratch, and still working out what kind of city it wants to be. Read side by side, each explains something the others cannot.",
+  "This book is for anyone who lives in, plans or simply cares about the Greater Malé region: students, practitioners, and the people whose neighbourhoods appear on these pages. We hope they take from it that our cities are not fixed. They were shaped by decisions, and they can be reshaped by better ones. The evidence is here, counted, mapped and walked, so those decisions can be made with open eyes.",
+  "To the whole team: thank you for the long hours, the version numbers, and the patience it takes to reformat someone else’s table for the fourth time. This book exists because you kept three groups talking to each other. It belongs to all of us."
+ ],
+ "reflections": {
+  "studio": [
+   "This book was made by thirty-one people in three groups, and most of what we learned came from that. Each group knew its own island well. Making one book meant agreeing how to describe all three in the same way.",
+   "We learned that a shared method has to be written down. One toolkit, used the same way on every island, is what made the theme comparisons possible. Where a group had counted or scored differently, the comparison page showed it at once, and we went back to the data.",
+   "We learned to check our own numbers. A figure on an island page had to match the same figure on its comparison page, and more than once it did not. Finding out why taught us more about the data than collecting it had.",
+   "We learned that a reader is not a studio critic. Pages that made sense to us were full of codes, abbreviations and unlabelled charts. Rewriting them for someone who has never seen the site made our own argument clearer.",
+   "We learned what a template is for. Agreeing early on one typeface, a few text styles, one colour for each island and one header for every page cost time at the start and saved it every week after. A tracker that named one person for each page did the same for the work itself.",
+   "And we learned to say what we do not know. Where the census stopped short of a neighbourhood we estimated, and marked the estimate. The three masterplans in this book are proposals, not answers. The plots each of us designs next will test them.",
+   "Most of all, the islands taught us one thing. The same toolkit, used on an old island, a resettled one and a planned one, found people staying where a street is shaded, calm and open to them, whatever the density or the age of the place. Design decided it. That is what the three masterplans act on."
+  ],
+  "male": [
+   "Before this study, Malé was just the place I live: crowded, loud, too familiar to notice. Counting changed that. Nearly ten hectares of the city’s best edge belong to cargo and warehouses. Behind them, the old neighbourhood where people once knew each other by name has become a concrete jungle, with neighbours stacked above one another who rarely meet. The hardest moment was the road widening. Every option meant someone losing a home, and no spreadsheet could make that abstract. We committed to rehousing everyone on the same lot, and the plan was better for it. What I’d ask a reader to notice: Malé’s problems are rarely about space. They’re about who the space was built for."
+  ],
+  "villimale": [
+   "Before we arrived to begin our analysis, we viewed Villingili through a lens of pure leisure. To our outsider eyes, it was merely a green oasis drifting amidst the dense, grey sprawl of Greater Malé, a quiet escape where the only natural elements lived in isolation from the urban chaos. However, the deeper we looked, the more the island’s true character emerged. The silence we expected was actually a profound, shared stillness. We realised that Villingili is not just a landscape, but a living, breathing community. There is a palpable, tight-knit energy here; neighbours greet each other with a familiarity that feels ancestral. Their bond with the land is inseparable from their bond with one another, creating a rhythm of life that is as much about human connection as it is about the tides."
+  ],
+  "hulhumale": [
+   "Before this study, Hulhumalé was not somewhere I thought to question. Phase 1 is green and open, its buildings low enough that you can still see sky between them. Phase 2 feels like a completely different place, tall blocks pressed close on every side, with almost nothing left open to breathe into. The hardest part was density. Every version of “fit more people in” seemed to end at the same answer, that being another 25-storey tower, blocking the next one’s light and air. Hulhumalé was built for people who came to Malé to work but couldn’t find space, or didn’t want to live in its congestion, people looking for somewhere to actually rest. Phase 1 still does that. Phase 2 gave it up entirely in the rush to house as many people as possible, and the result is a flat, monotonous way of living."
+  ]
+ },
+ "references": [
+  {
+   "group": "DATA AND MAPS",
+   "terms": [
+    {
+     "term": "Rethink Malé",
+     "meaning": "Urban Strategy 2030–2050 and Land Use Plan Revision. ArcGIS StoryMap. storymaps.arcgis.com/stories/17686b559bb24b0ab721cbe751757291 Chapter 01: most of the maps and data for Malé and Villimalé."
+    },
+    {
+     "term": "Maldives Bureau of Statistics, 2022",
+     "meaning": "Population and Housing Census 2022 (the bureau was formerly the National Bureau of Statistics). statisticsmaldives.gov.mv Population, households and density on all three islands."
+    },
+    {
+     "term": "Housing Development Corporation (HDC)",
+     "meaning": "Hulhumalé: land use plan, phases and figures. hdc.mv Chapter 01: almost all the data for Hulhumalé."
+    },
+    {
+     "term": "Google Maps, 2026",
+     "meaning": "Satellite images, street maps and distances. maps.google.com Base maps and distances in Chapter 01."
+    }
+   ]
+  },
+  {
+   "group": "HISTORY",
+   "terms": [
+    {
+     "term": "Wikipedia, 2026",
+     "meaning": "The articles on Malé, Villimalé and Hulhumalé, and on the landmarks and events in their timelines. en.wikipedia.org Section 1.3, the historical timelines. Accessed October 2026."
+    }
+   ]
+  },
+  {
+   "group": "BOOKS AND STUDIES",
+   "terms": [
+    {
+     "term": "Gehl, J., 2010",
+     "meaning": "Cities for People. Washington, DC: Island Press. The source text for the Hulhumalé group’s toolkits (5 and 6)."
+    },
+    {
+     "term": "Gehl Architects, 2009",
+     "meaning": "Perth 2009: Public Spaces and Public Life. Perth: City of Perth. The source text for the Malé group’s toolkits (1 and 2), and the street grades A to E."
+    },
+    {
+     "term": "Sim, D., 2019",
+     "meaning": "Soft City: Building Density for Everyday Life. Washington, DC: Island Press. The source text for the Villimalé group’s toolkits (3 and 4); the dense threshold, FAR 1.87 (p. 380)."
+    },
+    {
+     "term": "Kuchelmeister, G., 1998",
+     "meaning": "Urban Forestry in the Asia-Pacific Region: Status and Prospects. Asia-Pacific Forestry Sector Outlook Study, Working Paper 44. Rome: FAO. The guide of 9 m² of green space per person (section 1.8)."
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "group": "PLACES AND LOCAL WORDS",
+   "terms": [
+    {
+     "term": "Atoll",
+     "meaning": "A ring of coral islands and reefs around a lagoon. Malé, Villimalé and Hulhumalé are in Kaafu Atoll."
+    },
+    {
+     "term": "Greater Malé Region",
+     "meaning": "Malé and the islands tied to it by bridges and ferries, among them Villimalé, Hulhumalé, Hulhulé (the airport) and Thilafushi."
+    },
+    {
+     "term": "Reclamation",
+     "meaning": "Making new land by pumping sand from the lagoon onto the reef. Hulhumalé was built this way from 1997."
+    },
+    {
+     "term": "Magu, hingun, goalhi",
+     "meaning": "Dhivehi for a street, a wider road and a narrow lane, as in Majeedhee Magu or Haveeree Hingun."
+    },
+    {
+     "term": "Joali",
+     "meaning": "A traditional seat of netting strung on a frame, set outside homes and shops for sitting and talking."
+    },
+    {
+     "term": "Holhuashi",
+     "meaning": "An open-sided shelter where people sit together, often by the beach or the harbour."
+    },
+    {
+     "term": "Godown",
+     "meaning": "A warehouse. On Malé’s northern edge, godowns and port yards hold the waterfront."
+    }
+   ]
+  },
+  {
+   "group": "PLANNING AND BUILDING",
+   "terms": [
+    {
+     "term": "Masterplan",
+     "meaning": "A plan for how a whole area should change: its streets, open spaces, buildings and uses, decided together. Chapter 03 proposes one for each island."
+    },
+    {
+     "term": "Masterplan area",
+     "meaning": "The walkable area, 12 to 13.43 ha, that each group studied on foot in Chapter 02 and designed in Chapter 03."
+    },
+    {
+     "term": "Plot",
+     "meaning": "One piece of land with one owner or one building."
+    },
+    {
+     "term": "Hectare (ha)",
+     "meaning": "10,000 m², a square 100 m on each side: about one and a half football pitches."
+    },
+    {
+     "term": "Land use",
+     "meaning": "What a piece of land is used for: homes, shops, offices, schools, mosques, parks, industry or roads."
+    },
+    {
+     "term": "Mixed use",
+     "meaning": "Homes, shops and workplaces in the same building or street, rather than kept apart."
+    },
+    {
+     "term": "Density",
+     "meaning": "How many people, or how much floor space, sits on an area, usually counted per hectare."
+    },
+    {
+     "term": "Dense",
+     "meaning": "In this book: a floor area ratio of 1.87 or more."
+    },
+    {
+     "term": "Floor area ratio (FAR)",
+     "meaning": "A building’s total floor area divided by the area of its plot. A plot fully covered by a two-storey building has a FAR of 2."
+    },
+    {
+     "term": "Floor space index (FSI)",
+     "meaning": "Another name for floor area ratio, used on the metrics pages."
+    },
+    {
+     "term": "Gross floor area (GFA)",
+     "meaning": "All the floors of a building, or of a whole area, added together, in m²."
+    },
+    {
+     "term": "Site coverage",
+     "meaning": "The share of a plot covered by building, seen from above."
+    },
+    {
+     "term": "Storey",
+     "meaning": "One floor level of a building."
+    },
+    {
+     "term": "Setback",
+     "meaning": "The gap a building must leave between itself and the edge of its plot, for light, air and access."
+    },
+    {
+     "term": "Solid and void",
+     "meaning": "A map with buildings in solid colour and open ground left white, so the island’s pattern reads at a glance."
+    },
+    {
+     "term": "Grain",
+     "meaning": "The size of the pieces a place is built from. Fine grain: many small plots and buildings. Coarse grain: fewer, larger ones."
+    },
+    {
+     "term": "Frontage",
+     "meaning": "The ground floor of the buildings along a street as a person on the pavement meets it: doors, windows, shops and blank walls."
+    },
+    {
+     "term": "Social housing",
+     "meaning": "Homes provided below market cost, usually by the government, for people who cannot pay market prices."
+    },
+    {
+     "term": "Green plot ratio",
+     "meaning": "The area of planting on a plot, on the ground, roofs and walls together, divided by the plot’s area."
+    }
+   ]
+  },
+  {
+   "group": "STREETS AND MOVEMENT",
+   "terms": [
+    {
+     "term": "Pavement",
+     "meaning": "The raised walking strip beside a road."
+    },
+    {
+     "term": "Micro-mobility",
+     "meaning": "Motorbikes, scooters and bicycles."
+    },
+    {
+     "term": "Road hierarchy",
+     "meaning": "Roads sorted by the traffic they carry, from main roads to local streets and footpaths."
+    },
+    {
+     "term": "Street section",
+     "meaning": "A drawing of a street cut straight across, showing the width of each part: pavements, lanes, parking and trees."
+    },
+    {
+     "term": "Walkability",
+     "meaning": "How easily daily needs can be reached on foot. The book maps what lies within 400 m, about a five- minute walk."
+    },
+    {
+     "term": "Superblock",
+     "meaning": "A group of blocks with through traffic kept to the roads around the edge, so the streets inside belong to people."
+    },
+    {
+     "term": "Breeze corridor",
+     "meaning": "A street or open strip lined up with the wind and kept clear, so cooling air moves through."
+    }
+   ]
+  },
+  {
+   "group": "HOW WE MEASURED",
+   "terms": [
+    {
+     "term": "Toolkit",
+     "meaning": "One of the six survey instruments every group used in Chapter 02, numbered 1 to 6."
+    },
+    {
+     "term": "Theme",
+     "meaning": "One of the five ideas about public life that Chapter 02 tests on all three islands."
+    },
+    {
+     "term": "Issue",
+     "meaning": "A problem found by walking the site, grouped as Social, Environmental or Commercial."
+    },
+    {
+     "term": "Gate",
+     "meaning": "A line across a street where we counted everyone passing in ten minutes (Toolkit 5)."
+    },
+    {
+     "term": "Staying and moving",
+     "meaning": "People who stopped in the street, sitting, standing, playing or waiting, against people passing through."
+    },
+    {
+     "term": "Frontage grade",
+     "meaning": "Toolkit 1’s rating of a street face, from doors per 100 m and the share of blank wall: A active, B pleasant, C mixed, D dull, E inactive. Adapted from Gehl’s study of Perth (2009)."
+    },
+    {
+     "term": "Housing quality score",
+     "meaning": "Toolkit 3’s score for a plot’s homes (human scale, variety, flexibility, uses and ground-floor access), out of 32. 16 or more counts as good."
+    },
+    {
+     "term": "Layering and stacking",
+     "meaning": "Toolkit 4 asks whether a building changes from front to back and from ground to roof (layered) or repeats the same floor (stacked)."
+    },
+    {
+     "term": "SCER",
+     "meaning": "Spatial conflict exposure rate: vehicle conflicts as a share of everything happening on a street (conflicts plus people staying). 15% or more means vehicles dominate it."
+    },
+    {
+     "term": "Estimate",
+     "meaning": "A figure worked out rather than counted. Estimates are marked as such on the page."
+    }
+   ]
+  },
+  {
+   "group": "THE MASTERPLANS",
+   "terms": [
+    {
+     "term": "Vision",
+     "meaning": "The one idea a masterplan is for, in a sentence."
+    },
+    {
+     "term": "Parti",
+     "meaning": "The main idea of a design drawn as a simple diagram, before any detail."
+    },
+    {
+     "term": "Layer",
+     "meaning": "One system of a masterplan drawn on its own: what exists, movement, public and green space, other uses, homes. Each keeps one colour on all three islands."
+    },
+    {
+     "term": "Capstone plot",
+     "meaning": "A plot set aside for one student to design a building on in the next project, 8 to 10 storeys high."
+    },
+    {
+     "term": "Policy and guidelines",
+     "meaning": "The rules new buildings must follow, such as heights, setbacks and shade, so the plan holds."
+    },
+    {
+     "term": "Fahi-Malé, Villi-Veshi, Hiyaa-Vehi",
+     "meaning": "The three masterplans, for Malé, Villimalé and Hulhumalé."
+    }
+   ]
+  },
+  {
+   "group": "ABBREVIATIONS",
+   "terms": [
+    {
+     "term": "ha",
+     "meaning": "hectare"
+    },
+    {
+     "term": "m²",
+     "meaning": "square metre"
+    },
+    {
+     "term": "km",
+     "meaning": "kilometre"
+    },
+    {
+     "term": "sq ft",
+     "meaning": "square foot, about 0.09 m²"
+    },
+    {
+     "term": "FAR",
+     "meaning": "floor area ratio"
+    },
+    {
+     "term": "FSI",
+     "meaning": "floor space index"
+    },
+    {
+     "term": "GFA",
+     "meaning": "gross floor area"
+    },
+    {
+     "term": "SCER",
+     "meaning": "spatial conflict exposure rate"
+    },
+    {
+     "term": "LUP",
+     "meaning": "land use plan"
+    },
+    {
+     "term": "MDVN, FOR",
+     "meaning": "Maldivian and foreign residents"
+    },
+    {
+     "term": "HDC",
+     "meaning": "Housing Development Corporation"
+    },
+    {
+     "term": "MNU",
+     "meaning": "Maldives National University"
+    }
+   ]
+  }
+ ]
+}

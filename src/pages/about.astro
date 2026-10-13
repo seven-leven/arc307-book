@@ -1,10 +1,42 @@
 ---
-// What the book's front matter held, on one page: the book, the editor's introduction, how to read, methodology,
-// the three groups, acknowledgements. Nobody is named (design guide, part 12): the credit line stands for everyone.
+// What the book's front matter held, on one page. The words are the book's (src/content/00/matter.json, written by
+// book/export_web_matter.py in the Book folder); the methodology and how-to-read parts are diagrams in the book, so
+// their words are set here by hand. Nobody is named (design guide, part 12).
 import Base from "../layouts/Base.astro";
 import SectionHeader from "../components/SectionHeader.astro";
-import Slot from "../components/Slot.astro";
-import { ABOUT_PARTS, EXTRA, ISLANDS, SITE } from "../data/structure";
+import DataTable from "../components/DataTable.astro";
+import matter from "../content/00/matter.json";
+import { ABOUT_PARTS, CHAPTERS, EXTRA, ISLANDS, SITE, url } from "../data/structure";
+
+const PUBLICATION = [
+  ["Title of book", "Greater Malé Region: Site Analysis and Masterplans"],
+  ["Book series", "Island Profile and Masterplan Studio"],
+  ["Book number", "Book 1 of 1 (class volume)"],
+  ["Islands studied", "Malé, Villimalé and Hulhumalé"],
+  ["Region", "Greater Malé Region, Maldives"],
+  ["Nature of study", "Field-based analytical site study, shared toolkit research and masterplanning"],
+  ["Program of study", "ARC307 Architectural Design Project 6, Bachelor of Architecture and Design (BAAD)"],
+  ["Institution", "Maldives National University (MNU), Faculty of Engineering, Science and Technology (FEST)"],
+  ["Field study and production team", "Sem VI 2026: 31 students in three groups (Malé, Villimalé, Hulhumalé)"],
+  ["Year of field study", "2026"],
+  ["Year of publication", "2026"],
+];
+const STAGES = [
+  { n: 1, name: "Read", part: "Part 1A", text: "Each group reads one text closely and turns it into two field instruments. Perth 2009, Sim, Gehl.", ends: "Introduction", href: "#the-three-groups" },
+  { n: 2, name: "Macro", part: "Part 2A", text: "The whole island, from secondary sources: maps, imagery, planning data, historic records. Catchment to parking.", ends: "Chapter 01", href: url(`/${CHAPTERS[0].slug}/`) },
+  { n: 3, name: "Micro", part: "Part 2A", text: "One walkable area of about 10–12 ha. All six instruments used on site by every group. Fieldwork, not desk research.", ends: "Chapter 02", href: url(`/${CHAPTERS[1].slug}/`) },
+  { n: 4, name: "Design", part: "Part 2B", text: "About 4 ha of dormant land redeveloped. About 8 ha of organic fabric rejuvenated with minimum intervention. One masterplan.", ends: "Chapter 03", href: url(`/${CHAPTERS[2].slug}/`) },
+];
+const GROUPS = {
+  male: { text: "Perth 2009: Public Spaces and Public Life", a: "Land Use and Building Scale Survey", b: "Activity, Comfort and Safety Observation Survey" },
+  villimale: { text: "Sim, Soft City: Building Density", a: "Density and Housing Quality Assessment", b: "Layering vs Stacking" },
+  hulhumale: { text: "Gehl, Cities for People", a: "Walking Activity and Movement Count", b: "Public Space Quality Checklist" },
+};
+const ORDER = [
+  { ch: CHAPTERS[0], how: "By island", text: "A shared opener, then each island in turn." },
+  { ch: CHAPTERS[1], how: "By theme", text: "Each theme on the three islands, then a comparison." },
+  { ch: CHAPTERS[2], how: "By island", text: "Vision to policy, once per island." },
+];
 ---
 <Base title={EXTRA.about.title}>
   <div class="frame page">
@@ -14,21 +46,77 @@ import { ABOUT_PARTS, EXTRA, ISLANDS, SITE } from "../data/structure";
     </nav>
     <article class="stack-lg">
       <SectionHeader label="About" title={EXTRA.about.title} subtitle={SITE.credit} />
-      {ABOUT_PARTS.map((p) => (
-        <section id={p.id} class="stack">
-          <h2 class="t-heading">{p.title}</h2>
-          {p.id === "the-three-groups" ? (
-            <div class="three">
-              {ISLANDS.map((i) => (
-                <div class="stack" data-island={i.key}>
-                  <h3 class="t-subheading accent-text">The {i.name} group</h3>
-                  <Slot what="What the group studied" note={`Study area, toolkits, masterplan name (${i.plan}). No names or photographs`} />
-                </div>
-              ))}
+
+      <section id="the-book" class="stack">
+        <h2 class="t-heading">The book</h2>
+        <DataTable caption="Publication information" head={["Item", "Detail"]} rows={PUBLICATION} />
+      </section>
+
+      <section id="editors-introduction" class="stack prose">
+        <h2 class="t-heading">Editor's introduction</h2>
+        <p class="t-subtitle">A note from the editor-in-chief</p>
+        {matter.introduction.map((p) => <p class="t-body">{p}</p>)}
+        <p class="t-caption sign">The editor</p>
+      </section>
+
+      <section id="how-to-read" class="stack">
+        <h2 class="t-heading">How to read</h2>
+        <p class="t-body">The book has three chapters, and the same island colours run through all of them. Chapters 01 and 03 follow the islands one after another. Chapter 02 follows the toolkit, one theme at a time.</p>
+        <div class="three">
+          {ORDER.map((o) => (
+            <a class="card" href={url(`/${o.ch.slug}/`)}>
+              <span class="t-small">{o.ch.num} {o.ch.title}</span>
+              <span class="t-subheading">{o.how}</span>
+              <span class="t-caption">{o.text}</span>
+            </a>
+          ))}
+        </div>
+        <p class="t-body">Each island keeps its own colour on every map, graph and heading:
+          {ISLANDS.map((i, k) => <>{k > 0 && ","} <strong data-island={i.key}><span class="accent-text">{i.name}</span></strong></>)}.
+          Issues found in Chapter 02 are answered in Chapter 03.</p>
+        <p class="t-body">On this site, the island names at the top of every page keep you on the same section and change the island. Compare shows that section for all three, side by side.</p>
+      </section>
+
+      <section id="methodology" class="stack">
+        <h2 class="t-heading">Methodology</h2>
+        <p class="t-body">Malé, Villimalé and Hulhumalé are three islands of one urban region. Three groups studied them in the same way, so that what each island shows can be set against the other two: one reading stage, one shared toolkit, one masterplan brief. Each stage below feeds the next, and each ends in a chapter of this book.</p>
+        <ol role="list" class="stages">
+          {STAGES.map((s) => (
+            <li>
+              <span class="t-number n">{s.n}</span>
+              <span class="t-subheading">{s.name}</span>
+              <span class="t-small">{s.part}</span>
+              <span class="t-caption">{s.text}</span>
+              <a class="t-small ends" href={s.href}>{s.ends}</a>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <section id="the-three-groups" class="stack">
+        <h2 class="t-heading">The three groups</h2>
+        <p class="t-body">Each group read one text and turned it into two field instruments. All three groups then used all six on site.</p>
+        <div class="three">
+          {ISLANDS.map((i) => (
+            <div class="group" data-island={i.key}>
+              <h3 class="t-subheading accent-text">The {i.name} group</h3>
+              <dl>
+                <dt class="t-small">Source text</dt><dd class="t-caption">{GROUPS[i.key].text}</dd>
+                <dt class="t-small">Instrument A</dt><dd class="t-caption">{GROUPS[i.key].a}</dd>
+                <dt class="t-small">Instrument B</dt><dd class="t-caption">{GROUPS[i.key].b}</dd>
+                <dt class="t-small">Masterplan</dt><dd class="t-caption">{i.plan}</dd>
+              </dl>
+              <p class="t-caption"><a href={url(`/${EXTRA.reflections.slug}/#${i.key}`)}>The group leader's reflection</a></p>
             </div>
-          ) : <Slot what={p.title} note={`From the book: ${p.from}`} />}
-        </section>
-      ))}
+          ))}
+        </div>
+      </section>
+
+      <section id="acknowledgements" class="stack prose">
+        <h2 class="t-heading">Acknowledgements</h2>
+        {matter.acknowledgements.map((p) => <p class="t-body">{p}</p>)}
+        <p class="t-caption sign">The Sem VI 2026 studio</p>
+      </section>
     </article>
   </div>
 </Base>
@@ -37,6 +125,16 @@ import { ABOUT_PARTS, EXTRA, ISLANDS, SITE } from "../data/structure";
   .page { padding-top: var(--s6); display: grid; gap: var(--s5); }
   .toc ol { margin-top: var(--s3); display: flex; flex-wrap: wrap; gap: var(--s2) var(--s4); }
   .toc a { font-size: var(--caption-size); color: var(--ink); }
+  .sign { color: var(--grey-dark); font-style: italic; }
+  .card { display: grid; gap: var(--s1); align-content: start; padding: var(--s3); background: var(--panel); color: var(--ink); text-decoration: none; }
+  .card:hover .t-subheading { text-decoration: underline; text-underline-offset: 0.18em; }
+  .stages { display: grid; gap: var(--s4) var(--gutter); grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+  .stages li { display: grid; gap: var(--s1); align-content: start; border-top: 4px solid var(--rule); padding-top: var(--s3); }
+  .n { color: var(--grey); }
+  .ends { color: var(--ink); margin-top: var(--s2); }
+  .group { border-top: 4px solid var(--accent-light); padding-top: var(--s3); display: grid; gap: var(--s3); align-content: start; }
+  dl { display: grid; gap: var(--s1); }
+  dd + dt { margin-top: var(--s2); }
   @media (min-width: 1025px) {
     .page { grid-template-columns: var(--rail) minmax(0, 1fr); gap: var(--s6); }
     .toc { position: sticky; top: calc(var(--bar) + var(--s5)); align-self: start; }

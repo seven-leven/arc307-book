@@ -1,0 +1,97 @@
+{
+ "folio": 39,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Notable open spaces",
+ "picture": {
+  "src": "figures/01/39_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Notable open spaces"
+  },
+  {
+   "type": "note",
+   "text": "Artificial Beach"
+  },
+  {
+   "type": "caption",
+   "text": "Four notable open spaces. Illustrations by the Malé group.",
+   "label": "Figures",
+   "num": "1.8.2M to 1.8.5M"
+  },
+  {
+   "type": "sub",
+   "text": "Open space per person"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.8.6M"
+  },
+  {
+   "type": "note",
+   "text": "10.5 ha of open space. Guide: 9 m² of green space per person (Kuchelmeister, 1998). Source: Rethink Malé."
+  },
+  {
+   "type": "heading",
+   "text": "NOW (CENSUS 2022)"
+  },
+  {
+   "type": "number",
+   "text": "0.77 m²"
+  },
+  {
+   "type": "note",
+   "text": "per person"
+  },
+  {
+   "type": "sub",
+   "text": "137,238"
+  },
+  {
+   "type": "note",
+   "text": "Open space per person, 2022 and 2050 (estimate), from about"
+  },
+  {
+   "type": "note",
+   "text": "Lonuziyaaraiy Park"
+  },
+  {
+   "type": "note",
+   "text": "0.84 m"
+  },
+  {
+   "type": "note",
+   "text": "Rasfannu"
+  },
+  {
+   "type": "heading",
+   "text": "PROJECTED WORST CASE BY 2050"
+  },
+  {
+   "type": "number",
+   "text": "0.49 m²"
+  },
+  {
+   "type": "note",
+   "text": "per person"
+  },
+  {
+   "type": "sub",
+   "text": "216,000"
+  },
+  {
+   "type": "note",
+   "text": "Sultan Park"
+  },
+  {
+   "type": "para",
+   "text": "Malé has very little public open space for its people: about 0.77 m² each, against a guide of 9 m². Its parks, beaches and waterfronts are few and unevenly spread. If no space is added, the figure falls to about 0.49 m² by 2050."
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "folio": 182,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/03/182_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "heading",
+   "text": "WHERE THE SITE BREATHES"
+  },
+  {
+   "type": "para",
+   "text": "The proposal creates a connected network of green and public spaces around a central open space. Green corridors run between residential blocks, linking parks, pocket gardens and shaded paths. The waterfront promenade strengthens the link to the coast, and tree canopies give shade across the site."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "3.5.1H"
+  },
+  {
+   "type": "note",
+   "text": "Public and green space around a central open space."
+  },
+  {
+   "type": "heading",
+   "text": "LEGEND"
+  },
+  {
+   "type": "note",
+   "text": "Park / green space"
+  },
+  {
+   "type": "note",
+   "text": "Plaza / hard public space"
+  },
+  {
+   "type": "note",
+   "text": "Pocket park"
+  },
+  {
+   "type": "note",
+   "text": "Tree canopy / shade"
+  },
+  {
+   "type": "note",
+   "text": "Green breeze & vista corridor"
+  },
+  {
+   "type": "note",
+   "text": "Waterfront promenade"
+  },
+  {
+   "type": "note",
+   "text": "Shaded pedestrian link"
+  },
+  {
+   "type": "note",
+   "text": "Beach / swim & dive entry"
+  },
+  {
+   "type": "note",
+   "text": "Sky / vertical park"
+  },
+  {
+   "type": "note",
+   "text": "Masterplan boundary"
+  },
+  {
+   "type": "note",
+   "text": "Sea / lagoon"
+  }
+ ]
+}

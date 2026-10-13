@@ -1,0 +1,71 @@
+{
+ "folio": 17,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/01/17_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "number",
+   "text": "1970s–80s"
+  },
+  {
+   "type": "para",
+   "text": "Population triples: 11,453 to 29,522. Landfill and reef mining for construction strip the island’s defences."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.3.1M"
+  },
+  {
+   "type": "strongnote",
+   "text": "1990"
+  },
+  {
+   "type": "note",
+   "text": "Villimalé settled"
+  },
+  {
+   "type": "note",
+   "text": "Malé’s history, from before 1153 to 2026. Compiled by the Malé group from Wikipedia."
+  },
+  {
+   "type": "number",
+   "text": "1997"
+  },
+  {
+   "type": "para",
+   "text": "Reclamation of Hulhumalé begins on 16 October. Malé’s growth moves to a new island."
+  },
+  {
+   "type": "number",
+   "text": "2002"
+  },
+  {
+   "type": "para",
+   "text": "Seawalls close all four coasts after the 1987 swell. Concrete replaces mined reef."
+  },
+  {
+   "type": "strongnote",
+   "text": "2005"
+  },
+  {
+   "type": "note",
+   "text": "Hulhumalé settled"
+  },
+  {
+   "type": "number",
+   "text": "2026"
+  },
+  {
+   "type": "para",
+   "text": "212,138 people in Malé City. The Thilamalé bridge opens, linking Malé to Hulhumalé and Villimalé."
+  }
+ ]
+}

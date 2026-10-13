@@ -1,0 +1,51 @@
+{
+ "folio": 70,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Folk story: The Kandholhudhoo families",
+ "picture": {
+  "src": "figures/01/70_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Folk story: The Kandholhudhoo families"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.3.7H"
+  },
+  {
+   "type": "note",
+   "text": "Folk story: the Kandholhudhoo families. Comic by the Hulhumalé group."
+  },
+  {
+   "type": "note",
+   "text": "Hulhumalé was still new then. Only a"
+  },
+  {
+   "type": "note",
+   "text": "few people lived"
+  },
+  {
+   "type": "note",
+   "text": "there!"
+  },
+  {
+   "type": "note",
+   "text": "After the tsunami took"
+  },
+  {
+   "type": "note",
+   "text": "their homes, people from Kandholhudhoo came to"
+  },
+  {
+   "type": "note",
+   "text": "Hulhumalé for shelter."
+  }
+ ]
+}

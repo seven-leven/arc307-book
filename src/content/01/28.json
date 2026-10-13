@@ -1,0 +1,131 @@
+{
+ "folio": 28,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Land use plan",
+ "picture": {
+  "src": "figures/01/28_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Land use plan"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.6.1M"
+  },
+  {
+   "type": "strongnote",
+   "text": "Transportation"
+  },
+  {
+   "type": "note",
+   "text": "4.7% · 9.6 ha"
+  },
+  {
+   "type": "strongnote",
+   "text": "Revetment and groynes"
+  },
+  {
+   "type": "note",
+   "text": "1.4% · 2.9 ha"
+  },
+  {
+   "type": "strongnote",
+   "text": "Industrial"
+  },
+  {
+   "type": "strongnote",
+   "text": "Commercial"
+  },
+  {
+   "type": "note",
+   "text": "1.6% · 3.3 ha"
+  },
+  {
+   "type": "note",
+   "text": "3.2% · 6.5 ha"
+  },
+  {
+   "type": "note",
+   "text": "Land use plan of Malé: the share of the 204 ha of available land in each use. Source: Rethink Malé; Google Maps."
+  },
+  {
+   "type": "strongnote",
+   "text": "Utility and municipal services"
+  },
+  {
+   "type": "note",
+   "text": "4.4% · 9.0 ha"
+  },
+  {
+   "type": "strongnote",
+   "text": "Sports and recreation"
+  },
+  {
+   "type": "note",
+   "text": "7.0% · 14.3 ha"
+  },
+  {
+   "type": "strongnote",
+   "text": "Institutional and community"
+  },
+  {
+   "type": "note",
+   "text": "14.1% · 28.7 ha"
+  },
+  {
+   "type": "strongnote",
+   "text": "Parks and open spaces"
+  },
+  {
+   "type": "note",
+   "text": "3.0% · 6.1 ha"
+  },
+  {
+   "type": "strongnote",
+   "text": "Public housing"
+  },
+  {
+   "type": "strongnote",
+   "text": "Commercial housing"
+  },
+  {
+   "type": "note",
+   "text": "0.5% · 1.0 ha"
+  },
+  {
+   "type": "note",
+   "text": "0.3% · 0.6 ha"
+  },
+  {
+   "type": "strongnote",
+   "text": "Roads"
+  },
+  {
+   "type": "strongnote",
+   "text": "Tourism"
+  },
+  {
+   "type": "note",
+   "text": "16.9% · 34.5 ha"
+  },
+  {
+   "type": "note",
+   "text": "0.2% · 0.4 ha"
+  },
+  {
+   "type": "strongnote",
+   "text": "Residential"
+  },
+  {
+   "type": "note",
+   "text": "42.7% · 87.1 ha"
+  }
+ ]
+}

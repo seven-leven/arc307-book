@@ -1,0 +1,55 @@
+{
+ "folio": 37,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/01/37_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "number",
+   "text": "4"
+  },
+  {
+   "type": "para",
+   "text": "Many routes have little or no shade, leaving people in strong sun and heat, most of all in the middle of the day."
+  },
+  {
+   "type": "number",
+   "text": "6"
+  },
+  {
+   "type": "para",
+   "text": "Pipes along the roadside narrow the walking space, so people step around them, close to passing traffic."
+  },
+  {
+   "type": "caption",
+   "text": "Six obstacles to walking in Malé. Illustrations by the Malé group.",
+   "label": "Figures",
+   "num": "1.7.4M to 1.7.9M"
+  },
+  {
+   "type": "sub",
+   "text": "Lack of shade and heat exposure"
+  },
+  {
+   "type": "sub",
+   "text": "Exposed utility pipes"
+  },
+  {
+   "type": "number",
+   "text": "5"
+  },
+  {
+   "type": "sub",
+   "text": "Pavements restricted by parked vehicles"
+  },
+  {
+   "type": "para",
+   "text": "Vehicles park tight against the pavement edge, leaving less room to walk and no safe way to step off it."
+  }
+ ]
+}

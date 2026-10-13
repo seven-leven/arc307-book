@@ -1,0 +1,47 @@
+{
+ "folio": 54,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Solid and void",
+ "picture": {
+  "src": "figures/01/54_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Solid and void"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.6.4V"
+  },
+  {
+   "type": "note",
+   "text": "Maps."
+  },
+  {
+   "type": "para",
+   "text": "In the north and west, homes stand close together in a fine, dense grain with small gaps between them. The south and east are coarser, with larger or scattered buildings and more open ground. Villimalé moves from compact housing to a more open pattern."
+  },
+  {
+   "type": "note",
+   "text": "Solid and void, with fine, medium and coarse grain shown in detail. Source: Rethink Malé; Google"
+  },
+  {
+   "type": "note",
+   "text": "Medium grain"
+  },
+  {
+   "type": "note",
+   "text": "Coarse grain"
+  },
+  {
+   "type": "note",
+   "text": "Fine grain"
+  }
+ ]
+}

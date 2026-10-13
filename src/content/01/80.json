@@ -1,0 +1,131 @@
+{
+ "folio": 80,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Population density",
+ "picture": {
+  "src": "figures/01/80_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Population density"
+  },
+  {
+   "type": "sub",
+   "text": "nse a"
+  },
+  {
+   "type": "sub",
+   "text": "e ar"
+  },
+  {
+   "type": "sub",
+   "text": "e are"
+  },
+  {
+   "type": "number",
+   "text": "450"
+  },
+  {
+   "type": "heading",
+   "text": "PEOPLE / HA"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.6.6H"
+  },
+  {
+   "type": "sub",
+   "text": "Less dense area"
+  },
+  {
+   "type": "note",
+   "text": "1"
+  },
+  {
+   "type": "para",
+   "text": "Around Central Park: private plots and some social flats. One of the first areas settled, it is open and low-rise."
+  },
+  {
+   "type": "sub",
+   "text": "area"
+  },
+  {
+   "type": "sub",
+   "text": "ea"
+  },
+  {
+   "type": "number",
+   "text": "4,400"
+  },
+  {
+   "type": "heading",
+   "text": "PLOT SIZE (SQ FT)"
+  },
+  {
+   "type": "note",
+   "text": "Population density of Hulhumalé, with two sample areas (the group’s figures). Source: HDC; Google Maps."
+  },
+  {
+   "type": "note",
+   "text": "1"
+  },
+  {
+   "type": "number",
+   "text": "4"
+  },
+  {
+   "type": "heading",
+   "text": "STOREYS"
+  },
+  {
+   "type": "sub",
+   "text": "Dense area"
+  },
+  {
+   "type": "note",
+   "text": "2"
+  },
+  {
+   "type": "para",
+   "text": "Tower blocks built to ease the Greater Malé housing shortage, with parks beside the towers and small pocket parks."
+  },
+  {
+   "type": "number",
+   "text": "2,188"
+  },
+  {
+   "type": "heading",
+   "text": "PEOPLE / HA"
+  },
+  {
+   "type": "note",
+   "text": "Low"
+  },
+  {
+   "type": "number",
+   "text": "17,200"
+  },
+  {
+   "type": "heading",
+   "text": "PLOT SIZE (SQ FT)"
+  },
+  {
+   "type": "note",
+   "text": "High"
+  },
+  {
+   "type": "number",
+   "text": "25"
+  },
+  {
+   "type": "heading",
+   "text": "STOREYS"
+  }
+ ]
+}

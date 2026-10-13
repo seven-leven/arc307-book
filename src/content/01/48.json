@@ -1,0 +1,67 @@
+{
+ "folio": 48,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Environment map",
+ "picture": {
+  "src": "figures/01/48_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Environment map"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.4.1V"
+  },
+  {
+   "type": "note",
+   "text": "High-current area"
+  },
+  {
+   "type": "note",
+   "text": "Calm waves"
+  },
+  {
+   "type": "note",
+   "text": "Environment map of Villimalé: winds, waves, currents, shallow water, vegetation and the reef. Source: Rethink Malé; Google Maps."
+  },
+  {
+   "type": "note",
+   "text": "High current"
+  },
+  {
+   "type": "note",
+   "text": "Waves"
+  },
+  {
+   "type": "note",
+   "text": "Vegetation"
+  },
+  {
+   "type": "note",
+   "text": "Weak current"
+  },
+  {
+   "type": "note",
+   "text": "Coral restoration"
+  },
+  {
+   "type": "note",
+   "text": "Diving spot"
+  },
+  {
+   "type": "note",
+   "text": "Revetment"
+  },
+  {
+   "type": "note",
+   "text": "Breakwater"
+  }
+ ]
+}

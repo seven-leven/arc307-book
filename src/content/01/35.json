@@ -1,0 +1,141 @@
+{
+ "folio": 35,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Types of roads",
+ "picture": {
+  "src": "figures/01/35_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Types of roads"
+  },
+  {
+   "type": "note",
+   "text": "Boduthakurufaanu Magu (over 9 m)"
+  },
+  {
+   "type": "note",
+   "text": "Chaandhanee Magu (6 to 9 m)"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.7.2M"
+  },
+  {
+   "type": "sub",
+   "text": "Number of vehicles"
+  },
+  {
+   "type": "note",
+   "text": "pavement"
+  },
+  {
+   "type": "note",
+   "text": "pav"
+  },
+  {
+   "type": "note",
+   "text": "prk"
+  },
+  {
+   "type": "note",
+   "text": "vl"
+  },
+  {
+   "type": "note",
+   "text": "prk"
+  },
+  {
+   "type": "note",
+   "text": "Three types of road, in section. pav pavement, vl vehicle lane, prk parking."
+  },
+  {
+   "type": "note",
+   "text": "Car"
+  },
+  {
+   "type": "sub",
+   "text": "6,470"
+  },
+  {
+   "type": "note",
+   "text": "vehicle lanes"
+  },
+  {
+   "type": "note",
+   "text": "Badifasgandu Magu (under 3 m)"
+  },
+  {
+   "type": "note",
+   "text": "pav"
+  },
+  {
+   "type": "note",
+   "text": "pav vl"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.7.3M"
+  },
+  {
+   "type": "note",
+   "text": "Vehicles in Malé, by type (Malé group’s figures)."
+  },
+  {
+   "type": "note",
+   "text": "Pickup"
+  },
+  {
+   "type": "sub",
+   "text": "6,457"
+  },
+  {
+   "type": "para",
+   "text": "Boduthakurufaanu Magu is a wide road with two vehicle lanes and a pavement on each side. It carries heavy traffic and many people on foot."
+  },
+  {
+   "type": "note",
+   "text": "pavement"
+  },
+  {
+   "type": "para",
+   "text": "Chaandhanee Magu is a medium-width road with one lane, roadside parking and pavements on both sides. Trees give some shade."
+  },
+  {
+   "type": "para",
+   "text": "Badifasgandu Magu is very narrow, with room for little more than one vehicle. People walk at the road edge, and parked vehicles take what width is left."
+  },
+  {
+   "type": "note",
+   "text": "prk"
+  },
+  {
+   "type": "note",
+   "text": "pav"
+  },
+  {
+   "type": "note",
+   "text": "Bus"
+  },
+  {
+   "type": "sub",
+   "text": "18"
+  },
+  {
+   "type": "note",
+   "text": "Motorcycle"
+  },
+  {
+   "type": "sub",
+   "text": "96,357"
+  }
+ ]
+}

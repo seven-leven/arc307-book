@@ -1,0 +1,59 @@
+{
+ "folio": 42,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Historical timeline",
+ "picture": {
+  "src": "figures/01/42_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Historical timeline"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.3.1V"
+  },
+  {
+   "type": "sub",
+   "text": "16th century"
+  },
+  {
+   "type": "para",
+   "text": "Inhabited for centuries. Burnt and looted by Malabar pirates."
+  },
+  {
+   "type": "sub",
+   "text": "1940"
+  },
+  {
+   "type": "para",
+   "text": "Sultan Mohamed Shamsuddeen III spent part of his exile here, after first being banished to Fuvahmulah."
+  },
+  {
+   "type": "note",
+   "text": "Villimalé’s history, from the 16th century to 2026. Compiled by the Villimalé group from Wikipedia."
+  },
+  {
+   "type": "sub",
+   "text": "1961"
+  },
+  {
+   "type": "para",
+   "text": "The people living here were moved to Hulhulé, to clear the land for a state-run farm."
+  },
+  {
+   "type": "sub",
+   "text": "1963"
+  },
+  {
+   "type": "para",
+   "text": "A high-security prison was built for political prisoners, after the state farm was cancelled."
+  }
+ ]
+}

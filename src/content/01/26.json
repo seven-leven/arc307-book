@@ -1,0 +1,231 @@
+{
+ "folio": 26,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Population pyramid",
+ "picture": {
+  "src": "figures/01/26_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Population pyramid"
+  },
+  {
+   "type": "note",
+   "text": "75+"
+  },
+  {
+   "type": "note",
+   "text": "70-74"
+  },
+  {
+   "type": "note",
+   "text": "65-69"
+  },
+  {
+   "type": "note",
+   "text": "60-64"
+  },
+  {
+   "type": "note",
+   "text": "55-59"
+  },
+  {
+   "type": "note",
+   "text": "50-54"
+  },
+  {
+   "type": "note",
+   "text": "45-49"
+  },
+  {
+   "type": "note",
+   "text": "40-44"
+  },
+  {
+   "type": "note",
+   "text": "35-39"
+  },
+  {
+   "type": "note",
+   "text": "30-34"
+  },
+  {
+   "type": "note",
+   "text": "25-29"
+  },
+  {
+   "type": "note",
+   "text": "20-24"
+  },
+  {
+   "type": "note",
+   "text": "15-19"
+  },
+  {
+   "type": "note",
+   "text": "10-14"
+  },
+  {
+   "type": "note",
+   "text": "5-9"
+  },
+  {
+   "type": "note",
+   "text": "0-4"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.5.1M"
+  },
+  {
+   "type": "heading",
+   "text": "WHO LIVES HERE"
+  },
+  {
+   "type": "para",
+   "text": "Malé is young and working-age. Of about 137,000 residents, 68% are aged 15 to 64, 27% are under 15 and only 5% are 65 or over."
+  },
+  {
+   "type": "heading",
+   "text": "TOTAL POPULATION GROWTH"
+  },
+  {
+   "type": "note",
+   "text": "2000 to 2022"
+  },
+  {
+   "type": "number",
+   "text": "+83%"
+  },
+  {
+   "type": "note",
+   "text": "From 75,000 to 137,238 people"
+  },
+  {
+   "type": "note",
+   "text": "9,000"
+  },
+  {
+   "type": "note",
+   "text": "6,000"
+  },
+  {
+   "type": "note",
+   "text": "Maldivian men"
+  },
+  {
+   "type": "note",
+   "text": "Estimated residents by age, sex and nationality, 2026 (Malé group’s estimate). Source: Census 2022, Maldives Bureau of Statistics."
+  },
+  {
+   "type": "note",
+   "text": "3,000"
+  },
+  {
+   "type": "note",
+   "text": "Maldivian women"
+  },
+  {
+   "type": "heading",
+   "text": "AVERAGE ANNUAL GROWTH"
+  },
+  {
+   "type": "note",
+   "text": "2000 to 2022"
+  },
+  {
+   "type": "number",
+   "text": "+2.8%"
+  },
+  {
+   "type": "note",
+   "text": "A year"
+  },
+  {
+   "type": "heading",
+   "text": "MEN"
+  },
+  {
+   "type": "heading",
+   "text": "WOMEN"
+  },
+  {
+   "type": "note",
+   "text": "0"
+  },
+  {
+   "type": "note",
+   "text": "3,000"
+  },
+  {
+   "type": "para",
+   "text": "Men outnumber women at every working age. About one resident in five is not Maldivian, and most foreign residents are men of working age."
+  },
+  {
+   "type": "note",
+   "text": "6,000"
+  },
+  {
+   "type": "note",
+   "text": "Foreign residents"
+  },
+  {
+   "type": "heading",
+   "text": "MALDIVIANS"
+  },
+  {
+   "type": "note",
+   "text": "2026"
+  },
+  {
+   "type": "number",
+   "text": "60,400"
+  },
+  {
+   "type": "note",
+   "text": "Men"
+  },
+  {
+   "type": "number",
+   "text": "46,900"
+  },
+  {
+   "type": "note",
+   "text": "Women"
+  },
+  {
+   "type": "note",
+   "text": "9,000"
+  },
+  {
+   "type": "heading",
+   "text": "FOREIGN RESIDENTS"
+  },
+  {
+   "type": "note",
+   "text": "2026"
+  },
+  {
+   "type": "number",
+   "text": "16,800"
+  },
+  {
+   "type": "note",
+   "text": "Men"
+  },
+  {
+   "type": "number",
+   "text": "12,900"
+  },
+  {
+   "type": "note",
+   "text": "Women"
+  }
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "folio": 56,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Population density",
+ "picture": {
+  "src": "figures/01/56_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Population density"
+  },
+  {
+   "type": "note",
+   "text": "LOW"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.6.6V"
+  },
+  {
+   "type": "note",
+   "text": "with a dense and a less dense area (the group’s figures). Source: Rethink Malé; Google Maps."
+  },
+  {
+   "type": "heading",
+   "text": "HIGH"
+  },
+  {
+   "type": "note",
+   "text": "Population density of Villimalé,"
+  },
+  {
+   "type": "sub",
+   "text": "Dense area"
+  },
+  {
+   "type": "para",
+   "text": "The high-density zone is compact housing at about 246 people per hectare. Plots average 1,399 sq ft, and buildings rise from 1 to 10 storeys."
+  },
+  {
+   "type": "number",
+   "text": "246"
+  },
+  {
+   "type": "number",
+   "text": "1,399"
+  },
+  {
+   "type": "heading",
+   "text": "PEOPLE / HA"
+  },
+  {
+   "type": "heading",
+   "text": "PLOT SIZE (SQ FT)"
+  },
+  {
+   "type": "number",
+   "text": "1–10"
+  },
+  {
+   "type": "heading",
+   "text": "STOREYS"
+  },
+  {
+   "type": "sub",
+   "text": "Less dense area"
+  },
+  {
+   "type": "para",
+   "text": "The low-density zone, in the industrial area, has about 88 people per hectare. Plots average 5,724 sq ft, and most buildings are 1 to 4 storeys, with more open space between them."
+  },
+  {
+   "type": "number",
+   "text": "88"
+  },
+  {
+   "type": "number",
+   "text": "5,724"
+  },
+  {
+   "type": "heading",
+   "text": "PEOPLE / HA"
+  },
+  {
+   "type": "number",
+   "text": "1–4"
+  },
+  {
+   "type": "heading",
+   "text": "PLOT SIZE (SQ FT)"
+  },
+  {
+   "type": "heading",
+   "text": "STOREYS"
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "folio": 81,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Walkability",
+ "picture": {
+  "src": "figures/01/81_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Walkability"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.6.7H"
+  },
+  {
+   "type": "note",
+   "text": "Mosque"
+  },
+  {
+   "type": "note",
+   "text": "Open and green spaces"
+  },
+  {
+   "type": "note",
+   "text": "E"
+  },
+  {
+   "type": "sub",
+   "text": "Phase 1 walkability"
+  },
+  {
+   "type": "para",
+   "text": "Phase 1 has a close network of civic buildings, schools and shops on a human-scale grid. The hospitals, Centro Mall, Central Park, the mosque and the ferry terminal each sit within a 400 m circle: a five-minute walk."
+  },
+  {
+   "type": "note",
+   "text": "Walkability: five-minute walks (400 m) around daily needs, Phase 1 and Phase 2. Source: HDC; Google Maps."
+  },
+  {
+   "type": "note",
+   "text": "Schools"
+  },
+  {
+   "type": "note",
+   "text": "Cafés and restaurants"
+  },
+  {
+   "type": "note",
+   "text": "Hospitals and clinics"
+  },
+  {
+   "type": "note",
+   "text": "Ferry terminal and jetty"
+  },
+  {
+   "type": "sub",
+   "text": "Phase 2 walkability"
+  },
+  {
+   "type": "para",
+   "text": "In Phase 2, the 400 m circles show how far schools, preschools and the police station reach on foot. Set side by side, the two phases show where homes fall outside a five-minute walk."
+  },
+  {
+   "type": "note",
+   "text": "Police"
+  },
+  {
+   "type": "note",
+   "text": "400 m radius (five-minute walk)"
+  }
+ ]
+}

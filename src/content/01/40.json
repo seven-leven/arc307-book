@@ -1,0 +1,49 @@
+{
+ "folio": 40,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/01/40_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.2.1"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.2.1V"
+  },
+  {
+   "type": "heading",
+   "text": "OVERVIEW"
+  },
+  {
+   "type": "para",
+   "text": "Two kilometres west of Malé, Villimalé is the quiet suburb of the Greater Malé Region. Once a tourist resort, it became a residential island to relieve overcrowding in Malé. Today it is low-rise and close-knit, with tree-lined streets, quiet beaches and a slower pace of life."
+  },
+  {
+   "type": "note",
+   "text": "Villimalé, an illustration by the Villimalé group."
+  },
+  {
+   "type": "heading",
+   "text": "KEY POINT"
+  },
+  {
+   "type": "note",
+   "text": "Villimalé stays low-rise and green: a quiet place to live, beside the dense capital."
+  },
+  {
+   "type": "para",
+   "text": "Villimalé is mainly a place to live, and a weekend escape, for people who work in Malé. Where Malé and Hulhumalé grow upward and dense, Villimalé stays low-rise and walkable, with the feel of a village."
+  }
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "folio": 15,
+ "type": "sheet",
+ "heading": "ISLAND AT A GLANCE",
+ "claim": null,
+ "picture": {
+  "src": "figures/01/15_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "heading",
+   "text": "LAND AREA (HA)"
+  },
+  {
+   "type": "note",
+   "text": "208.03 ha"
+  },
+  {
+   "type": "heading",
+   "text": "DENSITY (PERSONS/HA)"
+  },
+  {
+   "type": "note",
+   "text": "660"
+  },
+  {
+   "type": "heading",
+   "text": "DISTANCE FROM MALÉ (KM)"
+  },
+  {
+   "type": "note",
+   "text": "0 km"
+  },
+  {
+   "type": "heading",
+   "text": "DOMINANT LAND USE"
+  },
+  {
+   "type": "note",
+   "text": "Residential"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Table",
+   "num": "1.2.1M"
+  },
+  {
+   "type": "heading",
+   "text": "LOCATION AND ROLE IN THE REGION"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.2.2M"
+  },
+  {
+   "type": "note",
+   "text": "Sources"
+  },
+  {
+   "type": "note",
+   "text": "Malé at a glance. Census 2022, Maldives Bureau of Statistics."
+  },
+  {
+   "type": "note",
+   "text": "Malé to Hulhumalé"
+  },
+  {
+   "type": "note",
+   "text": "Travel time: 10 to 15 min"
+  },
+  {
+   "type": "note",
+   "text": "Malé to Villimalé"
+  },
+  {
+   "type": "note",
+   "text": "Travel time: 5 to 7 min"
+  },
+  {
+   "type": "note",
+   "text": "Malé’s place and role in the Greater Malé Region."
+  },
+  {
+   "type": "note",
+   "text": "Rethink Malé; Census 2022, Maldives Bureau of Statistics; Google Maps."
+  },
+  {
+   "type": "note",
+   "text": "Greater Malé Region"
+  },
+  {
+   "type": "heading",
+   "text": "POPULATION (YEAR)"
+  },
+  {
+   "type": "note",
+   "text": "137,238 (2022)"
+  },
+  {
+   "type": "heading",
+   "text": "HOUSEHOLDS"
+  },
+  {
+   "type": "note",
+   "text": "42,571"
+  },
+  {
+   "type": "heading",
+   "text": "ROLE IN THE REGION"
+  },
+  {
+   "type": "note",
+   "text": "National capital: government and economic centre"
+  },
+  {
+   "type": "heading",
+   "text": "MAIN ACCESS"
+  },
+  {
+   "type": "note",
+   "text": "Road, ferry and sea"
+  },
+  {
+   "type": "para",
+   "text": "Malé is the centre the other islands turn around. People cross between the islands every day, so the region works as one city, not separate settlements. With no land left to grow on, Malé spreads its homes and services to the islands nearby, and stays at the centre."
+  }
+ ]
+}

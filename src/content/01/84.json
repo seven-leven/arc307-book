@@ -1,0 +1,41 @@
+{
+ "folio": 84,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Pedestrian circulation issues and obstacles",
+ "picture": {
+  "src": "figures/01/84_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Pedestrian circulation issues and obstacles"
+  },
+  {
+   "type": "number",
+   "text": "2"
+  },
+  {
+   "type": "para",
+   "text": "Building work is everywhere as the city grows. Sites often block pavements, pushing people around barriers and onto narrow, uncomfortable paths."
+  },
+  {
+   "type": "number",
+   "text": "1"
+  },
+  {
+   "type": "para",
+   "text": "Hulhumalé’s roads are built for vehicles: wide streets, busy with cars and motorbikes. Drivers come first, and people on foot can feel unsafe at junctions and along busy roads."
+  },
+  {
+   "type": "number",
+   "text": "3"
+  },
+  {
+   "type": "para",
+   "text": "Many routes have little continuous shade from trees, canopies or buildings. In the hot, humid climate, walking at midday is hard on the body."
+  }
+ ]
+}

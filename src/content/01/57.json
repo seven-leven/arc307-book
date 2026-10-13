@@ -1,0 +1,87 @@
+{
+ "folio": 57,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Walkability",
+ "picture": {
+  "src": "figures/01/57_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Walkability"
+  },
+  {
+   "type": "para",
+   "text": "Villimalé is small and compact, so it is easy to walk. Many key facilities are within 400 m, a few are further, and the connected streets keep most daily trips on foot."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.6.7V"
+  },
+  {
+   "type": "note",
+   "text": "island’s facilities. Source: Rethink Malé; Google Maps."
+  },
+  {
+   "type": "note",
+   "text": "Walkability: five-minute walks (400 m) around the"
+  },
+  {
+   "type": "note",
+   "text": "Harbour"
+  },
+  {
+   "type": "note",
+   "text": "Mosque"
+  },
+  {
+   "type": "note",
+   "text": "H"
+  },
+  {
+   "type": "note",
+   "text": "Football ground"
+  },
+  {
+   "type": "note",
+   "text": "Villimalé terminal"
+  },
+  {
+   "type": "note",
+   "text": "Island council"
+  },
+  {
+   "type": "note",
+   "text": "School and preschool"
+  },
+  {
+   "type": "note",
+   "text": "Police"
+  },
+  {
+   "type": "note",
+   "text": "Hospital and pharmacy"
+  },
+  {
+   "type": "note",
+   "text": "Education facilities"
+  },
+  {
+   "type": "note",
+   "text": "Restaurants and cafés"
+  },
+  {
+   "type": "note",
+   "text": "400 m radius: a five- minute walk"
+  },
+  {
+   "type": "note",
+   "text": "Park"
+  }
+ ]
+}

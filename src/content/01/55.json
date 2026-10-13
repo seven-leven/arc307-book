@@ -1,0 +1,47 @@
+{
+ "folio": 55,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Building heights",
+ "picture": {
+  "src": "figures/01/55_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Building heights"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.6.5V"
+  },
+  {
+   "type": "sub",
+   "text": "High-rise cluster"
+  },
+  {
+   "type": "para",
+   "text": "High-density areas are mostly 3 to 9+ storeys: compact and vertical."
+  },
+  {
+   "type": "note",
+   "text": "Building heights, in storeys, with a high-rise and a low-rise cluster. Source: Rethink Malé; Google Maps."
+  },
+  {
+   "type": "sub",
+   "text": "Low-rise cluster"
+  },
+  {
+   "type": "para",
+   "text": "Low-density areas are mostly 1 to 4 storeys: lower and more open."
+  },
+  {
+   "type": "note",
+   "text": "1–2 storeys 3–4 storeys 5–6 storeys 7–9 storeys 10 storeys and above"
+  }
+ ]
+}

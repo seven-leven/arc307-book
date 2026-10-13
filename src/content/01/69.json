@@ -1,0 +1,43 @@
+{
+ "folio": 69,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Significant landmarks",
+ "picture": {
+  "src": "figures/01/69_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Significant landmarks"
+  },
+  {
+   "type": "para",
+   "text": "Central Park is part of daily life in Hulhumalé. People come to walk, exercise, meet friends and sit with family, and the park holds community events."
+  },
+  {
+   "type": "para",
+   "text": "Masjid al Sheikh Qasim bin Al-Thani was Hulhumalé’s first mosque, and for a time its only one. Its dome made it an early landmark, and many residents still feel close to it."
+  },
+  {
+   "type": "caption",
+   "text": "Four significant landmarks. Illustrations by the",
+   "label": "Figures",
+   "num": "1.3.3H to 1.3.6H"
+  },
+  {
+   "type": "note",
+   "text": "Hulhumalé group."
+  },
+  {
+   "type": "para",
+   "text": "The first flats were home to about 1,000 people, one of the island’s earliest communities. With so few people, life was quiet and close-knit, and neighbours soon knew each other."
+  },
+  {
+   "type": "para",
+   "text": "The first BBQ area became one of Hulhumalé’s main gathering places. Families and friends came from Malé to cook, relax and spend time together, and early residents still remember it."
+  }
+ ]
+}

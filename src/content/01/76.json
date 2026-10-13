@@ -1,0 +1,67 @@
+{
+ "folio": 76,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Land use plan",
+ "picture": {
+  "src": "figures/01/76_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Land use plan"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.6.1H"
+  },
+  {
+   "type": "note",
+   "text": "of available land (227.13 ha)"
+  },
+  {
+   "type": "note",
+   "text": "Existing Utility"
+  },
+  {
+   "type": "note",
+   "text": "of available land (26.44 ha)"
+  },
+  {
+   "type": "note",
+   "text": "Land use plan of Hulhumalé, with each use’s share of the land. Source: HDC land use plan."
+  },
+  {
+   "type": "note",
+   "text": "of available land (21.52 ha)"
+  },
+  {
+   "type": "note",
+   "text": "of available land (3.73 ha)"
+  },
+  {
+   "type": "note",
+   "text": "of available land (34.54 ha)"
+  },
+  {
+   "type": "note",
+   "text": "Existing Commercial"
+  },
+  {
+   "type": "note",
+   "text": "of available land (21.67 ha)"
+  },
+  {
+   "type": "note",
+   "text": "of available land (3.92 ha)"
+  },
+  {
+   "type": "note",
+   "text": "of available land (2.83 ha)"
+  }
+ ]
+}

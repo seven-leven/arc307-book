@@ -1,0 +1,53 @@
+{
+ "folio": 36,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Pedestrian circulation issues and obstacles",
+ "picture": {
+  "src": "figures/01/36_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Pedestrian circulation issues and obstacles"
+  },
+  {
+   "type": "number",
+   "text": "2"
+  },
+  {
+   "type": "para",
+   "text": "Scaffolding and building materials block the pavement, pushing people onto the road beside moving traffic until the obstruction ends."
+  },
+  {
+   "type": "sub",
+   "text": "Pavements blocked by construction"
+  },
+  {
+   "type": "number",
+   "text": "1"
+  },
+  {
+   "type": "sub",
+   "text": "Unsafe pedestrian crossings"
+  },
+  {
+   "type": "para",
+   "text": "Vehicles often do not slow down or stop at zebra crossings, so people cross with traffic moving close in front of and behind them."
+  },
+  {
+   "type": "number",
+   "text": "3"
+  },
+  {
+   "type": "sub",
+   "text": "Narrow streets"
+  },
+  {
+   "type": "para",
+   "text": "Some streets are barely wide enough for a car and have no pavement. People squeeze between vehicles and building walls."
+  }
+ ]
+}

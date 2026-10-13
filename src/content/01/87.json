@@ -1,0 +1,41 @@
+{
+ "folio": 87,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Visuals of notable spaces",
+ "picture": {
+  "src": "figures/01/87_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Visuals of notable spaces"
+  },
+  {
+   "type": "caption",
+   "text": "Four notable open spaces: Central Park, the beach, the running track and the BBQ area. Illustrations by the Hulhumalé group.",
+   "label": "Figures",
+   "num": "1.8.2H to 1.8.5H"
+  },
+  {
+   "type": "sub",
+   "text": "Open space per person"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.8.6H"
+  },
+  {
+   "type": "note",
+   "text": "Open space per person, 2026 and 2050 (worst case, projected). Source: HDC."
+  },
+  {
+   "type": "para",
+   "text": "Hulhumalé has about 2.7 m² of public open space per person today (2026). The plan adds more, but the population grows faster: from 130,197 to about 349,094 by 2050. In the worst case, that leaves about 2.5 m² each, against a guide of 9 m² (Kuchelmeister, 1998)."
+  }
+ ]
+}

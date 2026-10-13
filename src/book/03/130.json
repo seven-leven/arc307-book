@@ -1,181 +1,141 @@
 {
  "folio": 130,
- "type": "sheet",
+ "type": "blocks",
+ "claim": "Three masterplans, each told in the same nine steps.",
  "heading": null,
- "claim": null,
- "picture": {
-  "src": "figures/03/130_page.webp",
-  "wpx": 2226,
-  "hpx": 2088
- },
- "text": [
+ "blocks": [
   {
-   "type": "italic",
-   "text": "Three masterplans, each told in the same nine steps."
+   "t": "text",
+   "heading": "",
+   "paras": [
+    "Chapter 02 found the problems in one walkable area on each island. This chapter proposes a masterplan for each of those areas that answers them.",
+    "Each masterplan area is about 400 m across. Each plan decides what to rebuild, what to keep and what to repair, and treats the area as one place, not as separate projects.",
+    "The three plans follow the same steps in the same order. A reader can stop at any step and turn to the same step on another island."
+   ]
   },
   {
-   "type": "para",
-   "text": "Chapter 02 found the problems in one walkable area on each island. This chapter proposes a masterplan for each of those areas that answers them."
+   "t": "steplist",
+   "heading": "THE STEPS IN EACH PLAN",
+   "intro": "The colour pairs mark the six layers. Each layer keeps its colour on all three islands.",
+   "steps": [
+    {
+     "num": null,
+     "title": "Divider",
+     "text": "The plan’s name, and what it answers."
+    },
+    {
+     "num": "3.1",
+     "title": "Vision",
+     "text": "The one idea, its strategies, and the numbers before and after."
+    },
+    {
+     "num": "3.2",
+     "title": "Parti",
+     "text": "The idea as a diagram, in numbered steps.",
+     "sym": {
+      "src": "figures/03/130_1.webp",
+      "wpx": 120,
+      "hpx": 61,
+      "w": 30,
+      "h": 15
+     }
+    },
+    {
+     "num": "3.3",
+     "title": "Existing conditions",
+     "text": "What stands on the site today: what stays and what goes.",
+     "sym": {
+      "src": "figures/03/130_2.webp",
+      "wpx": 120,
+      "hpx": 61,
+      "w": 30,
+      "h": 15
+     }
+    },
+    {
+     "num": "3.4",
+     "title": "Movement network",
+     "text": "Who moves where, and what changes for a person on foot.",
+     "sym": {
+      "src": "figures/03/130_3.webp",
+      "wpx": 120,
+      "hpx": 61,
+      "w": 30,
+      "h": 15
+     }
+    },
+    {
+     "num": "3.5",
+     "title": "Public and green space",
+     "text": "Where the shared space is, and how much there is per person.",
+     "sym": {
+      "src": "figures/03/130_4.webp",
+      "wpx": 120,
+      "hpx": 61,
+      "w": 30,
+      "h": 15
+     }
+    },
+    {
+     "num": "3.6",
+     "title": "Non-residential",
+     "text": "What the area offers besides homes, and who it serves.",
+     "sym": {
+      "src": "figures/03/130_5.webp",
+      "wpx": 120,
+      "hpx": 61,
+      "w": 30,
+      "h": 15
+     }
+    },
+    {
+     "num": "3.7",
+     "title": "Residential",
+     "text": "How many homes, of what kind, and for whom.",
+     "sym": {
+      "src": "figures/03/130_6.webp",
+      "wpx": 120,
+      "hpx": 61,
+      "w": 30,
+      "h": 15
+     }
+    },
+    {
+     "num": "3.8",
+     "title": "Masterplan",
+     "text": "The layers put back together as one plan."
+    },
+    {
+     "num": "3.9",
+     "title": "Policy and guidelines",
+     "text": "The rules that make the plan hold."
+    }
+   ]
   },
   {
-   "type": "para",
-   "text": "Each masterplan area is about 400 m across. Each plan decides what to rebuild, what to keep and what to repair, and treats the area as one place, not as separate projects."
-  },
-  {
-   "type": "para",
-   "text": "The three plans follow the same steps in the same order. A reader can stop at any step and turn to the same step on another island."
-  },
-  {
-   "type": "heading",
-   "text": "THE RULES EVERY PLAN KEEPS TO"
-  },
-  {
-   "type": "number",
-   "text": "3,000 m²"
-  },
-  {
-   "type": "number",
-   "text": "15"
-  },
-  {
-   "type": "number",
-   "text": "8–10"
-  },
-  {
-   "type": "note",
-   "text": "the largest footprint for one block"
-  },
-  {
-   "type": "note",
-   "text": "storeys, the most for any block"
-  },
-  {
-   "type": "note",
-   "text": "storeys on a student’s capstone plot"
-  },
-  {
-   "type": "heading",
-   "text": "THE STEPS IN EACH PLAN"
-  },
-  {
-   "type": "note",
-   "text": "The colour pairs mark the six layers. Each layer keeps its colour on all three islands."
-  },
-  {
-   "type": "sub",
-   "text": "Divider"
-  },
-  {
-   "type": "note",
-   "text": "The plan’s name, and what it answers."
-  },
-  {
-   "type": "sub",
-   "text": "3.1"
-  },
-  {
-   "type": "sub",
-   "text": "Vision"
-  },
-  {
-   "type": "note",
-   "text": "The one idea, its strategies, and the numbers before and after."
-  },
-  {
-   "type": "sub",
-   "text": "3.2"
-  },
-  {
-   "type": "sub",
-   "text": "Parti"
-  },
-  {
-   "type": "note",
-   "text": "The idea as a diagram, in numbered steps."
-  },
-  {
-   "type": "sub",
-   "text": "3.3"
-  },
-  {
-   "type": "sub",
-   "text": "Existing conditions"
-  },
-  {
-   "type": "note",
-   "text": "What stands on the site today: what stays and what goes."
-  },
-  {
-   "type": "sub",
-   "text": "3.4"
-  },
-  {
-   "type": "sub",
-   "text": "Movement network"
-  },
-  {
-   "type": "note",
-   "text": "Who moves where, and what changes for a person on foot."
-  },
-  {
-   "type": "sub",
-   "text": "3.5"
-  },
-  {
-   "type": "sub",
-   "text": "Public and green space"
-  },
-  {
-   "type": "note",
-   "text": "Where the shared space is, and how much there is per person."
-  },
-  {
-   "type": "sub",
-   "text": "3.6"
-  },
-  {
-   "type": "sub",
-   "text": "Non-residential"
-  },
-  {
-   "type": "note",
-   "text": "What the area offers besides homes, and who it serves."
-  },
-  {
-   "type": "sub",
-   "text": "3.7"
-  },
-  {
-   "type": "sub",
-   "text": "Residential"
-  },
-  {
-   "type": "note",
-   "text": "How many homes, of what kind, and for whom."
-  },
-  {
-   "type": "sub",
-   "text": "3.8"
-  },
-  {
-   "type": "sub",
-   "text": "Masterplan"
-  },
-  {
-   "type": "note",
-   "text": "The layers put back together as one plan."
-  },
-  {
-   "type": "sub",
-   "text": "3.9"
-  },
-  {
-   "type": "sub",
-   "text": "Policy and guidelines"
-  },
-  {
-   "type": "note",
-   "text": "The rules that make the plan hold."
+   "t": "keyfigures",
+   "heading": "THE RULES EVERY PLAN KEEPS TO",
+   "items": [
+    {
+     "heading": "",
+     "value": "3,000 m²",
+     "unit": null,
+     "note": "the largest footprint for one block"
+    },
+    {
+     "heading": "",
+     "value": "15",
+     "unit": null,
+     "note": "storeys, the most for any block"
+    },
+    {
+     "heading": "",
+     "value": "8–10",
+     "unit": null,
+     "note": "storeys on a student’s capstone plot"
+    }
+   ],
+   "small": true
   }
  ]
 }

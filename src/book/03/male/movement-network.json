@@ -1,0 +1,150 @@
+{
+ "section": "movement-network",
+ "island": "male",
+ "blocks": [
+  {
+   "t": "figure",
+   "main": true,
+   "src": "figures/03/male/140_1.webp",
+   "wpx": 2058,
+   "hpx": 1398,
+   "w": 686,
+   "h": 466,
+   "label": "Figure",
+   "num": "3.4.1M",
+   "text": "The road system: cars on the ring road, parking at the edge, and slow streets inside."
+  },
+  {
+   "t": "text",
+   "heading": "HOW PEOPLE MOVE",
+   "paras": [
+    "Cars and trucks keep to the widened ring road. All parking moves to hubs at the edge, within a 200 m walk of any door. Inside, motorbikes, bicycles and scooters slow to 15 km/h and people have priority. Some lanes are for people only."
+   ]
+  },
+  {
+   "t": "legend",
+   "heading": "Legend",
+   "rows": [
+    {
+     "text": "Two-lane roads",
+     "sym": {
+      "src": "figures/03/male/140_2.webp",
+      "wpx": 120,
+      "hpx": 37,
+      "w": 30,
+      "h": 9
+     }
+    },
+    {
+     "text": "Single-lane roads",
+     "sym": {
+      "src": "figures/03/male/140_3.webp",
+      "wpx": 120,
+      "hpx": 37,
+      "w": 30,
+      "h": 9
+     }
+    },
+    {
+     "text": "Pedestrian-only roads no vehicles allowed",
+     "sym": {
+      "src": "figures/03/male/140_4.webp",
+      "wpx": 136,
+      "hpx": 29,
+      "w": 34,
+      "h": 7
+     }
+    },
+    {
+     "text": "Ferry / speedboat route regional water link",
+     "sym": {
+      "src": "figures/03/male/140_5.webp",
+      "wpx": 136,
+      "hpx": 33,
+      "w": 34,
+      "h": 8
+     }
+    },
+    {
+     "text": "Terminal / jetty",
+     "sym": {
+      "src": "figures/03/male/140_6.webp",
+      "wpx": 112,
+      "hpx": 53,
+      "w": 28,
+      "h": 13
+     }
+    },
+    {
+     "text": "Bus stop",
+     "sym": {
+      "src": "figures/03/male/140_7.webp",
+      "wpx": 56,
+      "hpx": 53,
+      "w": 14,
+      "h": 13
+     }
+    }
+   ]
+  },
+  {
+   "t": "heading",
+   "text": "Road sections"
+  },
+  {
+   "t": "cards",
+   "cols": 3,
+   "cards": [
+    {
+     "n": 1,
+     "title": "9.8 m road",
+     "text": "Proposed 9.8 m road, Haveeree Hingun.",
+     "pic": {
+      "src": "figures/03/male/141_1.webp",
+      "wpx": 687,
+      "hpx": 1311,
+      "w": 229,
+      "h": 437
+     }
+    },
+    {
+     "n": 2,
+     "title": "6 m road",
+     "text": "Proposed 6 m wide road.",
+     "pic": {
+      "src": "figures/03/male/141_2.webp",
+      "wpx": 462,
+      "hpx": 1290,
+      "w": 154,
+      "h": 430
+     }
+    },
+    {
+     "n": 3,
+     "title": "Pedestrian road",
+     "text": "Proposed pedestrian road with trees.",
+     "pic": {
+      "src": "figures/03/male/141_3.webp",
+      "wpx": 558,
+      "hpx": 1275,
+      "w": 186,
+      "h": 425
+     }
+    }
+   ]
+  },
+  {
+   "t": "caption",
+   "label": "Figures",
+   "num": "3.4.2M to 3.4.4M",
+   "text": "Three roads in section and plan, at one scale."
+  },
+  {
+   "t": "text",
+   "heading": "WHAT CHANGES ON THE STREET",
+   "paras": [
+    "The widest road, Haveeree Hingun at 9.8 m, carries public transport and general traffic. On 6 m streets, vehicles slow down and people on foot get more room. Some streets become fully pedestrian, with space for walking, trees, shade and meeting people."
+   ]
+  }
+ ]
+}

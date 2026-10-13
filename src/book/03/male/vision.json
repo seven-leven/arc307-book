@@ -1,0 +1,258 @@
+{
+ "section": "vision",
+ "island": "male",
+ "blocks": [
+  {
+   "t": "lead",
+   "title": "Rebalancing Malé towards urban life",
+   "text": "Relocating the port to Thilafushi moves Malé up the value chain, from back-of-house operations to a front-of-house city."
+  },
+  {
+   "t": "figure",
+   "heading": "MOVING UP THE VALUE CHAIN",
+   "src": "figures/03/male/134_1.webp",
+   "wpx": 1356,
+   "hpx": 169,
+   "w": 452,
+   "h": 56,
+   "alt": "Diagram: BACK OF HOUSE; port, cargo, warehouses; FRONT OF HOUSE; arrival, markets, public life.",
+   "plain": true
+  },
+  {
+   "t": "cards",
+   "heading": "STRATEGIES: AN ISLAND…",
+   "cols": 3,
+   "cards": [
+    {
+     "title": "where people meet at ground level",
+     "text": "Shaded streets, active edges and car-free superblocks bring life back to the ground floor.",
+     "icon": {
+      "src": "figures/03/male/134_2.webp",
+      "wpx": 236,
+      "hpx": 229,
+      "w": 59,
+      "h": 57
+     }
+    },
+    {
+     "title": "affordable to those who live here",
+     "text": "Social housing, rehousing in place and a mix of home sizes keep Malé’s own people in Malé.",
+     "icon": {
+      "src": "figures/03/male/134_3.webp",
+      "wpx": 236,
+      "hpx": 229,
+      "w": 59,
+      "h": 57
+     }
+    },
+    {
+     "title": "that gives back to nature",
+     "text": "Breeze corridors, green roofs and a restored coastline return space to sea, wind and shade.",
+     "icon": {
+      "src": "figures/03/male/134_4.webp",
+      "wpx": 236,
+      "hpx": 229,
+      "w": 59,
+      "h": 57
+     }
+    }
+   ],
+   "plain": true
+  },
+  {
+   "t": "figures",
+   "heading": "MASTERPLAN VIEWS",
+   "cols": 3,
+   "figures": [
+    {
+     "pic": {
+      "src": "figures/03/male/134_5.webp",
+      "wpx": 690,
+      "hpx": 517,
+      "w": 230,
+      "h": 172
+     },
+     "label": "Figure",
+     "num": "3.1.1M",
+     "text": "Vistas."
+    },
+    {
+     "pic": {
+      "src": "figures/03/male/134_6.webp",
+      "wpx": 690,
+      "hpx": 517,
+      "w": 230,
+      "h": 172
+     },
+     "label": "Figure",
+     "num": "3.1.2M",
+     "text": "Beach view."
+    },
+    {
+     "pic": {
+      "src": "figures/03/male/134_7.webp",
+      "wpx": 690,
+      "hpx": 517,
+      "w": 230,
+      "h": 172
+     },
+     "label": "Figure",
+     "num": "3.1.3M",
+     "text": "A shaded walk by the water."
+    }
+   ]
+  },
+  {
+   "t": "keyfigures",
+   "heading": "Metrics: before and after",
+   "items": [
+    {
+     "heading": "POPULATION ON SITE",
+     "value": "10,500",
+     "unit": null,
+     "note": "+1,270 residents, 14% more"
+    },
+    {
+     "heading": "DENSITY OF HOUSING LAND",
+     "value": "2,476",
+     "unit": null,
+     "note": "a third fewer: homes get more room"
+    },
+    {
+     "heading": "OPEN SPACE PER PERSON",
+     "value": "3.8",
+     "unit": null,
+     "note": "4.9 m² with pedestrian streets"
+    },
+    {
+     "heading": "RESIDENTIAL LAND",
+     "value": "4.24",
+     "unit": null,
+     "note": "68% more land for homes"
+    },
+    {
+     "heading": "INDUSTRIAL PORT LAND",
+     "value": "0",
+     "unit": "ha",
+     "note": "the port moves to Thilafushi"
+    },
+    {
+     "heading": "HOMES, NEW OR REBUILT",
+     "value": "672",
+     "unit": null,
+     "note": "for 2,470 residents"
+    }
+   ]
+  },
+  {
+   "t": "table",
+   "num": "3.1.1M",
+   "caption": "Site metrics, existing and proposed.",
+   "head": [
+    "Whole site",
+    "Existing",
+    "Proposed",
+    "Change"
+   ],
+   "rows": [
+    [
+     "Site area (ha)",
+     "13.43",
+     "13.43",
+     "none"
+    ],
+    [
+     "People on site",
+     "9,230",
+     "10,500",
+     "+1,270"
+    ],
+    [
+     "Open share of site",
+     "0%",
+     "38%",
+     "+38 pts"
+    ],
+    [
+     "Open area (ha)",
+     "0",
+     "5.15",
+     "+5.15"
+    ],
+    [
+     "Open space per person (m²)",
+     "0",
+     "4.9",
+     "+4.9"
+    ],
+    [
+     "People per hectare",
+     "687",
+     "782",
+     "+95"
+    ]
+   ],
+   "strong": 2
+  },
+  {
+   "t": "table",
+   "num": "3.1.2M",
+   "caption": "Capstone housing, proposed.",
+   "head": [
+    "Capstone housing",
+    "One building",
+    "All five"
+   ],
+   "rows": [
+    [
+     "Plot footprint (m²)",
+     "3,000",
+     "15,000"
+    ],
+    [
+     "Residential floors",
+     "6",
+     "6"
+    ],
+    [
+     "Gross floor area (m²)",
+     "18,000",
+     "90,000"
+    ],
+    [
+     "Residents",
+     "244",
+     "1,220"
+    ],
+    [
+     "Average home (sq ft)",
+     "688",
+     "688"
+    ],
+    [
+     "Living area per person (sq ft)",
+     "225",
+     "225"
+    ]
+   ],
+   "strong": 2
+  },
+  {
+   "t": "note",
+   "text": "Site metrics, and capstone housing, existing and proposed. Open area includes pedestrian streets. A home averages 55,000 sq ft ÷ 80 homes; living area is 55,000 sq ft ÷ 244 people."
+  },
+  {
+   "t": "figure",
+   "heading": "LAND USE, BEFORE AND AFTER",
+   "src": "figures/03/male/135_1.webp",
+   "wpx": 2169,
+   "hpx": 352,
+   "w": 723,
+   "h": 117,
+   "label": "Figure",
+   "num": "3.1.4M",
+   "text": "Land use on the 13.43 ha site, before and after, in hectares. Source: the Malé group’s land-use and housing worksheets.",
+   "alt": "Land use on the 13.43 ha site, before and after, in hectares. Source: the Malé group’s land-use and housing worksheets. Values and labels on the chart: hectares, 13.43 ha site, Residential, 19% → 32%, 2.53, 1.00, 9.90, BEFORE, Port + industrial, 74% → 0%, Transport + terminal, 0% → 19%, Non-residential, 7% → 11%, Public + green, 0% → 30%, 4.24, 1.50, 2.54, 1.11, AFTER, Pedestrian streets, 0% → 8%."
+  }
+ ]
+}

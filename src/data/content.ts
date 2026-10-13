@@ -36,3 +36,11 @@ export function folioHref(folio: number): string | null {
   }
   return null;
 }
+
+// Sections rebuilt as real web content (book/export_web_ch03_male.py): shown in place of the page pictures.
+const nativeFiles = import.meta.glob("../book/*/*/*.json", { eager: true }) as Record<string, { default: { section: string; island: string; blocks: unknown[] } }>;
+
+export function nativeBlocks(section: string, view: string): unknown[] | null {
+  const hit = Object.values(nativeFiles).find((m) => m.default.section === section && m.default.island === view);
+  return hit ? hit.default.blocks : null;
+}

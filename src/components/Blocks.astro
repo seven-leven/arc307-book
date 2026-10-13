@@ -1,0 +1,215 @@
+---
+// A section as real web content: a list of blocks written by book/export_web_ch03_male.py (in the Book folder).
+// Words are text; each drawing is its own picture that opens large. A text block followed by a legend sit side by
+// side on a wide screen, as on the book's layer pages.
+import { url } from "../data/structure";
+
+interface Props {
+  blocks: any[];
+  title: string;
+}
+const { blocks, title } = Astro.props;
+const uid = Math.random().toString(36).slice(2, 7);
+// pair "text" + "legend" into one row
+const rows: any[] = [];
+for (const b of blocks) {
+  const prev = rows[rows.length - 1];
+  if (b.t === "legend" && prev?.t === "text") rows[rows.length - 1] = { t: "pair", text: prev, legend: b };
+  else rows.push(b);
+}
+const src = (p: any) => url(`/${p.src}`);
+let fig = 0;
+---
+<div class="blocks">
+  {rows.map((b, k) => {
+    if (b.t === "lead") return (
+      <header class="lead"><p class="t-heading statement">{b.title}</p><p class="t-body">{b.text}</p></header>
+    );
+    if (b.t === "heading") return <h2 class="t-heading">{b.text}</h2>;
+    if (b.t === "figure") {
+      const id = `fig-${uid}-${++fig}`;
+      const alt = b.alt ?? b.text ?? `Drawing: ${title}`;
+      return (
+        <figure class:list={["fig", { main: b.main }]}>
+          {b.heading && <h2 class={b.main ? "t-heading" : "t-small"}>{b.heading}</h2>}
+          <button type="button" class="open" data-figure-open={id} aria-label={`Open ${b.num ? `${b.label} ${b.num}` : "this drawing"} large`}>
+            <img src={src(b)} width={b.wpx} height={b.hpx} alt={alt} loading={k === 0 ? "eager" : "lazy"} decoding="async" />
+          </button>
+          {b.num && <figcaption class="t-caption"><strong>{`${b.label} ${b.num}`}</strong> {b.text}</figcaption>}
+          <dialog id={id} class="viewer" aria-label={b.num ? `${b.label} ${b.num}` : title}>
+            <button type="button" class="close t-small" data-figure-close>Close</button>
+            <div class="pan"><img src={src(b)} alt="" loading="lazy" /></div>
+            {b.num && <p class="t-caption"><strong>{`${b.label} ${b.num}`}</strong> {b.text}</p>}
+          </dialog>
+        </figure>
+      );
+    }
+    if (b.t === "text") return (
+      <section class="text"><h2 class="t-small">{b.heading}</h2>{b.paras.map((p: string) => <p class="t-body">{p}</p>)}</section>
+    );
+    if (b.t === "pair") return (
+      <div class="pair">
+        <section class="text"><h2 class="t-small">{b.text.heading}</h2>{b.text.paras.map((p: string) => <p class="t-body">{p}</p>)}</section>
+        <section class="legend">
+          <h2 class="t-small">{b.legend.heading}</h2>
+          <ul role="list">
+            {b.legend.rows.map((r: any) => (
+              <li class="t-caption"><span class="sym">{r.sym && <img src={src(r.sym)} width={r.sym.w} height={r.sym.h} alt="" loading="lazy" />}</span><span>{r.text}</span></li>
+            ))}
+          </ul>
+        </section>
+      </div>
+    );
+    if (b.t === "cards") return (
+      <section class="stack">
+        {b.heading && <h2 class="t-small">{b.heading}</h2>}
+        <ul role="list" class:list={["cards", { small: b.small }]} style={`--n:${b.cols}`}>
+          {b.cards.map((c: any) => (
+            <li class="card">
+              {c.pic && <img class="pic" src={src(c.pic)} width={c.pic.wpx} height={c.pic.hpx} alt={`${c.title}. ${c.text}`} loading="lazy" decoding="async" />}
+              <h3 class="t-subheading ct">
+                {c.n && <span class="badge" aria-hidden="true">{c.n}</span>}
+                {c.icon && <img class="icon" src={src(c.icon)} width={c.icon.w} height={c.icon.h} alt="" loading="lazy" />}
+                <span>{c.title}</span>
+              </h3>
+              {c.text && <p class="t-caption">{c.text}</p>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    );
+    if (b.t === "steps") return (
+      <ol role="list" class="steps">
+        {b.steps.map((s: any) => (
+          <li class="step">
+            <img src={src(s.pic)} width={s.pic.wpx} height={s.pic.hpx} alt={`Diagram: ${s.title}`} loading="lazy" decoding="async" />
+            <div class="stack-s">
+              <h3 class="t-subheading ct"><span class="badge" aria-hidden="true">{s.n}</span><span>{s.title}</span></h3>
+              <p class="t-small">{s.kicker}</p>
+              <p class="t-body">{s.text}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+    );
+    if (b.t === "figures") return (
+      <section class="stack">
+        <h2 class="t-small">{b.heading}</h2>
+        <div class="cards" style={`--n:${b.cols}`}>
+          {b.figures.map((f: any) => (
+            <figure class="fig">
+              <img src={src(f.pic)} width={f.pic.wpx} height={f.pic.hpx} alt={f.text} loading="lazy" decoding="async" />
+              <figcaption class="t-caption"><strong>{`${f.label} ${f.num}`}</strong> {f.text}</figcaption>
+            </figure>
+          ))}
+        </div>
+      </section>
+    );
+    if (b.t === "caption") return <p class="t-caption cap"><strong>{`${b.label} ${b.num}`}</strong> {b.text}</p>;
+    if (b.t === "note") return <p class="t-caption note">{b.text}</p>;
+    if (b.t === "keyfigures") return (
+      <section class="stack">
+        <h2 class="t-heading">{b.heading}</h2>
+        <div class="cards" style="--n:3">
+          {b.items.map((i: any) => (
+            <div class="kf">
+              <p class="t-small">{i.heading}</p>
+              <p class="t-number">{i.value}{i.unit && <span class="unit"> {i.unit}</span>}</p>
+              {i.note && <p class="t-caption">{i.note}</p>}
+            </div>
+          ))}
+        </div>
+      </section>
+    );
+    if (b.t === "table") return (
+      <div class="scroll" tabindex="0" role="region" aria-label={`Table ${b.num}`}>
+        <table>
+          <caption class="t-caption"><strong>{`Table ${b.num}`}</strong> {b.caption}</caption>
+          <thead><tr>{b.head.map((h: string) => <th scope="col" class="t-small">{h}</th>)}</tr></thead>
+          <tbody>
+            {b.rows.map((r: string[]) => (
+              <tr>{r.map((c, i) => i === 0 ? <th scope="row">{c}</th> : <td class:list={{ strong: i === b.strong }}>{c}</td>)}</tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    );
+    if (b.t === "list") return (
+      <section class="stack">
+        <h2 class="t-heading">{b.heading}</h2>
+        <div class="groups">
+          {b.groups.map((g: any) => (
+            <div class="group">
+              <h3 class="t-small">{g.heading}</h3>
+              {g.pic && <img src={src(g.pic)} width={g.pic.wpx} height={g.pic.hpx} alt="Key map: where the masterplan area sits on Malé." loading="lazy" />}
+              {g.items && <ul role="list">{g.items.map((i: any) => (
+                <li class="t-caption"><span class="sym">{i.sym && <img src={src(i.sym)} width={i.sym.w} height={i.sym.h} alt="" loading="lazy" />}</span><span>{i.text}</span></li>
+              ))}</ul>}
+            </div>
+          ))}
+        </div>
+      </section>
+    );
+    return null;
+  })}
+</div>
+
+<style>
+  .blocks { display: grid; gap: var(--s6); }
+  .stack { display: grid; gap: var(--s3); }
+  .stack-s { display: grid; gap: var(--s2); align-content: start; }
+  strong { color: var(--accent-text); margin-right: 0.6em; }
+  .lead { display: grid; gap: var(--s3); }
+  .statement { color: var(--accent); font-size: clamp(1.4rem, 3.2vw, 2.1rem); line-height: 1.2; }
+  .fig { display: grid; gap: var(--s2); }
+  .fig.main img { width: 100%; }
+  .open { padding: 0; border: 0; background: none; cursor: zoom-in; display: block; width: 100%; text-align: left; }
+  img { max-width: 100%; height: auto; }
+  .text { display: grid; gap: var(--s2); align-content: start; }
+  .text .t-body + .t-body { margin-top: var(--s2); }
+  .pair { display: grid; gap: var(--s5) var(--gutter); }
+  .legend { display: grid; gap: var(--s2); align-content: start; }
+  .legend ul, .group ul { display: grid; gap: 6px; }
+  .legend li, .group li { display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: var(--s2); align-items: center; }
+  .sym { display: flex; justify-content: center; }
+  .sym img { max-height: 20px; width: auto; }
+  .cards { display: grid; gap: var(--s5) var(--gutter); grid-template-columns: minmax(0, 1fr); }
+  .card { display: grid; gap: var(--s2); align-content: start; }
+  .pic { width: 100%; }
+  .ct { display: flex; gap: var(--s2); align-items: center; }
+  .badge { flex: none; width: 1.5em; height: 1.5em; border-radius: 50%; background: var(--accent-pale); color: var(--accent-dark); font-size: var(--caption-size); display: grid; place-items: center; }
+  .icon { flex: none; width: auto; max-height: 40px; max-width: 48px; }
+  .small .icon { max-height: 22px; }
+  .steps { display: grid; gap: var(--s5); }
+  .step { display: grid; gap: var(--s3) var(--gutter); align-items: center; }
+  .step img { width: 100%; max-width: 320px; }
+  .cap, .note { max-width: var(--measure); }
+  .note { color: var(--grey-dark); }
+  .kf { display: grid; gap: var(--s1); align-content: start; border-top: 4px solid var(--accent-light); padding-top: var(--s3); }
+  .unit { font-size: var(--subheading-size); }
+  .scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; max-width: 760px; font-size: var(--caption-size); }
+  caption { text-align: left; padding-bottom: var(--s2); }
+  th, td { text-align: left; padding: var(--s2) var(--s3) var(--s2) var(--s2); font-variant-numeric: tabular-nums; }
+  tbody th { font-weight: 400; }
+  tbody tr:nth-child(odd) { background: var(--panel); }
+  td.strong { font-weight: 700; }
+  .groups { display: grid; gap: var(--s4) var(--gutter); grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+  .group { display: grid; gap: var(--s2); align-content: start; }
+  .group li { grid-template-columns: 28px minmax(0, 1fr); }
+  .viewer { border: 0; padding: var(--s3); width: 100vw; height: 100vh; max-width: none; max-height: none; background: var(--paper); }
+  .viewer[open] { display: grid; grid-template-rows: auto 1fr auto; gap: var(--s2); }
+  .viewer::backdrop { background: var(--paper); }
+  .pan { overflow: auto; min-height: 0; display: grid; place-items: start center; }
+  .pan img { width: max(100%, 1100px); max-width: none; }
+  .close { justify-self: end; background: none; border: 0; cursor: pointer; padding: var(--s2); color: var(--ink); text-decoration: underline; }
+  @media (min-width: 641px) {
+    .cards { grid-template-columns: repeat(min(var(--n), 2), minmax(0, 1fr)); }
+    .step { grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr); }
+    .step:nth-child(even) img { order: 2; justify-self: end; }
+  }
+  @media (min-width: 901px) {
+    .cards { grid-template-columns: repeat(var(--n), minmax(0, 1fr)); }
+    .pair { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  }
+</style>

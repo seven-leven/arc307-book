@@ -1,0 +1,226 @@
+{
+ "section": "policy-and-guidelines",
+ "island": "male",
+ "blocks": [
+  {
+   "t": "figure",
+   "main": true,
+   "heading": "Building regulations: the plot and the building",
+   "src": "figures/03/male/150_1.webp",
+   "wpx": 2127,
+   "hpx": 973,
+   "w": 709,
+   "h": 324,
+   "label": "Figure",
+   "num": "3.9.1M",
+   "text": "Building rules: what each plot size allows. Numbers refer to the rules below.",
+   "alt": "Building rules: what each plot size allows. Numbers refer to the rules below. Labels on the drawing: 30.48 m, Under 600 sqft, 600 to 1,000 sqft, 1,000 to 2,500 sqft, 2,500 sqft and above, 3 storeys, 9 m, 8 storeys, 24.6 m, 10 storeys, 30.48 m, 10 storeys, 30.48 m, No setback, 1 m setback, 1.2 m setback, 1.5 m setback."
+  },
+  {
+   "t": "cards",
+   "cols": 4,
+   "cards": [
+    {
+     "title": "Ten storeys at most",
+     "text": "No building rises above 10 storeys, 30.48 m overall.",
+     "icon": {
+      "src": "figures/03/male/150_2.webp",
+      "wpx": 80,
+      "hpx": 77,
+      "w": 20,
+      "h": 19
+     }
+    },
+    {
+     "title": "Plot size sets height",
+     "text": "The smallest plots stay at walk-up scale. Height is earned with plot area.",
+     "icon": {
+      "src": "figures/03/male/150_3.webp",
+      "wpx": 76,
+      "hpx": 77,
+      "w": 19,
+      "h": 19
+     }
+    },
+    {
+     "title": "Setbacks on two sides",
+     "text": "Buildings step back from one side and the back of the plot, more as the plot grows.",
+     "icon": {
+      "src": "figures/03/male/150_4.webp",
+      "wpx": 80,
+      "hpx": 77,
+      "w": 20,
+      "h": 19
+     }
+    },
+    {
+     "title": "Density is capped",
+     "text": "Plots over 600 sqft keep a floor area ratio between 4.5 and 5.5.",
+     "icon": {
+      "src": "figures/03/male/150_5.webp",
+      "wpx": 76,
+      "hpx": 77,
+      "w": 19,
+      "h": 19
+     }
+    },
+    {
+     "title": "Roofs that work",
+     "text": "At least 40% of the roof carries solar panels, and every roof collects rainwater.",
+     "icon": {
+      "src": "figures/03/male/150_6.webp",
+      "wpx": 80,
+      "hpx": 77,
+      "w": 20,
+      "h": 19
+     }
+    },
+    {
+     "title": "Twice the site in green",
+     "text": "Green plot ratio of 2.0: roof gardens, planted facades and ground planting.",
+     "icon": {
+      "src": "figures/03/male/150_7.webp",
+      "wpx": 76,
+      "hpx": 77,
+      "w": 19,
+      "h": 19
+     }
+    },
+    {
+     "title": "Shaded east and west",
+     "text": "Louvres, deep balconies or 1.2 m overhangs on facades above 12 m.",
+     "icon": {
+      "src": "figures/03/male/150_8.webp",
+      "wpx": 80,
+      "hpx": 77,
+      "w": 20,
+      "h": 19
+     }
+    },
+    {
+     "title": "Open to the breeze",
+     "text": "Deep floor plates need single-loaded corridors or an open lightwell.",
+     "icon": {
+      "src": "figures/03/male/150_9.webp",
+      "wpx": 76,
+      "hpx": 77,
+      "w": 19,
+      "h": 19
+     }
+    }
+   ],
+   "plain": true,
+   "small": true
+  },
+  {
+   "t": "figure",
+   "main": true,
+   "heading": "Building regulations: the district",
+   "src": "figures/03/male/151_1.webp",
+   "wpx": 2127,
+   "hpx": 1024,
+   "w": 709,
+   "h": 341,
+   "label": "Figure",
+   "num": "3.9.2M",
+   "text": "District rules: movement, the coast and services. Numbers refer to the rules below.",
+   "alt": "District rules: movement, the coast and services. Numbers refer to the rules below. Labels on the drawing: 60 m, 200 m."
+  },
+  {
+   "t": "cards",
+   "cols": 4,
+   "cards": [
+    {
+     "title": "A 10 m coastal buffer",
+     "text": "No permanent foundations within 10 m of the high-water line. Planting and raised timber decks only.",
+     "icon": {
+      "src": "figures/03/male/151_2.webp",
+      "wpx": 80,
+      "hpx": 77,
+      "w": 20,
+      "h": 19
+     }
+    },
+    {
+     "title": "The beach stays public",
+     "text": "A public corridor runs from the streets to the beach every 60 m.",
+     "icon": {
+      "src": "figures/03/male/151_3.webp",
+      "wpx": 76,
+      "hpx": 77,
+      "w": 19,
+      "h": 19
+     }
+    },
+    {
+     "title": "Cars keep to the edge",
+     "text": "Four-wheeled vehicles use only the ring road and the primary corridors.",
+     "icon": {
+      "src": "figures/03/male/151_4.webp",
+      "wpx": 80,
+      "hpx": 77,
+      "w": 20,
+      "h": 19
+     }
+    },
+    {
+     "title": "No private traffic",
+     "text": "Private cars, taxis and ride-hailing do not enter the district.",
+     "icon": {
+      "src": "figures/03/male/151_5.webp",
+      "wpx": 76,
+      "hpx": 77,
+      "w": 19,
+      "h": 19
+     }
+    },
+    {
+     "title": "Streets for people",
+     "text": "Inner streets carry pedestrians, bicycles and two-wheelers at 15 km/h.",
+     "icon": {
+      "src": "figures/03/male/151_6.webp",
+      "wpx": 80,
+      "hpx": 77,
+      "w": 20,
+      "h": 19
+     }
+    },
+    {
+     "title": "Parking at the edge",
+     "text": "All parking sits in hubs within 200 m, a 3-minute walk, of any door.",
+     "icon": {
+      "src": "figures/03/male/151_7.webp",
+      "wpx": 76,
+      "hpx": 77,
+      "w": 19,
+      "h": 19
+     }
+    },
+    {
+     "title": "One logistics hub",
+     "text": "Deliveries unload at the edge and go the last stretch by electric cart, off-peak.",
+     "icon": {
+      "src": "figures/03/male/151_8.webp",
+      "wpx": 80,
+      "hpx": 77,
+      "w": 20,
+      "h": 19
+     }
+    },
+    {
+     "title": "Open to emergencies",
+     "text": "Fire, ambulance and police reach every street and path, at all hours.",
+     "icon": {
+      "src": "figures/03/male/151_9.webp",
+      "wpx": 76,
+      "hpx": 77,
+      "w": 19,
+      "h": 19
+     }
+    }
+   ],
+   "plain": true,
+   "small": true
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "section": "public-and-green-space",
+ "island": "male",
+ "blocks": [
+  {
+   "t": "figure",
+   "main": true,
+   "src": "figures/03/male/142_1.webp",
+   "wpx": 1812,
+   "hpx": 1143,
+   "w": 604,
+   "h": 381,
+   "label": "Figure",
+   "num": "3.5.1M",
+   "text": "Parks, shaded links and the waterfront. Numbers refer to the views below."
+  },
+  {
+   "t": "text",
+   "heading": "WHERE THE SITE BREATHES",
+   "paras": [
+    "Today the area has no parks at all. The plan adds 4.04 ha of parks, sports and beach: 3.8 m² for each person, or 4.9 m² with the pedestrian streets. Breeze corridors and a continuous waterfront link them, each a short walk from every home."
+   ]
+  },
+  {
+   "t": "legend",
+   "heading": "Legend",
+   "rows": [
+    {
+     "text": "Park / green space",
+     "sym": {
+      "src": "figures/03/male/142_2.webp",
+      "wpx": 136,
+      "hpx": 61,
+      "w": 34,
+      "h": 15
+     }
+    },
+    {
+     "text": "Beach West wing",
+     "sym": {
+      "src": "figures/03/male/142_3.webp",
+      "wpx": 132,
+      "hpx": 57,
+      "w": 33,
+      "h": 14
+     }
+    },
+    {
+     "text": "Pocket park from widening-affected blocks",
+     "sym": {
+      "src": "figures/03/male/142_4.webp",
+      "wpx": 136,
+      "hpx": 61,
+      "w": 34,
+      "h": 15
+     }
+    },
+    {
+     "text": "Tree canopy / shade",
+     "sym": {
+      "src": "figures/03/male/142_5.webp",
+      "wpx": 120,
+      "hpx": 61,
+      "w": 30,
+      "h": 15
+     }
+    },
+    {
+     "text": "Green breeze and vista corridor",
+     "sym": {
+      "src": "figures/03/male/142_6.webp",
+      "wpx": 128,
+      "hpx": 53,
+      "w": 32,
+      "h": 13
+     }
+    },
+    {
+     "text": "BBQ area West wing",
+     "sym": {
+      "src": "figures/03/male/142_7.webp",
+      "wpx": 132,
+      "hpx": 53,
+      "w": 33,
+      "h": 13
+     }
+    }
+   ]
+  },
+  {
+   "t": "heading",
+   "text": "Views"
+  },
+  {
+   "t": "cards",
+   "cols": 2,
+   "cards": [
+    {
+     "n": 1,
+     "title": "Park and school complex",
+     "text": "The park and school complex at the heart of the amenity core.",
+     "pic": {
+      "src": "figures/03/male/143_1.webp",
+      "wpx": 1062,
+      "hpx": 594,
+      "w": 354,
+      "h": 198
+     }
+    },
+    {
+     "n": 2,
+     "title": "Pocket park",
+     "text": "A pocket park in the future zone, near the beach.",
+     "pic": {
+      "src": "figures/03/male/143_2.webp",
+      "wpx": 1063,
+      "hpx": 594,
+      "w": 354,
+      "h": 198
+     }
+    },
+    {
+     "n": 3,
+     "title": "Pocket parks in the old area",
+     "text": "Pocket parks on the plots that road widening frees in the old area.",
+     "pic": {
+      "src": "figures/03/male/143_3.webp",
+      "wpx": 1062,
+      "hpx": 595,
+      "w": 354,
+      "h": 198
+     }
+    },
+    {
+     "n": 4,
+     "title": "Tunnel public green",
+     "text": "A park over the tunnel that carries through traffic under the site.",
+     "pic": {
+      "src": "figures/03/male/143_4.webp",
+      "wpx": 1063,
+      "hpx": 595,
+      "w": 354,
+      "h": 198
+     }
+    }
+   ]
+  },
+  {
+   "t": "caption",
+   "label": "Figures",
+   "num": "3.5.2M to 3.5.5M",
+   "text": "Views of the public spaces. Each number matches a marker on the drawing above."
+  },
+  {
+   "t": "text",
+   "heading": "WHAT THE SPACES OFFER",
+   "paras": [
+    "Every space is a short walk from every home. Trees and canopies shade the breeze corridors, and the public beach gives the sea back to the city, with a path to the beach every 60 m."
+   ]
+  }
+ ]
+}

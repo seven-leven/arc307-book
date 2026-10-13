@@ -1,0 +1,152 @@
+{
+ "section": "residential",
+ "island": "male",
+ "blocks": [
+  {
+   "t": "figure",
+   "main": true,
+   "src": "figures/03/male/146_1.webp",
+   "wpx": 1818,
+   "hpx": 1149,
+   "w": 606,
+   "h": 383,
+   "label": "Figure",
+   "num": "3.7.1M",
+   "text": "Where people live: the old lanes, social housing and five capstone buildings. Numbers refer to the views below."
+  },
+  {
+   "t": "text",
+   "heading": "WHERE PEOPLE LIVE",
+   "paras": [
+    "Five capstone buildings on the former port land add 400 homes for 1,220 people. Road widening displaces 1,000 residents, and all of them are rehoused in social housing on the same lot, with 250 more places. In all, 10,500 people live here, up from 9,230."
+   ]
+  },
+  {
+   "t": "legend",
+   "heading": "Legend",
+   "rows": [
+    {
+     "text": "Retained organic housing south fabric, rejuvenated",
+     "sym": {
+      "src": "figures/03/male/146_2.webp",
+      "wpx": 128,
+      "hpx": 61,
+      "w": 32,
+      "h": 15
+     }
+    },
+    {
+     "text": "New residential at most 15 floors and a 3,000 m² footprint",
+     "sym": {
+      "src": "figures/03/male/146_3.webp",
+      "wpx": 128,
+      "hpx": 61,
+      "w": 32,
+      "h": 15
+     }
+    },
+    {
+     "text": "Capstone plot C1–C5 capped at 8 to 10 floors",
+     "sym": {
+      "src": "figures/03/male/146_4.webp",
+      "wpx": 112,
+      "hpx": 61,
+      "w": 28,
+      "h": 15
+     }
+    },
+    {
+     "text": "Height tag floors",
+     "sym": {
+      "src": "figures/03/male/146_5.webp",
+      "wpx": 112,
+      "hpx": 53,
+      "w": 28,
+      "h": 13
+     }
+    },
+    {
+     "text": "Social / subsidised housing rehousing from widening cuts",
+     "sym": {
+      "src": "figures/03/male/146_6.webp",
+      "wpx": 128,
+      "hpx": 61,
+      "w": 32,
+      "h": 15
+     }
+    }
+   ]
+  },
+  {
+   "t": "heading",
+   "text": "Views"
+  },
+  {
+   "t": "cards",
+   "cols": 2,
+   "cards": [
+    {
+     "n": 1,
+     "title": "North-east",
+     "text": "Capstone buildings on green bases, seen from the north-east.",
+     "pic": {
+      "src": "figures/03/male/147_1.webp",
+      "wpx": 1062,
+      "hpx": 594,
+      "w": 354,
+      "h": 198
+     }
+    },
+    {
+     "n": 2,
+     "title": "South to north",
+     "text": "Looking north from the old lanes to the new homes on the port land.",
+     "pic": {
+      "src": "figures/03/male/147_2.webp",
+      "wpx": 1063,
+      "hpx": 594,
+      "w": 354,
+      "h": 198
+     }
+    },
+    {
+     "n": 3,
+     "title": "East-west",
+     "text": "Looking west along the line of capstone buildings.",
+     "pic": {
+      "src": "figures/03/male/147_3.webp",
+      "wpx": 1062,
+      "hpx": 595,
+      "w": 354,
+      "h": 198
+     }
+    },
+    {
+     "n": 4,
+     "title": "Balcony view",
+     "text": "From a balcony: planted terraces looking out to the sea.",
+     "pic": {
+      "src": "figures/03/male/147_4.webp",
+      "wpx": 1063,
+      "hpx": 595,
+      "w": 354,
+      "h": 198
+     }
+    }
+   ]
+  },
+  {
+   "t": "caption",
+   "label": "Figures",
+   "num": "3.7.2M to 3.7.5M",
+   "text": "Views of the housing. Each number matches a marker on the drawing above."
+  },
+  {
+   "t": "text",
+   "heading": "WHO LIVES HERE",
+   "paras": [
+    "Land for homes grows from 2.53 ha to 4.24 ha, so homes get more room: people per hectare of housing fall by a third, from 3,648 to 2,476. Each capstone building has 80 homes, from one to three bedrooms, for 244 people."
+   ]
+  }
+ ]
+}

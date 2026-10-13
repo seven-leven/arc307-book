@@ -1,0 +1,97 @@
+{
+ "folio": 106,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Roads are made for movement, not staying",
+ "picture": {
+  "src": "figures/02/106_page.webp",
+  "wpx": 2226,
+  "hpx": 2073
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Roads are made for movement, not staying"
+  },
+  {
+   "type": "caption",
+   "text": "Frontage condition, and people staying or moving at each gate.",
+   "label": "Figure",
+   "num": "2.3.1M"
+  },
+  {
+   "type": "para",
+   "text": "We counted people at six gates and graded every frontage. Of the pedestrians, 64% were commuting and 13% were out for a stroll. Of the 967 people who stopped, 326 stood at a shopfront and 269 were waiting."
+  },
+  {
+   "type": "para",
+   "text": "The street moves people and gives them little reason to stay. More than twice as many sit on a wall, planter or parked vehicle as on a seat. All 95 joali sittings were in Area 01; the other five areas have none."
+  },
+  {
+   "type": "caption",
+   "text": "Section of Chaandhanee Magu.",
+   "label": "Figure",
+   "num": "2.3.2M"
+  },
+  {
+   "type": "heading",
+   "text": "FRONTAGE GRADE (TOOLKIT 1)"
+  },
+  {
+   "type": "note",
+   "text": "A Active, over 80% open"
+  },
+  {
+   "type": "note",
+   "text": "B Pleasant, over 60% open"
+  },
+  {
+   "type": "note",
+   "text": "C Mixed, over 40% open"
+  },
+  {
+   "type": "note",
+   "text": "D Dull, over 20% open"
+  },
+  {
+   "type": "note",
+   "text": "E Inactive, 20% open or less"
+  },
+  {
+   "type": "heading",
+   "text": "PEOPLE (TOOLKITS 2 AND 5)"
+  },
+  {
+   "type": "note",
+   "text": "Moving: counted at the gate"
+  },
+  {
+   "type": "note",
+   "text": "Staying: circle size shows how many"
+  },
+  {
+   "type": "note",
+   "text": "Masterplan area"
+  },
+  {
+   "type": "number",
+   "text": "0"
+  },
+  {
+   "type": "note",
+   "text": "Children playing in the street"
+  },
+  {
+   "type": "number",
+   "text": "64%"
+  },
+  {
+   "type": "note",
+   "text": "People are just commuting"
+  },
+  {
+   "type": "strong",
+   "text": "A street with no children in it is not a street"
+  }
+ ]
+}

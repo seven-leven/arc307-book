@@ -1,0 +1,99 @@
+{
+ "folio": 121,
+ "type": "comparison",
+ "claim": "Density is not the problem, poor design is",
+ "lead": [
+  "Housing quality is poor on all three islands, and density does not explain it. Plots that are not dense score as badly as dense ones: all 5 on Malé and 86% on Villimalé fall below the midpoint. Hulhumalé cannot test the idea: its 8 plots are one building type at FAR 22.5."
+ ],
+ "toolkits": [
+  "Density and housing quality"
+ ],
+ "table": {
+  "label": "Table",
+  "num": "2.6.1",
+  "text": "The measures, island by island."
+ },
+ "measures": [
+  {
+   "name": "Not dense plots that score poor",
+   "note": "% of plots below FAR 1.87 scoring under 16 of 32 (Toolkit 3)",
+   "values": [
+    {
+     "island": "male",
+     "text": "100%",
+     "note": "5 of 5 plots"
+    },
+    {
+     "island": "villimale",
+     "text": "86%",
+     "note": "30 of 35 plots"
+    },
+    {
+     "island": "hulhumale",
+     "text": "n/a",
+     "note": "no such plots"
+    }
+   ]
+  },
+  {
+   "name": "Dense plots that score poor",
+   "note": "% of plots at FAR 1.87 or above scoring under 16 of 32 (Toolkit 3)",
+   "values": [
+    {
+     "island": "male",
+     "text": "68%",
+     "note": "21 of 31 plots"
+    },
+    {
+     "island": "villimale",
+     "text": "91%",
+     "note": "31 of 34 plots"
+    },
+    {
+     "island": "hulhumale",
+     "text": "100%",
+     "note": "8 of 8 plots"
+    }
+   ]
+  },
+  {
+   "name": "Highest quality score",
+   "note": "best plot score, out of 32 (Toolkit 3)",
+   "values": [
+    {
+     "island": "male",
+     "text": "19",
+     "note": null
+    },
+    {
+     "island": "villimale",
+     "text": "21",
+     "note": null
+    },
+    {
+     "island": "hulhumale",
+     "text": "9",
+     "note": null
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "All 5 not dense plots score poor, and 68% of the 31 dense plots do. Even sparse plots fail. No plot passes 19 of 32.",
+  "86% of 35 not dense plots score poor, against 91% of 34 dense plots. Almost no difference, so density is not what separates them.",
+  "No plots that are not dense to compare. All 8 share one typology at FAR 22.5 and score 9 of 32: extreme density with no diversity or human scale."
+ ],
+ "chart": {
+  "src": "figures/02/121_chart.webp",
+  "wpx": 2196,
+  "hpx": 366,
+  "caption": {
+   "label": "Figure",
+   "num": "2.6.3",
+   "text": "Each measure scaled to its largest island."
+  }
+ },
+ "conclusion": [
+  "Plots that are not dense fail almost as often as dense ones (100% and 86% poor), so density is not what drives poor quality. Poor design is."
+ ]
+}

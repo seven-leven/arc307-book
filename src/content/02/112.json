@@ -1,0 +1,181 @@
+{
+ "folio": 112,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Shade dictates movement, not distance",
+ "picture": {
+  "src": "figures/02/112_page.webp",
+  "wpx": 2226,
+  "hpx": 2073
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Shade dictates movement, not distance"
+  },
+  {
+   "type": "heading",
+   "text": "MORNING 10:00–12:00"
+  },
+  {
+   "type": "heading",
+   "text": "EVENING 16:00–18:00"
+  },
+  {
+   "type": "caption",
+   "text": "Where people walked, morning and evening. Schematic: each dot sits at random in its zone.",
+   "label": "Figure",
+   "num": "2.4.1H"
+  },
+  {
+   "type": "heading",
+   "text": "WHAT WE COUNTED"
+  },
+  {
+   "type": "para",
+   "text": "In the morning, with about 15% of the route shaded, 73 people (82%) walked in the sun and 16 in shade. In the evening, with 70 to 80% shaded, 291 (90%) walked in shade and 31 in the sun."
+  },
+  {
+   "type": "note",
+   "text": "Shade on about 15% of the street"
+  },
+  {
+   "type": "heading",
+   "text": "ACTIVITY COUNT"
+  },
+  {
+   "type": "strongnote",
+   "text": "16"
+  },
+  {
+   "type": "note",
+   "text": "shade"
+  },
+  {
+   "type": "strongnote",
+   "text": "Morning"
+  },
+  {
+   "type": "note",
+   "text": "10:00–12:00"
+  },
+  {
+   "type": "caption",
+   "text": "Pedestrians in shade and in the sun.",
+   "label": "Figure",
+   "num": "2.4.2H"
+  },
+  {
+   "type": "note",
+   "text": "Shade on 70 to 80% of the street"
+  },
+  {
+   "type": "strongnote",
+   "text": "291"
+  },
+  {
+   "type": "strongnote",
+   "text": "73"
+  },
+  {
+   "type": "strongnote",
+   "text": "31"
+  },
+  {
+   "type": "note",
+   "text": "sun"
+  },
+  {
+   "type": "note",
+   "text": "shade"
+  },
+  {
+   "type": "note",
+   "text": "sun"
+  },
+  {
+   "type": "strongnote",
+   "text": "Evening"
+  },
+  {
+   "type": "note",
+   "text": "16:00–18:00"
+  },
+  {
+   "type": "heading",
+   "text": "WHERE PEOPLE WALK (TOOLKIT 5)"
+  },
+  {
+   "type": "note",
+   "text": "Pedestrian in shade"
+  },
+  {
+   "type": "note",
+   "text": "Pedestrian in the sun"
+  },
+  {
+   "type": "note",
+   "text": "Shade on the street"
+  },
+  {
+   "type": "note",
+   "text": "Street in the sun"
+  },
+  {
+   "type": "note",
+   "text": "One dot is about 10 people."
+  },
+  {
+   "type": "heading",
+   "text": "OBSERVED COUNTS"
+  },
+  {
+   "type": "note",
+   "text": "Morning, 10:00–12:00"
+  },
+  {
+   "type": "number",
+   "text": "16"
+  },
+  {
+   "type": "number",
+   "text": "73"
+  },
+  {
+   "type": "note",
+   "text": "In shade (18%)"
+  },
+  {
+   "type": "note",
+   "text": "In the sun (82%)"
+  },
+  {
+   "type": "note",
+   "text": "Evening, 16:00–18:00"
+  },
+  {
+   "type": "number",
+   "text": "291"
+  },
+  {
+   "type": "number",
+   "text": "31"
+  },
+  {
+   "type": "note",
+   "text": "In shade (90%)"
+  },
+  {
+   "type": "note",
+   "text": "In the sun (10%)"
+  },
+  {
+   "type": "heading",
+   "text": "WHAT IT MEANS"
+  },
+  {
+   "type": "para",
+   "text": "The idea holds most clearly here. The routes did not get shorter, so distance cannot explain the change. More shade also brings more people out: 322 in the evening against 89 in the morning."
+  }
+ ]
+}

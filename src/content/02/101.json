@@ -1,0 +1,97 @@
+{
+ "folio": 101,
+ "type": "sheet",
+ "heading": "2.1 SITE SELECTION",
+ "claim": null,
+ "picture": {
+  "src": "figures/02/101_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "2.1.2H"
+  },
+  {
+   "type": "sub",
+   "text": "1 Monotonous Building Form"
+  },
+  {
+   "type": "para",
+   "text": "The repeated high-rise blocks create a uniform environment with little architectural variety or local identity."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "2.1.3H"
+  },
+  {
+   "type": "sub",
+   "text": "2 Underused Ground Spaces"
+  },
+  {
+   "type": "para",
+   "text": "Large open areas between buildings are mostly inactive, creating empty spaces with limited social or recreational use."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "2.1.4H"
+  },
+  {
+   "type": "sub",
+   "text": "3 Poor Access to Daily Amenities"
+  },
+  {
+   "type": "para",
+   "text": "Residential areas are often separated from shops and basic services, increasing travel distances for everyday needs."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "2.1.5H"
+  },
+  {
+   "type": "sub",
+   "text": "4 Car-Dominated Connectivity"
+  },
+  {
+   "type": "para",
+   "text": "Wide roads and vehicle-focused planning create barriers between neighbourhoods and make walking and cycling less convenient."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "2.1.6H"
+  },
+  {
+   "type": "sub",
+   "text": "5 Limited Spaces for Children"
+  },
+  {
+   "type": "para",
+   "text": "Open spaces around the housing blocks provide few safe or engaging areas for children to play and interact."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "2.1.7H"
+  },
+  {
+   "type": "sub",
+   "text": "6 Weak Community Interaction"
+  },
+  {
+   "type": "para",
+   "text": "The lack of active public spaces and shared facilities limits opportunities for residents to meet and build a stronger community."
+  }
+ ]
+}

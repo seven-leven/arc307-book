@@ -1,0 +1,109 @@
+{
+ "folio": 95,
+ "type": "sheet",
+ "heading": "2.1 SITE DIAGNOSIS",
+ "claim": null,
+ "picture": {
+  "src": "figures/02/95_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "sub",
+   "text": "Overcrowding / Hidden Occupancy"
+  },
+  {
+   "type": "note",
+   "text": "High residential density and unregistered occupancy."
+  },
+  {
+   "type": "sub",
+   "text": "High Traffic"
+  },
+  {
+   "type": "note",
+   "text": "High vehicle concentration on narrow streets creates congestion, noise and unsafe streets."
+  },
+  {
+   "type": "sub",
+   "text": "Fumes to Street"
+  },
+  {
+   "type": "note",
+   "text": "Vehicle and commercial exhaust releases fumes directly into narrow streets, reducing air quality."
+  },
+  {
+   "type": "sub",
+   "text": "Poor Waste"
+  },
+  {
+   "type": "note",
+   "text": "Inadequate waste handling and disposal create pollution and affect the quality of the streetscape and local environment."
+  },
+  {
+   "type": "sub",
+   "text": "Plot Fragmentation"
+  },
+  {
+   "type": "note",
+   "text": "Small and divided plots limit efficient development and create irregular, poorly utilized spaces and disjointed streetscapes."
+  },
+  {
+   "type": "sub",
+   "text": "Parking Taking Over Space"
+  },
+  {
+   "type": "note",
+   "text": "Vehicle parking occupies valuable street and public space that could support pedestrian pathways, greenery, and active community uses."
+  },
+  {
+   "type": "sub",
+   "text": "No Child/Elder Space"
+  },
+  {
+   "type": "note",
+   "text": "Limited safe and accessible outdoor spaces restrict opportunities for children and elders."
+  },
+  {
+   "type": "sub",
+   "text": "Overcrowding"
+  },
+  {
+   "type": "note",
+   "text": "High population concentration within a limited urban area reduces personal space and increases pressure on public spaces."
+  },
+  {
+   "type": "sub",
+   "text": "Heat"
+  },
+  {
+   "type": "note",
+   "text": "Dense development, hard surfaces, and limited ventilation increase heat buildup and reduce outdoor thermal comfort."
+  },
+  {
+   "type": "sub",
+   "text": "Loss of Trees / Shade"
+  },
+  {
+   "type": "note",
+   "text": "Limited greenery and tree cover reduce natural shade, increasing heat exposure and making streets less comfortable for pedestrians and outdoor community life."
+  },
+  {
+   "type": "sub",
+   "text": "Poor Building"
+  },
+  {
+   "type": "note",
+   "text": "Aging and poorly maintained buildings reduce safety, appearance, and the overall attractiveness and property values of the neighborhood."
+  },
+  {
+   "type": "sub",
+   "text": "Changing Occupancy"
+  },
+  {
+   "type": "note",
+   "text": "Increasing rental use and changing property occupancy reduce long-term residential stability and reshape the local neighbourhood."
+  }
+ ]
+}

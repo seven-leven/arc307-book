@@ -1,0 +1,49 @@
+{
+ "folio": 97,
+ "type": "sheet",
+ "heading": "2.1 SITE SELECTION",
+ "claim": null,
+ "picture": {
+  "src": "figures/02/97_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "2.1.2V"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "2.1.4V"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "2.1.6V"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "2.1.3V"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "2.1.5V"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "2.1.7V"
+  }
+ ]
+}

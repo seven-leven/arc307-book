@@ -1,0 +1,149 @@
+{
+ "folio": 120,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Density is not the problem, poor design is",
+ "picture": {
+  "src": "figures/02/120_page.webp",
+  "wpx": 2226,
+  "hpx": 2073
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Density is not the problem, poor design is"
+  },
+  {
+   "type": "caption",
+   "text": "Surveyed plots, coloured by density and housing quality.",
+   "label": "Figure",
+   "num": "2.6.1H"
+  },
+  {
+   "type": "strongnote",
+   "text": "Housing quality (0 to 32)"
+  },
+  {
+   "type": "caption",
+   "text": "Density against housing quality. All 8 plots (H05 to H12) share one point.",
+   "label": "Figure",
+   "num": "2.6.2H"
+  },
+  {
+   "type": "note",
+   "text": "Sources Toolkit 3 survey, 8 plots. Dense: FAR 1.87 or more (Sim, Soft City, p. 380). Good: 16 or more of 32."
+  },
+  {
+   "type": "note",
+   "text": "32"
+  },
+  {
+   "type": "note",
+   "text": "Dense from FAR 1.87"
+  },
+  {
+   "type": "note",
+   "text": "24"
+  },
+  {
+   "type": "note",
+   "text": "16"
+  },
+  {
+   "type": "note",
+   "text": "8"
+  },
+  {
+   "type": "note",
+   "text": "0"
+  },
+  {
+   "type": "note",
+   "text": "0"
+  },
+  {
+   "type": "note",
+   "text": "10"
+  },
+  {
+   "type": "strongnote",
+   "text": "Density: floor area ratio (FAR)"
+  },
+  {
+   "type": "heading",
+   "text": "RESULT, 8 PLOTS"
+  },
+  {
+   "type": "note",
+   "text": "Good from 16 of 32"
+  },
+  {
+   "type": "note",
+   "text": "H09 H10 H11 H12"
+  },
+  {
+   "type": "note",
+   "text": "H05 H06 H07 H08"
+  },
+  {
+   "type": "note",
+   "text": "20"
+  },
+  {
+   "type": "note",
+   "text": "30"
+  },
+  {
+   "type": "number",
+   "text": "8"
+  },
+  {
+   "type": "strong",
+   "text": "Dense + poor quality"
+  },
+  {
+   "type": "note",
+   "text": "100.0% of plots"
+  },
+  {
+   "type": "number",
+   "text": "0 0 0"
+  },
+  {
+   "type": "strong",
+   "text": "Dense + good quality"
+  },
+  {
+   "type": "note",
+   "text": "no plots"
+  },
+  {
+   "type": "strong",
+   "text": "Not dense + poor quality"
+  },
+  {
+   "type": "note",
+   "text": "no plots"
+  },
+  {
+   "type": "strong",
+   "text": "Not dense + good quality"
+  },
+  {
+   "type": "note",
+   "text": "no plots"
+  },
+  {
+   "type": "heading",
+   "text": "WHAT IT MEANS"
+  },
+  {
+   "type": "para",
+   "text": "All 8 plots are one building type: 25 storeys at 90% ground coverage, a FAR of 22.5. Each scores 9 of 32."
+  },
+  {
+   "type": "para",
+   "text": "With nothing to compare, this area cannot test the idea. It shows extreme density with no diversity, human scale or flexibility."
+  }
+ ]
+}

@@ -3,6 +3,8 @@
 // each shortened to its first block and key figures with "Read in full" under it.
 import SectionLayout from "../../../layouts/SectionLayout.astro";
 import SectionPattern from "../../../components/SectionPattern.astro";
+import BookContent from "../../../components/BookContent.astro";
+import { bookPages } from "../../../data/content";
 import { CHAPTERS, ISLANDS, VIEWS, island, isIsland, sectionHref, type View } from "../../../data/structure";
 
 export function getStaticPaths() {
@@ -17,10 +19,25 @@ export function getStaticPaths() {
 }
 const { chapter, section } = Astro.props;
 const view = Astro.props.view as View;
+const pages = bookPages(chapter.slug, section.slug, view);
+const label = (v: string) => `${section.num} ${section.title}${isIsland(v) ? `, ${island(v).name}` : ""}`;
+const firstOf = (v: string) => bookPages(chapter.slug, section.slug, v)[0];
 ---
-<SectionLayout chapter={chapter} section={section} view={view}>
-  {isIsland(view) ? (
+<SectionLayout chapter={chapter} section={section} view={view} subtitle={pages[0]?.claim && !section.title.toLowerCase().includes(pages[0].claim.toLowerCase()) ? pages[0].claim : undefined}>
+  {pages.length > 0 ? (
+    <div class="stack-lg">{pages.map((p) => <BookContent page={p} title={label(view)} />)}</div>
+  ) : isIsland(view) ? (
     <SectionPattern chapter={chapter} section={section} letter={island(view).letter} />
+  ) : ISLANDS.some((i) => firstOf(i.key)) ? (
+    <div class="three">
+      {ISLANDS.map((i) => (
+        <section class="col stack" data-island={i.key} aria-label={i.name}>
+          <h2 class="t-heading who">{i.name}</h2>
+          {firstOf(i.key) && <BookContent page={{ ...firstOf(i.key), heading: null, text: [] }} title={label(i.key)} />}
+          <p class="t-caption"><a href={sectionHref(chapter, section, i.key)}>Read {section.num} for {i.name} in full</a></p>
+        </section>
+      ))}
+    </div>
   ) : (
     <div class="three">
       {ISLANDS.map((i) => (

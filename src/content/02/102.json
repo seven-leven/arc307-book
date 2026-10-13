@@ -1,0 +1,19 @@
+{
+ "folio": 102,
+ "type": "sheet",
+ "heading": "2.1 SITE DIAGNOSIS",
+ "claim": null,
+ "picture": {
+  "src": "figures/02/102_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "caption",
+   "text": "The issues found on site, drawn where they occur.",
+   "label": "Figure",
+   "num": "2.1.8H"
+  }
+ ]
+}

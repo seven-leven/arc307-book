@@ -1,0 +1,21 @@
+// Book content that has been exported for the site (book/export_web_ch02.py in the Book folder). A section with no
+// exported pages still shows the empty page pattern.
+import index02 from "../content/02/index.json";
+
+const files = import.meta.glob("../content/02/[0-9]*.json", { eager: true }) as Record<string, { default: BookPageData }>;
+
+export interface BookPageData {
+  folio: number;
+  type?: "sheet" | "comparison" | "found";
+  claim: string | null;
+  [key: string]: unknown;
+}
+
+const byFolio = new Map<number, BookPageData>(Object.values(files).map((m) => [m.default.folio, m.default]));
+const INDEX: Record<string, Record<string, Record<string, number[]>>> = { toolkit: index02 };
+
+/** The book pages that make up a section for one view ("male", "compare", or "shared"), in order; empty if none. */
+export function bookPages(chapter: string, section: string, view: string): BookPageData[] {
+  const folios = INDEX[chapter]?.[section]?.[view] ?? [];
+  return folios.map((f) => byFolio.get(f)).filter((p): p is BookPageData => !!p);
+}

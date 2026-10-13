@@ -1,0 +1,67 @@
+{
+ "folio": 92,
+ "type": "sheet",
+ "heading": "2.1 SITE SELECTION",
+ "claim": null,
+ "picture": {
+  "src": "figures/02/92_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "caption",
+   "text": "The selected site in Malé.",
+   "label": "Figure",
+   "num": "2.1.1M"
+  },
+  {
+   "type": "note",
+   "text": "Unpleasant Noise"
+  },
+  {
+   "type": "note",
+   "text": "Landmarks"
+  },
+  {
+   "type": "note",
+   "text": "Commercial"
+  },
+  {
+   "type": "note",
+   "text": "Institutional"
+  },
+  {
+   "type": "note",
+   "text": "Residential"
+  },
+  {
+   "type": "note",
+   "text": "Utility"
+  },
+  {
+   "type": "note",
+   "text": "Activity Node"
+  },
+  {
+   "type": "note",
+   "text": "Gang Activity"
+  },
+  {
+   "type": "note",
+   "text": "Traffic Jams"
+  },
+  {
+   "type": "note",
+   "text": "4.62 ha"
+  },
+  {
+   "type": "note",
+   "text": "14.11 ha"
+  },
+  {
+   "type": "note",
+   "text": "High Traffic Roads"
+  }
+ ]
+}

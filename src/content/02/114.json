@@ -1,0 +1,97 @@
+{
+ "folio": 114,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Built form vs public life",
+ "picture": {
+  "src": "figures/02/114_page.webp",
+  "wpx": 2226,
+  "hpx": 2073
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Built form vs public life"
+  },
+  {
+   "type": "heading",
+   "text": "SEGMENT 1"
+  },
+  {
+   "type": "heading",
+   "text": "SEGMENT 2"
+  },
+  {
+   "type": "caption",
+   "text": "Frontage, staying activity and movement in segments 1 and 2.",
+   "label": "Figure",
+   "num": "2.5.1M"
+  },
+  {
+   "type": "heading",
+   "text": "WHERE WE LOOKED"
+  },
+  {
+   "type": "para",
+   "text": "We studied two street segments, one by the harbour and one in the lanes behind it. Their frontage is graded C or D: 68% of it is closed, with 13.9 doors per 100 m."
+  },
+  {
+   "type": "heading",
+   "text": "WHAT WE COUNTED"
+  },
+  {
+   "type": "para",
+   "text": "On the main routes 50 to 100 people pass every ten minutes, and traffic is heavy too. Few people stay. Places to stand and linger score 1.7 of 5."
+  },
+  {
+   "type": "heading",
+   "text": "FRONTAGE GRADE (TOOLKIT 1)"
+  },
+  {
+   "type": "note",
+   "text": "C Mixed"
+  },
+  {
+   "type": "note",
+   "text": "D Dull"
+  },
+  {
+   "type": "heading",
+   "text": "ACTIVITY (TOOLKITS 2 AND 5)"
+  },
+  {
+   "type": "note",
+   "text": "Staying: one circle = 5 people"
+  },
+  {
+   "type": "note",
+   "text": "Vehicles, busy (over 50 per 10 min)"
+  },
+  {
+   "type": "note",
+   "text": "Vehicles, quiet (under 50 per 10 min)"
+  },
+  {
+   "type": "note",
+   "text": "Pedestrians, busy (50 to 100 per 10 min)"
+  },
+  {
+   "type": "note",
+   "text": "Pedestrians, quiet (0 to 50 per 10 min)"
+  },
+  {
+   "type": "caption",
+   "text": "Where the two segments sit.",
+   "label": "Figure",
+   "num": "2.5.2M"
+  },
+  {
+   "type": "heading",
+   "text": "WHAT IT MEANS"
+  },
+  {
+   "type": "para",
+   "text": "People pass through and do not stay. Heavy traffic and the lack of anywhere to sit decide it more than the frontage does. The street works as a route, not a place."
+  }
+ ]
+}

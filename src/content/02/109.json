@@ -1,0 +1,101 @@
+{
+ "folio": 109,
+ "type": "comparison",
+ "claim": "Roads are made for movement, not staying",
+ "lead": [
+  "All three streets move people. Malé has the most people stopping (48%), but they wait or shop, and no children play there. Villimalé’s frontage is 75% dull and few people stay. Hulhumalé’s mixed frontage holds 268 children, yet its six lanes keep three quarters of people moving."
+ ],
+ "toolkits": [
+  "Land use and building scale",
+  "Activity, comfort and safety",
+  "Walking activity and movement count"
+ ],
+ "table": {
+  "label": "Table",
+  "num": "2.3.1",
+  "text": "The measures, island by island."
+ },
+ "measures": [
+  {
+   "name": "Dull or inactive frontage",
+   "note": "% of surveyed street length graded D or E (Toolkit 1)",
+   "values": [
+    {
+     "island": "male",
+     "text": "80%",
+     "note": null
+    },
+    {
+     "island": "villimale",
+     "text": "75%",
+     "note": null
+    },
+    {
+     "island": "hulhumale",
+     "text": "0%",
+     "note": null
+    }
+   ]
+  },
+  {
+   "name": "Children playing in the street",
+   "note": "count, all logged sessions (Toolkit 2)",
+   "values": [
+    {
+     "island": "male",
+     "text": "0",
+     "note": null
+    },
+    {
+     "island": "villimale",
+     "text": "26",
+     "note": null
+    },
+    {
+     "island": "hulhumale",
+     "text": "268",
+     "note": null
+    }
+   ]
+  },
+  {
+   "name": "People staying at the gates",
+   "note": "% of all people counted, staying against moving (Toolkit 5)",
+   "values": [
+    {
+     "island": "male",
+     "text": "48%",
+     "note": null
+    },
+    {
+     "island": "villimale",
+     "text": "11%",
+     "note": null
+    },
+    {
+     "island": "hulhumale",
+     "text": "26%",
+     "note": null
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Most staying (48%) but no children in the street; frontage 80% dull or inactive.",
+  "Frontage 75% dull or inactive; only 26 children logged in the street.",
+  "Frontage holds at grade C everywhere; by far the most children in the street (268)."
+ ],
+ "chart": {
+  "src": "figures/02/109_chart.webp",
+  "wpx": 2196,
+  "hpx": 366,
+  "caption": {
+   "label": "Figure",
+   "num": "2.3.3",
+   "text": "Each measure scaled to its largest island."
+  }
+ },
+ "conclusion": [
+  "Dull frontage goes with empty streets: 0 and 26 children where 75 to 80% of frontage is graded D or E, against 268 at grade C."
+ ]
+}

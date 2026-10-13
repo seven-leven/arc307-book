@@ -1,0 +1,19 @@
+{
+ "folio": 96,
+ "type": "sheet",
+ "heading": "2.1 SITE SELECTION",
+ "claim": null,
+ "picture": {
+  "src": "figures/02/96_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "caption",
+   "text": "The selected site in Villimalé.",
+   "label": "Figure",
+   "num": "2.1.1V"
+  }
+ ]
+}

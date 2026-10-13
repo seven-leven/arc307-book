@@ -3,6 +3,8 @@
 import SectionLayout from "../../../layouts/SectionLayout.astro";
 import SectionPattern from "../../../components/SectionPattern.astro";
 import HandOn from "../../../components/HandOn.astro";
+import BookContent from "../../../components/BookContent.astro";
+import { bookPages } from "../../../data/content";
 import { CHAPTERS, ISLANDS, neighbours } from "../../../data/structure";
 
 export function getStaticPaths() {
@@ -14,10 +16,13 @@ export function getStaticPaths() {
   );
 }
 const { chapter, section } = Astro.props;
+const pages = bookPages(chapter.slug, section.slug, "shared");
 const onward = ISLANDS.map((i) => ({ i, next: neighbours(chapter.slug, section.slug, i.key).next })).filter((x) => x.next && !x.next.section.shared);
 ---
 <SectionLayout chapter={chapter} section={section} view={null}>
-  <SectionPattern chapter={chapter} section={section} />
+  {pages.length > 0
+    ? <div class="stack-lg">{pages.map((p) => <BookContent page={p} title={`${section.num} ${section.title}`} />)}</div>
+    : <SectionPattern chapter={chapter} section={section} />}
   {onward.length > 0 && (
     <div class="three">
       {onward.map(({ i, next }) => (

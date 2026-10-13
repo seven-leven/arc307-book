@@ -1,0 +1,97 @@
+{
+ "folio": 116,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Built form vs public life",
+ "picture": {
+  "src": "figures/02/116_page.webp",
+  "wpx": 2226,
+  "hpx": 2073
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Built form vs public life"
+  },
+  {
+   "type": "caption",
+   "text": "Building frontage, staying activity, vehicular movement and pedestrian throughput.",
+   "label": "Figure",
+   "num": "2.5.1H"
+  },
+  {
+   "type": "heading",
+   "text": "LEGEND"
+  },
+  {
+   "type": "heading",
+   "text": "ACTIVITY (TOOLKITS 2 AND 5)"
+  },
+  {
+   "type": "note",
+   "text": "Staying: one circle = 5 people"
+  },
+  {
+   "type": "note",
+   "text": "Vehicles, busy (over 50 per 10 min)"
+  },
+  {
+   "type": "note",
+   "text": "Vehicles, quiet (under 50 per 10 min)"
+  },
+  {
+   "type": "note",
+   "text": "Pedestrians, busy (50 to 100 per 10 min)"
+  },
+  {
+   "type": "note",
+   "text": "Pedestrians, quiet (0 to 50 per 10 min)"
+  },
+  {
+   "type": "heading",
+   "text": "WHAT WE COUNTED"
+  },
+  {
+   "type": "para",
+   "text": "The perimeter has the most open frontage of the three areas: 37% closed, 27.8 doors per 100 m. Yet it holds almost no one, and places to linger score 1.0 of 5. In the evening, activity gathers in the sheltered gaps between the flats and in the park."
+  },
+  {
+   "type": "heading",
+   "text": "FRONTAGE GRADE (TOOLKIT 1)"
+  },
+  {
+   "type": "note",
+   "text": "A Active"
+  },
+  {
+   "type": "note",
+   "text": "B Pleasant"
+  },
+  {
+   "type": "note",
+   "text": "C Mixed"
+  },
+  {
+   "type": "note",
+   "text": "D Dull"
+  },
+  {
+   "type": "note",
+   "text": "E Inactive"
+  },
+  {
+   "type": "heading",
+   "text": "WHAT IT MEANS"
+  },
+  {
+   "type": "para",
+   "text": "Open edges do not bring people here. Six lanes of traffic push them off every edge alike. Shelter and distance from traffic decide where they stay."
+  },
+  {
+   "type": "caption",
+   "text": "Where the segment sits.",
+   "label": "Figure",
+   "num": "2.5.2H"
+  }
+ ]
+}

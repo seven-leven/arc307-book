@@ -1,0 +1,100 @@
+{
+ "folio": 113,
+ "type": "comparison",
+ "claim": "Shade dictates movement, not distance",
+ "lead": [
+  "The idea holds on all three islands. In the morning shade covers 15% to 30% of the street, and most walkers on Malé (56%) and Hulhumalé (82%) are in the sun. By evening 87% to 100% walk in shade. The streets did not change, so distance cannot explain it."
+ ],
+ "toolkits": [
+  "Activity, comfort and safety",
+  "Walking activity and movement count"
+ ],
+ "table": {
+  "label": "Table",
+  "num": "2.4.1",
+  "text": "The measures, island by island."
+ },
+ "measures": [
+  {
+   "name": "Shade coverage of the street",
+   "note": "morning to evening; Hulhumalé’s 75% is the midpoint of 70 to 80%",
+   "values": [
+    {
+     "island": "male",
+     "text": "15% → 85%",
+     "note": null
+    },
+    {
+     "island": "villimale",
+     "text": "30% → 100%",
+     "note": null
+    },
+    {
+     "island": "hulhumale",
+     "text": "15% → 75%",
+     "note": null
+    }
+   ]
+  },
+  {
+   "name": "Pedestrians in shade",
+   "note": "share of those counted, morning to evening",
+   "values": [
+    {
+     "island": "male",
+     "text": "44% → 87%",
+     "note": null
+    },
+    {
+     "island": "villimale",
+     "text": "86% → 100%",
+     "note": null
+    },
+    {
+     "island": "hulhumale",
+     "text": "18% → 90%",
+     "note": null
+    }
+   ]
+  },
+  {
+   "name": "Pedestrian count, evening against morning",
+   "note": "times higher",
+   "values": [
+    {
+     "island": "male",
+     "text": "1.3×",
+     "note": null
+    },
+    {
+     "island": "villimale",
+     "text": "2.0×",
+     "note": null
+    },
+    {
+     "island": "hulhumale",
+     "text": "3.6×",
+     "note": null
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Shade grows from 15% to 85%; pedestrians in shade rise too, but evening activity is only 1.3 times higher.",
+  "Shade reaches 100% by evening and almost all pedestrians are in it. Evening activity doubles, on small counts: 14 and 28 people.",
+  "Shade rises to 70–80%; pedestrians in shade rise sharply, and evening activity reaches 3.6 times the morning level."
+ ],
+ "chart": {
+  "src": "figures/02/113_chart.webp",
+  "wpx": 2196,
+  "hpx": 366,
+  "caption": {
+   "label": "Figure",
+   "num": "2.4.3",
+   "text": "Outlined bar: morning. Solid bar: evening."
+  }
+ },
+ "conclusion": [
+  "Shade grows from morning to evening, and as it does more pedestrians walk in it and street activity rises."
+ ]
+}

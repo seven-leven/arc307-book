@@ -1,0 +1,81 @@
+{
+ "folio": 89,
+ "type": "sheet",
+ "heading": "WHAT EACH ISLAND LEAVES US WITH",
+ "claim": null,
+ "picture": {
+  "src": "figures/01/89_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "italic",
+   "text": "One question for each island. Chapter 02 takes it to one area and looks closely."
+  },
+  {
+   "type": "heading",
+   "text": "MALÉ"
+  },
+  {
+   "type": "sub",
+   "text": "What happens when an island runs out of land?"
+  },
+  {
+   "type": "para",
+   "text": "Malé has grown upward and inward for a century. It has the least open space per person of the three, and its last open edge, the northern waterfront, is held by the port."
+  },
+  {
+   "type": "heading",
+   "text": "CHAPTER 02 GOES TO"
+  },
+  {
+   "type": "para",
+   "text": "The northern waterfront, where the old lanes meet the port."
+  },
+  {
+   "type": "note",
+   "text": "Each area is chosen and explained in 2.1, Site Selection and Diagnosis."
+  },
+  {
+   "type": "heading",
+   "text": "VILLIMALÉ"
+  },
+  {
+   "type": "sub",
+   "text": "What is worth keeping when growth arrives?"
+  },
+  {
+   "type": "para",
+   "text": "Villimalé is still low, green and easy to walk. People left when there was no room for new homes. Growth returns only with new housing, social housing above all, and the bridge will bring more demand. Both arrive at its least- used corner."
+  },
+  {
+   "type": "heading",
+   "text": "CHAPTER 02 GOES TO"
+  },
+  {
+   "type": "para",
+   "text": "The industrial corner near the bridge landing."
+  },
+  {
+   "type": "heading",
+   "text": "HULHUMALÉ"
+  },
+  {
+   "type": "sub",
+   "text": "What does a planned island leave out?"
+  },
+  {
+   "type": "para",
+   "text": "Hulhumalé was built to relieve Malé and is growing fastest. Its first phase kept a human scale. Its second packs people into repeated towers, with little reason to be outdoors."
+  },
+  {
+   "type": "heading",
+   "text": "CHAPTER 02 GOES TO"
+  },
+  {
+   "type": "para",
+   "text": "A block of towers in the second phase."
+  }
+ ]
+}

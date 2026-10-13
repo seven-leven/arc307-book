@@ -1,5 +1,6 @@
-// Book content that has been exported for the site (book/export_web_ch02.py in the Book folder): chapters 02 and 03. A section with no
+// Book content that has been exported for the site (book/export_web_ch02.py in the Book folder): chapters 01, 02 and 03. A section with no
 // exported pages still shows the empty page pattern.
+import index01 from "../content/01/index.json";
 import index02 from "../content/02/index.json";
 import index03 from "../content/03/index.json";
 
@@ -13,7 +14,7 @@ export interface BookPageData {
 }
 
 const byFolio = new Map<number, BookPageData>(Object.values(files).map((m) => [m.default.folio, m.default]));
-const INDEX: Record<string, Record<string, Record<string, number[]>>> = { toolkit: index02, masterplan: index03 };
+const INDEX: Record<string, Record<string, Record<string, number[]>>> = { "macro-analysis": index01, toolkit: index02, masterplan: index03 };
 
 /** The book pages that make up a section for one view ("male", "compare", or "shared"), in order; empty if none. */
 export function bookPages(chapter: string, section: string, view: string): BookPageData[] {

@@ -1,0 +1,101 @@
+{
+ "folio": 83,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Types of roads",
+ "picture": {
+  "src": "figures/01/83_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Types of roads"
+  },
+  {
+   "type": "sub",
+   "text": "Number of vehicles"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.7.3H"
+  },
+  {
+   "type": "note",
+   "text": "Nirolhu Magu (11 to 15 m)"
+  },
+  {
+   "type": "note",
+   "text": "pav"
+  },
+  {
+   "type": "note",
+   "text": "vl prk"
+  },
+  {
+   "type": "note",
+   "text": "Nirolhu Magu (16 to 21 m)"
+  },
+  {
+   "type": "note",
+   "text": "Pavement"
+  },
+  {
+   "type": "note",
+   "text": "Parking"
+  },
+  {
+   "type": "note",
+   "text": "Other"
+  },
+  {
+   "type": "note",
+   "text": "Vehicles in Hulhumalé, by type (the group’s figures)."
+  },
+  {
+   "type": "note",
+   "text": "Pavement"
+  },
+  {
+   "type": "note",
+   "text": "Vehicle lanes"
+  },
+  {
+   "type": "para",
+   "text": "This narrower street is 11 to 15 m wide. Shaded pavements (pav) run on both sides, buffered by trees. One traffic lane (vl) runs down the middle, with parking (prk) for cars and motorbikes on either side. It keeps traffic slow."
+  },
+  {
+   "type": "para",
+   "text": "This wider street is 16 to 21 m. Wide pavements on both sides sit behind planted strips with trees. Two traffic lanes run between parking bays, carrying cars, motorbikes and many people on foot."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.7.2H"
+  },
+  {
+   "type": "note",
+   "text": "vehicle lane, prk parking."
+  },
+  {
+   "type": "note",
+   "text": "Buses"
+  },
+  {
+   "type": "note",
+   "text": "Two types of road, in section. pav pavement, vl"
+  },
+  {
+   "type": "note",
+   "text": "Cars"
+  },
+  {
+   "type": "note",
+   "text": "Motorbikes"
+  }
+ ]
+}

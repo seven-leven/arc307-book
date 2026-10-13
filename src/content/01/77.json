@@ -1,0 +1,135 @@
+{
+ "folio": 77,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Highest land use",
+ "picture": {
+  "src": "figures/01/77_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Highest land use"
+  },
+  {
+   "type": "note",
+   "text": "Residential"
+  },
+  {
+   "type": "note",
+   "text": "Industrial"
+  },
+  {
+   "type": "note",
+   "text": "Hotel"
+  },
+  {
+   "type": "para",
+   "text": "Homes take up most of Hulhumalé’s land: 45.7% is residential. Open and green space comes next, at 6.95%."
+  },
+  {
+   "type": "caption",
+   "text": "and 1.6.3H",
+   "label": "Figures",
+   "num": "1.6.2H"
+  },
+  {
+   "type": "sub",
+   "text": "Number of facilities"
+  },
+  {
+   "type": "sub",
+   "text": "Share of land by use"
+  },
+  {
+   "type": "note",
+   "text": "of the land"
+  },
+  {
+   "type": "number",
+   "text": "5.32%"
+  },
+  {
+   "type": "note",
+   "text": "of the land"
+  },
+  {
+   "type": "note",
+   "text": "Open and green space"
+  },
+  {
+   "type": "note",
+   "text": "Transport"
+  },
+  {
+   "type": "note",
+   "text": "Knowledge park"
+  },
+  {
+   "type": "note",
+   "text": "Share of land by use, and the number of facilities by type. Source: HDC land use plan."
+  },
+  {
+   "type": "heading",
+   "text": "MUNICIPAL / UTILITY"
+  },
+  {
+   "type": "note",
+   "text": "Religious"
+  },
+  {
+   "type": "note",
+   "text": "Sports and recreation"
+  },
+  {
+   "type": "note",
+   "text": "Mixed use"
+  },
+  {
+   "type": "para",
+   "text": "Utilities take 5.32% and shops and offices 4.36%. Together, these four uses cover 62.33% of the land."
+  },
+  {
+   "type": "note",
+   "text": "of the land"
+  },
+  {
+   "type": "number",
+   "text": "4.36%"
+  },
+  {
+   "type": "heading",
+   "text": "COMMERCIAL USE"
+  },
+  {
+   "type": "note",
+   "text": "of the land"
+  },
+  {
+   "type": "note",
+   "text": "Educational"
+  },
+  {
+   "type": "note",
+   "text": "Municipal and utility"
+  },
+  {
+   "type": "note",
+   "text": "Port"
+  },
+  {
+   "type": "note",
+   "text": "Commercial"
+  },
+  {
+   "type": "note",
+   "text": "Office"
+  },
+  {
+   "type": "note",
+   "text": "Proposed land use"
+  }
+ ]
+}

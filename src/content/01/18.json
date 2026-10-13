@@ -1,0 +1,203 @@
+{
+ "folio": 18,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Spatial history and landmarks",
+ "picture": {
+  "src": "figures/01/18_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Spatial history and landmarks"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.3.2M"
+  },
+  {
+   "type": "heading",
+   "text": "LANDMARKS"
+  },
+  {
+   "type": "note",
+   "text": "Malé’s outline, 1960 to 2015 (one line per card), and its landmarks. 2015 projected from the 2014 census."
+  },
+  {
+   "type": "note",
+   "text": "Hukuru Miskiy"
+  },
+  {
+   "type": "note",
+   "text": "Mulee’aage"
+  },
+  {
+   "type": "note",
+   "text": "National Museum"
+  },
+  {
+   "type": "note",
+   "text": "Medhu Ziyaaraiy"
+  },
+  {
+   "type": "note",
+   "text": "Sultan Park"
+  },
+  {
+   "type": "note",
+   "text": "Jumhooree Maidhaan"
+  },
+  {
+   "type": "note",
+   "text": "Parliament"
+  },
+  {
+   "type": "note",
+   "text": "North Harbour"
+  },
+  {
+   "type": "note",
+   "text": "Rasfannu"
+  },
+  {
+   "type": "note",
+   "text": "Usfasgandu"
+  },
+  {
+   "type": "note",
+   "text": "Artificial Beach"
+  },
+  {
+   "type": "note",
+   "text": "Maldives National Stadium"
+  },
+  {
+   "type": "note",
+   "text": "Maafannu Stadium"
+  },
+  {
+   "type": "note",
+   "text": "IGMH"
+  },
+  {
+   "type": "note",
+   "text": "ADK"
+  },
+  {
+   "type": "note",
+   "text": "T-Jetty"
+  },
+  {
+   "type": "note",
+   "text": "Lonuziyaaraiy Park"
+  },
+  {
+   "type": "note",
+   "text": "Thaajuddeen School"
+  },
+  {
+   "type": "note",
+   "text": "Hiriya School"
+  },
+  {
+   "type": "note",
+   "text": "Maafannu Madharusaa"
+  },
+  {
+   "type": "note",
+   "text": "Dharumavantha School"
+  },
+  {
+   "type": "note",
+   "text": "Aminiya School"
+  },
+  {
+   "type": "note",
+   "text": "Iskandhar School"
+  },
+  {
+   "type": "note",
+   "text": "Jamaluddin School"
+  },
+  {
+   "type": "strongnote",
+   "text": "1960"
+  },
+  {
+   "type": "number",
+   "text": "82"
+  },
+  {
+   "type": "note",
+   "text": "Land area 112.23 ha"
+  },
+  {
+   "type": "note",
+   "text": "Population ~9,250"
+  },
+  {
+   "type": "strongnote",
+   "text": "1979"
+  },
+  {
+   "type": "number",
+   "text": "227"
+  },
+  {
+   "type": "note",
+   "text": "Land area 129.82 ha"
+  },
+  {
+   "type": "note",
+   "text": "Population 29,520"
+  },
+  {
+   "type": "strongnote",
+   "text": "1986"
+  },
+  {
+   "type": "number",
+   "text": "257"
+  },
+  {
+   "type": "note",
+   "text": "Land area 180.05 ha"
+  },
+  {
+   "type": "note",
+   "text": "Population ~46,330"
+  },
+  {
+   "type": "strongnote",
+   "text": "1999"
+  },
+  {
+   "type": "number",
+   "text": "385"
+  },
+  {
+   "type": "note",
+   "text": "Land area 192.25 ha"
+  },
+  {
+   "type": "note",
+   "text": "Population ~74,070"
+  },
+  {
+   "type": "strongnote",
+   "text": "2015"
+  },
+  {
+   "type": "number",
+   "text": "745"
+  },
+  {
+   "type": "note",
+   "text": "Land area 206.67 ha Population ~153,900"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "folio": 38,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Open space map",
+ "picture": {
+  "src": "figures/01/38_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Open space map"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.8.1M"
+  },
+  {
+   "type": "para",
+   "text": "Dense vegetated spaces Recreational open spaces Parks Mosques Schools Major activity nodes"
+  },
+  {
+   "type": "note",
+   "text": "Open space map of Malé. Source: Rethink Malé; Google Maps."
+  }
+ ]
+}

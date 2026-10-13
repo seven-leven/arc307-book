@@ -1,0 +1,163 @@
+{
+ "folio": 27,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Population growth",
+ "picture": {
+  "src": "figures/01/27_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Population growth"
+  },
+  {
+   "type": "note",
+   "text": "80,000"
+  },
+  {
+   "type": "note",
+   "text": "60,000"
+  },
+  {
+   "type": "note",
+   "text": "40,000"
+  },
+  {
+   "type": "note",
+   "text": "20,000"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.5.2M"
+  },
+  {
+   "type": "heading",
+   "text": "WHERE THE NUMBER IS HEADING"
+  },
+  {
+   "type": "para",
+   "text": "Malé’s population almost doubled in two decades, from about 75,000 in 2000 to 137,238 in 2022, on land that grew by only 8%. Of the three groups, foreign residents grew fastest."
+  },
+  {
+   "type": "heading",
+   "text": "PROJECTED POPULATION"
+  },
+  {
+   "type": "note",
+   "text": "2050 (estimate)"
+  },
+  {
+   "type": "number",
+   "text": "216,000"
+  },
+  {
+   "type": "note",
+   "text": "+57% on the 2022 census"
+  },
+  {
+   "type": "note",
+   "text": "0"
+  },
+  {
+   "type": "note",
+   "text": "2000"
+  },
+  {
+   "type": "note",
+   "text": "2009"
+  },
+  {
+   "type": "note",
+   "text": "Men"
+  },
+  {
+   "type": "note",
+   "text": "Residents of Malé, 2000 to 2050: counted to 2022, projected after (Malé group’s estimate). Source: Census 2022, Maldives Bureau of Statistics."
+  },
+  {
+   "type": "note",
+   "text": "2019"
+  },
+  {
+   "type": "note",
+   "text": "Women"
+  },
+  {
+   "type": "note",
+   "text": "Foreign residents"
+  },
+  {
+   "type": "heading",
+   "text": "POPULATION DENSITY"
+  },
+  {
+   "type": "note",
+   "text": "2000 to 2022"
+  },
+  {
+   "type": "number",
+   "text": "390 → 660"
+  },
+  {
+   "type": "note",
+   "text": "People per hectare"
+  },
+  {
+   "type": "note",
+   "text": "Census 2022 projected after"
+  },
+  {
+   "type": "note",
+   "text": "2022"
+  },
+  {
+   "type": "para",
+   "text": "The group’s projection has Malé reaching about 216,000 people by 2050. With little land left, that growth means more people on every hectare, or more people moving to Hulhumalé and Villimalé."
+  },
+  {
+   "type": "note",
+   "text": "2035"
+  },
+  {
+   "type": "note",
+   "text": "2043"
+  },
+  {
+   "type": "heading",
+   "text": "HOUSEHOLDS"
+  },
+  {
+   "type": "note",
+   "text": "2022"
+  },
+  {
+   "type": "number",
+   "text": "42,571"
+  },
+  {
+   "type": "note",
+   "text": "About 3.2 people each"
+  },
+  {
+   "type": "strongnote",
+   "text": "69,300"
+  },
+  {
+   "type": "strongnote",
+   "text": "66,400"
+  },
+  {
+   "type": "strongnote",
+   "text": "61,600"
+  },
+  {
+   "type": "note",
+   "text": "2050"
+  }
+ ]
+}

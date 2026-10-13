@@ -1,0 +1,45 @@
+{
+ "folio": 67,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/01/67_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "sub",
+   "text": "2005"
+  },
+  {
+   "type": "note",
+   "text": "The Hulhumalé Development Corporation was set up to guide the island’s growth."
+  },
+  {
+   "type": "sub",
+   "text": "2015"
+  },
+  {
+   "type": "note",
+   "text": "Phase 2 reclamation was complete, adding 244 ha and roughly doubling the island."
+  },
+  {
+   "type": "sub",
+   "text": "2019"
+  },
+  {
+   "type": "note",
+   "text": "Fast building in Phase 2 after the Sinamalé Bridge opened in 2018: the Hiyaa flats (7,000 homes), roads and public buildings."
+  },
+  {
+   "type": "sub",
+   "text": "2026"
+  },
+  {
+   "type": "note",
+   "text": "Phase 3 is planned and under way."
+  }
+ ]
+}

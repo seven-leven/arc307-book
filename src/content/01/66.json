@@ -1,0 +1,71 @@
+{
+ "folio": 66,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Historical timeline",
+ "picture": {
+  "src": "figures/01/66_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Historical timeline"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.3.1H"
+  },
+  {
+   "type": "sub",
+   "text": "1995"
+  },
+  {
+   "type": "note",
+   "text": "Plans began to answer Malé’s growing population and housing shortage."
+  },
+  {
+   "type": "note",
+   "text": "Hulhumalé’s history, from the first plans in 1995 to 2026. Compiled by the Hulhumalé group from Wikipedia."
+  },
+  {
+   "type": "sub",
+   "text": "1997"
+  },
+  {
+   "type": "note",
+   "text": "Reclamation began for a new, planned town."
+  },
+  {
+   "type": "sub",
+   "text": "2002"
+  },
+  {
+   "type": "note",
+   "text": "Phase 1 reclamation was complete: the ground Hulhumalé is built on."
+  },
+  {
+   "type": "sub",
+   "text": "2004"
+  },
+  {
+   "type": "note",
+   "text": "Hulhumalé"
+  },
+  {
+   "type": "note",
+   "text": "opened, and"
+  },
+  {
+   "type": "note",
+   "text": "the first residents"
+  },
+  {
+   "type": "note",
+   "text": "moved in."
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "folio": 63,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Visuals of notable spaces",
+ "picture": {
+  "src": "figures/01/63_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Visuals of notable spaces"
+  },
+  {
+   "type": "caption",
+   "text": "Four notable open spaces. Illustrations by the Villimalé group.",
+   "label": "Figures",
+   "num": "1.8.2V to 1.8.5V"
+  },
+  {
+   "type": "sub",
+   "text": "Open space per person"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.8.6V"
+  },
+  {
+   "type": "heading",
+   "text": "CURRENT (2026)"
+  },
+  {
+   "type": "number",
+   "text": "18m²"
+  },
+  {
+   "type": "note",
+   "text": "per person"
+  },
+  {
+   "type": "note",
+   "text": "4.24m"
+  },
+  {
+   "type": "note",
+   "text": "6,211"
+  },
+  {
+   "type": "note",
+   "text": "Open space per person, 2026 and 2050 (worst case, projected). Source: Rethink Malé."
+  },
+  {
+   "type": "note",
+   "text": "4.24m"
+  },
+  {
+   "type": "heading",
+   "text": "PROJECTED WORST CASE BY 2050"
+  },
+  {
+   "type": "number",
+   "text": "13.7m²"
+  },
+  {
+   "type": "note",
+   "text": "per person"
+  },
+  {
+   "type": "note",
+   "text": "3.70m"
+  },
+  {
+   "type": "note",
+   "text": "8,166"
+  },
+  {
+   "type": "para",
+   "text": "Villimalé has about 18 m² of open space per person today (2026). Its population is projected to grow from 6,211 to 8,166 by 2050 while its open space stays the same, so each person’s share falls to about 13.7 m². Parks, beaches and neighbourhood spaces are central to daily life here."
+  },
+  {
+   "type": "note",
+   "text": "3.70m"
+  }
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "folio": 53,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Highest land use",
+ "picture": {
+  "src": "figures/01/53_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Highest land use"
+  },
+  {
+   "type": "note",
+   "text": "Residential Industrial"
+  },
+  {
+   "type": "para",
+   "text": "Sports and recreation take the most land, 23.86%, closely followed by homes at 22.23%."
+  },
+  {
+   "type": "caption",
+   "text": "and 1.6.3V",
+   "label": "Figures",
+   "num": "1.6.2V"
+  },
+  {
+   "type": "sub",
+   "text": "Number of facilities"
+  },
+  {
+   "type": "note",
+   "text": "Schools"
+  },
+  {
+   "type": "number",
+   "text": "3"
+  },
+  {
+   "type": "note",
+   "text": "Schools, preschools and other education"
+  },
+  {
+   "type": "note",
+   "text": "Mosques"
+  },
+  {
+   "type": "number",
+   "text": "3"
+  },
+  {
+   "type": "note",
+   "text": "Religious facilities"
+  },
+  {
+   "type": "note",
+   "text": "of the land"
+  },
+  {
+   "type": "note",
+   "text": "of the land"
+  },
+  {
+   "type": "note",
+   "text": "Greenery Terminal"
+  },
+  {
+   "type": "note",
+   "text": "Share of land by use, and the number of facilities by type. Source: Rethink Malé."
+  },
+  {
+   "type": "note",
+   "text": "Health"
+  },
+  {
+   "type": "number",
+   "text": "1"
+  },
+  {
+   "type": "note",
+   "text": "centre, clinic"
+  },
+  {
+   "type": "note",
+   "text": "Vacant Sports and recreation"
+  },
+  {
+   "type": "para",
+   "text": "Institutional use (16.74%) and utilities (13.36%) come next. Together, these four uses cover 76.19% of the land."
+  },
+  {
+   "type": "note",
+   "text": "Police and safety"
+  },
+  {
+   "type": "number",
+   "text": "1"
+  },
+  {
+   "type": "note",
+   "text": "Police station and security"
+  },
+  {
+   "type": "number",
+   "text": "23.86%"
+  },
+  {
+   "type": "heading",
+   "text": "SPORTS AND RECREATION"
+  },
+  {
+   "type": "note",
+   "text": "of the land"
+  },
+  {
+   "type": "note",
+   "text": "of the land"
+  },
+  {
+   "type": "note",
+   "text": "Institutional Utility"
+  },
+  {
+   "type": "note",
+   "text": "Government"
+  },
+  {
+   "type": "number",
+   "text": "6"
+  },
+  {
+   "type": "note",
+   "text": "Council and government offices"
+  },
+  {
+   "type": "note",
+   "text": "Commercial"
+  },
+  {
+   "type": "note",
+   "text": "Transport"
+  },
+  {
+   "type": "number",
+   "text": "2"
+  },
+  {
+   "type": "note",
+   "text": "Ferry terminal, WAMCO"
+  }
+ ]
+}

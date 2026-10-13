@@ -1,0 +1,149 @@
+{
+ "folio": 59,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Types of roads",
+ "picture": {
+  "src": "figures/01/59_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Types of roads"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.7.2V"
+  },
+  {
+   "type": "sub",
+   "text": "Number of vehicles"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.7.3V"
+  },
+  {
+   "type": "note",
+   "text": "Kalhuthukalaa Magu (over 8 m)"
+  },
+  {
+   "type": "note",
+   "text": "Pavement"
+  },
+  {
+   "type": "note",
+   "text": "Parking"
+  },
+  {
+   "type": "note",
+   "text": "Vaaru Hingun (4 to 6 m)"
+  },
+  {
+   "type": "note",
+   "text": "pav"
+  },
+  {
+   "type": "note",
+   "text": "Vehicle lane"
+  },
+  {
+   "type": "note",
+   "text": "Three types of road, in section. pav pavement, veg planting."
+  },
+  {
+   "type": "note",
+   "text": "Pickups"
+  },
+  {
+   "type": "number",
+   "text": "2"
+  },
+  {
+   "type": "note",
+   "text": "Lorries"
+  },
+  {
+   "type": "number",
+   "text": "2"
+  },
+  {
+   "type": "note",
+   "text": "Vehicles in Villimalé, by type, all electric (the group’s figures)."
+  },
+  {
+   "type": "note",
+   "text": "Vehicle lane"
+  },
+  {
+   "type": "note",
+   "text": "Jumuhooree Magu (1.5 to 4 m)"
+  },
+  {
+   "type": "note",
+   "text": "pav"
+  },
+  {
+   "type": "note",
+   "text": "Veg"
+  },
+  {
+   "type": "note",
+   "text": "Pedestrian"
+  },
+  {
+   "type": "note",
+   "text": "Heavy vehicles"
+  },
+  {
+   "type": "number",
+   "text": "2"
+  },
+  {
+   "type": "para",
+   "text": "Villimalé has a clear road hierarchy. Main roads over 8 m wide link the schools, offices and busiest places. Secondary roads of 4 to 6 m run around the island, and lanes of 1.5 to 4 m serve the homes."
+  },
+  {
+   "type": "note",
+   "text": "Pavement"
+  },
+  {
+   "type": "para",
+   "text": "Traffic is light, and every vehicle on the island is electric, lorries and pickups included. Buses run along the wider roads, and the streets stay quiet and calm."
+  },
+  {
+   "type": "note",
+   "text": "Veg"
+  },
+  {
+   "type": "note",
+   "text": "Buses"
+  },
+  {
+   "type": "number",
+   "text": "3"
+  },
+  {
+   "type": "number",
+   "text": "~1,987"
+  },
+  {
+   "type": "note",
+   "text": "Electric cars"
+  },
+  {
+   "type": "number",
+   "text": "4"
+  },
+  {
+   "type": "note",
+   "text": "Bicycles and e-bikes"
+  }
+ ]
+}

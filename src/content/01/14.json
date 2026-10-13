@@ -1,0 +1,51 @@
+{
+ "folio": 14,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/01/14_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "note",
+   "text": "0"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.2.1M"
+  },
+  {
+   "type": "heading",
+   "text": "OVERVIEW"
+  },
+  {
+   "type": "para",
+   "text": "Malé is the capital of the Maldives and the heart of the Greater Malé Region, in Kaafu Atoll. It is the country’s centre of government, trade and culture. Bridges link it to Hulhulé and Hulhumalé, and ferries to the islands around it. With little land and many people, Malé has grown upward and inward, using every space it has."
+  },
+  {
+   "type": "heading",
+   "text": "KEY POINT"
+  },
+  {
+   "type": "note",
+   "text": "Malé, a collage by the Malé group."
+  },
+  {
+   "type": "note",
+   "text": "Malé is the hub of the Greater Malé Region: most of its work, schooling, healthcare and trade happen here."
+  },
+  {
+   "type": "para",
+   "text": "Malé holds most of the region’s jobs, schools, hospitals and shops. Hulhumalé gives it room to grow, and Villimalé is quieter and mainly a place to live. Both still depend on Malé every day: Malé at the centre, Hulhumalé its growing extension, Villimalé a place to live and unwind."
+  },
+  {
+   "type": "strong",
+   "text": "N"
+  }
+ ]
+}

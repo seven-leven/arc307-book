@@ -1,0 +1,59 @@
+{
+ "folio": 86,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Open space map",
+ "picture": {
+  "src": "figures/01/86_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Open space map"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.8.1H"
+  },
+  {
+   "type": "para",
+   "text": "Vegetated open spaces"
+  },
+  {
+   "type": "para",
+   "text": "Central Park"
+  },
+  {
+   "type": "note",
+   "text": "Open space map of Hulhumalé. Source: HDC; Google Maps."
+  },
+  {
+   "type": "para",
+   "text": "Recreational open spaces"
+  },
+  {
+   "type": "para",
+   "text": "Beach area"
+  },
+  {
+   "type": "para",
+   "text": "Running track"
+  },
+  {
+   "type": "para",
+   "text": "Major activity nodes"
+  },
+  {
+   "type": "para",
+   "text": "Parks"
+  },
+  {
+   "type": "para",
+   "text": "BBQ area"
+  }
+ ]
+}

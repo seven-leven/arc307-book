@@ -1,0 +1,231 @@
+{
+ "folio": 74,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Population pyramid",
+ "picture": {
+  "src": "figures/01/74_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Population pyramid"
+  },
+  {
+   "type": "note",
+   "text": "75+"
+  },
+  {
+   "type": "note",
+   "text": "70–74"
+  },
+  {
+   "type": "note",
+   "text": "65–69"
+  },
+  {
+   "type": "note",
+   "text": "60–64"
+  },
+  {
+   "type": "note",
+   "text": "2050 projection"
+  },
+  {
+   "type": "note",
+   "text": "55–59"
+  },
+  {
+   "type": "note",
+   "text": "50–54"
+  },
+  {
+   "type": "note",
+   "text": "45–49"
+  },
+  {
+   "type": "note",
+   "text": "40–44"
+  },
+  {
+   "type": "note",
+   "text": "35–39"
+  },
+  {
+   "type": "note",
+   "text": "30–34"
+  },
+  {
+   "type": "note",
+   "text": "25–29"
+  },
+  {
+   "type": "note",
+   "text": "20–24"
+  },
+  {
+   "type": "note",
+   "text": "15–19"
+  },
+  {
+   "type": "note",
+   "text": "10–14"
+  },
+  {
+   "type": "note",
+   "text": "5–9"
+  },
+  {
+   "type": "note",
+   "text": "0–4"
+  },
+  {
+   "type": "note",
+   "text": "8400"
+  },
+  {
+   "type": "note",
+   "text": "7200"
+  },
+  {
+   "type": "note",
+   "text": "Maldivian women, 2026"
+  },
+  {
+   "type": "note",
+   "text": "2004 profile"
+  },
+  {
+   "type": "para",
+   "text": "The 2022 census counted 65,714 residents in Hulhumalé, plus 12,585 expatriates: about one for every five residents. Most expatriates are working- age men, employed in building and services."
+  },
+  {
+   "type": "heading",
+   "text": "TOTAL GROWTH"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.5.1H"
+  },
+  {
+   "type": "note",
+   "text": "Population by age and sex, 2026, with the 2004 profile and the 2050"
+  },
+  {
+   "type": "note",
+   "text": "projection. Growth 2004 to 2022. Source: HDC; Census 2022, Maldives Bureau of Statistics."
+  },
+  {
+   "type": "note",
+   "text": "2004 profile"
+  },
+  {
+   "type": "note",
+   "text": "3600"
+  },
+  {
+   "type": "note",
+   "text": "6000"
+  },
+  {
+   "type": "note",
+   "text": "4800"
+  },
+  {
+   "type": "note",
+   "text": "Maldivian men, 2026"
+  },
+  {
+   "type": "note",
+   "text": "2004 profile"
+  },
+  {
+   "type": "heading",
+   "text": "YEARLY GROWTH"
+  },
+  {
+   "type": "note",
+   "text": "2400"
+  },
+  {
+   "type": "note",
+   "text": "1200"
+  },
+  {
+   "type": "note",
+   "text": "Foreign men, 2026"
+  },
+  {
+   "type": "note",
+   "text": "2050 projection"
+  },
+  {
+   "type": "para",
+   "text": "Growth is expected to stay above 5% a year as new roads and homes are built. The HDC plans for 100,000 residents in Phase 1 and 250,000 in Phase 2."
+  },
+  {
+   "type": "note",
+   "text": "0"
+  },
+  {
+   "type": "note",
+   "text": "1200"
+  },
+  {
+   "type": "note",
+   "text": "2400"
+  },
+  {
+   "type": "note",
+   "text": "Foreign women, 2026"
+  },
+  {
+   "type": "note",
+   "text": "2050 projection"
+  },
+  {
+   "type": "sub",
+   "text": "Locals"
+  },
+  {
+   "type": "sub",
+   "text": "Male"
+  },
+  {
+   "type": "sub",
+   "text": "Female"
+  },
+  {
+   "type": "note",
+   "text": "2050 projection"
+  },
+  {
+   "type": "note",
+   "text": "2004 profile"
+  },
+  {
+   "type": "note",
+   "text": "3600"
+  },
+  {
+   "type": "note",
+   "text": "4800"
+  },
+  {
+   "type": "sub",
+   "text": "Expats"
+  },
+  {
+   "type": "sub",
+   "text": "Male"
+  },
+  {
+   "type": "sub",
+   "text": "Female"
+  }
+ ]
+}

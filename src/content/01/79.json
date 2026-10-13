@@ -1,0 +1,59 @@
+{
+ "folio": 79,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Building heights",
+ "picture": {
+  "src": "figures/01/79_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Building heights"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.6.5H"
+  },
+  {
+   "type": "sub",
+   "text": "Low-rise"
+  },
+  {
+   "type": "para",
+   "text": "Early Hulhumalé housing is low-rise and human in scale: fewer people, wider open spaces and smaller communities."
+  },
+  {
+   "type": "note",
+   "text": "Building heights, in storeys, with a low-rise and a high-rise example. Heights from a Grasshopper script run on a 3D model of Hulhumalé."
+  },
+  {
+   "type": "para",
+   "text": "Later housing is high-rise, using height to house a fast-growing population."
+  },
+  {
+   "type": "sub",
+   "text": "High-rise"
+  },
+  {
+   "type": "note",
+   "text": "1 to 4 storeys 5 to 8 storeys"
+  },
+  {
+   "type": "note",
+   "text": "9 to 13 storeys"
+  },
+  {
+   "type": "note",
+   "text": "14 to 19 storeys"
+  },
+  {
+   "type": "note",
+   "text": "25 storeys"
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "folio": 23,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/01/23_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": []
+}

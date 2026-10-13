@@ -1,0 +1,43 @@
+{
+ "folio": 85,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/01/85_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "number",
+   "text": "4"
+  },
+  {
+   "type": "para",
+   "text": "Bins, parked motorbikes and other things on the pavement narrow the walking path. They create bottlenecks that force people to step around them."
+  },
+  {
+   "type": "number",
+   "text": "6"
+  },
+  {
+   "type": "para",
+   "text": "Parks, beaches, homes and shops are not always joined by a continuous path. Roads, car parks and buildings break the route between them."
+  },
+  {
+   "type": "caption",
+   "text": "Six obstacles to walking in Hulhumalé. Illustrations by the Hulhumalé group.",
+   "label": "Figures",
+   "num": "1.7.4H to 1.7.9H"
+  },
+  {
+   "type": "number",
+   "text": "5"
+  },
+  {
+   "type": "para",
+   "text": "Large blocks, and separate zones for homes, shops, sport, beaches and community buildings, make walks long. In the heat, with little shade, longer walks are less inviting."
+  }
+ ]
+}

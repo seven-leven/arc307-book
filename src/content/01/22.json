@@ -1,0 +1,27 @@
+{
+ "folio": 22,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Folk story: Koimala",
+ "picture": {
+  "src": "figures/01/22_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Folk story: Koimala"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.3.8M"
+  },
+  {
+   "type": "note",
+   "text": "Folk story: Koimala. Comic by the Malé group."
+  }
+ ]
+}

@@ -1,0 +1,219 @@
+{
+ "folio": 51,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Population growth",
+ "picture": {
+  "src": "figures/01/51_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Population growth"
+  },
+  {
+   "type": "sub",
+   "text": "Number of households vs Population"
+  },
+  {
+   "type": "note",
+   "text": "Male"
+  },
+  {
+   "type": "note",
+   "text": "Female"
+  },
+  {
+   "type": "note",
+   "text": "4,000"
+  },
+  {
+   "type": "note",
+   "text": "3,000"
+  },
+  {
+   "type": "note",
+   "text": "2,000"
+  },
+  {
+   "type": "note",
+   "text": "1,000"
+  },
+  {
+   "type": "note",
+   "text": "0"
+  },
+  {
+   "type": "note",
+   "text": "1995"
+  },
+  {
+   "type": "note",
+   "text": "2000"
+  },
+  {
+   "type": "note",
+   "text": "2006"
+  },
+  {
+   "type": "heading",
+   "text": "PROJECTED, 2050"
+  },
+  {
+   "type": "number",
+   "text": "8,166"
+  },
+  {
+   "type": "note",
+   "text": "+20.9% FROM 2022"
+  },
+  {
+   "type": "note",
+   "text": "4,291"
+  },
+  {
+   "type": "note",
+   "text": "601"
+  },
+  {
+   "type": "note",
+   "text": "300"
+  },
+  {
+   "type": "note",
+   "text": "44"
+  },
+  {
+   "type": "note",
+   "text": "1995"
+  },
+  {
+   "type": "note",
+   "text": "2000"
+  },
+  {
+   "type": "note",
+   "text": "Households"
+  },
+  {
+   "type": "note",
+   "text": "Expats"
+  },
+  {
+   "type": "note",
+   "text": "2014"
+  },
+  {
+   "type": "heading",
+   "text": "DENSITY INCREASE"
+  },
+  {
+   "type": "note",
+   "text": "2026 TO 2050"
+  },
+  {
+   "type": "number",
+   "text": "+31%"
+  },
+  {
+   "type": "note",
+   "text": "175 TO 230 PER HA"
+  },
+  {
+   "type": "note",
+   "text": "7,988"
+  },
+  {
+   "type": "note",
+   "text": "6,956"
+  },
+  {
+   "type": "note",
+   "text": "1,350*"
+  },
+  {
+   "type": "note",
+   "text": "996"
+  },
+  {
+   "type": "note",
+   "text": "2006"
+  },
+  {
+   "type": "note",
+   "text": "2014"
+  },
+  {
+   "type": "note",
+   "text": "Population"
+  },
+  {
+   "type": "note",
+   "text": "Thilamalé bridge opens"
+  },
+  {
+   "type": "note",
+   "text": "2022 2026"
+  },
+  {
+   "type": "para",
+   "text": "1995–2026: Villimalé grew fast, from about 300 residents in 1995 to 4,291 in 2000, then by about 8% a year to 6,956 in 2006. It peaked at 7,988 in 2014, then fell to 6,211 by 2026, as there was no land left for new homes and people moved to Malé and Hulhumalé. Men and women are roughly balanced, and the number of expatriates rises slowly."
+  },
+  {
+   "type": "para",
+   "text": "2026–2050: With the bridge and new homes, growth is expected to return, at about 1.1% a year, close to Malé’s rate. The population reaches about 8,166 by 2050: slower and steadier than in 1995–2014."
+  },
+  {
+   "type": "note",
+   "text": "6,755"
+  },
+  {
+   "type": "caption",
+   "text": "and 1.5.3V",
+   "label": "Figures",
+   "num": "1.5.2V"
+  },
+  {
+   "type": "note",
+   "text": "1,378"
+  },
+  {
+   "type": "note",
+   "text": "(projected), and households against population. *The 2014 census did not count households, so 1,350 is the group’s estimate. Source: Census 2022, Maldives Bureau of Statistics."
+  },
+  {
+   "type": "note",
+   "text": "2022"
+  },
+  {
+   "type": "note",
+   "text": "2035"
+  },
+  {
+   "type": "note",
+   "text": "2045"
+  },
+  {
+   "type": "note",
+   "text": "Population growth, 1995 to 2050"
+  },
+  {
+   "type": "note",
+   "text": "3,670"
+  },
+  {
+   "type": "note",
+   "text": "3,560"
+  },
+  {
+   "type": "note",
+   "text": "950"
+  },
+  {
+   "type": "note",
+   "text": "2050"
+  }
+ ]
+}

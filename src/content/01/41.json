@@ -1,0 +1,121 @@
+{
+ "folio": 41,
+ "type": "sheet",
+ "heading": "ISLAND AT A GLANCE",
+ "claim": null,
+ "picture": {
+  "src": "figures/01/41_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "heading",
+   "text": "LAND AREA (HA)"
+  },
+  {
+   "type": "note",
+   "text": "35.52 ha"
+  },
+  {
+   "type": "heading",
+   "text": "DENSITY (PEOPLE PER HA)"
+  },
+  {
+   "type": "note",
+   "text": "175 per ha (2026)"
+  },
+  {
+   "type": "heading",
+   "text": "DISTANCE FROM MALÉ"
+  },
+  {
+   "type": "note",
+   "text": "1.7 km"
+  },
+  {
+   "type": "heading",
+   "text": "DOMINANT LAND USE"
+  },
+  {
+   "type": "note",
+   "text": "Residential"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Table",
+   "num": "1.2.1V"
+  },
+  {
+   "type": "heading",
+   "text": "LOCATION AND ROLE IN THE REGION"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.2.2V"
+  },
+  {
+   "type": "note",
+   "text": "Sources"
+  },
+  {
+   "type": "note",
+   "text": "Villimalé at a glance. Census 2022, Maldives Bureau of Statistics; 2026 figures as given by the Villimalé group."
+  },
+  {
+   "type": "note",
+   "text": "Malé to Villimalé Travel time: 5 to 7 min"
+  },
+  {
+   "type": "note",
+   "text": "Villimalé in the Greater Malé Region."
+  },
+  {
+   "type": "note",
+   "text": "Rethink Malé; Google Maps."
+  },
+  {
+   "type": "note",
+   "text": "Malé to Hulhumalé Travel time: 10 to 15 min"
+  },
+  {
+   "type": "heading",
+   "text": "POPULATION (YEAR)"
+  },
+  {
+   "type": "note",
+   "text": "6,211 (2026)"
+  },
+  {
+   "type": "heading",
+   "text": "HOUSEHOLDS"
+  },
+  {
+   "type": "note",
+   "text": "1,294"
+  },
+  {
+   "type": "heading",
+   "text": "ROLE IN THE REGION"
+  },
+  {
+   "type": "note",
+   "text": "A quiet, low-rise place to live, beside Malé"
+  },
+  {
+   "type": "heading",
+   "text": "MAIN ACCESS"
+  },
+  {
+   "type": "note",
+   "text": "Ferry terminal"
+  },
+  {
+   "type": "para",
+   "text": "Villimalé is the quiet, low-rise part of the Greater Malé Region, beside the tall towers of Malé and Hulhumalé. It depends on Malé for work and services, but keeps the feel of a village. The Thilamalé bridge, now being built, will bring more people through."
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "folio": 62,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Open space map",
+ "picture": {
+  "src": "figures/01/62_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Open space map"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.8.1V"
+  },
+  {
+   "type": "note",
+   "text": "Source: Rethink Malé; Google Maps."
+  },
+  {
+   "type": "para",
+   "text": "Dense vegetated spaces Recreational open spaces Parks"
+  },
+  {
+   "type": "para",
+   "text": "Major activity nodes"
+  },
+  {
+   "type": "para",
+   "text": "Mosques"
+  },
+  {
+   "type": "para",
+   "text": "Schools"
+  },
+  {
+   "type": "note",
+   "text": "Open space map of Villimalé."
+  }
+ ]
+}

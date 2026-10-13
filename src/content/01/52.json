@@ -1,0 +1,83 @@
+{
+ "folio": 52,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Land use plan",
+ "picture": {
+  "src": "figures/01/52_page.webp",
+  "wpx": 2226,
+  "hpx": 2076
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Land use plan"
+  },
+  {
+   "type": "note",
+   "text": "Existing Greenery"
+  },
+  {
+   "type": "number",
+   "text": "7.91%"
+  },
+  {
+   "type": "note",
+   "text": "of available land (2.57 ha)"
+  },
+  {
+   "type": "note",
+   "text": "Existing Sports & Recreation"
+  },
+  {
+   "type": "number",
+   "text": "23.86%"
+  },
+  {
+   "type": "note",
+   "text": "of available land (7.76 ha)"
+  },
+  {
+   "type": "note",
+   "text": "of available land (0.65 ha)"
+  },
+  {
+   "type": "number",
+   "text": "9.96%"
+  },
+  {
+   "type": "note",
+   "text": "of available land (3.24 ha)"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "1.6.1V"
+  },
+  {
+   "type": "note",
+   "text": "Land use plan of Villimalé, with each use’s share of the land. Source: Rethink Malé; Google Maps."
+  },
+  {
+   "type": "note",
+   "text": "of available land (7.23 ha)"
+  },
+  {
+   "type": "note",
+   "text": "of available land (0.11 ha)"
+  },
+  {
+   "type": "note",
+   "text": "of available land (1.17 ha)"
+  },
+  {
+   "type": "note",
+   "text": "of available land (5.44 ha)"
+  },
+  {
+   "type": "note",
+   "text": "of available land (4.35 ha)"
+  }
+ ]
+}

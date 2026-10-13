@@ -1,0 +1,113 @@
+{
+ "folio": 123,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Vehicles take more open space",
+ "picture": {
+  "src": "figures/02/123_page.webp",
+  "wpx": 2226,
+  "hpx": 2073
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Vehicles take more open space"
+  },
+  {
+   "type": "caption",
+   "text": "SCER values and number of people at survey points A1 to A8.",
+   "label": "Figure",
+   "num": "2.7.1V"
+  },
+  {
+   "type": "caption",
+   "text": "SCER, vehicle conflicts and total pedestrians at survey points A1 to A8.",
+   "label": "Figure",
+   "num": "2.7.2V"
+  },
+  {
+   "type": "heading",
+   "text": "PARKED VEHICLES"
+  },
+  {
+   "type": "note",
+   "text": "Parked on the road"
+  },
+  {
+   "type": "note",
+   "text": "Parked on the pavement"
+  },
+  {
+   "type": "note",
+   "text": "Parked in a parking area"
+  },
+  {
+   "type": "heading",
+   "text": "VEHICLE PRESSURE (SCER)"
+  },
+  {
+   "type": "note",
+   "text": "0% to 16.67%"
+  },
+  {
+   "type": "note",
+   "text": "16.67% to 33.33%"
+  },
+  {
+   "type": "note",
+   "text": "33.33% to 50%"
+  },
+  {
+   "type": "number",
+   "text": "51"
+  },
+  {
+   "type": "note",
+   "text": "Total pedestrians across all areas"
+  },
+  {
+   "type": "number",
+   "text": "42.9%"
+  },
+  {
+   "type": "note",
+   "text": "Peak micro-mobility share (Area 03)"
+  },
+  {
+   "type": "heading",
+   "text": "WHAT WE FOUND"
+  },
+  {
+   "type": "para",
+   "text": "We counted at eight points in the industrial zone: 51 pedestrians in all. Micro-mobility shares ran from 0% to 43%, and Area 02 had both the most micro-mobility and the most pedestrians."
+  },
+  {
+   "type": "para",
+   "text": "The idea does not hold here. On counts this small the shares swing on a handful of people, and walking does not fall where vehicles rise."
+  },
+  {
+   "type": "heading",
+   "text": "CHART"
+  },
+  {
+   "type": "note",
+   "text": "Circle size: number of people"
+  },
+  {
+   "type": "number",
+   "text": "0.0%"
+  },
+  {
+   "type": "note",
+   "text": "Lowest micro-mobility share (Area 04)"
+  },
+  {
+   "type": "number",
+   "text": "17.6%"
+  },
+  {
+   "type": "note",
+   "text": "Of pedestrians in low-conflict zones (A4 and A5)"
+  }
+ ]
+}

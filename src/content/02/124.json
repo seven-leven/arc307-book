@@ -1,0 +1,113 @@
+{
+ "folio": 124,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Vehicles take more open space",
+ "picture": {
+  "src": "figures/02/124_page.webp",
+  "wpx": 2226,
+  "hpx": 2073
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Vehicles take more open space"
+  },
+  {
+   "type": "caption",
+   "text": "SCER values and number of people in survey areas 1 to 6.",
+   "label": "Figure",
+   "num": "2.7.1H"
+  },
+  {
+   "type": "heading",
+   "text": "WHAT WE FOUND"
+  },
+  {
+   "type": "para",
+   "text": "Of the 1,185 people we recorded, 51 (4.3%) were on micro-mobility. Areas 1, 4, 5 and 6 hold 48 of the 51, along the edges where vehicles park on the road and pavement. Areas 2 and 3 carry 625 pedestrians and only 3 micro-mobility users."
+  },
+  {
+   "type": "para",
+   "text": "The idea does not hold across the area. Micro-mobility is a minor presence, and the busiest areas are the least conflicted. The one pressure point is Area 6, where about one in six users is on micro-mobility."
+  },
+  {
+   "type": "caption",
+   "text": "Micro-mobility, total pedestrians and SCER in survey areas A01 to A06.",
+   "label": "Figure",
+   "num": "2.7.2H"
+  },
+  {
+   "type": "number",
+   "text": "15.9%"
+  },
+  {
+   "type": "note",
+   "text": "Peak micro-mobility share (Area 6)"
+  },
+  {
+   "type": "heading",
+   "text": "PARKED VEHICLES"
+  },
+  {
+   "type": "note",
+   "text": "Parked on the road"
+  },
+  {
+   "type": "note",
+   "text": "Parked on the pavement"
+  },
+  {
+   "type": "note",
+   "text": "Parked in a parking area"
+  },
+  {
+   "type": "heading",
+   "text": "VEHICLE PRESSURE (SCER)"
+  },
+  {
+   "type": "note",
+   "text": "0% to 4.9%"
+  },
+  {
+   "type": "note",
+   "text": "5% to 9.9%"
+  },
+  {
+   "type": "note",
+   "text": "10% to 20%"
+  },
+  {
+   "type": "heading",
+   "text": "CHART"
+  },
+  {
+   "type": "note",
+   "text": "Micro-mobility users"
+  },
+  {
+   "type": "note",
+   "text": "Pedestrians"
+  },
+  {
+   "type": "note",
+   "text": "SCER, %"
+  },
+  {
+   "type": "number",
+   "text": "1,134"
+  },
+  {
+   "type": "number",
+   "text": "55.0%"
+  },
+  {
+   "type": "note",
+   "text": "Total pedestrians across all areas"
+  },
+  {
+   "type": "note",
+   "text": "Of pedestrians in low- conflict areas"
+  }
+ ]
+}

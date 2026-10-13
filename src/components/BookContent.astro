@@ -1,0 +1,185 @@
+---
+// One exported book page, in whichever of its four forms the export wrote (book/export_web_ch02.py):
+//   rows        a page reflowed into rows and columns (the theme pages)        -> BookPage
+//   sheet       the page as one picture, with all its text given as text (2.1, 2.2)
+//   comparison  a theme's comparison page, as a table, notes, chart and conclusion
+//   found       2.8, the five themes against the three islands, then each masterplan's tasks
+import BookPage from "./BookPage.astro";
+import VerdictMark from "./VerdictMark.astro";
+import { ISLANDS, island, url, type IslandKey } from "../data/structure";
+
+interface Props {
+  page: any;
+  title: string;
+}
+const { page, title } = Astro.props;
+const id = `sheet-${page.folio}`;
+---
+{!page.type && <BookPage page={page} title={title} />}
+
+{page.type === "sheet" && (
+  <section class="sheet">
+    {page.heading && <h2 class="t-heading">{page.heading}</h2>}
+    <button type="button" class="open" data-figure-open={id} aria-label="Open this page large">
+      <img src={url(`/${page.picture.src}`)} width={page.picture.wpx} height={page.picture.hpx} loading="lazy" decoding="async"
+           alt={`Page from the book: ${title}. Its text is given below, under "Read this page as text".`} />
+    </button>
+    <dialog id={id} class="viewer" aria-label={title}>
+      <button type="button" class="close t-small" data-figure-close>Close</button>
+      <div class="pan"><img src={url(`/${page.picture.src}`)} alt="" /></div>
+    </dialog>
+    {page.text.length > 0 && <details>
+      <summary class="t-caption">Read this page as text</summary>
+      <div class="astext">
+        {page.text.map((it: any) =>
+          it.type === "caption" ? <p class="t-caption"><strong class="capnum">{`${it.label} ${it.num}`}</strong> {it.text}</p>
+          : it.type === "heading" ? <h3 class="t-small">{it.text}</h3>
+          : it.type === "sub" || it.type === "claim" || it.type === "strong" ? <h3 class="t-subheading">{it.text}</h3>
+          : it.type === "number" ? <p class="t-body"><strong>{it.text}</strong>{it.label && ` ${it.label}`}</p>
+          : it.type === "para" || it.type === "italic" ? <p class="t-body">{it.text}</p>
+          : <p class="t-caption">{it.text}</p>)}
+      </div>
+    </details>}
+  </section>
+)}
+
+{page.type === "comparison" && (
+  <div class="cmp">
+    <div class="grid">
+      <div class="col-8 stack">{page.lead.map((p: string) => <p class="t-body">{p}</p>)}</div>
+      <div class="col-4">
+        <h2 class="t-small">Toolkits used</h2>
+        <ul role="list" class="tk">{page.toolkits.map((t: string) => <li class="t-caption">{t}</li>)}</ul>
+      </div>
+    </div>
+    <div class="scroll" tabindex="0" role="region" aria-label={`${page.table.label} ${page.table.num}`}>
+      <table>
+        <caption class="t-caption"><strong class="capnum">{`${page.table.label} ${page.table.num}`}</strong> {page.table.text}</caption>
+        <thead>
+          <tr>
+            <th scope="col" class="t-small">Measure</th>
+            {ISLANDS.map((i) => <th scope="col" class="t-small" data-island={i.key}><span class="accent-text">{i.name}</span></th>)}
+          </tr>
+        </thead>
+        <tbody>
+          {page.measures.map((m: any) => (
+            <tr>
+              <th scope="row"><span class="t-subheading">{m.name}</span>{m.note && <span class="t-caption sub">{m.note}</span>}</th>
+              {m.values.map((v: any) => (
+                <td data-island={v.island}><span class="t-number val">{v.text}</span>{v.note && <span class="t-caption sub">{v.note}</span>}</td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <div class="three">
+      {page.notes.map((n: string, k: number) => (
+        <div data-island={ISLANDS[k].key} class="note">
+          <h2 class="t-small"><span class="accent-text">{ISLANDS[k].name}</span></h2>
+          <p class="t-caption">{n}</p>
+        </div>
+      ))}
+    </div>
+    <figure class="chart">
+      <img src={url(`/${page.chart.src}`)} width={page.chart.wpx} height={page.chart.hpx} loading="lazy" decoding="async"
+           alt={`Bar chart of the table above: ${page.measures.map((m: any) => `${m.name}: ${m.values.map((v: any) => `${island(v.island as IslandKey).name} ${v.text}`).join(", ")}`).join(". ")}.`} />
+      <figcaption class="t-caption"><strong class="capnum">{`${page.chart.caption.label} ${page.chart.caption.num}`}</strong> {page.chart.caption.text}</figcaption>
+    </figure>
+    <section class="stack">
+      <h2 class="t-small">Conclusion</h2>
+      {page.conclusion.map((p: string) => <p class="t-subheading concl">{p}</p>)}
+    </section>
+  </div>
+)}
+
+{page.type === "found" && (
+  <div class="found">
+    <p class="t-subtitle">{page.subtitle}</p>
+    <div class="themes">
+      {page.themes.map((t: any) => (
+        <section class="theme">
+          <h2 class="tt"><span class="t-number n">{t.n}</span><span class="t-subheading">{t.title}</span></h2>
+          <div class="three cells">
+            {t.cells.map((c: any, k: number) => (
+              <div data-island={ISLANDS[k].key} class="cell">
+                <p class="t-small"><span class="accent-text">{ISLANDS[k].name}</span></p>
+                <p><VerdictMark verdict={c.verdict} /></p>
+                <p class="t-caption">{c.why}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+    <p class="t-caption src"><strong>Sources</strong> {page.sources}</p>
+    <header class="stack tasks-head">
+      <h2 class="t-heading">{page.tasksTitle}</h2>
+      <p class="t-subtitle">{page.tasksSubtitle}</p>
+    </header>
+    <div class="three">
+      {page.tasks.map((t: any) => (
+        <section data-island={t.island} class="tasks">
+          <p class="t-small"><span class="accent-text">{island(t.island as IslandKey).name}</span></p>
+          <h3 class="t-subheading">{t.plan}</h3>
+          <ol>{t.tasks.map((s: string) => <li class="t-body">{s}</li>)}</ol>
+        </section>
+      ))}
+    </div>
+    <p class="t-caption src">{page.note}</p>
+  </div>
+)}
+
+<style>
+  .capnum { color: var(--accent-text); margin-right: 0.6em; }
+  /* sheet */
+  .sheet { display: grid; gap: var(--s3); }
+  .open { padding: 0; border: 0; background: none; cursor: zoom-in; display: block; width: 100%; }
+  .open img { width: 100%; height: auto; }
+  summary { cursor: pointer; text-decoration: underline; text-underline-offset: 0.18em; width: fit-content; }
+  .astext { margin-top: var(--s3); display: grid; gap: var(--s2); max-width: var(--measure); }
+  .astext :global(h3) { margin-top: var(--s3); }
+  .viewer { border: 0; padding: var(--s3); width: 100vw; height: 100vh; max-width: none; max-height: none; background: var(--paper); }
+  .viewer[open] { display: grid; grid-template-rows: auto 1fr; gap: var(--s2); }
+  .viewer::backdrop { background: var(--paper); }
+  .pan { overflow: auto; min-height: 0; }
+  .pan img { width: max(100%, 1400px); max-width: none; height: auto; }
+  .close { justify-self: end; background: none; border: 0; cursor: pointer; padding: var(--s2); color: var(--ink); text-decoration: underline; }
+  /* comparison */
+  .cmp { display: grid; gap: var(--s5); }
+  .tk { margin-top: var(--s2); display: grid; gap: var(--s1); }
+  .scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; min-width: 520px; }
+  caption { text-align: left; padding-bottom: var(--s3); }
+  th, td { text-align: left; vertical-align: top; padding: var(--s3) var(--s3) var(--s3) var(--s2); }
+  thead th { padding-bottom: var(--s2); }
+  tbody tr:nth-child(odd) { background: var(--panel); }
+  tbody th { font-weight: 400; width: 40%; }
+  .sub { display: block; color: var(--grey-dark); margin-top: var(--s1); }
+  .val { color: var(--accent-dark); font-size: clamp(1.5rem, 3.4vw, var(--number-size)); }
+  .note { border-top: 4px solid var(--accent-light); padding-top: var(--s2); display: grid; gap: var(--s1); align-content: start; }
+  .chart { display: grid; gap: var(--s2); }
+  .chart img { width: 100%; max-width: 860px; height: auto; }
+  .concl { max-width: var(--measure); }
+  /* 2.8 */
+  .found { display: grid; gap: var(--s5); }
+  .themes { display: grid; }
+  .theme { display: grid; gap: var(--s3) var(--gutter); padding: var(--s4) var(--s3); }
+  .theme:nth-child(odd) { background: var(--panel); }
+  .tt { display: flex; gap: var(--s3); align-items: baseline; }
+  .n { color: var(--grey); }
+  .cells { gap: var(--s3) var(--gutter); }
+  .cell { display: grid; gap: var(--s1); align-content: start; }
+  .src { color: var(--grey-dark); max-width: var(--measure); }
+  .src strong { color: var(--ink); margin-right: 0.6em; }
+  .tasks-head { margin-top: var(--s5); }
+  .tasks { border-top: 4px solid var(--accent-light); padding-top: var(--s3); display: grid; gap: var(--s2); align-content: start; }
+  .tasks ol { margin: var(--s2) 0 0; padding-left: 1.4em; display: grid; gap: var(--s3); }
+  .tasks li::marker { font-weight: 700; color: var(--accent-text); }
+  @media (min-width: 1025px) {
+    .theme { grid-template-columns: minmax(0, 1fr) minmax(0, 3fr); align-items: start; }
+    .tt { display: grid; gap: var(--s1); }
+    .cell .t-small { display: none; }
+    .theme:first-child .cell .t-small { display: block; }
+  }
+</style>

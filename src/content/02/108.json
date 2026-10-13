@@ -1,0 +1,93 @@
+{
+ "folio": 108,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Roads are made for movement, not staying",
+ "picture": {
+  "src": "figures/02/108_page.webp",
+  "wpx": 2226,
+  "hpx": 2073
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Roads are made for movement, not staying"
+  },
+  {
+   "type": "caption",
+   "text": "Frontage condition, and people staying (upper number) and moving (lower number) at each gate.",
+   "label": "Figure",
+   "num": "2.3.1H"
+  },
+  {
+   "type": "para",
+   "text": "Across six gates we counted 1,906 people. Only 502 of them stopped; the other 1,404 were passing through. The two eastern gates hold two thirds of everyone who stayed."
+  },
+  {
+   "type": "para",
+   "text": "The idea holds in part. The frontage is mixed all the way round, yet the street works against it: a 21 m carriageway with six lanes and more than 100 parked vehicles leaves people a 3 m pavement on each side."
+  },
+  {
+   "type": "caption",
+   "text": "Street section: a 21 m carriageway with six lanes, and a 3 m sidewalk each side.",
+   "label": "Figure",
+   "num": "2.3.2H"
+  },
+  {
+   "type": "heading",
+   "text": "FRONTAGE GRADE (TOOLKIT 1)"
+  },
+  {
+   "type": "note",
+   "text": "A Active, over 80% open"
+  },
+  {
+   "type": "note",
+   "text": "B Pleasant, over 60% open"
+  },
+  {
+   "type": "note",
+   "text": "C Mixed, over 40% open"
+  },
+  {
+   "type": "note",
+   "text": "D Dull, over 20% open"
+  },
+  {
+   "type": "note",
+   "text": "E Inactive, 20% open or less"
+  },
+  {
+   "type": "number",
+   "text": "100+"
+  },
+  {
+   "type": "note",
+   "text": "Vehicles parked on pedestrian paths"
+  },
+  {
+   "type": "number",
+   "text": "26%"
+  },
+  {
+   "type": "note",
+   "text": "Staying activity (502 of 1,906)"
+  },
+  {
+   "type": "heading",
+   "text": "PEOPLE (TOOLKITS 2 AND 5)"
+  },
+  {
+   "type": "note",
+   "text": "Moving: counted at the gate"
+  },
+  {
+   "type": "note",
+   "text": "Staying: circle size shows how many"
+  },
+  {
+   "type": "note",
+   "text": "Masterplan area"
+  }
+ ]
+}

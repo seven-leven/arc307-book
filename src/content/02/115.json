@@ -1,0 +1,97 @@
+{
+ "folio": 115,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Built form vs public life",
+ "picture": {
+  "src": "figures/02/115_page.webp",
+  "wpx": 2226,
+  "hpx": 2073
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Built form vs public life"
+  },
+  {
+   "type": "caption",
+   "text": "Building frontage categories (B to E), staying activity (one circle per person), vehicular movement and pedestrian throughput in the study block.",
+   "label": "Figure",
+   "num": "2.5.1V"
+  },
+  {
+   "type": "heading",
+   "text": "WHERE WE LOOKED"
+  },
+  {
+   "type": "para",
+   "text": "Our block lies in Villimalé’s industrial area. Its frontage is graded B to E: 61% of it is closed, with 9.7 doors per 100 m."
+  },
+  {
+   "type": "heading",
+   "text": "WHAT WE COUNTED"
+  },
+  {
+   "type": "para",
+   "text": "Staying gathers along a few building edges and the inner lanes round the central block. Traffic is low, under 5 vehicles every ten minutes, and places to linger score 3.0 of 5, the best of the three."
+  },
+  {
+   "type": "heading",
+   "text": "WHAT IT MEANS"
+  },
+  {
+   "type": "para",
+   "text": "Fewer doors, yet the best place to linger. Street life gathers where edges, routes and uses meet, and quiet streets let walking and staying overlap there."
+  },
+  {
+   "type": "caption",
+   "text": "The study block within Villimalé, outlined in red.",
+   "label": "Figure",
+   "num": "2.5.2V"
+  },
+  {
+   "type": "heading",
+   "text": "FRONTAGE GRADE (TOOLKIT 1)"
+  },
+  {
+   "type": "note",
+   "text": "B Pleasant"
+  },
+  {
+   "type": "note",
+   "text": "C Mixed"
+  },
+  {
+   "type": "note",
+   "text": "D Dull"
+  },
+  {
+   "type": "note",
+   "text": "E Inactive"
+  },
+  {
+   "type": "heading",
+   "text": "ACTIVITY (TOOLKITS 2 AND 5)"
+  },
+  {
+   "type": "note",
+   "text": "Staying: one circle = 1 person"
+  },
+  {
+   "type": "note",
+   "text": "Vehicles, busy (over 5 per 10 min)"
+  },
+  {
+   "type": "note",
+   "text": "Vehicles, quiet (under 5 per 10 min)"
+  },
+  {
+   "type": "note",
+   "text": "Pedestrians, busy (15 to 20 per 10 min)"
+  },
+  {
+   "type": "note",
+   "text": "Pedestrians, quiet (5 to 10 per 10 min)"
+  }
+ ]
+}

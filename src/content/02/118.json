@@ -1,0 +1,153 @@
+{
+ "folio": 118,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Density is not the problem, poor design is",
+ "picture": {
+  "src": "figures/02/118_page.webp",
+  "wpx": 2226,
+  "hpx": 2073
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Density is not the problem, poor design is"
+  },
+  {
+   "type": "caption",
+   "text": "Surveyed plots, coloured by density and housing quality.",
+   "label": "Figure",
+   "num": "2.6.1M"
+  },
+  {
+   "type": "strongnote",
+   "text": "Housing quality (0 to 32)"
+  },
+  {
+   "type": "caption",
+   "text": "Density against housing quality. One dot is one plot; equal plots sit side by side.",
+   "label": "Figure",
+   "num": "2.6.2M"
+  },
+  {
+   "type": "note",
+   "text": "Sources Toolkit 3 survey, 36 plots. Dense: FAR 1.87 or more (Sim, Soft City, p. 380). Good: 16 or more of 32."
+  },
+  {
+   "type": "note",
+   "text": "32"
+  },
+  {
+   "type": "note",
+   "text": "Dense from FAR 1.87"
+  },
+  {
+   "type": "note",
+   "text": "24"
+  },
+  {
+   "type": "note",
+   "text": "16"
+  },
+  {
+   "type": "note",
+   "text": "8"
+  },
+  {
+   "type": "note",
+   "text": "0"
+  },
+  {
+   "type": "note",
+   "text": "0"
+  },
+  {
+   "type": "note",
+   "text": "2"
+  },
+  {
+   "type": "strongnote",
+   "text": "Density: floor area ratio (FAR)"
+  },
+  {
+   "type": "note",
+   "text": "4"
+  },
+  {
+   "type": "heading",
+   "text": "WHAT WE COUNTED"
+  },
+  {
+   "type": "para",
+   "text": "Dense housing is often blamed for poor living conditions. We measured the density of 36 plots and scored each for housing quality out of 32."
+  },
+  {
+   "type": "heading",
+   "text": "RESULT, 36 PLOTS"
+  },
+  {
+   "type": "heading",
+   "text": "WHAT IT MEANS"
+  },
+  {
+   "type": "para",
+   "text": "Density does not decide quality. Of the 31 dense plots, 21 (68%) score below the midpoint and 10 score above it. All 5 plots that are not dense score poor too."
+  },
+  {
+   "type": "note",
+   "text": "Good from 16 of 32"
+  },
+  {
+   "type": "para",
+   "text": "The best plot reaches 19 of 32, and no plot earned a point for ground-floor access. The poor plots lack what the score counts, such as human scale and access, whatever their density."
+  },
+  {
+   "type": "note",
+   "text": "6"
+  },
+  {
+   "type": "note",
+   "text": "8"
+  },
+  {
+   "type": "number",
+   "text": "21"
+  },
+  {
+   "type": "strong",
+   "text": "Dense + poor quality"
+  },
+  {
+   "type": "note",
+   "text": "58.3% of plots"
+  },
+  {
+   "type": "note",
+   "text": "27.8% of plots"
+  },
+  {
+   "type": "number",
+   "text": "5"
+  },
+  {
+   "type": "strong",
+   "text": "Not dense + poor quality"
+  },
+  {
+   "type": "note",
+   "text": "13.9% of plots"
+  },
+  {
+   "type": "number",
+   "text": "0"
+  },
+  {
+   "type": "strong",
+   "text": "Not dense + good quality"
+  },
+  {
+   "type": "note",
+   "text": "no plots"
+  }
+ ]
+}

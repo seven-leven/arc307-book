@@ -1,0 +1,97 @@
+---
+// One page of the book, reflowed: rows of columns of items, as written by book/export_web_ch02.py (in the Book
+// folder). Columns sit side by side on a wide screen, in the proportions they have in the book, and stack on a phone.
+import { url } from "../data/structure";
+
+interface Item {
+  type: string;
+  text?: string;
+  label?: string;
+  num?: string;
+  island?: string;
+  src?: string;
+  w?: number;
+  h?: number;
+  wpx?: number;
+  hpx?: number;
+  caption?: { label: string; num: string; text: string };
+}
+interface Props {
+  page: { folio: number; claim: string | null; rows: { cols: { w: number; items: Item[] }[] }[] };
+  title: string; // for the alt text of drawings without a caption
+  showClaim?: boolean;
+}
+const { page, title, showClaim = false } = Astro.props;
+const PAGE = 722; // the book page's content width in points: a picture's share of it is its share of the column
+const pct = (w: number, col: number) => Math.min(100, Math.round((w / Math.max(col, 1)) * 100));
+---
+<div class="bp">
+  {page.rows.map((row) => {
+    const cols = row.cols.filter((c) => c.items.some((i) => i.type !== "claim" || showClaim));
+    if (!cols.length) return null;
+    const total = cols.reduce((s, c) => s + c.w, 0);
+    const wide = cols.length === 1 ? cols[0].w : total;
+    return (
+      <div class:list={["row", { many: cols.length > 1, lots: cols.length > 3 }]}
+           style={cols.length > 1 ? `--cols:${cols.map((c) => `minmax(0, ${Math.max(c.w, 40)}fr)`).join(" ")}` : `--share:${Math.min(100, Math.round((wide / PAGE) * 100))}%`}>
+        {cols.map((col) => (
+          <div class="col">
+            {col.items.map((it) => {
+              if (it.type === "picture") {
+                const icon = (it.w ?? 0) < 70 && (it.h ?? 0) < 70;
+                const img = <img src={url(`/${it.src}`)} width={it.wpx} height={it.hpx} loading="lazy" decoding="async"
+                  alt={it.caption ? it.caption.text : icon ? "" : `Drawing from the book: ${title}`}
+                  style={icon ? `width:${it.w}px` : `width:${pct(it.w ?? 0, col.w)}%`} />;
+                return it.caption ? (
+                  <figure class="fig">{img}<figcaption class="t-caption"><strong>{it.caption.label} {it.caption.num}</strong> {it.caption.text}</figcaption></figure>
+                ) : icon ? <span class="icon">{img}</span> : <div class="pic">{img}</div>;
+              }
+              if (it.type === "claim") return showClaim ? <p class="t-subheading">{it.text}</p> : null;
+              if (it.type === "sub") return <h3 class="t-subheading" data-island={it.island}>{it.text}</h3>;
+              if (it.type === "strong") return <p class="t-body strong">{it.text}</p>;
+              if (it.type === "italic") return <p class="t-body italic">{it.text}</p>;
+              if (it.type === "para") return <p class="t-body">{it.text}</p>;
+              if (it.type === "heading") return <h3 class="t-small" data-island={it.island}><span class:list={{ "accent-text": !!it.island }}>{it.text}</span></h3>;
+              if (it.type === "strongnote") return <p class="t-caption strong">{it.text}</p>;
+              if (it.type === "note") return <p class="t-caption">{it.text}</p>;
+              if (it.type === "number") return (
+                <div class="num" data-island={it.island}>
+                  <p class="t-number">{it.text}</p>
+                  {it.label && <p class="t-caption">{it.label}</p>}
+                </div>
+              );
+              if (it.type === "caption") return <p class="t-caption"><strong class="capnum">{it.label} {it.num}</strong> {it.text}</p>;
+              return null;
+            })}
+          </div>
+        ))}
+      </div>
+    );
+  })}
+</div>
+
+<style>
+  .bp { display: grid; gap: var(--s5); }
+  .row { display: grid; gap: var(--s4) var(--gutter); grid-template-columns: minmax(0, 1fr); }
+  .row:not(.many) .col { width: 100%; }
+  .col { display: flow-root; min-width: 0; }
+  .col > :global(* + *) { margin-top: var(--s2); }
+  .col > :global(.t-small) { margin-top: var(--s3); }
+  .col > :global(.t-small:first-child) { margin-top: 0; }
+  .col > :global(.t-body + .t-body) { margin-top: var(--s3); }
+  img { max-width: 100%; height: auto; }
+  .fig { display: grid; gap: var(--s2); }
+  .fig strong, .capnum { color: var(--accent-text); margin-right: 0.6em; }
+  .icon { float: left; margin: 0 var(--s3) var(--s2) 0; }
+  .icon img { max-width: 56px; }
+  .strong { font-weight: 700; }
+  .italic { font-style: italic; }
+  .num { display: grid; gap: var(--s1); }
+  .num[data-island] .t-number { color: var(--accent); }
+  /* a phone shows every picture at the column's full width */
+  @media (max-width: 640px) { .pic img, .fig img { width: 100% !important; } .row.lots { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (min-width: 641px) {
+    .row.many { grid-template-columns: var(--cols); align-items: start; }
+    .row:not(.many) .col { max-width: max(var(--share), 46ch); }
+  }
+</style>

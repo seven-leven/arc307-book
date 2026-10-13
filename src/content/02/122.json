@@ -1,0 +1,121 @@
+{
+ "folio": 122,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Vehicles take more open space",
+ "picture": {
+  "src": "figures/02/122_page.webp",
+  "wpx": 2226,
+  "hpx": 2073
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Vehicles take more open space"
+  },
+  {
+   "type": "caption",
+   "text": "SCER values and number of people in survey areas 1 to 6.",
+   "label": "Figure",
+   "num": "2.7.1M"
+  },
+  {
+   "type": "caption",
+   "text": "Pedestrian and micro-mobility volumes against SCER, areas 01 to 06.",
+   "label": "Figure",
+   "num": "2.7.2M"
+  },
+  {
+   "type": "heading",
+   "text": "PARKED VEHICLES"
+  },
+  {
+   "type": "note",
+   "text": "Parked on the road"
+  },
+  {
+   "type": "note",
+   "text": "Parked on the pavement"
+  },
+  {
+   "type": "note",
+   "text": "Parked in a parking area"
+  },
+  {
+   "type": "heading",
+   "text": "VEHICLE PRESSURE (SCER)"
+  },
+  {
+   "type": "note",
+   "text": "0% to 4.9%"
+  },
+  {
+   "type": "note",
+   "text": "5% to 9.9%"
+  },
+  {
+   "type": "note",
+   "text": "10% to 20%"
+  },
+  {
+   "type": "number",
+   "text": "484"
+  },
+  {
+   "type": "note",
+   "text": "Total pedestrians across all areas"
+  },
+  {
+   "type": "number",
+   "text": "0.0%"
+  },
+  {
+   "type": "note",
+   "text": "Lowest share (Areas 01 and 04)"
+  },
+  {
+   "type": "heading",
+   "text": "WHAT WE FOUND"
+  },
+  {
+   "type": "para",
+   "text": "Across the six areas, 13% of street users were on micro- mobility (72 of 556). Areas 01 and 04 recorded none, and they hold 61% of all pedestrians. Area 02 reaches 23%."
+  },
+  {
+   "type": "para",
+   "text": "The pressure sits in one place. In Area 03 micro-mobility users outnumber pedestrians: 47 of them, more than half of everyone on the street. Elsewhere walking and vehicles barely meet."
+  },
+  {
+   "type": "heading",
+   "text": "CHART"
+  },
+  {
+   "type": "note",
+   "text": "Micro-mobility users"
+  },
+  {
+   "type": "note",
+   "text": "Pedestrians"
+  },
+  {
+   "type": "note",
+   "text": "SCER, %"
+  },
+  {
+   "type": "number",
+   "text": "51.9%"
+  },
+  {
+   "type": "note",
+   "text": "Peak micro-mobility share (Area 03)"
+  },
+  {
+   "type": "number",
+   "text": "61.4%"
+  },
+  {
+   "type": "note",
+   "text": "Of pedestrians in Areas 01 and 04"
+  }
+ ]
+}

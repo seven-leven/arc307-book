@@ -1,0 +1,101 @@
+{
+ "folio": 125,
+ "type": "comparison",
+ "claim": "Vehicles take more open space",
+ "lead": [
+  "The idea holds in one place. On Malé, micro-mobility users outnumber pedestrians in Area 03. On Hulhumalé they are 4% of users. Villimalé’s high shares rest on very small counts and read as noise. The pressure is local, not general."
+ ],
+ "toolkits": [
+  "Activity, comfort and safety",
+  "Walking activity and movement count",
+  "Derived: micro-mobility share"
+ ],
+ "table": {
+  "label": "Table",
+  "num": "2.7.1",
+  "text": "The measures, island by island."
+ },
+ "measures": [
+  {
+   "name": "Micro-mobility share of all users",
+   "note": "micro-mobility ÷ (micro-mobility + pedestrians)",
+   "values": [
+    {
+     "island": "male",
+     "text": "13%",
+     "note": "72 of 556 users"
+    },
+    {
+     "island": "villimale",
+     "text": "30%",
+     "note": "22 of 73 users"
+    },
+    {
+     "island": "hulhumale",
+     "text": "4%",
+     "note": "51 of 1,185 users"
+    }
+   ]
+  },
+  {
+   "name": "Peak share in a single area",
+   "note": "highest share recorded in one study area",
+   "values": [
+    {
+     "island": "male",
+     "text": "52%",
+     "note": "Area 03"
+    },
+    {
+     "island": "villimale",
+     "text": "43%",
+     "note": "Area 03"
+    },
+    {
+     "island": "hulhumale",
+     "text": "16%",
+     "note": "Area 06"
+    }
+   ]
+  },
+  {
+   "name": "Study areas above 20%",
+   "note": "20% is the top band of the Malé and Hulhumalé maps",
+   "values": [
+    {
+     "island": "male",
+     "text": "33%",
+     "note": "2 of 6 areas"
+    },
+    {
+     "island": "villimale",
+     "text": "75%",
+     "note": "6 of 8 areas"
+    },
+    {
+     "island": "hulhumale",
+     "text": "0%",
+     "note": "0 of 6 areas"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Pressure sits in Area 03: 47 micro-mobility against 43.5 pedestrians. Areas 01 and 04 record none.",
+  "Highest share on the smallest counts: 22 micro-mobility to 51 pedestrians. Area 04 records none.",
+  "Lowest pressure: 51 micro-mobility among 1,134 pedestrians. Shares run from 0.3% to 15.9%."
+ ],
+ "chart": {
+  "src": "figures/02/125_chart.webp",
+  "wpx": 2196,
+  "hpx": 366,
+  "caption": {
+   "label": "Figure",
+   "num": "2.7.3",
+   "text": "All three measures share one scale, 0 to 80%."
+  }
+ },
+ "conclusion": [
+  "On every island the pressure is uneven: one area sits at or near 0% while another carries the peak."
+ ]
+}

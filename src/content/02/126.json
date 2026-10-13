@@ -1,0 +1,134 @@
+{
+ "folio": 126,
+ "type": "found",
+ "claim": null,
+ "subtitle": "Five ideas about public life, tested on three islands with the same toolkit.",
+ "themes": [
+  {
+   "n": 1,
+   "title": "Roads are made for movement, not staying",
+   "cells": [
+    {
+     "verdict": "holds",
+     "why": "64% of pedestrians were commuting; no children played in the street."
+    },
+    {
+     "verdict": "holds",
+     "why": "89% of people were moving through, 11% staying."
+    },
+    {
+     "verdict": "part",
+     "why": "26% of people stopped, and 268 children were counted in the street."
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Shade dictates movement, not distance",
+   "cells": [
+    {
+     "verdict": "holds",
+     "why": "87% walked in shade by evening, and more people walked."
+    },
+    {
+     "verdict": "holds",
+     "why": "12 of 14 walked in shade with 30% of the street shaded. Small counts."
+    },
+    {
+     "verdict": "holds",
+     "why": "90% walked in shade by evening; 3.6 times as many walkers."
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Built form vs public life",
+   "cells": [
+    {
+     "verdict": "holds",
+     "why": "Open frontage, heavy traffic: people pass through and do not stay."
+    },
+    {
+     "verdict": "holds",
+     "why": "Fewest doors, best lingering: low traffic lets people stay."
+    },
+    {
+     "verdict": "holds",
+     "why": "Most open edges, lowest lingering: six-lane roads push people off."
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Density is not the problem, poor design is",
+   "cells": [
+    {
+     "verdict": "holds",
+     "why": "10 of 31 dense plots score good; all 5 that are not dense score poor."
+    },
+    {
+     "verdict": "holds",
+     "why": "91% of dense plots score poor, and 86% of the rest."
+    },
+    {
+     "verdict": "untested",
+     "why": "8 plots of one building type, all at one point."
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Vehicles take more open space",
+   "cells": [
+    {
+     "verdict": "part",
+     "why": "13% of street users overall, but 51.9% in Area 03."
+    },
+    {
+     "verdict": "not",
+     "why": "51 pedestrians in all: shares swing on a handful of people."
+    },
+    {
+     "verdict": "not",
+     "why": "4.3% of users; the busiest areas are the least conflicted."
+    }
+   ]
+  }
+ ],
+ "tasksTitle": "What each masterplan has to answer",
+ "tasksSubtitle": "The findings, turned into tasks. Chapter 03 takes them up island by island.",
+ "tasks": [
+  {
+   "island": "male",
+   "plan": "Fahi-Malé",
+   "tasks": [
+    "Give people reasons and places to stop. The streets move them and do not hold them.",
+    "Shade the streets people have to walk, not only the ones they choose.",
+    "Take vehicles off the places where people on foot are outnumbered, as in Area 03.",
+    "Raise housing quality by design. Lowering density would not do it."
+   ]
+  },
+  {
+   "island": "villimale",
+   "plan": "Villi-Veshi",
+   "tasks": [
+    "Bring everyday activity to the frontage, so the streets are more than routes.",
+    "Keep traffic low. That is what lets walking and staying overlap here.",
+    "Lift housing quality across the area: it is low whatever the density.",
+    "Give the industrial block the few active spots the rest of the island has."
+   ]
+  },
+  {
+   "island": "hulhumale",
+   "plan": "Hiyaa-Vehi",
+   "tasks": [
+    "Bring life out from the sheltered interior to the edges, where six-lane roads now push it away.",
+    "Add shade along the routes: three times as many people walk when they are shaded.",
+    "Break the single building type with variety and a human scale.",
+    "Keep parked vehicles at the edges, where they already do least harm."
+   ]
+  }
+ ],
+ "sources": "Sections 2.3 to 2.7. A grey dot means the island had nothing to compare.",
+ "note": "The site diagnosis in 2.1 lists what is wrong in each area. These tasks add what the five themes showed."
+}

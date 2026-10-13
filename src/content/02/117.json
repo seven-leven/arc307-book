@@ -1,0 +1,100 @@
+{
+ "folio": 117,
+ "type": "comparison",
+ "claim": "Open edges do not guarantee lingering",
+ "lead": [
+  "Open frontage does not decide whether people stay. Hulhumalé has the most open edges and the lowest score for places to linger. Quiet Villimalé has fewer doors and the best score. Traffic, scale and shelter matter more than doors."
+ ],
+ "toolkits": [
+  "Land use and building scale",
+  "Public space quality scoring"
+ ],
+ "table": {
+  "label": "Table",
+  "num": "2.5.1",
+  "text": "The measures, island by island."
+ },
+ "measures": [
+  {
+   "name": "Closed frontage, share of street length",
+   "note": "% of length not open to the street, all areas pooled (Toolkit 1)",
+   "values": [
+    {
+     "island": "male",
+     "text": "68%",
+     "note": null
+    },
+    {
+     "island": "villimale",
+     "text": "61%",
+     "note": null
+    },
+    {
+     "island": "hulhumale",
+     "text": "37%",
+     "note": null
+    }
+   ]
+  },
+  {
+   "name": "Doors per 100 m of frontage",
+   "note": "doors counted per segment over its length (Toolkit 1)",
+   "values": [
+    {
+     "island": "male",
+     "text": "13.9",
+     "note": null
+    },
+    {
+     "island": "villimale",
+     "text": "9.7",
+     "note": null
+    },
+    {
+     "island": "hulhumale",
+     "text": "27.8",
+     "note": null
+    }
+   ]
+  },
+  {
+   "name": "Standing and lingering zones, score",
+   "note": "mean of segment scores, 1 low to 5 high (Toolkit 6)",
+   "values": [
+    {
+     "island": "male",
+     "text": "1.7",
+     "note": null
+    },
+    {
+     "island": "villimale",
+     "text": "3.0",
+     "note": null
+    },
+    {
+     "island": "hulhumale",
+     "text": "1.0",
+     "note": null
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Most closed edges (68%), led by a 350 m industrial wall. Lingering sits in sheltered inner gaps, not on the perimeter.",
+  "Few doors (9.7 per 100 m) yet the best lingering score (3.0): low traffic lets lanes and staying activity overlap.",
+  "Most open edges (37% closed) but the lowest lingering score (1.0): six-lane perimeter roads and uniform façades repel use."
+ ],
+ "chart": {
+  "src": "figures/02/117_chart.webp",
+  "wpx": 2196,
+  "hpx": 366,
+  "caption": {
+   "label": "Figure",
+   "num": "2.5.3",
+   "text": "Each measure scaled to its largest island."
+  }
+ },
+ "conclusion": [
+  "Open frontage alone does not bring people to linger; traffic and human scale decide it."
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "folio": 119,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Density is not the problem, poor design is",
+ "picture": {
+  "src": "figures/02/119_page.webp",
+  "wpx": 2226,
+  "hpx": 2073
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Density is not the problem, poor design is"
+  },
+  {
+   "type": "caption",
+   "text": "Surveyed plots, coloured by density and housing quality.",
+   "label": "Figure",
+   "num": "2.6.1V"
+  },
+  {
+   "type": "strongnote",
+   "text": "Housing quality (0 to 32)"
+  },
+  {
+   "type": "caption",
+   "text": "Density against housing quality. One dot is one plot; equal plots sit side by side.",
+   "label": "Figure",
+   "num": "2.6.2V"
+  },
+  {
+   "type": "note",
+   "text": "Sources Toolkit 3 survey, 69 plots. Dense: FAR 1.87 or more (Sim, Soft City, p. 380). Good: 16 or more of 32."
+  },
+  {
+   "type": "note",
+   "text": "32"
+  },
+  {
+   "type": "note",
+   "text": "Dense from FAR 1.87"
+  },
+  {
+   "type": "note",
+   "text": "24"
+  },
+  {
+   "type": "note",
+   "text": "16"
+  },
+  {
+   "type": "note",
+   "text": "8"
+  },
+  {
+   "type": "note",
+   "text": "0"
+  },
+  {
+   "type": "note",
+   "text": "0"
+  },
+  {
+   "type": "note",
+   "text": "2"
+  },
+  {
+   "type": "note",
+   "text": "4"
+  },
+  {
+   "type": "note",
+   "text": "6"
+  },
+  {
+   "type": "strongnote",
+   "text": "Density: floor area ratio (FAR)"
+  },
+  {
+   "type": "heading",
+   "text": "WHAT WE COUNTED"
+  },
+  {
+   "type": "para",
+   "text": "We measured the density of 69 plots in the industrial area and scored each for housing quality out of 32."
+  },
+  {
+   "type": "heading",
+   "text": "RESULT, 69 PLOTS"
+  },
+  {
+   "type": "heading",
+   "text": "WHAT IT MEANS"
+  },
+  {
+   "type": "para",
+   "text": "Density makes little difference here. Of the 34 dense plots, 31 (91%) score below the midpoint. Of the 35 that are not dense, 30 (86%) do."
+  },
+  {
+   "type": "note",
+   "text": "Good from 16 of 32"
+  },
+  {
+   "type": "para",
+   "text": "Only 8 plots score 16 or more, and the best reaches 21 of 32. Quality is low whatever the density."
+  },
+  {
+   "type": "note",
+   "text": "8"
+  },
+  {
+   "type": "note",
+   "text": "10"
+  },
+  {
+   "type": "note",
+   "text": "44.9% of plots"
+  },
+  {
+   "type": "number",
+   "text": "3"
+  },
+  {
+   "type": "strong",
+   "text": "Dense + good quality"
+  },
+  {
+   "type": "note",
+   "text": "4.3% of plots"
+  },
+  {
+   "type": "note",
+   "text": "43.5% of plots"
+  },
+  {
+   "type": "number",
+   "text": "5"
+  },
+  {
+   "type": "strong",
+   "text": "Not dense + good quality"
+  },
+  {
+   "type": "note",
+   "text": "7.2% of plots"
+  }
+ ]
+}

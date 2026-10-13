@@ -1,0 +1,113 @@
+{
+ "folio": 107,
+ "type": "sheet",
+ "heading": null,
+ "claim": "Roads are made for movement, not staying",
+ "picture": {
+  "src": "figures/02/107_page.webp",
+  "wpx": 2226,
+  "hpx": 2073
+ },
+ "text": [
+  {
+   "type": "claim",
+   "text": "Roads are made for movement, not staying"
+  },
+  {
+   "type": "caption",
+   "text": "Frontage condition, and people staying or moving at each gate.",
+   "label": "Figure",
+   "num": "2.3.1V"
+  },
+  {
+   "type": "para",
+   "text": "We counted people at eight gates and graded the frontage. Of everyone we observed, 89% were moving through and 11% were staying."
+  },
+  {
+   "type": "para",
+   "text": "The roads here are built for movement. Staying is low at almost every gate. The one exception is the western edge, beside the open green plot, with 22 staying and 21 moving."
+  },
+  {
+   "type": "note",
+   "text": "Plot"
+  },
+  {
+   "type": "note",
+   "text": "Plot"
+  },
+  {
+   "type": "caption",
+   "text": "Section of Jumhooree Magu.",
+   "label": "Figure",
+   "num": "2.3.2V"
+  },
+  {
+   "type": "heading",
+   "text": "FRONTAGE GRADE (TOOLKIT 1)"
+  },
+  {
+   "type": "note",
+   "text": "A Active, over 80% open"
+  },
+  {
+   "type": "note",
+   "text": "B Pleasant, over 60% open"
+  },
+  {
+   "type": "note",
+   "text": "C Mixed, over 40% open"
+  },
+  {
+   "type": "note",
+   "text": "D Dull, over 20% open"
+  },
+  {
+   "type": "note",
+   "text": "E Inactive, 20% open or less"
+  },
+  {
+   "type": "heading",
+   "text": "PEOPLE (TOOLKITS 2 AND 5)"
+  },
+  {
+   "type": "note",
+   "text": "Moving: counted at the gate"
+  },
+  {
+   "type": "note",
+   "text": "Staying: circle size shows how many"
+  },
+  {
+   "type": "note",
+   "text": "Masterplan area"
+  },
+  {
+   "type": "note",
+   "text": "Unpaved Road"
+  },
+  {
+   "type": "note",
+   "text": "Plot"
+  },
+  {
+   "type": "number",
+   "text": "89%"
+  },
+  {
+   "type": "strongnote",
+   "text": "People are moving"
+  },
+  {
+   "type": "number",
+   "text": "11%"
+  },
+  {
+   "type": "strongnote",
+   "text": "People are staying"
+  },
+  {
+   "type": "note",
+   "text": "Without everyday activity, the street becomes only a route."
+  }
+ ]
+}

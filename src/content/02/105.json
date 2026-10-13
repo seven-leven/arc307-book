@@ -1,0 +1,205 @@
+{
+ "folio": 105,
+ "type": "sheet",
+ "heading": "2.2 FROM TOOLKITS TO THEMES",
+ "claim": null,
+ "picture": {
+  "src": "figures/02/105_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "italic",
+   "text": "Each theme reads two or three toolkits together."
+  },
+  {
+   "type": "para",
+   "text": "A theme is one idea about public life, tested with what the toolkits measured and what we saw on site. Each theme is read on Malé, Villimalé and Hulhumalé in turn, then the three are compared."
+  },
+  {
+   "type": "heading",
+   "text": "THEME"
+  },
+  {
+   "type": "number",
+   "text": "1"
+  },
+  {
+   "type": "number",
+   "text": "2"
+  },
+  {
+   "type": "number",
+   "text": "3"
+  },
+  {
+   "type": "number",
+   "text": "4"
+  },
+  {
+   "type": "number",
+   "text": "5"
+  },
+  {
+   "type": "heading",
+   "text": "HOW EACH THEME RUNS"
+  },
+  {
+   "type": "number",
+   "text": "1"
+  },
+  {
+   "type": "sub",
+   "text": "Roads are made for movement, not staying"
+  },
+  {
+   "type": "note",
+   "text": "The street edge against how many people pass and how many stay."
+  },
+  {
+   "type": "sub",
+   "text": "Shade dictates movement, not distance"
+  },
+  {
+   "type": "note",
+   "text": "Where people walk and stop against where the shade falls."
+  },
+  {
+   "type": "sub",
+   "text": "Built form vs public life"
+  },
+  {
+   "type": "note",
+   "text": "Density and ground-floor use against what people do outside."
+  },
+  {
+   "type": "sub",
+   "text": "Density is not the problem, poor design is"
+  },
+  {
+   "type": "note",
+   "text": "Each plot’s density against its housing quality score."
+  },
+  {
+   "type": "sub",
+   "text": "Vehicles take more open space"
+  },
+  {
+   "type": "note",
+   "text": "Conflicts with motorbikes and scooters against the people counted in the same areas."
+  },
+  {
+   "type": "strong",
+   "text": "Malé"
+  },
+  {
+   "type": "note",
+   "text": "the finding on this island"
+  },
+  {
+   "type": "number",
+   "text": "2"
+  },
+  {
+   "type": "strong",
+   "text": "Villimalé"
+  },
+  {
+   "type": "note",
+   "text": "the finding on this island"
+  },
+  {
+   "type": "heading",
+   "text": "MALÉ"
+  },
+  {
+   "type": "strongnote",
+   "text": "1"
+  },
+  {
+   "type": "note",
+   "text": "Land use"
+  },
+  {
+   "type": "note",
+   "text": "Activity"
+  },
+  {
+   "type": "note",
+   "text": "the theme uses this toolkit"
+  },
+  {
+   "type": "number",
+   "text": "3"
+  },
+  {
+   "type": "strong",
+   "text": "Hulhumalé"
+  },
+  {
+   "type": "note",
+   "text": "the finding on this island"
+  },
+  {
+   "type": "heading",
+   "text": "VILLIMALÉ"
+  },
+  {
+   "type": "strongnote",
+   "text": "2"
+  },
+  {
+   "type": "strongnote",
+   "text": "3"
+  },
+  {
+   "type": "strongnote",
+   "text": "4"
+  },
+  {
+   "type": "note",
+   "text": "Density"
+  },
+  {
+   "type": "note",
+   "text": "Condition"
+  },
+  {
+   "type": "note",
+   "text": "not used"
+  },
+  {
+   "type": "number",
+   "text": "4"
+  },
+  {
+   "type": "strong",
+   "text": "The three compared"
+  },
+  {
+   "type": "note",
+   "text": "one conclusion for all three"
+  },
+  {
+   "type": "heading",
+   "text": "HULHUMALÉ"
+  },
+  {
+   "type": "strongnote",
+   "text": "5"
+  },
+  {
+   "type": "strongnote",
+   "text": "6"
+  },
+  {
+   "type": "note",
+   "text": "Movement"
+  },
+  {
+   "type": "note",
+   "text": "Perception"
+  }
+ ]
+}

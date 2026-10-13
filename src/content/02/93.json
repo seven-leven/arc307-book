@@ -1,0 +1,97 @@
+{
+ "folio": 93,
+ "type": "sheet",
+ "heading": "2.1 SITE SELECTION",
+ "claim": null,
+ "picture": {
+  "src": "figures/02/93_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "2.1.2M"
+  },
+  {
+   "type": "sub",
+   "text": "1 Organic fabric meets reclaimed edge"
+  },
+  {
+   "type": "para",
+   "text": "Two grains meet with no transition: pre-reclamation lanes to the south, orthogonal port land to the north."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "2.1.4M"
+  },
+  {
+   "type": "sub",
+   "text": "3 One programme, stacked"
+  },
+  {
+   "type": "para",
+   "text": "Almost every residential block repeats one section: commercial at ground, residential above. No workspace or civic floor appears anywhere, so activity collapses into shopping and sleeping."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "2.1.6M"
+  },
+  {
+   "type": "sub",
+   "text": "5 Off the transport network"
+  },
+  {
+   "type": "para",
+   "text": "Bus routes run along the perimeter road; none enter the area. The nearest stop is 350 m from the organic core. Internal movement depends entirely on private motorcycles."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "2.1.3M"
+  },
+  {
+   "type": "sub",
+   "text": "2 Port programme against housing"
+  },
+  {
+   "type": "para",
+   "text": "MPL cargo handling, warehouses and truck movements sit directly against low-rise housing. No buffer, no setback, no change in street section."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "2.1.5M"
+  },
+  {
+   "type": "sub",
+   "text": "4 Beyond walking distance of daily needs"
+  },
+  {
+   "type": "para",
+   "text": "Among the furthest points in Malé from a mosque or school. Nearest mosque 250 m, nearest school 450 m on foot. Daily needs require a trip out of the area."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "2.1.7M"
+  },
+  {
+   "type": "sub",
+   "text": "6 Streets laid out before vehicles"
+  },
+  {
+   "type": "para",
+   "text": "Apart from the perimeter road, carriageways measure under 5 m, set out for foot traffic. They now carry parked motorcycles, deliveries and pedestrians in one section, with no footpath."
+  }
+ ]
+}

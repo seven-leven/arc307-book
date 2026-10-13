@@ -1,0 +1,5159 @@
+[
+ {
+  "folio": "A.01",
+  "title": "APPENDIX  TOOLKIT DATA",
+  "claim": null,
+  "blocks": [
+   {
+    "t": "body",
+    "text": "What the toolkits counted, on all three islands. Digital edition only."
+   },
+   {
+    "t": "body",
+    "text": "These pages hold the survey data behind Chapter 02. Each toolkit has its own page, with the three islands in the same order as the rest of the book: Malé, Villimalé, Hulhumalé. Where a theme page prints a number, the same number can be worked out here."
+   },
+   {
+    "t": "body",
+    "text": "We surveyed each island on two days, one weekday and one rest day, each in three blocks: 10:00 to 12:00, 16:00 to 18:00 and 20:00 to 22:00."
+   },
+   {
+    "t": "table",
+    "groups": [
+     {
+      "heading": null,
+      "rows": [
+       {
+        "cells": [
+         "Toolkit 1",
+         "Land use and building scale",
+         "street segments",
+         "10",
+         "15",
+         "6",
+         "A.02"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "Toolkit 2",
+         "Activity, comfort and safety",
+         "survey areas",
+         "6",
+         "8",
+         "6",
+         "A.03"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "Toolkit 3",
+         "Density and housing quality",
+         "plots",
+         "36",
+         "69",
+         "8",
+         "A.04"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "Toolkit 5",
+         "Walking activity and movement count",
+         "survey areas",
+         "6",
+         "8",
+         "6",
+         "A.07"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "Toolkit 6",
+         "Public space quality and microclimate",
+         "spaces",
+         "10",
+         "11",
+         "6",
+         "A.08"
+        ],
+        "bold": false
+       }
+      ]
+     }
+    ],
+    "cols": [
+     {
+      "label": "What Was Surveyed",
+      "num": false,
+      "island": null
+     },
+     {
+      "label": "",
+      "num": false,
+      "island": null
+     },
+     {
+      "label": "",
+      "num": false,
+      "island": null
+     },
+     {
+      "label": "Malé",
+      "num": true,
+      "island": "male"
+     },
+     {
+      "label": "Villimalé",
+      "num": true,
+      "island": "villimale"
+     },
+     {
+      "label": "Hulhumalé",
+      "num": true,
+      "island": "hulhumale"
+     },
+     {
+      "label": "",
+      "num": true,
+      "island": null
+     }
+    ]
+   },
+   {
+    "t": "label",
+    "text": "HOW TO READ THE TABLES"
+   },
+   {
+    "t": "row",
+    "cells": [
+     {
+      "text": "–",
+      "bold": true,
+      "island": null
+     },
+     {
+      "text": "not recorded. A zero is printed as 0.",
+      "bold": false,
+      "island": null
+     }
+    ]
+   },
+   {
+    "t": "row",
+    "cells": [
+     {
+      "text": "est.",
+      "bold": true,
+      "island": null
+     },
+     {
+      "text": "worked out, not counted; the method is on page A.09.",
+      "bold": false,
+      "island": null
+     }
+    ]
+   },
+   {
+    "t": "row",
+    "cells": [
+     {
+      "text": "Not shown",
+      "bold": true,
+      "island": null
+     },
+     {
+      "text": "Toolkit 4, and Villimalé's movement tally (Toolkit 5), for the reasons on page A.09.",
+      "bold": false,
+      "island": null
+     }
+    ]
+   },
+   {
+    "t": "row",
+    "cells": [
+     {
+      "text": "Order",
+      "bold": true,
+      "island": null
+     },
+     {
+      "text": "rows follow each group's own numbering, so a row can be found on the group's map in Chapter 02.",
+      "bold": false,
+      "island": null
+     }
+    ]
+   },
+   {
+    "t": "row",
+    "cells": [
+     {
+      "text": "Totals",
+      "bold": true,
+      "island": null
+     },
+     {
+      "text": "are worked out again from the rows, not copied from the groups' sheets. Shares are of the total length, count or area, not averages of the rows.",
+      "bold": false,
+      "island": null
+     }
+    ]
+   },
+   {
+    "t": "row",
+    "cells": [
+     {
+      "text": "Codes",
+      "bold": true,
+      "island": null
+     },
+     {
+      "text": "every letter in a table is spelled out under it.",
+      "bold": false,
+      "island": null
+     }
+    ]
+   },
+   {
+    "t": "label",
+    "text": "WHERE THE DATA IS KEPT"
+   },
+   {
+    "t": "note",
+    "text": "The groups' field sheets are kept in data/toolkit_survey_all_islands.xlsx, one sheet per island and toolkit (M-, V-, H-). The field sheets number some toolkits differently from the book: book Toolkit 3 is field sheet T5, Toolkit 5 is T3-A, and Toolkit 6 is T4. This appendix uses the book's numbers. Its pages are numbered A.01 to A.09, apart from the printed book."
+   }
+  ]
+ },
+ {
+  "folio": "A.02",
+  "title": "TOOLKIT 1",
+  "claim": "Land use and building scale",
+  "blocks": [
+   {
+    "t": "body",
+    "text": "Every street was walked in segments and each segment graded from A (active) to E (inactive), after Gehl's study of Perth (2009), from its doors, closed frontage, variety and detail."
+   },
+   {
+    "t": "table",
+    "groups": [
+     {
+      "heading": "MALÉ  ·  10 SEGMENTS",
+      "island": "male",
+      "rows": [
+       {
+        "cells": [
+         "1",
+         "53",
+         "RC",
+         "7",
+         "19",
+         "35.8",
+         "50",
+         "2.5",
+         "medium",
+         "medium",
+         "D"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "2",
+         "50",
+         "RC",
+         "12",
+         "21",
+         "42.0",
+         "30",
+         "2.5",
+         "medium",
+         "medium",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "3",
+         "18",
+         "RC",
+         "10",
+         "12",
+         "66.7",
+         "70",
+         "3.0",
+         "low",
+         "low",
+         "D"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "4",
+         "33",
+         "RC",
+         "8",
+         "6",
+         "18.2",
+         "50",
+         "3.0",
+         "low",
+         "low",
+         "D"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "5",
+         "72",
+         "C",
+         "4",
+         "9",
+         "12.5",
+         "30",
+         "3.0",
+         "medium",
+         "medium",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "6",
+         "33",
+         "C",
+         "4",
+         "8",
+         "24.2",
+         "50",
+         "3.0",
+         "medium",
+         "medium",
+         "D"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "7",
+         "350",
+         "I",
+         "1",
+         "2",
+         "0.6",
+         "90",
+         "–",
+         "low",
+         "low",
+         "E"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "8",
+         "65",
+         "RI",
+         "8",
+         "13",
+         "20.0",
+         "70",
+         "3.0",
+         "low",
+         "medium",
+         "D"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "9",
+         "25",
+         "R",
+         "4",
+         "6",
+         "24.0",
+         "50",
+         "3.0",
+         "low",
+         "low",
+         "D"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "10",
+         "20",
+         "CR",
+         "2",
+         "4",
+         "20.0",
+         "30",
+         "3.0",
+         "medium",
+         "medium",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "All 10",
+         "719",
+         "",
+         "60",
+         "100",
+         "13.9",
+         "68",
+         "",
+         "Graded D or E: 80% of the length",
+         "",
+         ""
+        ],
+        "bold": true
+       }
+      ]
+     },
+     {
+      "heading": "VILLIMALÉ  ·  15 SEGMENTS",
+      "island": "villimale",
+      "rows": [
+       {
+        "cells": [
+         "1",
+         "100",
+         "R",
+         "7",
+         "15",
+         "15.0",
+         "55",
+         "1.7",
+         "low",
+         "medium",
+         "D"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "2",
+         "100",
+         "R",
+         "6",
+         "11",
+         "11.0",
+         "85",
+         "1.8",
+         "medium",
+         "medium",
+         "E"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "3",
+         "100",
+         "R/C",
+         "11",
+         "14",
+         "14.0",
+         "55",
+         "1.9",
+         "medium",
+         "medium",
+         "D"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "4",
+         "100",
+         "R/C",
+         "6",
+         "11",
+         "11.0",
+         "45",
+         "1.8",
+         "medium",
+         "medium",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "5",
+         "100",
+         "R",
+         "3",
+         "1",
+         "1.0",
+         "75",
+         "2.5",
+         "low",
+         "low",
+         "E"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "6",
+         "100",
+         "R",
+         "12",
+         "19",
+         "19.0",
+         "70",
+         "1.9",
+         "low",
+         "high",
+         "D"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "7",
+         "100",
+         "R/C",
+         "10",
+         "13",
+         "13.0",
+         "35",
+         "1.8",
+         "high",
+         "high",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "8 (1)",
+         "52",
+         "V",
+         "0",
+         "1",
+         "1.9",
+         "95",
+         "1.1",
+         "medium",
+         "medium",
+         "E"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "9 (2)",
+         "57",
+         "R/C",
+         "6",
+         "8",
+         "14.0",
+         "75",
+         "1.8",
+         "medium",
+         "high",
+         "E"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "10 (3)",
+         "78",
+         "I",
+         "2",
+         "3",
+         "3.8",
+         "85",
+         "3.0",
+         "medium",
+         "low",
+         "E"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "11 (4)",
+         "76",
+         "I",
+         "1",
+         "4",
+         "5.3",
+         "95",
+         "3.0",
+         "low",
+         "low",
+         "E"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "12 (5)",
+         "40",
+         "R(1),V(1)",
+         "6",
+         "0",
+         "0.0",
+         "15",
+         "0.0",
+         "1",
+         "low",
+         "B"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "13 (6)",
+         "60",
+         "W(3),R(1),V(2)",
+         "6",
+         "6",
+         "10.0",
+         "36",
+         "1.6",
+         "2",
+         "medium",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "14 (7)",
+         "53",
+         "R(2),W(1),V",
+         "6",
+         "6",
+         "11.3",
+         "50",
+         "1.7",
+         "2",
+         "medium",
+         "D"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "15 (8)",
+         "82",
+         "W,V",
+         "6",
+         "4",
+         "4.9",
+         "30",
+         "1.7",
+         "1",
+         "low",
+         "E"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "All 15",
+         "1,198",
+         "",
+         "88",
+         "116",
+         "9.7",
+         "61",
+         "",
+         "Graded D or E: 75% of the length",
+         "",
+         ""
+        ],
+        "bold": true
+       }
+      ]
+     },
+     {
+      "heading": "HULHUMALÉ  ·  6 SEGMENTS",
+      "island": "hulhumale",
+      "rows": [
+       {
+        "cells": [
+         "1",
+         "100",
+         "CFV",
+         "4",
+         "4",
+         "4.0",
+         "40",
+         "4.1",
+         "high",
+         "medium",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "2",
+         "100",
+         "CFI",
+         "15",
+         "5",
+         "5.0",
+         "30",
+         "4.1",
+         "medium",
+         "low",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "3",
+         "100",
+         "CIV",
+         "2",
+         "50",
+         "50.0",
+         "40",
+         "4.1",
+         "high",
+         "medium",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "4",
+         "100",
+         "CX",
+         "8",
+         "8",
+         "8.0",
+         "30",
+         "4.1",
+         "high",
+         "medium",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "5",
+         "100",
+         "CIV",
+         "2",
+         "50",
+         "50.0",
+         "40",
+         "4.1",
+         "high",
+         "medium",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "6",
+         "100",
+         "CIV",
+         "2",
+         "50",
+         "50.0",
+         "40",
+         "4.1",
+         "high",
+         "medium",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "All 6",
+         "600",
+         "",
+         "33",
+         "167",
+         "27.8",
+         "37",
+         "",
+         "Graded D or E: 0% of the length",
+         "",
+         ""
+        ],
+        "bold": true
+       }
+      ]
+     }
+    ],
+    "cols": [
+     {
+      "label": "Segment",
+      "num": false,
+      "island": null
+     },
+     {
+      "label": "Length M",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Uses",
+      "num": false,
+      "island": null
+     },
+     {
+      "label": "Units",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Doors",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Doors Per 100 M",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Closed %",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Head Height, M",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Diversity",
+      "num": false,
+      "island": null
+     },
+     {
+      "label": "Detail",
+      "num": false,
+      "island": null
+     },
+     {
+      "label": "Grade",
+      "num": false,
+      "island": null
+     }
+    ],
+    "caption": "Table A.1.1 Every street segment, Toolkit 1. Source: field sheets M-T1, V-T1 and H-T1, data/toolkit_survey_all_islands.xlsx."
+   },
+   {
+    "t": "note",
+    "text": "Uses, as coded on the field sheets: R residential, C commercial, I industrial, V vacant, W warehouse; F and X to be confirmed with the Hulhumalé group. Closed: the share of the frontage with no door or window onto the street."
+   }
+  ]
+ },
+ {
+  "folio": "A.03",
+  "title": "TOOLKIT 2",
+  "claim": "Activity, comfort and safety",
+  "blocks": [
+   {
+    "t": "body",
+    "text": "Everyone who stopped in each survey area, by what they were doing, over all six sessions."
+   },
+   {
+    "t": "table",
+    "groups": [
+     {
+      "heading": "MALÉ  ·  6 AREAS",
+      "island": "male",
+      "rows": [
+       {
+        "cells": [
+         "01",
+         "82",
+         "37",
+         "58",
+         "95",
+         "85",
+         "0",
+         "20",
+         "0",
+         "377",
+         "39%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "02",
+         "73",
+         "0",
+         "29",
+         "0",
+         "27",
+         "0",
+         "12",
+         "0",
+         "141",
+         "15%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "03",
+         "25",
+         "0",
+         "24",
+         "0",
+         "27",
+         "0",
+         "6",
+         "5",
+         "87",
+         "9%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "04",
+         "90",
+         "0",
+         "38",
+         "0",
+         "80",
+         "0",
+         "9",
+         "0",
+         "217",
+         "22%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "05",
+         "38",
+         "1",
+         "18",
+         "0",
+         "31",
+         "0",
+         "4",
+         "0",
+         "92",
+         "10%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "06",
+         "18",
+         "1",
+         "14",
+         "0",
+         "19",
+         "0",
+         "1",
+         "0",
+         "53",
+         "5%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "All",
+         "326",
+         "39",
+         "181",
+         "95",
+         "269",
+         "0",
+         "52",
+         "5",
+         "967",
+         ""
+        ],
+        "bold": true
+       }
+      ]
+     },
+     {
+      "heading": "VILLIMALÉ  ·  16 AREAS",
+      "island": "villimale",
+      "rows": [
+       {
+        "cells": [
+         "01",
+         "15",
+         "4",
+         "4",
+         "6",
+         "22",
+         "0",
+         "14",
+         "0",
+         "65",
+         "16%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "02",
+         "13",
+         "0",
+         "2",
+         "3",
+         "3",
+         "3",
+         "6",
+         "5",
+         "35",
+         "9%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "03",
+         "0",
+         "2",
+         "0",
+         "0",
+         "6",
+         "0",
+         "0",
+         "0",
+         "8",
+         "2%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "04",
+         "10",
+         "1",
+         "1",
+         "2",
+         "22",
+         "2",
+         "1",
+         "0",
+         "39",
+         "10%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "05",
+         "19",
+         "3",
+         "9",
+         "6",
+         "29",
+         "5",
+         "5",
+         "0",
+         "76",
+         "19%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "06",
+         "15",
+         "2",
+         "7",
+         "5",
+         "31",
+         "4",
+         "6",
+         "5",
+         "75",
+         "19%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "07",
+         "0",
+         "0",
+         "0",
+         "0",
+         "1",
+         "0",
+         "0",
+         "6",
+         "7",
+         "2%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "08",
+         "4",
+         "1",
+         "2",
+         "0",
+         "2",
+         "0",
+         "0",
+         "0",
+         "9",
+         "2%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "09 (1)",
+         "0",
+         "0",
+         "5",
+         "2",
+         "3",
+         "3",
+         "1",
+         "2",
+         "16",
+         "4%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "10 (2)",
+         "5",
+         "0",
+         "1",
+         "6",
+         "4",
+         "5",
+         "0",
+         "1",
+         "22",
+         "6%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "11 (3)",
+         "0",
+         "0",
+         "0",
+         "0",
+         "6",
+         "4",
+         "1",
+         "0",
+         "11",
+         "3%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "12 (4)",
+         "0",
+         "0",
+         "0",
+         "9",
+         "1",
+         "0",
+         "0",
+         "0",
+         "10",
+         "3%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "13 (5)",
+         "0",
+         "0",
+         "0",
+         "5",
+         "2",
+         "0",
+         "0",
+         "0",
+         "7",
+         "2%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "14 (6)",
+         "0",
+         "0",
+         "0",
+         "4",
+         "2",
+         "0",
+         "1",
+         "0",
+         "7",
+         "2%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "15 (7)",
+         "0",
+         "0",
+         "1",
+         "4",
+         "0",
+         "0",
+         "0",
+         "0",
+         "5",
+         "1%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "16 (8)",
+         "0",
+         "0",
+         "1",
+         "4",
+         "1",
+         "0",
+         "1",
+         "0",
+         "7",
+         "2%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "All",
+         "81",
+         "13",
+         "33",
+         "56",
+         "135",
+         "26",
+         "36",
+         "19",
+         "399",
+         ""
+        ],
+        "bold": true
+       }
+      ]
+     },
+     {
+      "heading": "HULHUMALÉ  ·  6 AREAS",
+      "island": "hulhumale",
+      "rows": [
+       {
+        "cells": [
+         "01",
+         "8",
+         "1",
+         "23",
+         "22",
+         "20",
+         "10",
+         "0",
+         "0",
+         "84",
+         "7%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "02",
+         "7",
+         "5",
+         "0",
+         "128",
+         "21",
+         "74",
+         "1",
+         "18",
+         "254",
+         "22%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "03",
+         "19",
+         "0",
+         "0",
+         "183",
+         "9",
+         "150",
+         "1",
+         "9",
+         "371",
+         "33%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "04",
+         "32",
+         "8",
+         "9",
+         "110",
+         "17",
+         "20",
+         "20",
+         "23",
+         "239",
+         "21%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "05",
+         "6",
+         "5",
+         "24",
+         "26",
+         "23",
+         "12",
+         "0",
+         "0",
+         "96",
+         "8%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "06",
+         "2",
+         "0",
+         "5",
+         "65",
+         "16",
+         "2",
+         "0",
+         "0",
+         "90",
+         "8%"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "All",
+         "74",
+         "19",
+         "61",
+         "534",
+         "106",
+         "268",
+         "22",
+         "50",
+         "1,134",
+         ""
+        ],
+        "bold": true
+       }
+      ]
+     }
+    ],
+    "cols": [
+     {
+      "label": "Area",
+      "num": false,
+      "island": null
+     },
+     {
+      "label": "Standing At A Door",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "On A Threshold",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "On A Wall Or Vehicle",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "On A Joali Or Seat",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Waiting",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Children Playing",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Vendor Or Goods",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Other",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "All",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Share Of Island",
+      "num": true,
+      "island": null
+     }
+    ]
+   },
+   {
+    "t": "table",
+    "groups": [
+     {
+      "heading": null,
+      "rows": [
+       {
+        "cells": [
+         "Malé",
+         "126",
+         "204",
+         "113",
+         "162",
+         "221",
+         "141",
+         "967"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "Villimalé",
+         "66",
+         "102",
+         "54",
+         "49",
+         "95",
+         "33",
+         "399"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "Hulhumalé",
+         "174",
+         "562",
+         "398",
+         "0",
+         "0",
+         "0",
+         "1,134"
+        ],
+        "bold": false
+       }
+      ]
+     }
+    ],
+    "cols": [
+     {
+      "label": "By Session, All Areas",
+      "num": false,
+      "island": null
+     },
+     {
+      "label": "Rest Day 10:00",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "16:00",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "20:00",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Weekday 10:00",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "16:00",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "20:00",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "All",
+      "num": true,
+      "island": null
+     }
+    ],
+    "caption": "Table A.2.1 People staying, every survey area. Table A.2.2 The same, by session. Source: field sheets M-T2, V-T2 and H-T2, data/toolkit_survey_all_islands.xlsx."
+   },
+   {
+    "t": "note",
+    "text": "On a threshold: sitting on a door step. Share of island: the area's part of everyone staying on that island. Villimalé's sheet has 16 areas, 01 to 08 and (1) to (8), all shown as recorded."
+   }
+  ]
+ },
+ {
+  "folio": "A.04",
+  "title": "TOOLKIT 3",
+  "claim": "Density and housing quality",
+  "blocks": [
+   {
+    "t": "body",
+    "text": "Each plot's density, from its floors and floor area, beside a housing quality score out of 32 for its uses, ground-floor access, human scale, diversity and flexibility."
+   },
+   {
+    "t": "table",
+    "groups": [
+     {
+      "heading": "MALÉ  ·  36 PLOTS",
+      "island": "male",
+      "rows": [
+       {
+        "cells": [
+         "1-1",
+         "59",
+         "7",
+         "413",
+         "100",
+         "6.00",
+         "7.00",
+         "0",
+         "0",
+         "2",
+         "2",
+         "3",
+         "7",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "1-2",
+         "146",
+         "5",
+         "730",
+         "100",
+         "3.00",
+         "5.00",
+         "2",
+         "0",
+         "3",
+         "2",
+         "3",
+         "10",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "1-3",
+         "86",
+         "1",
+         "86",
+         "100",
+         "1.00",
+         "1.00",
+         "1",
+         "0",
+         "2",
+         "2",
+         "2",
+         "7",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "1-4",
+         "170",
+         "8",
+         "1,360",
+         "100",
+         "7.00",
+         "8.00",
+         "2",
+         "0",
+         "3",
+         "2",
+         "3",
+         "10",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "1-5",
+         "117",
+         "0",
+         "0",
+         "100",
+         "0.00",
+         "0.00",
+         "–",
+         "0",
+         "–",
+         "–",
+         "–",
+         "0",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "1-6",
+         "121",
+         "5",
+         "605",
+         "100",
+         "4.00",
+         "5.00",
+         "2",
+         "0",
+         "3",
+         "2",
+         "2",
+         "9",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "1-7",
+         "41",
+         "6",
+         "246",
+         "100",
+         "5.00",
+         "6.00",
+         "2",
+         "0",
+         "3",
+         "2",
+         "2",
+         "9",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "2-1",
+         "72",
+         "5",
+         "360",
+         "100",
+         "4.00",
+         "5.00",
+         "0",
+         "0",
+         "3",
+         "2",
+         "3",
+         "8",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "2-2",
+         "53",
+         "4",
+         "212",
+         "100",
+         "4.00",
+         "4.00",
+         "0",
+         "0",
+         "2",
+         "2",
+         "2",
+         "6",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "2-3",
+         "152",
+         "8",
+         "1,216",
+         "100",
+         "5.00",
+         "8.00",
+         "2",
+         "0",
+         "3",
+         "2",
+         "3",
+         "10",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "2-4",
+         "70",
+         "2",
+         "140",
+         "100",
+         "1.00",
+         "2.00",
+         "0",
+         "0",
+         "2",
+         "2",
+         "2",
+         "6",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "3-1",
+         "235",
+         "7",
+         "1,645",
+         "100",
+         "5.00",
+         "7.00",
+         "2",
+         "0",
+         "5",
+         "4",
+         "5",
+         "16",
+         "dense, good"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "3-2",
+         "235",
+         "4",
+         "940",
+         "100",
+         "3.00",
+         "4.00",
+         "1",
+         "0",
+         "4",
+         "4",
+         "6",
+         "15",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "4-1",
+         "485",
+         "10",
+         "4,850",
+         "100",
+         "6.00",
+         "10.00",
+         "1",
+         "0",
+         "4",
+         "6",
+         "4",
+         "15",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "4-2",
+         "160",
+         "5",
+         "800",
+         "100",
+         "4.00",
+         "5.00",
+         "1",
+         "0",
+         "5",
+         "3",
+         "3",
+         "12",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "5-1",
+         "299",
+         "3",
+         "897",
+         "100",
+         "2.00",
+         "3.00",
+         "1",
+         "0",
+         "5",
+         "4",
+         "5",
+         "15",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "5-2",
+         "34",
+         "5",
+         "170",
+         "100",
+         "4.00",
+         "5.00",
+         "1",
+         "0",
+         "3",
+         "4",
+         "6",
+         "14",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "5-3",
+         "29",
+         "7",
+         "200",
+         "100",
+         "5.00",
+         "7.00",
+         "1",
+         "0",
+         "4",
+         "4",
+         "4",
+         "13",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "5-4",
+         "457",
+         "9",
+         "4,113",
+         "100",
+         "6.00",
+         "9.00",
+         "2",
+         "0",
+         "5",
+         "4",
+         "6",
+         "17",
+         "dense, good"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "6-1",
+         "58",
+         "3",
+         "174",
+         "100",
+         "2.00",
+         "3.00",
+         "1",
+         "0",
+         "4",
+         "3",
+         "5",
+         "13",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "6-2",
+         "58",
+         "6",
+         "348",
+         "100",
+         "4.00",
+         "6.00",
+         "1",
+         "0",
+         "3",
+         "5",
+         "5",
+         "14",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "6-3",
+         "58",
+         "2",
+         "116",
+         "100",
+         "2.00",
+         "2.00",
+         "1",
+         "0",
+         "5",
+         "4",
+         "6",
+         "16",
+         "dense, good"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "6-4",
+         "105",
+         "2",
+         "210",
+         "100",
+         "1.00",
+         "2.00",
+         "1",
+         "0",
+         "4",
+         "4",
+         "3",
+         "12",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "7-1",
+         "36,000",
+         "1",
+         "36,000",
+         "100",
+         "0.00",
+         "1.00",
+         "1",
+         "0",
+         "2",
+         "3",
+         "2",
+         "8",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "8-1",
+         "120",
+         "3",
+         "361",
+         "100",
+         "3.00",
+         "3.00",
+         "2",
+         "0",
+         "4",
+         "5",
+         "6",
+         "17",
+         "dense, good"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "8-2",
+         "95",
+         "6",
+         "570",
+         "100",
+         "5.00",
+         "6.00",
+         "2",
+         "0",
+         "5",
+         "5",
+         "7",
+         "19",
+         "dense, good"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "8-3",
+         "187",
+         "2",
+         "374",
+         "100",
+         "2.00",
+         "2.00",
+         "1",
+         "0",
+         "3",
+         "6",
+         "5",
+         "15",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "8-4",
+         "283",
+         "3",
+         "849",
+         "100",
+         "3.00",
+         "3.00",
+         "2",
+         "0",
+         "3",
+         "3",
+         "4",
+         "12",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "8-5",
+         "223",
+         "3",
+         "669",
+         "100",
+         "3.00",
+         "3.00",
+         "2",
+         "0",
+         "4",
+         "6",
+         "6",
+         "18",
+         "dense, good"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "8-6",
+         "50",
+         "5",
+         "248",
+         "100",
+         "5.00",
+         "5.00",
+         "1",
+         "0",
+         "6",
+         "5",
+         "5",
+         "17",
+         "dense, good"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "9-1",
+         "57",
+         "3",
+         "172",
+         "100",
+         "3.00",
+         "3.00",
+         "1",
+         "0",
+         "5",
+         "4",
+         "3",
+         "13",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "9-2",
+         "45",
+         "2",
+         "90",
+         "100",
+         "2.00",
+         "2.00",
+         "2",
+         "0",
+         "4",
+         "3",
+         "5",
+         "14",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "9-3",
+         "51",
+         "5",
+         "253",
+         "100",
+         "4.00",
+         "5.00",
+         "1",
+         "0",
+         "6",
+         "5",
+         "6",
+         "18",
+         "dense, good"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "9-4",
+         "51",
+         "4",
+         "203",
+         "100",
+         "3.00",
+         "4.00",
+         "2",
+         "0",
+         "4",
+         "4",
+         "4",
+         "14",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "10-1",
+         "770",
+         "4",
+         "3,078",
+         "100",
+         "3.00",
+         "4.00",
+         "1",
+         "0",
+         "7",
+         "5",
+         "5",
+         "18",
+         "dense, good"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "10-2",
+         "713",
+         "3",
+         "2,140",
+         "100",
+         "2.00",
+         "3.00",
+         "2",
+         "0",
+         "6",
+         "4",
+         "6",
+         "18",
+         "dense, good"
+        ],
+        "bold": false
+       }
+      ]
+     }
+    ],
+    "cols": [
+     {
+      "label": "Plot",
+      "num": false,
+      "island": null
+     },
+     {
+      "label": "Plot Area, M²",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Floors",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Floor Area, M²",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Coverage, %",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Far, As Used",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Gfa ÷ Plot Area",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Uses",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Groundfloor",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Human Scale",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Diversity",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Flexibility",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Score Of 32",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "",
+      "num": false,
+      "island": null
+     }
+    ],
+    "caption": "Table A.3.1 Every plot, Toolkit 3: Malé; Villimalé and Hulhumalé follow. Plot IDs are block-plot, restored where the spreadsheet had turned them into dates. Source: field sheet M-T5."
+   }
+  ]
+ },
+ {
+  "folio": "A.05",
+  "title": "TOOLKIT 3, CONTINUED",
+  "claim": "Density and housing quality",
+  "blocks": [
+   {
+    "t": "body",
+    "text": "Villimalé's 69 plots, the survey Chapter 02 used, in two columns. The parts of each score, and the floor area and coverage behind each FAR, are kept in the field sheet."
+   },
+   {
+    "t": "label",
+    "text": "VILLIMALÉ  ·  69 PLOTS"
+   },
+   {
+    "t": "table",
+    "groups": [
+     {
+      "heading": null,
+      "rows": [
+       {
+        "cells": [
+         "B11/1",
+         "130",
+         "2",
+         "2.00",
+         "6",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B11/2",
+         "130",
+         "1",
+         "1.00",
+         "4",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B13/1",
+         "130",
+         "2",
+         "1.74",
+         "10",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B13/2",
+         "130",
+         "1",
+         "1.00",
+         "4",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B13/3",
+         "130",
+         "2",
+         "2.00",
+         "13",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B13/4",
+         "130",
+         "4",
+         "4.00",
+         "12",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B13/5",
+         "130",
+         "1",
+         "0.84",
+         "3",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B16/1",
+         "929",
+         "2",
+         "0.78",
+         "4",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B13/10",
+         "130",
+         "2",
+         "1.80",
+         "8",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B14/5",
+         "130",
+         "5",
+         "4.55",
+         "9",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B14/10",
+         "130",
+         "2",
+         "1.65",
+         "10",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B15/5",
+         "130",
+         "3",
+         "2.21",
+         "7",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B15/10",
+         "130",
+         "2",
+         "1.77",
+         "3",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B11/4",
+         "130",
+         "5",
+         "4.13",
+         "5",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B11/6",
+         "130",
+         "3",
+         "3.00",
+         "4",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B11/8",
+         "130",
+         "4",
+         "3.14",
+         "6",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B11/10",
+         "130",
+         "1",
+         "1.00",
+         "5",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B11/12",
+         "130",
+         "2",
+         "2.00",
+         "10",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B12/2",
+         "130",
+         "1",
+         "0.85",
+         "4",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B12/4",
+         "130",
+         "1",
+         "1.00",
+         "3",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B12/6",
+         "130",
+         "2",
+         "1.92",
+         "4",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B12/8",
+         "130",
+         "2",
+         "2.00",
+         "4",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B12/10",
+         "130",
+         "2",
+         "2.00",
+         "5",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B15/10",
+         "130",
+         "2",
+         "1.77",
+         "3",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B15/9",
+         "130",
+         "3",
+         "2.94",
+         "3",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B15/08",
+         "130",
+         "4",
+         "4.08",
+         "4",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B15/07",
+         "130",
+         "2",
+         "1.33",
+         "8",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B15/06",
+         "130",
+         "1",
+         "0.94",
+         "9",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B12/10",
+         "130",
+         "1",
+         "0.95",
+         "10",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B12/9",
+         "130",
+         "2",
+         "1.82",
+         "7",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B12/9",
+         "130",
+         "2",
+         "1.82",
+         "3",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B12/7",
+         "130",
+         "3",
+         "2.98",
+         "5",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B12/5",
+         "130",
+         "1",
+         "0.71",
+         "4",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B12/3",
+         "130",
+         "4",
+         "3.23",
+         "14",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B12/1",
+         "130",
+         "2",
+         "1.92",
+         "12",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B11/11",
+         "130",
+         "2",
+         "1.94",
+         "16",
+         "dense, good"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B11/9",
+         "130",
+         "2",
+         "1.68",
+         "21",
+         "not dense, good"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B11/7",
+         "130",
+         "2",
+         "1.65",
+         "12",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B11/5",
+         "130",
+         "1",
+         "0.70",
+         "20",
+         "not dense, good"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B11/3",
+         "130",
+         "2",
+         "1.86",
+         "14",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B11/1",
+         "130",
+         "3",
+         "2.88",
+         "13",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B5/2",
+         "130",
+         "1",
+         "0.88",
+         "17",
+         "not dense, good"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B5/4",
+         "130",
+         "1",
+         "0.43",
+         "14",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B5/6",
+         "130",
+         "0",
+         "0.00",
+         "8",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B5/8",
+         "130",
+         "2",
+         "1.93",
+         "14",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B5/10",
+         "130",
+         "4",
+         "3.17",
+         "11",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B5/12",
+         "130",
+         "2",
+         "2.09",
+         "10",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B5/14",
+         "130",
+         "2",
+         "2.03",
+         "11",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B5/16",
+         "130",
+         "4",
+         "3.74",
+         "8",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B5/18",
+         "130",
+         "7",
+         "6.75",
+         "6",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B5/20",
+         "130",
+         "11",
+         "9.87",
+         "4",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B5/22",
+         "130",
+         "1",
+         "0.89",
+         "13",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B5/23",
+         "130",
+         "5",
+         "4.07",
+         "16",
+         "dense, good"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B9/04",
+         "130",
+         "3",
+         "2.88",
+         "10",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B8/14",
+         "130",
+         "1",
+         "0.97",
+         "14",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B8/12",
+         "130",
+         "1",
+         "0.84",
+         "17",
+         "not dense, good"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B8/10",
+         "130",
+         "2",
+         "1.65",
+         "18",
+         "not dense, good"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B8/8",
+         "130",
+         "1",
+         "0.70",
+         "5",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B8/6",
+         "130",
+         "1",
+         "0.93",
+         "7",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B8/4",
+         "130",
+         "6",
+         "5.79",
+         "20",
+         "dense, good"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B3/24",
+         "130",
+         "4",
+         "3.59",
+         "8",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B3/12",
+         "130",
+         "3",
+         "2.68",
+         "12",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B21/2",
+         "100",
+         "2",
+         "2.00",
+         "5",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B21/3",
+         "100",
+         "1",
+         "0.67",
+         "3",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B21/4",
+         "100",
+         "1",
+         "1.00",
+         "3",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B21/5",
+         "78",
+         "0",
+         "0.00",
+         "0",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B21/13",
+         "334",
+         "0",
+         "0.00",
+         "0",
+         "not dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B21/12",
+         "172",
+         "4",
+         "4.00",
+         "8",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "B21/11",
+         "112",
+         "2",
+         "2.00",
+         "4",
+         "dense"
+        ],
+        "bold": false
+       }
+      ]
+     }
+    ],
+    "cols": [
+     {
+      "label": "Plot",
+      "num": false,
+      "island": null
+     },
+     {
+      "label": "Plot Area, M²",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Floors",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Far",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Score Of 32",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "",
+      "num": false,
+      "island": null
+     }
+    ],
+    "caption": "Table A.3.1, continued: Villimalé. Source: field sheet V-T5 (the copy holding the first survey), data/toolkit_survey_all_islands.xlsx."
+   },
+   {
+    "t": "note",
+    "text": "Dense: FAR 1.87 or more. Good: 16 or more of 32. FAR as recorded by the group. Plot IDs are block/plot, as on the group's map."
+   }
+  ]
+ },
+ {
+  "folio": "A.06",
+  "title": "TOOLKIT 3, CONTINUED",
+  "claim": "Density and housing quality",
+  "blocks": [
+   {
+    "t": "table",
+    "groups": [
+     {
+      "heading": "HULHUMALÉ  ·  8 PLOTS",
+      "island": "hulhumale",
+      "rows": [
+       {
+        "cells": [
+         "H5",
+         "1,621",
+         "25",
+         "36,472",
+         "90",
+         "23.00",
+         "22.50",
+         "0",
+         "2",
+         "2",
+         "2",
+         "3",
+         "9",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "H6",
+         "1,220",
+         "25",
+         "27,450",
+         "90",
+         "23.00",
+         "22.50",
+         "0",
+         "2",
+         "2",
+         "2",
+         "3",
+         "9",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "H7",
+         "1,220",
+         "25",
+         "27,450",
+         "90",
+         "23.00",
+         "22.50",
+         "0",
+         "2",
+         "2",
+         "2",
+         "3",
+         "9",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "H8",
+         "1,621",
+         "25",
+         "36,472",
+         "90",
+         "23.00",
+         "22.50",
+         "0",
+         "2",
+         "2",
+         "2",
+         "3",
+         "9",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "H9",
+         "1,621",
+         "25",
+         "36,472",
+         "90",
+         "23.00",
+         "22.50",
+         "0",
+         "2",
+         "2",
+         "2",
+         "3",
+         "9",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "H10",
+         "1,220",
+         "25",
+         "27,450",
+         "90",
+         "23.00",
+         "22.50",
+         "0",
+         "2",
+         "2",
+         "2",
+         "3",
+         "9",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "H11",
+         "1,220",
+         "25",
+         "27,450",
+         "90",
+         "23.00",
+         "22.50",
+         "0",
+         "2",
+         "2",
+         "2",
+         "3",
+         "9",
+         "dense"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "H12",
+         "1,621",
+         "25",
+         "36,472",
+         "90",
+         "23.00",
+         "22.50",
+         "0",
+         "2",
+         "2",
+         "2",
+         "3",
+         "9",
+         "dense"
+        ],
+        "bold": false
+       }
+      ]
+     }
+    ],
+    "cols": [
+     {
+      "label": "Plot",
+      "num": false,
+      "island": null
+     },
+     {
+      "label": "Plot Area, M²",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Floors",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Floor Area, M²",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Coverage, %",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Far, As Used",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Gfa ÷ Plot Area",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Uses",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Groundfloor",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Human Scale",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Diversity",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Flexibility",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Score Of 32",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "",
+      "num": false,
+      "island": null
+     }
+    ],
+    "caption": "Table A.3.1, continued: Hulhumalé. Source: field sheet H-T5."
+   },
+   {
+    "t": "table",
+    "groups": [
+     {
+      "heading": null,
+      "rows": [
+       {
+        "cells": [
+         "Malé",
+         "36",
+         "21",
+         "10",
+         "5",
+         "0",
+         "19",
+         "10"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "Villimalé",
+         "69",
+         "31",
+         "3",
+         "30",
+         "5",
+         "21",
+         "8"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "Hulhumalé",
+         "8",
+         "8",
+         "0",
+         "0",
+         "0",
+         "9",
+         "0"
+        ],
+        "bold": false
+       }
+      ]
+     }
+    ],
+    "cols": [
+     {
+      "label": "Summary, As Chapter 02 Counts It",
+      "num": false,
+      "island": null
+     },
+     {
+      "label": "Plots",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Dense, Poor",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Dense, Good",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Not Dense, Poor",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Not Dense, Good",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Best Score",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "16 Or More",
+      "num": true,
+      "island": null
+     }
+    ],
+    "caption": "Table A.3.2 Summary, as Chapter 02's Theme 4 counts it. Source: field sheets M-T5, V-T5 and H-T5, data/toolkit_survey_all_islands.xlsx."
+   },
+   {
+    "t": "note",
+    "text": "Dense: FAR 1.87 or more (Sim, Soft City, p. 380). Good: a score of 16 or more of 32. FAR, as used: the groups' own FAR column, which Chapter 02 counts with. GFA ÷ plot area: the same worked out from the floor area; on Malé it would count two more plots as dense (page A.09)."
+   },
+   {
+    "t": "chart",
+    "heading": "DENSITY AGAINST HOUSING QUALITY, EVERY PLOT",
+    "viewBox": "56 492 730 210",
+    "body": "<line x1=\"102.7\" y1=\"520.0\" x2=\"102.7\" y2=\"670.0\" stroke=\"#B5B5B5\" stroke-width=\"0.6\"/><line x1=\"86.0\" y1=\"595.0\" x2=\"300.0\" y2=\"595.0\" stroke=\"#B5B5B5\" stroke-width=\"0.6\"/><line x1=\"86.0\" y1=\"670.0\" x2=\"300.0\" y2=\"670.0\" stroke=\"#8A8A8A\" stroke-width=\"0.5\"/><circle cx=\"139.5\" cy=\"637.2\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"112.8\" cy=\"623.1\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"94.9\" cy=\"637.2\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"148.4\" cy=\"623.1\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"86.0\" cy=\"670.0\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"121.7\" cy=\"627.8\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"130.6\" cy=\"627.8\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"121.7\" cy=\"632.5\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"121.7\" cy=\"641.9\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"130.6\" cy=\"623.1\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"94.9\" cy=\"641.9\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"130.6\" cy=\"595.0\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"112.8\" cy=\"599.7\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"139.5\" cy=\"599.7\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"121.7\" cy=\"613.8\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"101.5\" cy=\"599.7\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"106.1\" cy=\"599.7\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"119.4\" cy=\"604.4\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"124.0\" cy=\"604.4\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"130.6\" cy=\"609.1\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"139.5\" cy=\"590.3\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"103.8\" cy=\"609.1\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"103.8\" cy=\"595.0\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"94.9\" cy=\"613.8\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"86.0\" cy=\"632.5\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"112.8\" cy=\"590.3\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"130.6\" cy=\"580.9\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"112.8\" cy=\"613.8\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"110.5\" cy=\"585.6\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"115.0\" cy=\"585.6\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"130.6\" cy=\"590.3\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"112.8\" cy=\"609.1\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"103.8\" cy=\"604.4\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"121.7\" cy=\"585.6\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"112.8\" cy=\"604.4\" r=\"2.3\" fill=\"#E18B85\"/><circle cx=\"103.8\" cy=\"585.6\" r=\"2.3\" fill=\"#E18B85\"/><line x1=\"356.7\" y1=\"520.0\" x2=\"356.7\" y2=\"670.0\" stroke=\"#B5B5B5\" stroke-width=\"0.6\"/><line x1=\"340.0\" y1=\"595.0\" x2=\"554.0\" y2=\"595.0\" stroke=\"#B5B5B5\" stroke-width=\"0.6\"/><line x1=\"340.0\" y1=\"670.0\" x2=\"554.0\" y2=\"670.0\" stroke=\"#8A8A8A\" stroke-width=\"0.5\"/><circle cx=\"357.8\" cy=\"641.9\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"346.6\" cy=\"651.2\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"351.2\" cy=\"651.2\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"355.5\" cy=\"623.1\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"357.8\" cy=\"609.1\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"375.7\" cy=\"613.8\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"347.5\" cy=\"655.9\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"347.0\" cy=\"651.2\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"356.1\" cy=\"632.5\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"380.6\" cy=\"627.8\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"354.7\" cy=\"623.1\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"359.7\" cy=\"637.2\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"353.5\" cy=\"655.9\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"358.1\" cy=\"655.9\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"376.8\" cy=\"646.6\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"366.8\" cy=\"651.2\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"368.0\" cy=\"641.9\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"348.9\" cy=\"646.6\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"357.8\" cy=\"623.1\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"347.6\" cy=\"651.2\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"346.6\" cy=\"655.9\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"351.2\" cy=\"655.9\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"357.1\" cy=\"651.2\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"355.5\" cy=\"651.2\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"360.1\" cy=\"651.2\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"355.5\" cy=\"646.6\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"360.1\" cy=\"646.6\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"366.2\" cy=\"655.9\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"376.4\" cy=\"651.2\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"351.9\" cy=\"632.5\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"348.4\" cy=\"627.8\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"348.5\" cy=\"623.1\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"356.2\" cy=\"637.2\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"356.2\" cy=\"655.9\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"366.6\" cy=\"646.6\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"346.3\" cy=\"651.2\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"368.8\" cy=\"604.4\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"357.1\" cy=\"613.8\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"357.3\" cy=\"595.0\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"355.0\" cy=\"571.6\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"354.7\" cy=\"613.8\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"346.2\" cy=\"576.2\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"356.6\" cy=\"604.4\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"365.7\" cy=\"609.1\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"347.8\" cy=\"590.3\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"343.8\" cy=\"604.4\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"340.0\" cy=\"632.5\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"357.2\" cy=\"604.4\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"368.3\" cy=\"618.4\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"358.6\" cy=\"623.1\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"358.1\" cy=\"618.4\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"373.3\" cy=\"632.5\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"400.2\" cy=\"641.9\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"428.0\" cy=\"651.2\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"347.9\" cy=\"609.1\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"376.3\" cy=\"595.0\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"365.7\" cy=\"623.1\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"348.6\" cy=\"604.4\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"347.5\" cy=\"590.3\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"354.7\" cy=\"585.6\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"346.2\" cy=\"646.6\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"348.3\" cy=\"637.2\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"391.6\" cy=\"576.2\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"372.0\" cy=\"632.5\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"363.9\" cy=\"613.8\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"346.0\" cy=\"655.9\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"337.7\" cy=\"670.0\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"342.3\" cy=\"670.0\" r=\"2.3\" fill=\"#BDD27A\"/><circle cx=\"375.7\" cy=\"632.5\" r=\"2.3\" fill=\"#BDD27A\"/><line x1=\"610.7\" y1=\"520.0\" x2=\"610.7\" y2=\"670.0\" stroke=\"#B5B5B5\" stroke-width=\"0.6\"/><line x1=\"594.0\" y1=\"595.0\" x2=\"808.0\" y2=\"595.0\" stroke=\"#B5B5B5\" stroke-width=\"0.6\"/><line x1=\"594.0\" y1=\"670.0\" x2=\"808.0\" y2=\"670.0\" stroke=\"#8A8A8A\" stroke-width=\"0.5\"/><circle cx=\"773.5\" cy=\"627.8\" r=\"2.3\" fill=\"#8DA7DE\"/><circle cx=\"778.1\" cy=\"627.8\" r=\"2.3\" fill=\"#8DA7DE\"/><circle cx=\"782.7\" cy=\"627.8\" r=\"2.3\" fill=\"#8DA7DE\"/><circle cx=\"787.3\" cy=\"627.8\" r=\"2.3\" fill=\"#8DA7DE\"/><circle cx=\"791.9\" cy=\"627.8\" r=\"2.3\" fill=\"#8DA7DE\"/><circle cx=\"796.5\" cy=\"627.8\" r=\"2.3\" fill=\"#8DA7DE\"/><circle cx=\"801.1\" cy=\"627.8\" r=\"2.3\" fill=\"#8DA7DE\"/><circle cx=\"805.7\" cy=\"627.8\" r=\"2.3\" fill=\"#8DA7DE\"/><text x=\"86\" y=\"510\" font-size=\"9\" font-weight=\"bold\" fill=\"#CA483D\" text-anchor=\"start\">Malé</text><text x=\"340\" y=\"510\" font-size=\"9\" font-weight=\"bold\" fill=\"#819939\" text-anchor=\"start\">Villimalé</text><text x=\"594\" y=\"510\" font-size=\"9\" font-weight=\"bold\" fill=\"#3867AD\" text-anchor=\"start\">Hulhumalé</text><text x=\"80\" y=\"523.0\" font-size=\"9\" font-weight=\"normal\" fill=\"#6B6B6B\" text-anchor=\"end\">32</text><text x=\"80\" y=\"598.0\" font-size=\"9\" font-weight=\"normal\" fill=\"#6B6B6B\" text-anchor=\"end\">16</text><text x=\"80\" y=\"673.0\" font-size=\"9\" font-weight=\"normal\" fill=\"#6B6B6B\" text-anchor=\"end\">0</text><text x=\"86.0\" y=\"682\" font-size=\"9\" font-weight=\"normal\" fill=\"#6B6B6B\" text-anchor=\"middle\">0</text><text x=\"157.3\" y=\"682\" font-size=\"9\" font-weight=\"normal\" fill=\"#6B6B6B\" text-anchor=\"middle\">8</text><text x=\"228.7\" y=\"682\" font-size=\"9\" font-weight=\"normal\" fill=\"#6B6B6B\" text-anchor=\"middle\">16</text><text x=\"300.0\" y=\"682\" font-size=\"9\" font-weight=\"normal\" fill=\"#6B6B6B\" text-anchor=\"middle\">24</text><text x=\"340.0\" y=\"682\" font-size=\"9\" font-weight=\"normal\" fill=\"#6B6B6B\" text-anchor=\"middle\">0</text><text x=\"411.3\" y=\"682\" font-size=\"9\" font-weight=\"normal\" fill=\"#6B6B6B\" text-anchor=\"middle\">8</text><text x=\"482.7\" y=\"682\" font-size=\"9\" font-weight=\"normal\" fill=\"#6B6B6B\" text-anchor=\"middle\">16</text><text x=\"554.0\" y=\"682\" font-size=\"9\" font-weight=\"normal\" fill=\"#6B6B6B\" text-anchor=\"middle\">24</text><text x=\"594.0\" y=\"682\" font-size=\"9\" font-weight=\"normal\" fill=\"#6B6B6B\" text-anchor=\"middle\">0</text><text x=\"665.3\" y=\"682\" font-size=\"9\" font-weight=\"normal\" fill=\"#6B6B6B\" text-anchor=\"middle\">8</text><text x=\"736.7\" y=\"682\" font-size=\"9\" font-weight=\"normal\" fill=\"#6B6B6B\" text-anchor=\"middle\">16</text><text x=\"808.0\" y=\"682\" font-size=\"9\" font-weight=\"normal\" fill=\"#6B6B6B\" text-anchor=\"middle\">24</text><text x=\"300\" y=\"694\" font-size=\"9\" font-weight=\"normal\" fill=\"#6B6B6B\" text-anchor=\"end\">FAR</text><text x=\"554\" y=\"694\" font-size=\"9\" font-weight=\"normal\" fill=\"#6B6B6B\" text-anchor=\"end\">FAR</text><text x=\"808\" y=\"694\" font-size=\"9\" font-weight=\"normal\" fill=\"#6B6B6B\" text-anchor=\"end\">FAR</text>",
+    "note": "Score of 32 up the side. The grey lines mark the dense threshold (FAR 1.87) and good housing quality (16). Plots with the same values sit side by side.",
+    "caption": "Figure A.3.1  Density against housing quality, every plot, on one scale."
+   }
+  ]
+ },
+ {
+  "folio": "A.07",
+  "title": "TOOLKIT 5",
+  "claim": "Walking activity and movement count",
+  "blocks": [
+   {
+    "t": "body",
+    "text": "Everyone passing a line across the street in ten minutes, in shade or in the sun, in each of the six sessions; with the micro-mobility users and the people staying counted at the same line."
+   },
+   {
+    "t": "table",
+    "groups": [
+     {
+      "heading": "MALÉ  ·  6 AREAS",
+      "island": "male",
+      "rows": [
+       {
+        "cells": [
+         "01",
+         "26",
+         "37",
+         "83",
+         "4",
+         "91",
+         "0",
+         "25",
+         "73",
+         "57",
+         "18",
+         "95",
+         "0",
+         "0",
+         "92",
+         "509"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "02",
+         "27",
+         "55",
+         "68",
+         "0",
+         "37",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "21",
+         "27",
+         "187"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "03",
+         "5",
+         "26",
+         "33",
+         "10",
+         "54",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "47",
+         "28",
+         "128"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "04",
+         "35",
+         "8",
+         "54",
+         "0",
+         "68",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "165"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "05",
+         "0",
+         "0",
+         "16",
+         "11",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "2",
+         "8",
+         "27"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "06",
+         "0",
+         "0",
+         "17",
+         "10",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "2",
+         "5",
+         "27"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "All",
+         "93",
+         "126",
+         "271",
+         "35",
+         "250",
+         "0",
+         "25",
+         "73",
+         "57",
+         "18",
+         "95",
+         "0",
+         "72",
+         "160",
+         "1,043"
+        ],
+        "bold": true
+       }
+      ]
+     },
+     {
+      "heading": "HULHUMALÉ  ·  6 AREAS",
+      "island": "hulhumale",
+      "rows": [
+       {
+        "cells": [
+         "01",
+         "0",
+         "45",
+         "155",
+         "0",
+         "119",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "19",
+         "27",
+         "319"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "02",
+         "6",
+         "48",
+         "99",
+         "12",
+         "41",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "17",
+         "88",
+         "206"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "03",
+         "11",
+         "50",
+         "132",
+         "14",
+         "21",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "11",
+         "130",
+         "228"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "04",
+         "11",
+         "50",
+         "170",
+         "0",
+         "26",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "16",
+         "208",
+         "257"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "05",
+         "0",
+         "45",
+         "0",
+         "55",
+         "75",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "10",
+         "12",
+         "175"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "06",
+         "6",
+         "48",
+         "81",
+         "10",
+         "74",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "17",
+         "37",
+         "219"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "All",
+         "34",
+         "286",
+         "637",
+         "91",
+         "356",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "0",
+         "90",
+         "502",
+         "1,404"
+        ],
+        "bold": true
+       }
+      ]
+     }
+    ],
+    "cols": [
+     {
+      "label": "Area",
+      "num": false,
+      "island": null
+     },
+     {
+      "label": "Rest Day 10:00 Shade",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Rest Day 10:00 Sun",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Rest Day 16:00 Shade",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Rest Day 16:00 Sun",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Rest Day 20:00 Shade",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Rest Day 20:00 Sun",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Weekday 10:00 Shade",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Weekday 10:00 Sun",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Weekday 16:00 Shade",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Weekday 16:00 Sun",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Weekday 20:00 Shade",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Weekday 20:00 Sun",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Micromobility",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Staying",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Walking, All",
+      "num": true,
+      "island": null
+     }
+    ],
+    "caption": "Table A.5.1 People passing each survey line, by session, in shade and in the sun. Source: field sheets M-T3-A and H-T3-A, data/toolkit_survey_all_islands.xlsx."
+   },
+   {
+    "t": "note",
+    "text": "Walking: commuting, strolling and people needing help, as tallied. Staying and micro-mobility are counted at the same line, all sessions together. Villimalé is not shown: its tally is from the survey made again after its area changed, which Chapter 02 did not use (page A.09)."
+   },
+   {
+    "t": "label",
+    "text": "PEDESTRIAN PRIORITY AND CROSSING CHECKLIST"
+   },
+   {
+    "t": "note",
+    "text": "Five checks in each survey area, each marked by the group on site: a filled dot is good, an open dot is poor."
+   },
+   {
+    "t": "table",
+    "groups": [
+     {
+      "heading": null,
+      "rows": [
+       {
+        "cells": [
+         "Pavement continuous",
+         "good",
+         "poor",
+         "poor",
+         "good",
+         "good",
+         "good",
+         "good",
+         "poor",
+         "good",
+         "good",
+         "poor",
+         "good",
+         "–",
+         "good",
+         "good",
+         "good",
+         "good",
+         "poor",
+         "good",
+         "good"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "Junctions easy to read",
+         "good",
+         "good",
+         "poor",
+         "good",
+         "poor",
+         "poor",
+         "good",
+         "good",
+         "good",
+         "good",
+         "poor",
+         "good",
+         "–",
+         "good",
+         "good",
+         "good",
+         "good",
+         "poor",
+         "good",
+         "good"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "Pavement wide enough",
+         "good",
+         "poor",
+         "poor",
+         "good",
+         "poor",
+         "poor",
+         "good",
+         "poor",
+         "good",
+         "good",
+         "–",
+         "good",
+         "–",
+         "poor",
+         "good",
+         "good",
+         "good",
+         "good",
+         "good",
+         "good"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "Pavement free of obstacles",
+         "poor",
+         "poor",
+         "poor",
+         "good",
+         "poor",
+         "poor",
+         "good",
+         "good",
+         "good",
+         "good",
+         "poor",
+         "poor",
+         "–",
+         "good",
+         "good",
+         "good",
+         "good",
+         "poor",
+         "good",
+         "poor"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "Crossings direct",
+         "poor",
+         "poor",
+         "poor",
+         "poor",
+         "poor",
+         "poor",
+         "good",
+         "good",
+         "good",
+         "good",
+         "poor",
+         "good",
+         "–",
+         "good",
+         "good",
+         "good",
+         "good",
+         "poor",
+         "good",
+         "good"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "Good checks, of 5",
+         "3",
+         "1",
+         "0",
+         "4",
+         "1",
+         "1",
+         "5",
+         "3",
+         "5",
+         "5",
+         "0",
+         "4",
+         "–",
+         "4",
+         "5",
+         "5",
+         "5",
+         "1",
+         "5",
+         "4"
+        ],
+        "bold": true
+       }
+      ]
+     }
+    ],
+    "cols": [
+     {
+      "label": "",
+      "num": false,
+      "island": null
+     },
+     {
+      "label": "Malé 01",
+      "num": true,
+      "island": "male"
+     },
+     {
+      "label": "Malé 02",
+      "num": true,
+      "island": "male"
+     },
+     {
+      "label": "Malé 03",
+      "num": true,
+      "island": "male"
+     },
+     {
+      "label": "Malé 04",
+      "num": true,
+      "island": "male"
+     },
+     {
+      "label": "Malé 05",
+      "num": true,
+      "island": "male"
+     },
+     {
+      "label": "Malé 06",
+      "num": true,
+      "island": "male"
+     },
+     {
+      "label": "Villimalé 01",
+      "num": true,
+      "island": "villimale"
+     },
+     {
+      "label": "Villimalé 02",
+      "num": true,
+      "island": "villimale"
+     },
+     {
+      "label": "Villimalé 03",
+      "num": true,
+      "island": "villimale"
+     },
+     {
+      "label": "Villimalé 04",
+      "num": true,
+      "island": "villimale"
+     },
+     {
+      "label": "Villimalé 05",
+      "num": true,
+      "island": "villimale"
+     },
+     {
+      "label": "Villimalé 06",
+      "num": true,
+      "island": "villimale"
+     },
+     {
+      "label": "Villimalé 07",
+      "num": true,
+      "island": "villimale"
+     },
+     {
+      "label": "Villimalé 08",
+      "num": true,
+      "island": "villimale"
+     },
+     {
+      "label": "Hulhumalé 01",
+      "num": true,
+      "island": "hulhumale"
+     },
+     {
+      "label": "Hulhumalé 02",
+      "num": true,
+      "island": "hulhumale"
+     },
+     {
+      "label": "Hulhumalé 03",
+      "num": true,
+      "island": "hulhumale"
+     },
+     {
+      "label": "Hulhumalé 04",
+      "num": true,
+      "island": "hulhumale"
+     },
+     {
+      "label": "Hulhumalé 05",
+      "num": true,
+      "island": "hulhumale"
+     },
+     {
+      "label": "Hulhumalé 06",
+      "num": true,
+      "island": "hulhumale"
+     }
+    ],
+    "caption": "Table A.5.2 The crossing checklist, every survey area. Source: field sheets M-T3-B, V-T3-B and H-T3-B, data/toolkit_survey_all_islands.xlsx."
+   },
+   {
+    "t": "note",
+    "text": "– not recorded (Villimalé area 07 is blank on the sheet; area 05's pavement width is marked not applicable). Villimalé's sheet also holds the eight areas of its later survey, (1) to (8), which Chapter 02 did not use."
+   }
+  ]
+ },
+ {
+  "folio": "A.08",
+  "title": "TOOLKIT 6",
+  "claim": "Public space quality and microclimate",
+  "blocks": [
+   {
+    "t": "body",
+    "text": "Thirteen qualities of each public space, after Gehl's twelve quality criteria with shade added, each scored from 1 (poor) to 5 (good): protection, comfort, and delight and microclimate."
+   },
+   {
+    "t": "table",
+    "groups": [
+     {
+      "heading": "MALÉ  ·  10 SPACES",
+      "island": "male",
+      "rows": [
+       {
+        "cells": [
+         "1",
+         "1",
+         "3",
+         "2",
+         "1",
+         "1",
+         "1",
+         "2",
+         "3",
+         "1",
+         "2",
+         "2",
+         "2",
+         "3",
+         "24",
+         "D"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "2",
+         "1",
+         "3",
+         "2",
+         "2",
+         "1",
+         "1",
+         "1",
+         "3",
+         "1",
+         "2",
+         "3",
+         "3",
+         "1",
+         "24",
+         "D"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "3",
+         "1",
+         "2",
+         "3",
+         "2",
+         "2",
+         "1",
+         "2",
+         "2",
+         "1",
+         "2",
+         "2",
+         "2",
+         "3",
+         "25",
+         "D"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "4",
+         "1",
+         "2",
+         "3",
+         "1",
+         "1",
+         "1",
+         "1",
+         "2",
+         "1",
+         "2",
+         "2",
+         "1",
+         "3",
+         "21",
+         "D"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "5",
+         "1",
+         "1",
+         "4",
+         "1",
+         "2",
+         "1",
+         "1",
+         "3",
+         "1",
+         "4",
+         "4",
+         "2",
+         "4",
+         "29",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "6",
+         "4",
+         "2",
+         "2",
+         "4",
+         "2",
+         "1",
+         "3",
+         "3",
+         "1",
+         "4",
+         "2",
+         "4",
+         "3",
+         "35",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "7",
+         "4",
+         "4",
+         "1",
+         "2",
+         "2",
+         "1",
+         "4",
+         "3",
+         "1",
+         "4",
+         "3",
+         "3",
+         "3",
+         "35",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "8",
+         "2",
+         "3",
+         "2",
+         "2",
+         "1",
+         "1",
+         "1",
+         "2",
+         "1",
+         "2",
+         "3",
+         "3",
+         "1",
+         "24",
+         "D"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "9",
+         "1",
+         "2",
+         "2",
+         "2",
+         "1",
+         "1",
+         "1",
+         "2",
+         "1",
+         "3",
+         "2",
+         "2",
+         "1",
+         "21",
+         "D"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "10",
+         "1",
+         "2",
+         "2",
+         "1",
+         "4",
+         "4",
+         "3",
+         "3",
+         "2",
+         "3",
+         "2",
+         "2",
+         "4",
+         "33",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "Mean",
+         "1.7",
+         "2.4",
+         "2.3",
+         "1.8",
+         "1.7",
+         "1.3",
+         "1.9",
+         "2.6",
+         "1.1",
+         "2.8",
+         "2.5",
+         "2.4",
+         "2.6",
+         "27.1",
+         ""
+        ],
+        "bold": true
+       }
+      ]
+     },
+     {
+      "heading": "VILLIMALÉ  ·  14 SPACES",
+      "island": "villimale",
+      "rows": [
+       {
+        "cells": [
+         "1",
+         "5",
+         "4",
+         "3",
+         "5",
+         "5",
+         "1",
+         "5",
+         "5",
+         "4",
+         "5",
+         "3",
+         "3",
+         "4",
+         "52",
+         "B"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "2",
+         "3",
+         "3",
+         "4",
+         "1",
+         "1",
+         "3",
+         "4",
+         "5",
+         "3",
+         "4",
+         "2",
+         "3",
+         "3",
+         "39",
+         "B"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "3",
+         "5",
+         "4",
+         "1",
+         "5",
+         "5",
+         "1",
+         "5",
+         "5",
+         "2",
+         "2",
+         "–",
+         "–",
+         "–",
+         "35",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "4",
+         "5",
+         "5",
+         "1",
+         "5",
+         "4",
+         "5",
+         "5",
+         "4",
+         "5",
+         "5",
+         "4",
+         "4",
+         "5",
+         "57",
+         "A"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "5",
+         "3",
+         "3",
+         "4",
+         "3",
+         "2",
+         "2",
+         "2",
+         "4",
+         "2",
+         "3",
+         "2",
+         "3",
+         "1",
+         "34",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "6",
+         "0",
+         "5",
+         "3",
+         "0",
+         "0",
+         "3",
+         "5",
+         "5",
+         "3",
+         "2",
+         "5",
+         "5",
+         "3",
+         "39",
+         "B"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "7",
+         "5",
+         "5",
+         "5",
+         "5",
+         "5",
+         "3",
+         "5",
+         "5",
+         "1",
+         "5",
+         "5",
+         "5",
+         "5",
+         "59",
+         "A"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "9",
+         "4",
+         "3",
+         "3",
+         "3",
+         "3",
+         "1",
+         "2",
+         "3",
+         "2",
+         "4",
+         "3",
+         "4",
+         "4",
+         "39",
+         "B"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "11",
+         "5",
+         "5",
+         "2",
+         "5",
+         "3",
+         "1",
+         "4",
+         "5",
+         "3",
+         "5",
+         "4",
+         "4",
+         "4",
+         "50",
+         "B"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "12",
+         "5",
+         "5",
+         "3",
+         "4",
+         "3",
+         "1",
+         "2",
+         "3",
+         "2",
+         "5",
+         "3",
+         "4",
+         "3",
+         "43",
+         "B"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "13",
+         "1",
+         "1",
+         "4",
+         "4",
+         "3",
+         "4",
+         "1",
+         "5",
+         "3",
+         "5",
+         "2",
+         "5",
+         "1",
+         "39",
+         "B"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "14",
+         "1",
+         "1",
+         "2",
+         "4",
+         "2",
+         "4",
+         "2",
+         "4",
+         "5",
+         "5",
+         "3",
+         "3",
+         "1",
+         "37",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "15",
+         "1",
+         "1",
+         "4",
+         "3",
+         "2",
+         "2",
+         "1",
+         "5",
+         "1",
+         "5",
+         "4",
+         "4",
+         "1",
+         "34",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "16",
+         "1",
+         "1",
+         "3",
+         "4",
+         "4",
+         "4",
+         "3",
+         "4",
+         "2",
+         "5",
+         "3",
+         "3",
+         "1",
+         "38",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "Mean",
+         "3.1",
+         "3.3",
+         "3.0",
+         "3.6",
+         "3.0",
+         "2.5",
+         "3.3",
+         "4.4",
+         "2.7",
+         "4.3",
+         "3.3",
+         "3.8",
+         "2.8",
+         "42.5",
+         ""
+        ],
+        "bold": true
+       }
+      ]
+     },
+     {
+      "heading": "HULHUMALÉ  ·  6 SPACES",
+      "island": "hulhumale",
+      "rows": [
+       {
+        "cells": [
+         "1",
+         "2",
+         "4",
+         "2",
+         "5",
+         "1",
+         "1",
+         "2",
+         "5",
+         "1",
+         "1",
+         "1",
+         "1",
+         "1",
+         "27",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "2",
+         "2",
+         "4",
+         "1",
+         "3",
+         "1",
+         "1",
+         "2",
+         "5",
+         "1",
+         "2",
+         "2",
+         "2",
+         "1",
+         "27",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "3",
+         "2",
+         "4",
+         "3",
+         "5",
+         "1",
+         "1",
+         "2",
+         "5",
+         "4",
+         "2",
+         "2",
+         "2",
+         "1",
+         "34",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "4",
+         "2",
+         "4",
+         "3",
+         "2",
+         "1",
+         "1",
+         "1",
+         "2",
+         "1",
+         "3",
+         "1",
+         "2",
+         "1",
+         "24",
+         "D"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "5",
+         "2",
+         "4",
+         "2",
+         "4",
+         "1",
+         "2",
+         "1",
+         "2",
+         "1",
+         "3",
+         "1",
+         "2",
+         "1",
+         "26",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "6",
+         "2",
+         "4",
+         "3",
+         "5",
+         "1",
+         "1",
+         "2",
+         "5",
+         "5",
+         "2",
+         "2",
+         "2",
+         "1",
+         "35",
+         "C"
+        ],
+        "bold": false
+       },
+       {
+        "cells": [
+         "Mean",
+         "2.0",
+         "4.0",
+         "2.3",
+         "4.0",
+         "1.0",
+         "1.2",
+         "1.7",
+         "4.0",
+         "2.2",
+         "2.2",
+         "1.5",
+         "1.8",
+         "1.0",
+         "28.8",
+         ""
+        ],
+        "bold": true
+       }
+      ]
+     }
+    ],
+    "cols": [
+     {
+      "label": "Space",
+      "num": false,
+      "island": null
+     },
+     {
+      "label": "P1",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "P2",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "P3",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "C1",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "C2",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "C3",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "C4",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "C5",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "C6",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "D1",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "D2",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "D3",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "D4",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Of 65",
+      "num": true,
+      "island": null
+     },
+     {
+      "label": "Grade",
+      "num": true,
+      "island": null
+     }
+    ],
+    "caption": "Table A.6.1 Every public space, Toolkit 6. Source: field sheets M-T4, V-T4 and H-T4, data/toolkit_survey_all_islands.xlsx."
+   },
+   {
+    "t": "note",
+    "text": "Protection: P1 traffic, P2 crime and security, P3 sensory discomfort. Comfort: C1 walking, C2 standing and lingering, C3 sitting, C4 seeing and sightlines, C5 talking and listening, C6 play and activity. Delight and microclimate: D1 human scale, D2 sun and rain protection, D3 shade through the day, D4 aesthetic quality. A blank score is –. Grades as given on the field sheets."
+   }
+  ]
+ },
+ {
+  "folio": "A.09",
+  "title": "DATA NOTES",
+  "claim": "How the numbers were worked out, and what is still open",
+  "blocks": [
+   {
+    "t": "label",
+    "text": "NOT IN THIS APPENDIX"
+   },
+   {
+    "t": "row",
+    "cells": [
+     {
+      "text": "Toolkit 4",
+      "bold": true,
+      "island": null
+     },
+     {
+      "text": "Layering vs stacking is not shown (editor's decision); its results are on the Theme 4 pages.",
+      "bold": false,
+      "island": null
+     }
+    ]
+   },
+   {
+    "t": "row",
+    "cells": [
+     {
+      "text": "Villimalé, Toolkit 5 tally",
+      "bold": true,
+      "island": null
+     },
+     {
+      "text": "The group surveyed again after its area changed. The workbook holds only the new movement tally, which Chapter 02 did not use, so it is left out. Its crossing checklist is shown for areas 01 to 08, as in Chapter 02.",
+      "bold": false,
+      "island": null
+     }
+    ]
+   },
+   {
+    "t": "row",
+    "cells": [
+     {
+      "text": "Villimalé, Toolkit 3",
+      "bold": true,
+      "island": null
+     },
+     {
+      "text": "From the copy of the field sheet that holds the first survey: its first 69 plots, the ones Chapter 02 counted. The 14 rows after them were added later and are not shown.",
+      "bold": false,
+      "island": null
+     }
+    ]
+   },
+   {
+    "t": "label",
+    "text": "HOW THE NUMBERS ARE WORKED OUT"
+   },
+   {
+    "t": "row",
+    "cells": [
+     {
+      "text": "Doors per 100 m",
+      "bold": true,
+      "island": null
+     },
+     {
+      "text": "Doors ÷ segment length × 100; for an island, all doors ÷ all length.",
+      "bold": false,
+      "island": null
+     }
+    ]
+   },
+   {
+    "t": "row",
+    "cells": [
+     {
+      "text": "Closed frontage",
+      "bold": true,
+      "island": null
+     },
+     {
+      "text": "As recorded per segment; for an island, weighted by segment length.",
+      "bold": false,
+      "island": null
+     }
+    ]
+   },
+   {
+    "t": "row",
+    "cells": [
+     {
+      "text": "FAR",
+      "bold": true,
+      "island": null
+     },
+     {
+      "text": "Chapter 02 counts with each group's own FAR column. Worked out as floor area ÷ plot area, Malé's plots would give 33 dense rather than 31.",
+      "bold": false,
+      "island": null
+     }
+    ]
+   },
+   {
+    "t": "row",
+    "cells": [
+     {
+      "text": "Housing quality",
+      "bold": true,
+      "island": null
+     },
+     {
+      "text": "Out of 32 (the book's scale); the field sheet heads its total /36.",
+      "bold": false,
+      "island": null
+     }
+    ]
+   },
+   {
+    "t": "row",
+    "cells": [
+     {
+      "text": "Micro-mobility share",
+      "bold": true,
+      "island": null
+     },
+     {
+      "text": "Micro-mobility users ÷ (micro-mobility users + pedestrians).",
+      "bold": false,
+      "island": null
+     }
+    ]
+   },
+   {
+    "t": "row",
+    "cells": [
+     {
+      "text": "SCER",
+      "bold": true,
+      "island": null
+     },
+     {
+      "text": "Hulhumalé group: vehicle conflicts ÷ (conflicts + people staying), 15% or more meaning severe. The Malé and Villimalé figures labelled SCER are the micro-mobility share.",
+      "bold": false,
+      "island": null
+     }
+    ]
+   }
+  ]
+ }
+]

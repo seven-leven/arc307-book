@@ -1,0 +1,1142 @@
+[
+ {
+  "kind": "Figure",
+  "num": "1.1.1",
+  "caption": "How the three islands are connected",
+  "folio": 12
+ },
+ {
+  "kind": "Figure",
+  "num": "1.2.1M",
+  "caption": "Malé, a collage by the Malé group.",
+  "folio": 14
+ },
+ {
+  "kind": "Figure",
+  "num": "1.2.2M",
+  "caption": "Malé’s place and role in the Greater Malé Region.",
+  "folio": 15
+ },
+ {
+  "kind": "Table",
+  "num": "1.2.1M",
+  "caption": "Malé at a glance. Census 2022, Maldives Bureau of Statistics.",
+  "folio": 15
+ },
+ {
+  "kind": "Figure",
+  "num": "1.3.1M",
+  "caption": "Malé’s history, from before 1153 to 2026. Compiled by the Malé group from Wikipedia.",
+  "folio": 17
+ },
+ {
+  "kind": "Figure",
+  "num": "1.3.2M",
+  "caption": "Malé’s outline, 1960 to 2015 (one line per card), and its landmarks. 2015 projected from the 2014 census.",
+  "folio": 18
+ },
+ {
+  "kind": "Figure",
+  "num": "1.3.3M to 1.3.6M",
+  "caption": "Four significant locations. Illustrations by the Malé group.",
+  "folio": 19
+ },
+ {
+  "kind": "Figure",
+  "num": "1.3.7M",
+  "caption": "Folk story: Rannamaari. Comic by the Malé group.",
+  "folio": 20
+ },
+ {
+  "kind": "Figure",
+  "num": "1.3.8M",
+  "caption": "Folk story: Koimala. Comic by the Malé group.",
+  "folio": 22
+ },
+ {
+  "kind": "Figure",
+  "num": "1.4.1M",
+  "caption": "Environment map of Malé: the sun’s path, winds, swells and currents. Source: Rethink Malé; Google Maps.",
+  "folio": 24
+ },
+ {
+  "kind": "Figure",
+  "num": "1.4.2M",
+  "caption": "Risk map of Malé. Source: Rethink Malé; Google Maps.",
+  "folio": 25
+ },
+ {
+  "kind": "Figure",
+  "num": "1.5.1M",
+  "caption": "Estimated residents by age, sex and nationality, 2026 (Malé group’s estimate). Source: Census 2022, Maldives Bureau of Statistics.",
+  "folio": 26
+ },
+ {
+  "kind": "Figure",
+  "num": "1.5.2M",
+  "caption": "Residents of Malé, 2000 to 2050: counted to 2022, projected after (Malé group’s estimate). Source: Census 2022, Maldives Bureau of Statistics.",
+  "folio": 27
+ },
+ {
+  "kind": "Figure",
+  "num": "1.6.1M",
+  "caption": "Land use plan of Malé: the share of the 204 ha of available land in each use. Source: Rethink Malé; Google Maps.",
+  "folio": 28
+ },
+ {
+  "kind": "Figure",
+  "num": "1.6.3M",
+  "caption": "Public facilities in Malé, by type. Source: Rethink Malé.",
+  "folio": 29
+ },
+ {
+  "kind": "Figure",
+  "num": "1.6.2M",
+  "caption": "Land use plan distribution: share of available land. Source: Rethink Malé.",
+  "folio": 29
+ },
+ {
+  "kind": "Figure",
+  "num": "1.6.4M",
+  "caption": "Solid and void, with fine and coarse grain shown in detail. Source: Rethink Malé; Google Maps.",
+  "folio": 30
+ },
+ {
+  "kind": "Figure",
+  "num": "1.6.5M",
+  "caption": "Building heights, in storeys. Source: Rethink Malé; Google Maps.",
+  "folio": 31
+ },
+ {
+  "kind": "Figure",
+  "num": "1.6.6M",
+  "caption": "Population density of Malé, by plot. Source: Rethink Malé; Google Maps.",
+  "folio": 32
+ },
+ {
+  "kind": "Figure",
+  "num": "1.6.7M",
+  "caption": "Facilities within a 400 m, five-minute walk, across Malé. Source: Rethink Malé; Google Maps.",
+  "folio": 33
+ },
+ {
+  "kind": "Figure",
+  "num": "1.7.1M",
+  "caption": "Road hierarchy and circulation in Malé. Source: Rethink Malé; Google Maps.",
+  "folio": 34
+ },
+ {
+  "kind": "Figure",
+  "num": "1.7.3M",
+  "caption": "Vehicles in Malé, by type (Malé group’s figures).",
+  "folio": 35
+ },
+ {
+  "kind": "Figure",
+  "num": "1.7.2M",
+  "caption": "Three types of road, in section. pav pavement, vl vehicle lane, prk parking.",
+  "folio": 35
+ },
+ {
+  "kind": "Figure",
+  "num": "1.7.4M to 1.7.9M",
+  "caption": "Six obstacles to walking in Malé. Illustrations by the Malé group.",
+  "folio": 37
+ },
+ {
+  "kind": "Figure",
+  "num": "1.8.1M",
+  "caption": "Open space map of Malé. Source: Rethink Malé; Google Maps.",
+  "folio": 38
+ },
+ {
+  "kind": "Figure",
+  "num": "1.8.2M to 1.8.5M",
+  "caption": "Four notable open spaces. Illustrations by the Malé group.",
+  "folio": 39
+ },
+ {
+  "kind": "Figure",
+  "num": "1.8.6M",
+  "caption": "Open space per person, 2022 and 2050 (estimate), from about 10.5 ha of open space. Guide: 9 m² of green space per person (Kuchelmeister, 1998). Source: Rethink Malé.",
+  "folio": 39
+ },
+ {
+  "kind": "Figure",
+  "num": "1.2.1V",
+  "caption": "Villimalé, an illustration by the Villimalé group.",
+  "folio": 40
+ },
+ {
+  "kind": "Figure",
+  "num": "1.2.2V",
+  "caption": "Villimalé in the Greater Malé Region.",
+  "folio": 41
+ },
+ {
+  "kind": "Table",
+  "num": "1.2.1V",
+  "caption": "Villimalé at a glance. Census 2022, Maldives Bureau of Statistics; 2026 figures as given by the Villimalé group.",
+  "folio": 41
+ },
+ {
+  "kind": "Figure",
+  "num": "1.3.1V",
+  "caption": "Villimalé’s history, from the 16th century to 2026. Compiled by the Villimalé group from Wikipedia.",
+  "folio": 42
+ },
+ {
+  "kind": "Figure",
+  "num": "1.3.2V",
+  "caption": "How Villimalé grew, and its landmarks. People per hectare: the group’s figures.",
+  "folio": 44
+ },
+ {
+  "kind": "Figure",
+  "num": "1.3.3V to 1.3.6V",
+  "caption": "Four significant landmarks. Illustrations by the Villimalé group.",
+  "folio": 45
+ },
+ {
+  "kind": "Figure",
+  "num": "1.4.1V",
+  "caption": "Environment map of Villimalé: winds, waves, currents, shallow water, vegetation and the reef. Source: Rethink Malé; Google Maps.",
+  "folio": 48
+ },
+ {
+  "kind": "Figure",
+  "num": "1.4.2V",
+  "caption": "Risk map of Villimalé: erosion, the sewage outfall, wave and swell risk, fires and flooding. Source: Rethink Malé; Google Maps.",
+  "folio": 49
+ },
+ {
+  "kind": "Figure",
+  "num": "1.5.1V",
+  "caption": "Population by age and sex, 2026, with the 2014 profile and the 2050 projection. Source: Census 2022, Maldives Bureau of Statistics.",
+  "folio": 50
+ },
+ {
+  "kind": "Figure",
+  "num": "1.5.2V and 1.5.3V",
+  "caption": "Population growth, 1995 to 2050 (projected), and households against population. *The 2014 census did not count households, so 1,350 is the group’s estimate. Source: Census 2022, Maldives Bureau of Statistics.",
+  "folio": 51
+ },
+ {
+  "kind": "Figure",
+  "num": "1.6.1V",
+  "caption": "Land use plan of Villimalé, with each use’s share of the land. Source: Rethink Malé; Google Maps.",
+  "folio": 52
+ },
+ {
+  "kind": "Figure",
+  "num": "1.6.2V and 1.6.3V",
+  "caption": "Share of land by use, and the number of facilities by type. Source: Rethink Malé.",
+  "folio": 53
+ },
+ {
+  "kind": "Figure",
+  "num": "1.6.4V",
+  "caption": "Solid and void, with fine, medium and coarse grain shown in detail. Source: Rethink Malé; Google Maps.",
+  "folio": 54
+ },
+ {
+  "kind": "Figure",
+  "num": "1.6.5V",
+  "caption": "Building heights, in storeys, with a high-rise and a low-rise cluster. Source: Rethink Malé; Google Maps.",
+  "folio": 55
+ },
+ {
+  "kind": "Figure",
+  "num": "1.6.6V",
+  "caption": "Population density of Villimalé, with a dense and a less dense area (the group’s figures). Source: Rethink Malé; Google Maps.",
+  "folio": 56
+ },
+ {
+  "kind": "Figure",
+  "num": "1.6.7V",
+  "caption": "Walkability: five-minute walks (400 m) around the island’s facilities. Source: Rethink Malé; Google Maps.",
+  "folio": 57
+ },
+ {
+  "kind": "Figure",
+  "num": "1.7.1V",
+  "caption": "Road hierarchy and circulation in Villimalé. Source: Rethink Malé; Google Maps.",
+  "folio": 58
+ },
+ {
+  "kind": "Figure",
+  "num": "1.7.3V",
+  "caption": "Vehicles in Villimalé, by type, all electric (the group’s figures).",
+  "folio": 59
+ },
+ {
+  "kind": "Figure",
+  "num": "1.7.2V",
+  "caption": "Three types of road, in section. pav pavement, veg planting.",
+  "folio": 59
+ },
+ {
+  "kind": "Figure",
+  "num": "1.7.4V to 1.7.9V",
+  "caption": "Six obstacles to walking in Villimalé. Illustrations by the Villimalé group.",
+  "folio": 61
+ },
+ {
+  "kind": "Figure",
+  "num": "1.8.1V",
+  "caption": "Open space map of Villimalé. Source: Rethink Malé; Google Maps.",
+  "folio": 62
+ },
+ {
+  "kind": "Figure",
+  "num": "1.8.6V",
+  "caption": "Open space per person, 2026 and 2050 (worst case, projected). Source: Rethink Malé.",
+  "folio": 63
+ },
+ {
+  "kind": "Figure",
+  "num": "1.8.2V to 1.8.5V",
+  "caption": "Four notable open spaces. Illustrations by the Villimalé group.",
+  "folio": 63
+ },
+ {
+  "kind": "Figure",
+  "num": "1.2.1H",
+  "caption": "Hulhumalé, an illustration by the Hulhumalé group, drawn over the HDC land use plan.",
+  "folio": 64
+ },
+ {
+  "kind": "Figure",
+  "num": "1.2.2H",
+  "caption": "Hulhumalé in the Greater Malé Region.",
+  "folio": 65
+ },
+ {
+  "kind": "Table",
+  "num": "1.2.1H",
+  "caption": "Hulhumalé at a glance. Population and households: HDC, 2026. The 2022 census counted 65,714 residents (132 per ha).",
+  "folio": 65
+ },
+ {
+  "kind": "Figure",
+  "num": "1.3.1H",
+  "caption": "Hulhumalé’s history, from the first plans in 1995 to 2026. Compiled by the Hulhumalé group from Wikipedia.",
+  "folio": 66
+ },
+ {
+  "kind": "Figure",
+  "num": "1.3.2H",
+  "caption": "How Hulhumalé grew, phase by phase, and its first landmarks. People per hectare: the group’s figures; 2026 as on page 65.",
+  "folio": 68
+ },
+ {
+  "kind": "Figure",
+  "num": "1.3.3H to 1.3.6H",
+  "caption": "Four significant landmarks. Illustrations by the Hulhumalé group.",
+  "folio": 69
+ },
+ {
+  "kind": "Figure",
+  "num": "1.3.7H",
+  "caption": "Folk story: the Kandholhudhoo families. Comic by the Hulhumalé group.",
+  "folio": 70
+ },
+ {
+  "kind": "Figure",
+  "num": "1.3.8H",
+  "caption": "Folk story: the spirits of the reef. Comic by the Hulhumalé group.",
+  "folio": 71
+ },
+ {
+  "kind": "Figure",
+  "num": "1.4.1H",
+  "caption": "Environment map of Hulhumalé: winds, waves, currents, shallow water and vegetation. Source: HDC; Google Maps.",
+  "folio": 72
+ },
+ {
+  "kind": "Figure",
+  "num": "1.4.2H",
+  "caption": "Risk map of Hulhumalé: where each risk has been recorded. Source: HDC; Google Maps.",
+  "folio": 73
+ },
+ {
+  "kind": "Figure",
+  "num": "1.5.1H",
+  "caption": "Population by age and sex, 2026, with the 2004 profile and the 2050 projection. Growth 2004 to 2022. Source: HDC; Census 2022, Maldives Bureau of Statistics.",
+  "folio": 74
+ },
+ {
+  "kind": "Figure",
+  "num": "1.5.2H and 1.5.3H",
+  "caption": "Population growth, 2004 to 2050 (projected), and households against population. Source: HDC; Census 2022, Maldives Bureau of Statistics.",
+  "folio": 75
+ },
+ {
+  "kind": "Figure",
+  "num": "1.6.1H",
+  "caption": "Land use plan of Hulhumalé, with each use’s share of the land. Source: HDC land use plan.",
+  "folio": 76
+ },
+ {
+  "kind": "Figure",
+  "num": "1.6.2H and 1.6.3H",
+  "caption": "Share of land by use, and the number of facilities by type. Source: HDC land use plan.",
+  "folio": 77
+ },
+ {
+  "kind": "Figure",
+  "num": "1.6.4H",
+  "caption": "Solid and void, with fine and coarse grain shown in detail. Source: HDC; Google Maps.",
+  "folio": 78
+ },
+ {
+  "kind": "Figure",
+  "num": "1.6.5H",
+  "caption": "Building heights, in storeys, with a low-rise and a high-rise example. Heights from a Grasshopper script run on a 3D model of Hulhumalé.",
+  "folio": 79
+ },
+ {
+  "kind": "Figure",
+  "num": "1.6.6H",
+  "caption": "Population density of Hulhumalé, with two sample areas (the group’s figures). Source: HDC; Google Maps.",
+  "folio": 80
+ },
+ {
+  "kind": "Figure",
+  "num": "1.6.7H",
+  "caption": "Walkability: five-minute walks (400 m) around daily needs, Phase 1 and Phase 2. Source: HDC; Google Maps.",
+  "folio": 81
+ },
+ {
+  "kind": "Figure",
+  "num": "1.7.1H",
+  "caption": "Road hierarchy and circulation in Hulhumalé. Source: HDC; Google Maps.",
+  "folio": 82
+ },
+ {
+  "kind": "Figure",
+  "num": "1.7.3H",
+  "caption": "Vehicles in Hulhumalé, by type (the group’s figures).",
+  "folio": 83
+ },
+ {
+  "kind": "Figure",
+  "num": "1.7.2H",
+  "caption": "Two types of road, in section. pav pavement, vl vehicle lane, prk parking.",
+  "folio": 83
+ },
+ {
+  "kind": "Figure",
+  "num": "1.7.4H to 1.7.9H",
+  "caption": "Six obstacles to walking in Hulhumalé. Illustrations by the Hulhumalé group.",
+  "folio": 85
+ },
+ {
+  "kind": "Figure",
+  "num": "1.8.1H",
+  "caption": "Open space map of Hulhumalé. Source: HDC; Google Maps.",
+  "folio": 86
+ },
+ {
+  "kind": "Figure",
+  "num": "1.8.6H",
+  "caption": "Open space per person, 2026 and 2050 (worst case, projected). Source: HDC.",
+  "folio": 87
+ },
+ {
+  "kind": "Figure",
+  "num": "1.8.2H to 1.8.5H",
+  "caption": "Four notable open spaces: Central Park, the beach, the running track and the BBQ area. Illustrations by the Hulhumalé group.",
+  "folio": 87
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.1M",
+  "caption": "The selected site in Malé.",
+  "folio": 92
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.7M",
+  "caption": "",
+  "folio": 93
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.6M",
+  "caption": "",
+  "folio": 93
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.5M",
+  "caption": "",
+  "folio": 93
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.4M",
+  "caption": "",
+  "folio": 93
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.3M",
+  "caption": "",
+  "folio": 93
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.2M",
+  "caption": "",
+  "folio": 93
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.8M",
+  "caption": "The issues found on site, drawn where they occur.",
+  "folio": 94
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.1V",
+  "caption": "The selected site in Villimalé.",
+  "folio": 96
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.7V",
+  "caption": "",
+  "folio": 97
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.6V",
+  "caption": "",
+  "folio": 97
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.5V",
+  "caption": "",
+  "folio": 97
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.4V",
+  "caption": "",
+  "folio": 97
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.3V",
+  "caption": "",
+  "folio": 97
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.2V",
+  "caption": "",
+  "folio": 97
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.8V",
+  "caption": "The issues found on site, drawn where they occur.",
+  "folio": 98
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.1H",
+  "caption": "The selected site in Hulhumalé.",
+  "folio": 100
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.7H",
+  "caption": "",
+  "folio": 101
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.6H",
+  "caption": "",
+  "folio": 101
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.5H",
+  "caption": "",
+  "folio": 101
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.4H",
+  "caption": "",
+  "folio": 101
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.3H",
+  "caption": "",
+  "folio": 101
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.2H",
+  "caption": "",
+  "folio": 101
+ },
+ {
+  "kind": "Figure",
+  "num": "2.1.8H",
+  "caption": "The issues found on site, drawn where they occur.",
+  "folio": 102
+ },
+ {
+  "kind": "Figure",
+  "num": "2.3.2M",
+  "caption": "Section of Chaandhanee Magu.",
+  "folio": 106
+ },
+ {
+  "kind": "Figure",
+  "num": "2.3.1M",
+  "caption": "Frontage condition, and people staying or moving at each gate.",
+  "folio": 106
+ },
+ {
+  "kind": "Figure",
+  "num": "2.3.2V",
+  "caption": "Section of Jumhooree Magu.",
+  "folio": 107
+ },
+ {
+  "kind": "Figure",
+  "num": "2.3.1V",
+  "caption": "Frontage condition, and people staying or moving at each gate.",
+  "folio": 107
+ },
+ {
+  "kind": "Figure",
+  "num": "2.3.2H",
+  "caption": "Street section: a 21 m carriageway with six lanes, and a 3 m sidewalk each side.",
+  "folio": 108
+ },
+ {
+  "kind": "Figure",
+  "num": "2.3.1H",
+  "caption": "Frontage condition, and people staying (upper number) and moving (lower number) at each gate.",
+  "folio": 108
+ },
+ {
+  "kind": "Figure",
+  "num": "2.3.3",
+  "caption": "Each measure scaled to its largest island.",
+  "folio": 109
+ },
+ {
+  "kind": "Table",
+  "num": "2.3.1",
+  "caption": "The measures, island by island.",
+  "folio": 109
+ },
+ {
+  "kind": "Figure",
+  "num": "2.4.2M",
+  "caption": "Pedestrians in shade and in the sun.",
+  "folio": 110
+ },
+ {
+  "kind": "Figure",
+  "num": "2.4.1M",
+  "caption": "Where people walked, morning and evening. Schematic: each dot sits at random in its zone.",
+  "folio": 110
+ },
+ {
+  "kind": "Figure",
+  "num": "2.4.2V",
+  "caption": "Pedestrians in shade and in the sun.",
+  "folio": 111
+ },
+ {
+  "kind": "Figure",
+  "num": "2.4.1V",
+  "caption": "Where people walked, morning and evening. Schematic: each dot sits at random in its zone.",
+  "folio": 111
+ },
+ {
+  "kind": "Figure",
+  "num": "2.4.2H",
+  "caption": "Pedestrians in shade and in the sun.",
+  "folio": 112
+ },
+ {
+  "kind": "Figure",
+  "num": "2.4.1H",
+  "caption": "Where people walked, morning and evening. Schematic: each dot sits at random in its zone.",
+  "folio": 112
+ },
+ {
+  "kind": "Figure",
+  "num": "2.4.3",
+  "caption": "Outlined bar: morning. Solid bar: evening.",
+  "folio": 113
+ },
+ {
+  "kind": "Table",
+  "num": "2.4.1",
+  "caption": "The measures, island by island.",
+  "folio": 113
+ },
+ {
+  "kind": "Figure",
+  "num": "2.5.2M",
+  "caption": "Where the two segments sit.",
+  "folio": 114
+ },
+ {
+  "kind": "Figure",
+  "num": "2.5.1M",
+  "caption": "Frontage, staying activity and movement in segments 1 and 2.",
+  "folio": 114
+ },
+ {
+  "kind": "Figure",
+  "num": "2.5.1V",
+  "caption": "Building frontage categories (B to E), staying activity (one circle per person), vehicular movement and pedestrian throughput in the study block.",
+  "folio": 115
+ },
+ {
+  "kind": "Figure",
+  "num": "2.5.2V",
+  "caption": "The study block within Villimalé, outlined in red.",
+  "folio": 115
+ },
+ {
+  "kind": "Figure",
+  "num": "2.5.2H",
+  "caption": "Where the segment sits.",
+  "folio": 116
+ },
+ {
+  "kind": "Figure",
+  "num": "2.5.1H",
+  "caption": "Building frontage, staying activity, vehicular movement and pedestrian throughput.",
+  "folio": 116
+ },
+ {
+  "kind": "Figure",
+  "num": "2.5.3",
+  "caption": "Each measure scaled to its largest island.",
+  "folio": 117
+ },
+ {
+  "kind": "Table",
+  "num": "2.5.1",
+  "caption": "The measures, island by island.",
+  "folio": 117
+ },
+ {
+  "kind": "Figure",
+  "num": "2.6.2M",
+  "caption": "Density against housing quality. One dot is one plot; equal plots sit side by side.",
+  "folio": 118
+ },
+ {
+  "kind": "Figure",
+  "num": "2.6.1M",
+  "caption": "Surveyed plots, coloured by density and housing quality.",
+  "folio": 118
+ },
+ {
+  "kind": "Figure",
+  "num": "2.6.2V",
+  "caption": "Density against housing quality. One dot is one plot; equal plots sit side by side.",
+  "folio": 119
+ },
+ {
+  "kind": "Figure",
+  "num": "2.6.1V",
+  "caption": "Surveyed plots, coloured by density and housing quality.",
+  "folio": 119
+ },
+ {
+  "kind": "Figure",
+  "num": "2.6.2H",
+  "caption": "Density against housing quality. All 8 plots (H05 to H12) share one point.",
+  "folio": 120
+ },
+ {
+  "kind": "Figure",
+  "num": "2.6.1H",
+  "caption": "Surveyed plots, coloured by density and housing quality.",
+  "folio": 120
+ },
+ {
+  "kind": "Figure",
+  "num": "2.6.3",
+  "caption": "Each measure scaled to its largest island.",
+  "folio": 121
+ },
+ {
+  "kind": "Table",
+  "num": "2.6.1",
+  "caption": "The measures, island by island.",
+  "folio": 121
+ },
+ {
+  "kind": "Figure",
+  "num": "2.7.2M",
+  "caption": "Pedestrian and micro-mobility volumes against SCER, areas 01 to 06.",
+  "folio": 122
+ },
+ {
+  "kind": "Figure",
+  "num": "2.7.1M",
+  "caption": "SCER values and number of people in survey areas 1 to 6.",
+  "folio": 122
+ },
+ {
+  "kind": "Figure",
+  "num": "2.7.2V",
+  "caption": "SCER, vehicle conflicts and total pedestrians at survey points A1 to A8.",
+  "folio": 123
+ },
+ {
+  "kind": "Figure",
+  "num": "2.7.1V",
+  "caption": "SCER values and number of people at survey points A1 to A8.",
+  "folio": 123
+ },
+ {
+  "kind": "Figure",
+  "num": "2.7.2H",
+  "caption": "Micro-mobility, total pedestrians and SCER in survey areas A01 to A06.",
+  "folio": 124
+ },
+ {
+  "kind": "Figure",
+  "num": "2.7.1H",
+  "caption": "SCER values and number of people in survey areas 1 to 6.",
+  "folio": 124
+ },
+ {
+  "kind": "Figure",
+  "num": "2.7.3",
+  "caption": "All three measures share one scale, 0 to 80%.",
+  "folio": 125
+ },
+ {
+  "kind": "Table",
+  "num": "2.7.1",
+  "caption": "The measures, island by island.",
+  "folio": 125
+ },
+ {
+  "kind": "Figure",
+  "num": "3.0.1 to 3.0.3",
+  "caption": "The three masterplans. Each is shown in full in its own section 3.8.",
+  "folio": 131
+ },
+ {
+  "kind": "Figure",
+  "num": "3.1.3M",
+  "caption": "A shaded walk by the water.",
+  "folio": 134
+ },
+ {
+  "kind": "Figure",
+  "num": "3.1.2M",
+  "caption": "Beach view.",
+  "folio": 134
+ },
+ {
+  "kind": "Figure",
+  "num": "3.1.1M",
+  "caption": "Vistas.",
+  "folio": 134
+ },
+ {
+  "kind": "Figure",
+  "num": "3.1.4M",
+  "caption": "Land use on the 13.43 ha site, before and after, in hectares. Source: the Malé group’s land-use and housing worksheets.",
+  "folio": 135
+ },
+ {
+  "kind": "Table",
+  "num": "3.1.1M and 3.1.2M",
+  "caption": "Site metrics, and capstone housing, existing and proposed. Open area includes pedestrian streets. A home averages 55,000 sq ft ÷ 80 homes; living area is 55,000 sq ft ÷ 244 people.",
+  "folio": 135
+ },
+ {
+  "kind": "Figure",
+  "num": "3.2.1M",
+  "caption": "The parti: the port leaves, and four wings open Malé to the world, the ocean, its past and its future.",
+  "folio": 136
+ },
+ {
+  "kind": "Figure",
+  "num": "3.2.2M to 3.2.5M",
+  "caption": "The parti in four steps, one for each wing of Fahi-Malé.",
+  "folio": 137
+ },
+ {
+  "kind": "Figure",
+  "num": "3.3.1M",
+  "caption": "What stands on the site today: what is kept, what is adapted and what is demolished.",
+  "folio": 138
+ },
+ {
+  "kind": "Figure",
+  "num": "3.3.2M to 3.3.7M",
+  "caption": "Six problems seen on site.",
+  "folio": 139
+ },
+ {
+  "kind": "Figure",
+  "num": "3.4.1M",
+  "caption": "The road system: cars on the ring road, parking at the edge, and slow streets inside.",
+  "folio": 140
+ },
+ {
+  "kind": "Figure",
+  "num": "3.4.2M to 3.4.4M",
+  "caption": "Three roads in section and plan, at one scale.",
+  "folio": 141
+ },
+ {
+  "kind": "Figure",
+  "num": "3.5.1M",
+  "caption": "Parks, shaded links and the waterfront. Numbers refer to the views opposite.",
+  "folio": 142
+ },
+ {
+  "kind": "Figure",
+  "num": "3.5.2M to 3.5.5M",
+  "caption": "Views of the public spaces. Each number matches a marker on the drawing opposite.",
+  "folio": 143
+ },
+ {
+  "kind": "Figure",
+  "num": "3.6.1M",
+  "caption": "What the area offers besides homes: the terminal, the markets, the Ocean Hub and the amenity core. Numbers refer to the views opposite.",
+  "folio": 144
+ },
+ {
+  "kind": "Figure",
+  "num": "3.6.2M to 3.6.5M",
+  "caption": "Views of the non-residential programme. Each number matches a marker on the drawing opposite.",
+  "folio": 145
+ },
+ {
+  "kind": "Figure",
+  "num": "3.7.1M",
+  "caption": "Where people live: the old lanes, social housing and five capstone buildings. Numbers refer to the views opposite.",
+  "folio": 146
+ },
+ {
+  "kind": "Figure",
+  "num": "3.7.2M to 3.7.5M",
+  "caption": "Views of the housing. Each number matches a marker on the drawing opposite.",
+  "folio": 147
+ },
+ {
+  "kind": "Figure",
+  "num": "3.8.1M",
+  "caption": "Fahi-Malé masterplan. Numbers refer to the legend.",
+  "folio": 148
+ },
+ {
+  "kind": "Figure",
+  "num": "3.9.1M",
+  "caption": "Building rules: what each plot size allows. Numbers refer to the rules below.",
+  "folio": 150
+ },
+ {
+  "kind": "Figure",
+  "num": "3.9.2M",
+  "caption": "District rules: movement, the coast and services. Numbers refer to the rules below.",
+  "folio": 151
+ },
+ {
+  "kind": "Figure",
+  "num": "3.1.4V",
+  "caption": "Land use, before and after, as a share of the site. Grey is roads and other land. Source: the Villimalé group’s metrics tables.",
+  "folio": 155
+ },
+ {
+  "kind": "Table",
+  "num": "3.1.2V",
+  "caption": "Capstone housing on the 4 ha. Five buildings of 80 homes each: 20 three-bedroom (1,000 sq ft), 20 two-bedroom (750 sq ft) and 40 one-bedroom (645 sq ft). Floor area assumes 6 to 8 full floors on 2,000 to 2,500 m² plots.",
+  "folio": 155
+ },
+ {
+  "kind": "Table",
+  "num": "3.1.1V",
+  "caption": "The 4 ha intervention area, existing and proposed. The cards above are for the 12 ha masterplan area unless they say otherwise.",
+  "folio": 155
+ },
+ {
+  "kind": "Figure",
+  "num": "3.2.1V",
+  "caption": "The parti: the plan bends to the island’s trees and natural flows.",
+  "folio": 156
+ },
+ {
+  "kind": "Figure",
+  "num": "3.2.2V to 3.2.5V",
+  "caption": "The parti in four steps, from the island as it is to the island as proposed.",
+  "folio": 157
+ },
+ {
+  "kind": "Figure",
+  "num": "3.3.1V",
+  "caption": "What stands on the site today: what is kept, adapted, moved or demolished.",
+  "folio": 158
+ },
+ {
+  "kind": "Figure",
+  "num": "3.3.2V to 3.3.7V",
+  "caption": "Six problems seen on site.",
+  "folio": 159
+ },
+ {
+  "kind": "Figure",
+  "num": "3.4.1V",
+  "caption": "The road system: main, secondary and local roads, jogging paths and the bridge route.",
+  "folio": 160
+ },
+ {
+  "kind": "Figure",
+  "num": "3.4.2V to 3.4.4V",
+  "caption": "Three types of road in plan and section, at one scale.",
+  "folio": 161
+ },
+ {
+  "kind": "Figure",
+  "num": "3.5.1V",
+  "caption": "Public and green space: pavilions, gardens, pocket parks and the jogging loop.",
+  "folio": 162
+ },
+ {
+  "kind": "Figure",
+  "num": "3.5.2V to 3.5.5V",
+  "caption": "Four of the public spaces.",
+  "folio": 163
+ },
+ {
+  "kind": "Figure",
+  "num": "3.6.1V",
+  "caption": "What the area offers besides homes: public buildings, shops and the waterfront.",
+  "folio": 164
+ },
+ {
+  "kind": "Figure",
+  "num": "3.6.2V to 3.6.5V",
+  "caption": "Four of the non-residential spaces.",
+  "folio": 165
+ },
+ {
+  "kind": "Figure",
+  "num": "3.7.1V",
+  "caption": "Where people live: smaller blocks, kept homes and the capstone buildings.",
+  "folio": 166
+ },
+ {
+  "kind": "Figure",
+  "num": "3.7.2V to 3.7.5V",
+  "caption": "Four ideas for the housing.",
+  "folio": 167
+ },
+ {
+  "kind": "Figure",
+  "num": "3.1.3H",
+  "caption": "",
+  "folio": 174
+ },
+ {
+  "kind": "Figure",
+  "num": "3.2.1H",
+  "caption": "The parti: paths that radiate from a centre.",
+  "folio": 176
+ },
+ {
+  "kind": "Figure",
+  "num": "3.2.2H to 3.2.4H",
+  "caption": "The parti in three steps, from the existing paths to the proposed arrangement.",
+  "folio": 177
+ },
+ {
+  "kind": "Figure",
+  "num": "3.3.1H",
+  "caption": "What stands on the site today: what is kept, adapted or demolished.",
+  "folio": 178
+ },
+ {
+  "kind": "Figure",
+  "num": "3.3.2H to 3.3.5H",
+  "caption": "Four problems seen on site.",
+  "folio": 179
+ },
+ {
+  "kind": "Figure",
+  "num": "3.4.1H",
+  "caption": "The road system: perimeter roads, connectors and streets for people. Letters refer to the road sections opposite.",
+  "folio": 180
+ },
+ {
+  "kind": "Figure",
+  "num": "3.4.2H to 3.4.4H",
+  "caption": "Road sections and plans, at one scale. Each letter matches a road on the drawing opposite.",
+  "folio": 181
+ },
+ {
+  "kind": "Figure",
+  "num": "3.5.1H",
+  "caption": "Public and green space around a central open space.",
+  "folio": 182
+ },
+ {
+  "kind": "Figure",
+  "num": "3.5.2H to 3.5.5H",
+  "caption": "Four of the public spaces.",
+  "folio": 183
+ },
+ {
+  "kind": "Figure",
+  "num": "3.6.1H",
+  "caption": "What the area offers besides homes: shops, workshops, the mosque and sport.",
+  "folio": 184
+ },
+ {
+  "kind": "Figure",
+  "num": "3.6.2H to 3.6.5H",
+  "caption": "Four of the non-residential spaces.",
+  "folio": 185
+ },
+ {
+  "kind": "Figure",
+  "num": "3.7.1H",
+  "caption": "Where people live: 8- and 15-storey blocks and five capstone plots, C1 to C5.",
+  "folio": 186
+ },
+ {
+  "kind": "Figure",
+  "num": "3.7.2H to 3.7.5H",
+  "caption": "Four ideas for the housing.",
+  "folio": 187
+ },
+ {
+  "kind": "Figure",
+  "num": "3.8.1H",
+  "caption": "Hiyaa-Vehi masterplan. Numbers refer to the legend.",
+  "folio": 188
+ },
+ {
+  "kind": "Table",
+  "num": "3.10.1",
+  "caption": "The three masterplans in the same measures, from each island’s 3.1 metrics (pages 135, 155 and 175).",
+  "folio": 192
+ }
+]

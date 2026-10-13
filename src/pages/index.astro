@@ -2,7 +2,6 @@
 // Home is the grid: three island columns, three chapter rows, each cell a link. A reader sees the whole book's
 // shape before clicking anything. No cover image with a button.
 import Base from "../layouts/Base.astro";
-import Slot from "../components/Slot.astro";
 import { CHAPTERS, EXTRA, ISLANDS, SITE, firstIslandPage, sectionHref, url } from "../data/structure";
 ---
 <Base title="Home">
@@ -13,11 +12,12 @@ import { CHAPTERS, EXTRA, ISLANDS, SITE, firstIslandPage, sectionHref, url } fro
           <p class="t-small">{SITE.credit}</p>
           <h1 class="t-title">{SITE.title}</h1>
           <p class="t-subtitle">{SITE.subtitle}</p>
-          <Slot what="The book's argument, in two sentences" note="From NARRATIVE.md part 1" />
+          <p class="t-body">Malé, Villimalé and Hulhumalé are three islands of one city region, made in three different ways: one grew over centuries, one was resettled, one was planned and built. We read all three with the same method, so that what is true of one can be set against the others.</p>
+          <p class="t-subheading">Public life depends on how a place is designed, more than on how dense or how new it is.</p>
         </div>
         <img class="fan" src={url("/fan.svg")} alt="The cover's three triangles: Villimalé in green, Malé in red, Hulhumalé in blue." width="560" height="377" />
       </div>
-      <Slot what="How to use this site" note="One short paragraph: pick an island and stay on it, or open any section as Compare" />
+      <p class="t-caption how"><strong>How to use this site</strong> Pick an island below and stay on it: the island names at the top of every page keep you on the same section and change the island. Compare shows any section for all three, side by side.</p>
     </header>
 
     <section aria-labelledby="grid-title" class="stack">
@@ -65,6 +65,8 @@ import { CHAPTERS, EXTRA, ISLANDS, SITE, firstIslandPage, sectionHref, url } fro
   .hero { display: grid; gap: var(--s4) var(--gutter); align-items: center; }
   .fan { width: 100%; max-width: 520px; height: auto; justify-self: center; }
   @media (min-width: 801px) { .hero { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); } }
+  .how { max-width: var(--measure); color: var(--grey-dark); }
+  .how strong { color: var(--ink); margin-right: 0.6em; }
   .hg { display: grid; gap: var(--s3); }
   .hg-head, .hg-row { display: grid; gap: var(--s3) var(--gutter); grid-template-columns: minmax(0, 1fr); }
   .hg-head { display: none; }

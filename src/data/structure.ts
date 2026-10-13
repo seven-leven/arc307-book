@@ -122,13 +122,6 @@ export const ABOUT_PARTS = [
   { id: "acknowledgements", title: "Acknowledgements", from: "Acknowledgements" },
 ];
 
-export const REFLECTION_PARTS = [
-  { id: "editor", title: "The editor", island: null },
-  { id: "male", title: "The Malé group", island: "male" },
-  { id: "villimale", title: "The Villimalé group", island: "villimale" },
-  { id: "hulhumale", title: "The Hulhumalé group", island: "hulhumale" },
-] as const;
-
 export const REFERENCE_PARTS = [
   { slug: "glossary", title: "Glossary" },
   { slug: "toolkit-data", title: "Toolkit data" },

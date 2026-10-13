@@ -1,0 +1,91 @@
+---
+// The book's Appendix A, toolkit data, as real tables (src/book/00/appendix.json, written by
+// book/export_web_appendix.py in the Book folder from the book's own appendix script). Wide tables scroll sideways
+// inside their own box. Nothing here is offered as a download.
+import pages from "../book/00/appendix.json";
+
+const name = (p: any) => (p.title.replace(/^APPENDIX\s+/, "").toLowerCase().replace(/^\w/, (c: string) => c.toUpperCase())) + (p.claim ? `: ${p.claim}` : "");
+const id = (p: any) => p.folio.toLowerCase().replace(".", "-");
+---
+<nav class="toc" aria-label="Parts of the appendix">
+  <ol role="list">
+    {pages.map((p: any) => <li><a href={`#${id(p)}`}><span class="n">{p.folio}</span>{name(p)}</a></li>)}
+  </ol>
+</nav>
+
+{pages.map((p: any) => (
+  <section id={id(p)} class="part">
+    <h2 class="t-heading"><span class="n">{p.folio}</span>{name(p)}</h2>
+    {p.blocks.map((b: any) => {
+      if (b.t === "body") return <p class="t-body">{b.text}</p>;
+      if (b.t === "note") return <p class="t-caption note">{b.text}</p>;
+      if (b.t === "strong") return <p class="t-caption strong">{b.text}</p>;
+      if (b.t === "caption") return <p class="t-caption note">{b.text}</p>;
+      if (b.t === "label") return <h3 class="t-small label">{b.text}</h3>;
+      if (b.t === "row") return (
+        <p class="t-caption deflist"><strong data-island={b.cells[0].island ?? undefined}>{b.cells[0].text}</strong> {b.cells.slice(1).map((c: any) => c.text).join(" ")}</p>
+      );
+      if (b.t === "chart") return (
+        <figure class="chart">
+          <h3 class="t-small label">{b.heading}</h3>
+          <svg viewBox={b.viewBox} role="img" aria-label={`${b.caption} The counts are in the summary table above.`} set:html={b.body} />
+          <figcaption class="t-caption note">{b.note} {b.caption}</figcaption>
+        </figure>
+      );
+      if (b.t === "table") return (
+        <div class="scroll" tabindex="0" role="region" aria-label={b.caption ?? name(p)}>
+          <table>
+            {b.caption && <caption class="t-caption">{b.caption}</caption>}
+            <thead>
+              <tr>{b.cols.map((c: any) => <th scope="col" class:list={["t-small", { num: c.num }]} data-island={c.island ?? undefined}><span class:list={{ "accent-text": !!c.island }}>{c.label}</span></th>)}</tr>
+            </thead>
+            {b.groups.map((g: any) => (
+              <tbody>
+                {g.heading && <tr class="group" data-island={g.island ?? undefined}><th colspan={b.cols.length} scope="colgroup" class="t-small"><span class="accent-text">{g.heading}</span></th></tr>}
+                {g.rows.map((r: any) => (
+                  <tr class:list={{ total: r.bold }}>
+                    {r.cells.map((c: string, k: number) => {
+                      if (r.span !== undefined && k > r.span) return null;
+                      const wide = r.span === k ? b.cols.length - k : undefined;
+                      const mark = c === "good" || c === "poor";
+                      const inner = mark ? <span class:list={["dot", c]}><span class="visually-hidden">{c}</span></span> : c;
+                      return k === 0 ? <th scope="row">{inner}</th> : <td colspan={wide} class:list={{ num: b.cols[k].num && !wide }}>{inner}</td>;
+                    })}
+                  </tr>
+                ))}
+              </tbody>
+            ))}
+          </table>
+        </div>
+      );
+      return null;
+    })}
+  </section>
+))}
+
+<style>
+  .toc ol { display: grid; gap: var(--s1); }
+  .toc a { color: var(--ink); font-size: var(--caption-size); }
+  .n { display: inline-block; min-width: 3.4em; font-variant-numeric: tabular-nums; color: var(--grey-dark); }
+  .part { display: grid; gap: var(--s3); border-top: 1px solid var(--rule); padding-top: var(--s5); }
+  .part > .t-body, .note, .deflist { max-width: var(--measure); }
+  .note { color: var(--grey-dark); }
+  .strong { font-weight: 700; }
+  .label { margin-top: var(--s4); }
+  .deflist strong { margin-right: 0.5em; }
+  .scroll { overflow-x: auto; }
+  table { border-collapse: collapse; font-size: var(--caption-size); line-height: 1.35; min-width: 100%; }
+  caption { caption-side: bottom; text-align: left; color: var(--grey-dark); padding-top: var(--s2); max-width: var(--measure); }
+  th, td { text-align: left; padding: 5px 12px 5px 6px; vertical-align: bottom; white-space: nowrap; font-weight: 400; }
+  thead th { white-space: normal; overflow-wrap: normal; word-break: normal; hyphens: none; min-width: 3.2em; padding-bottom: var(--s2); }
+  .num { text-align: right; font-variant-numeric: tabular-nums; }
+  tbody tr:nth-child(even) { background: var(--panel); }
+  tbody th { position: sticky; left: 0; background: inherit; }
+  tbody tr:nth-child(odd) th { background: var(--paper); }
+  .group th { padding-top: var(--s3); background: var(--paper) !important; }
+  .group { background: var(--paper) !important; }
+  .total td, .total th { font-weight: 700; border-top: 1px solid var(--rule); }
+  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; border: 1.5px solid var(--ink); vertical-align: middle; }
+  .dot.good { background: var(--ink); }
+  .chart svg { width: 100%; max-width: 860px; height: auto; font-family: var(--font); }
+</style>

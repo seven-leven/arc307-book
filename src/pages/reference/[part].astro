@@ -1,10 +1,9 @@
 ---
 // The book's back matter: glossary and abbreviations, references, the lists of figures and tables. The words come
-// from the book (src/book/00/, written by book/export_web_matter.py in the Book folder). Toolkit data is not in
-// yet: it needs the book's Appendix A.
+// from the book (src/book/00/, written by book/export_web_matter.py and export_web_appendix.py in the Book folder).
 import Base from "../../layouts/Base.astro";
 import SectionHeader from "../../components/SectionHeader.astro";
-import Slot from "../../components/Slot.astro";
+import AppendixPages from "../../components/AppendixPages.astro";
 import matter from "../../book/00/matter.json";
 import figures from "../../book/00/figures.json";
 import { folioHref } from "../../data/content";
@@ -18,7 +17,7 @@ const SUBTITLE: Record<string, string> = {
   glossary: "The words this book uses, in plain terms, for readers who are not architects.",
   references: "Where the book's material comes from, and where the book uses it.",
   "figures-and-tables": "Every figure and table by number, with the section it is in.",
-  "toolkit-data": "The counts and scores behind Chapter 02, one table per toolkit.",
+  "toolkit-data": "The counts and scores behind Chapter 02, toolkit by toolkit. The book's Appendix A.",
 };
 const title = (s: string) => s.charAt(0) + s.slice(1).toLowerCase();
 const slug = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -65,7 +64,7 @@ const lists = ["Figure", "Table"].map((kind) => ({ kind, rows: figures.filter((f
       </section>
     ))}
 
-    {part.slug === "toolkit-data" && <Slot what="Toolkit data" note="One table per toolkit, from the book's Appendix A. Readable as tables; not offered as downloads. To come" />}
+    {part.slug === "toolkit-data" && <AppendixPages />}
 
     <p class="t-caption"><a href={url(`/${EXTRA.reference.slug}/`)}>All reference pages</a></p>
   </div>

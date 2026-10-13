@@ -51,7 +51,7 @@ Chapter, section, island: `/masterplan/public-and-green-space/hulhumale/`. `comp
 - Only tokens for colour; only the eight text styles.
 - Islands, layers and verdicts are never told apart by colour alone.
 - Toolkit data is shown as tables, not offered as downloads.
-- Nothing is published until the editor runs the "Publish to GitHub Pages" workflow by hand.
+- `main` is protected: changes go in through pull requests. Every merge into `main` publishes the site.
 
 ## Decided
 

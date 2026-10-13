@@ -1,0 +1,76 @@
+{
+ "folio": 158,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/03/158_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "heading",
+   "text": "WHAT IS THERE NOW"
+  },
+  {
+   "type": "para",
+   "text": "The 12-hectare site shows buildings to be demolished, kept or adapted, and moved, beside the bridge under construction. Its main problems are industry beside homes, few kinds of shops, unpaved roads that flood, large underused plots that threaten existing trees, and a beach mostly closed to the public."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "3.3.1V"
+  },
+  {
+   "type": "note",
+   "text": "What stands on the site today: what is kept, adapted, moved or demolished."
+  },
+  {
+   "type": "heading",
+   "text": "LEGEND"
+  },
+  {
+   "type": "note",
+   "text": "Existing building — retained"
+  },
+  {
+   "type": "note",
+   "text": "To be demolished"
+  },
+  {
+   "type": "note",
+   "text": "Retained & adapted"
+  },
+  {
+   "type": "note",
+   "text": "Heritage / cultural building"
+  },
+  {
+   "type": "note",
+   "text": "Use to be relocated"
+  },
+  {
+   "type": "note",
+   "text": "Congestion / conflict zone"
+  },
+  {
+   "type": "note",
+   "text": "Existing road"
+  },
+  {
+   "type": "note",
+   "text": "Problem point"
+  },
+  {
+   "type": "note",
+   "text": "Masterplan boundary"
+  },
+  {
+   "type": "note",
+   "text": "Sea / lagoon"
+  }
+ ],
+ "draft": "Masterplan waiting to be finalised."
+}

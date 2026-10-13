@@ -1,0 +1,79 @@
+{
+ "folio": 139,
+ "type": "sheet",
+ "heading": "EXISTING ISSUES MALÉ",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/139_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "note",
+   "text": "Waterfront blocked by industrial and godown uses, limiting public access."
+  },
+  {
+   "type": "note",
+   "text": "Exposed roadside pipes obstruct pedestrian movement."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figures",
+   "num": "3.3.2M to 3.3.7M"
+  },
+  {
+   "type": "heading",
+   "text": "WHAT THE IMAGES SHOW"
+  },
+  {
+   "type": "para",
+   "text": "On the ground, the edge feels closed. Warehouse walls stand where the sea should be, and buildings press close, with no room left for play. Narrow roads leave people and motorbikes to share one strip, and bus stops are far, so many people drive."
+  },
+  {
+   "type": "sub",
+   "text": "A blocked waterfront"
+  },
+  {
+   "type": "sub",
+   "text": "Pipes in the way"
+  },
+  {
+   "type": "note",
+   "text": "Six problems seen on site."
+  },
+  {
+   "type": "sub",
+   "text": "No room to play"
+  },
+  {
+   "type": "note",
+   "text": "High building density leaves little space for public recreation."
+  },
+  {
+   "type": "sub",
+   "text": "A traffic barrier"
+  },
+  {
+   "type": "note",
+   "text": "A busy road acts as a barrier."
+  },
+  {
+   "type": "sub",
+   "text": "Far from the bus"
+  },
+  {
+   "type": "note",
+   "text": "Distant bus stops increase dependence on private vehicles."
+  },
+  {
+   "type": "sub",
+   "text": "One strip for all"
+  },
+  {
+   "type": "note",
+   "text": "Narrow roads force pedestrians and vehicles to share unsafe space."
+  }
+ ]
+}

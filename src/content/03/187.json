@@ -1,0 +1,63 @@
+{
+ "folio": 187,
+ "type": "sheet",
+ "heading": "VIEWS HULHUMALÉ",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/187_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "note",
+   "text": "Layered balconies bring greenery and informal interaction, turning circulation into semi-private social areas and softening the dense blocks."
+  },
+  {
+   "type": "note",
+   "text": "Residential bridges connect blocks while creating shared spaces for movement, interaction and planting."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figures",
+   "num": "3.7.2H to 3.7.5H"
+  },
+  {
+   "type": "heading",
+   "text": "WHO LIVES HERE"
+  },
+  {
+   "type": "para",
+   "text": "Fewer people share each hectare: 983, down from 2,667. Each resident has 27 m² of living area, up from 15 m². Balconies, bridges and half-houses give residents room to make a home their own."
+  },
+  {
+   "type": "sub",
+   "text": "Residential balcony space"
+  },
+  {
+   "type": "sub",
+   "text": "Residential bridge connection"
+  },
+  {
+   "type": "note",
+   "text": "Four ideas for the housing."
+  },
+  {
+   "type": "sub",
+   "text": "Sports zone"
+  },
+  {
+   "type": "note",
+   "text": "A dedicated sports zone brings recreation closer to residents, with accessible spaces for exercise and play."
+  },
+  {
+   "type": "sub",
+   "text": "Half-house"
+  },
+  {
+   "type": "note",
+   "text": "The government builds the structural frame and residents complete the other half to suit their needs, so each home gains its own identity over time."
+  }
+ ]
+}

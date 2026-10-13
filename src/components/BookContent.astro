@@ -20,6 +20,7 @@ const id = `sheet-${page.folio}`;
 {page.type === "sheet" && (
   <section class="sheet">
     {page.heading && <h2 class="t-heading">{page.heading}</h2>}
+    {page.draft && <p class="t-caption draft">Draft drawing. {page.draft}</p>}
     <button type="button" class="open" data-figure-open={id} aria-label="Open this page large">
       <img src={url(`/${page.picture.src}`)} width={page.picture.wpx} height={page.picture.hpx} loading="lazy" decoding="async"
            alt={`Page from the book: ${title}. Its text is given below, under "Read this page as text".`} />
@@ -134,6 +135,7 @@ const id = `sheet-${page.folio}`;
   .capnum { color: var(--accent-text); margin-right: 0.6em; }
   /* sheet */
   .sheet { display: grid; gap: var(--s3); }
+  .draft { font-style: italic; color: var(--grey-dark); border-left: 4px solid var(--accent-light); padding-left: var(--s3); }
   .open { padding: 0; border: 0; background: none; cursor: zoom-in; display: block; width: 100%; }
   .open img { width: 100%; height: auto; }
   summary { cursor: pointer; text-decoration: underline; text-underline-offset: 0.18em; width: fit-content; }

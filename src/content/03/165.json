@@ -1,0 +1,63 @@
+{
+ "folio": 165,
+ "type": "sheet",
+ "heading": "VIEWS VILLIMALÉ",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/165_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "note",
+   "text": "Made for the daily gathering at school pick-up and drop-off, this area is a welcoming buffer that stays open to the public all day."
+  },
+  {
+   "type": "note",
+   "text": "Using Villimalé’s calm, natural setting, this centre offers active and restful routines for body and mind."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figures",
+   "num": "3.6.2V to 3.6.5V"
+  },
+  {
+   "type": "heading",
+   "text": "WHO IT SERVES"
+  },
+  {
+   "type": "para",
+   "text": "More daily needs can be met on foot: a place to wait at the school gate, a lively beach, a wellbeing centre and a maritime research centre. The waterfront and the research centre also give the rest of the island a reason to come."
+  },
+  {
+   "type": "sub",
+   "text": "Outdoor parents’ seating area"
+  },
+  {
+   "type": "sub",
+   "text": "Wellbeing centre"
+  },
+  {
+   "type": "note",
+   "text": "Four of the non-residential spaces."
+  },
+  {
+   "type": "sub",
+   "text": "Recreational waterfront"
+  },
+  {
+   "type": "note",
+   "text": "The beach becomes a lively waterfront with small stalls, a holhuashi and a wellness centre, beside the former police sports ground, now open to the public."
+  },
+  {
+   "type": "sub",
+   "text": "Maritime research centre"
+  },
+  {
+   "type": "note",
+   "text": "A hub for marine study and research that joins environmental observation with public education, to build care for the ocean around the island."
+  }
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "folio": 134,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/03/134_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "number",
+   "text": "Rebalancing Malé towards urban life"
+  },
+  {
+   "type": "para",
+   "text": "Relocating the port to Thilafushi moves Malé up the value chain, from back-of-house operations to a front-of-house city."
+  },
+  {
+   "type": "heading",
+   "text": "MOVING UP THE VALUE CHAIN"
+  },
+  {
+   "type": "heading",
+   "text": "STRATEGIES: AN ISLAND…"
+  },
+  {
+   "type": "note",
+   "text": "Shaded streets, active edges and car-free superblocks bring life back to the ground floor."
+  },
+  {
+   "type": "heading",
+   "text": "MASTERPLAN VIEWS"
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "3.1.1M"
+  },
+  {
+   "type": "strong",
+   "text": "BACK OF HOUSE"
+  },
+  {
+   "type": "note",
+   "text": "port, cargo, warehouses"
+  },
+  {
+   "type": "sub",
+   "text": "where people meet at ground level"
+  },
+  {
+   "type": "note",
+   "text": "Vistas."
+  },
+  {
+   "type": "strong",
+   "text": "FRONT OF HOUSE"
+  },
+  {
+   "type": "note",
+   "text": "arrival, markets, public life"
+  },
+  {
+   "type": "sub",
+   "text": "affordable to those who live here"
+  },
+  {
+   "type": "note",
+   "text": "Social housing, rehousing in place and a mix of home sizes keep Malé’s own people in Malé."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "3.1.2M"
+  },
+  {
+   "type": "note",
+   "text": "Beach view."
+  },
+  {
+   "type": "sub",
+   "text": "that gives back to nature"
+  },
+  {
+   "type": "note",
+   "text": "Breeze corridors, green roofs and a restored coastline return space to sea, wind and shade."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "3.1.3M"
+  },
+  {
+   "type": "note",
+   "text": "A shaded walk by the water."
+  }
+ ]
+}

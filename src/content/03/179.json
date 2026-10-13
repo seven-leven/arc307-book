@@ -1,0 +1,63 @@
+{
+ "folio": 179,
+ "type": "sheet",
+ "heading": "EXISTING ISSUES HULHUMALÉ",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/179_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "note",
+   "text": "Too many people share too few lifts and too little ground: about 32,000 people live on the 12 ha block."
+  },
+  {
+   "type": "note",
+   "text": "Demand for parking far exceeds supply, so cars crowd streets and open space; three parking buildings have been commissioned to relieve the pressure."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figures",
+   "num": "3.3.2H to 3.3.5H"
+  },
+  {
+   "type": "heading",
+   "text": "WHAT THE IMAGES SHOW"
+  },
+  {
+   "type": "para",
+   "text": "On the ground the block feels crowded and anonymous. Cars fill the streets and the open space, noise carries between flats and in from the road, and waste collects in one place. There is little shade and little reason to stay outside."
+  },
+  {
+   "type": "sub",
+   "text": "Overcrowding"
+  },
+  {
+   "type": "sub",
+   "text": "Parking shortage"
+  },
+  {
+   "type": "note",
+   "text": "Four problems seen on site."
+  },
+  {
+   "type": "sub",
+   "text": "Noise transmission"
+  },
+  {
+   "type": "note",
+   "text": "Shared walls and corridors carry sound between flats, while the adjacent road and bus stop add noise from outside, disturbing sleep and daily comfort."
+  },
+  {
+   "type": "sub",
+   "text": "Pollution"
+  },
+  {
+   "type": "note",
+   "text": "Traffic along the road and bus stop, combined with the density of the blocks, increases air and noise pollution, while waste is concentrated in one place."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "folio": 145,
+ "type": "sheet",
+ "heading": "VIEWS MALÉ",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/145_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "note",
+   "text": "The redesigned fish and farmers’ markets, in front of the arrival terminal."
+  },
+  {
+   "type": "note",
+   "text": "Diving, swimming lessons and marine research, with a beach for beginners."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figures",
+   "num": "3.6.2M to 3.6.5M"
+  },
+  {
+   "type": "heading",
+   "text": "WHO IT SERVES"
+  },
+  {
+   "type": "para",
+   "text": "Arrivals no longer wait for speedboats on the street. Residents learn to swim and dive at the Ocean Hub, and six dive sites within a 30-minute boat ride draw visitors from across Greater Malé. Shops, school and sport are all a short walk from home."
+  },
+  {
+   "type": "sub",
+   "text": "In front of the market"
+  },
+  {
+   "type": "sub",
+   "text": "Ocean Hub"
+  },
+  {
+   "type": "note",
+   "text": "Views of the non-residential programme. Each number matches a marker on the drawing above."
+  },
+  {
+   "type": "sub",
+   "text": "Arrival terminal"
+  },
+  {
+   "type": "note",
+   "text": "One terminal for ferries, airport boats and bridge buses, with a lounge and food stalls."
+  },
+  {
+   "type": "sub",
+   "text": "Barbecue area"
+  },
+  {
+   "type": "note",
+   "text": "A barbecue area at the water’s edge."
+  }
+ ]
+}

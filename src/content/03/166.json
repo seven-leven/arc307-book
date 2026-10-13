@@ -1,0 +1,72 @@
+{
+ "folio": 166,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/03/166_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "heading",
+   "text": "WHERE PEOPLE LIVE"
+  },
+  {
+   "type": "para",
+   "text": "Large blocks are divided into two or three smaller units to keep a human scale, add ways through and reflect the informal character of Villimalé. Ground floors hold residential and community activities. Trees removed during development are replaced, and vertical planting and green spaces are built into the buildings."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "3.7.1V"
+  },
+  {
+   "type": "note",
+   "text": "Where people live: smaller blocks, kept homes and the capstone buildings."
+  },
+  {
+   "type": "heading",
+   "text": "LEGEND"
+  },
+  {
+   "type": "note",
+   "text": "Retained organic housing"
+  },
+  {
+   "type": "note",
+   "text": "New residential"
+  },
+  {
+   "type": "note",
+   "text": "Social / subsidised housing"
+  },
+  {
+   "type": "note",
+   "text": "Mixed-use"
+  },
+  {
+   "type": "note",
+   "text": "Capstone plot"
+  },
+  {
+   "type": "note",
+   "text": "Height tag"
+  },
+  {
+   "type": "note",
+   "text": "Density gradient"
+  },
+  {
+   "type": "note",
+   "text": "Masterplan boundary"
+  },
+  {
+   "type": "note",
+   "text": "Sea / lagoon"
+  }
+ ],
+ "draft": "Masterplan waiting to be finalised."
+}

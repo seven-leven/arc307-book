@@ -1,0 +1,84 @@
+{
+ "folio": 160,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/03/160_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "heading",
+   "text": "HOW PEOPLE MOVE"
+  },
+  {
+   "type": "para",
+   "text": "The plan sorts roads into main, secondary and local roads and jogging paths, with a route for the Thilamalé bridge. Buses and cycle lanes run on the outer roads. Inner streets are for people only, shaded by trees, so residents can walk safely."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figure",
+   "num": "3.4.1V"
+  },
+  {
+   "type": "note",
+   "text": "The road system: main, secondary and local roads, jogging paths and the bridge route."
+  },
+  {
+   "type": "heading",
+   "text": "LEGEND"
+  },
+  {
+   "type": "note",
+   "text": "Perimeter road"
+  },
+  {
+   "type": "note",
+   "text": "Neighbourhood connector"
+  },
+  {
+   "type": "note",
+   "text": "Superblock street"
+  },
+  {
+   "type": "note",
+   "text": "Slow motorbike access"
+  },
+  {
+   "type": "note",
+   "text": "Pedestrian-only / shaded walk"
+  },
+  {
+   "type": "note",
+   "text": "Ferry / speedboat route"
+  },
+  {
+   "type": "note",
+   "text": "Terminal / jetty"
+  },
+  {
+   "type": "note",
+   "text": "Parking pocket"
+  },
+  {
+   "type": "note",
+   "text": "Bus stop"
+  },
+  {
+   "type": "note",
+   "text": "Road section cut"
+  },
+  {
+   "type": "note",
+   "text": "Masterplan boundary"
+  },
+  {
+   "type": "note",
+   "text": "Sea / lagoon"
+  }
+ ],
+ "draft": "Masterplan waiting to be finalised."
+}

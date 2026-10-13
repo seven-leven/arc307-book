@@ -1,0 +1,63 @@
+{
+ "folio": 183,
+ "type": "sheet",
+ "heading": "VIEWS HULHUMALÉ",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/183_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "note",
+   "text": "A communal gathering space designed to encourage social interaction, public activities and community events."
+  },
+  {
+   "type": "note",
+   "text": "A shared public space that supports recreation, social interaction and everyday activities for people of all ages."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figures",
+   "num": "3.5.2H to 3.5.5H"
+  },
+  {
+   "type": "heading",
+   "text": "WHAT THE SPACES OFFER"
+  },
+  {
+   "type": "para",
+   "text": "Every space is a short walk from the homes. The central plaza and the Ruhgandu give people places to gather, the park gives shade and play, and green corridors link them to the waterfront."
+  },
+  {
+   "type": "sub",
+   "text": "Central plaza"
+  },
+  {
+   "type": "sub",
+   "text": "Ruhgandu"
+  },
+  {
+   "type": "note",
+   "text": "Four of the public spaces."
+  },
+  {
+   "type": "sub",
+   "text": "Integrated office spaces"
+  },
+  {
+   "type": "note",
+   "text": "Workspaces integrated into the public realm to promote a balance between professional activities and community life."
+  },
+  {
+   "type": "sub",
+   "text": "Hiyaa-Vehi Park"
+  },
+  {
+   "type": "note",
+   "text": "A green recreational space that enhances residents’ well-being while providing opportunities for relaxation and community engagement."
+  }
+ ]
+}

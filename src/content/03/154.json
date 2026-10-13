@@ -1,0 +1,25 @@
+{
+ "folio": 154,
+ "type": "sheet",
+ "heading": null,
+ "claim": null,
+ "picture": {
+  "src": "figures/03/154_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "note",
+   "text": "and bridge view."
+  },
+  {
+   "type": "note",
+   "text": "Community gardens/playgrounds to promote nature & healthy lifestyle."
+  },
+  {
+   "type": "note",
+   "text": "Holhuashi in East Beach side for shade and conversing areas."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "folio": 163,
+ "type": "sheet",
+ "heading": "VIEWS VILLIMALÉ",
+ "claim": null,
+ "picture": {
+  "src": "figures/03/163_page.webp",
+  "wpx": 2226,
+  "hpx": 2088
+ },
+ "text": [
+  {
+   "type": "note",
+   "text": "Designed to reflect the island’s character and tradition. These learning spaces support outdoor classes and community activities."
+  },
+  {
+   "type": "note",
+   "text": "A shared garden where residents can grow and pick fresh fruit, vegetables and other edible plants, cared for by the community."
+  },
+  {
+   "type": "caption",
+   "text": "",
+   "label": "Figures",
+   "num": "3.5.2V to 3.5.5V"
+  },
+  {
+   "type": "heading",
+   "text": "WHAT THE SPACES OFFER"
+  },
+  {
+   "type": "para",
+   "text": "Each space gives people a reason to stay outside: lessons under the trees, a jogging loop with no vehicles, a garden to grow food in, and Valu There, the area’s only natural woodland, kept for children to explore. All are reached on foot."
+  },
+  {
+   "type": "sub",
+   "text": "Outdoor open classrooms"
+  },
+  {
+   "type": "sub",
+   "text": "Community food garden"
+  },
+  {
+   "type": "note",
+   "text": "Four of the public spaces."
+  },
+  {
+   "type": "sub",
+   "text": "Jogging trail"
+  },
+  {
+   "type": "note",
+   "text": "A continuous loop around the residential areas with no vehicles allowed: a safe, uninterrupted route for jogging, walking and recreation."
+  },
+  {
+   "type": "sub",
+   "text": "Valu There"
+  },
+  {
+   "type": "note",
+   "text": "Keeps the area’s only natural land while bringing community activities into the jungle, so children can explore, play and connect with nature."
+  }
+ ]
+}

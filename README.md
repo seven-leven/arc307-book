@@ -8,24 +8,24 @@ The website of the ARC307 class book on Malé, Villimalé and Hulhumalé. The pr
 
 ## Run it
 
-Needs [Deno](https://deno.com) 2.
+Needs [Node.js](https://nodejs.org) 24 or later (npm comes with it). `.nvmrc` names the version.
 
 ```bash
-deno install
+npm install
 ```
 
 ```bash
-deno task dev
+npm run dev
 ```
 
 Then open `http://localhost:4321/arc307-book/`. Start at `/arc307-book/styleguide/`: it shows every colour, text style and component.
 
 ```bash
-deno task build
+npm run build
 ```
 
 ```bash
-deno task check-links
+npm run check-links
 ```
 
 `build` writes the site to `dist/`. `check-links` fails if any internal link leads nowhere.
@@ -58,10 +58,10 @@ Addresses do not change once published; when one has to, the old one must forwar
 - Only tokens for colour; only the eight text styles.
 - Islands, layers and verdicts are never told apart by colour alone.
 - Toolkit data is shown as tables, not offered as downloads.
-- `main` is protected: changes go in through pull requests. Every merge into `main` publishes the site.
+- `main` is protected: changes go in through pull requests. Every merge into `main` publishes the site; a pull request is built and link-checked first, without publishing.
 
 ## Decided
 
-- Generator: Astro, run with Deno (Vite underneath).
+- Generator: Astro, run with Node 24 and npm (Vite underneath). Moved from Deno on 16 October 2026.
 - Fallback font: Jost (SIL Open Font Licence), served from the site itself. Readers with Century Gothic installed see Century Gothic.
 - Hosting: GitHub Pages.

@@ -3,13 +3,17 @@
   "private": true,
   "type": "module",
   "version": "0.1.0",
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "check-links": "node scripts/check_links.mjs"
   },
   "dependencies": {
-    "@fontsource/jost": "^5.1.0",
-    "astro": "^5.14.0"
+    "@fontsource/jost": "5.3.0",
+    "astro": "5.18.2"
   }
 }

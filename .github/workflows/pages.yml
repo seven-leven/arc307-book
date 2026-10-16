@@ -1,32 +1,36 @@
 # Builds the site and publishes it to GitHub Pages every time main changes (a pull request is merged), so the live
-# site is always the latest version. It can also be started by hand from the Actions tab.
+# site is always the latest version. It can also be started by hand from the Actions tab. On a pull request it only
+# builds and checks links, so a broken build shows up before merging; nothing is published.
 name: Publish to GitHub Pages
 on:
   push:
     branches: [main]
+  pull_request:
   workflow_dispatch:
 permissions:
   contents: read
   pages: write
   id-token: write
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: true
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - uses: denoland/setup-deno@v2
+      - uses: actions/setup-node@v5
         with:
-          deno-version: v2.x
-      - run: deno install
-      - run: deno task build
-      - run: deno task check-links
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npm run check-links
       - uses: actions/upload-pages-artifact@v5
         with:
           path: dist
   deploy:
+    if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
     environment:

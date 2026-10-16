@@ -1,9 +1,0 @@
-{
-  "nodeModulesDir": "auto",
-  "tasks": {
-    "dev": "deno run -A npm:astro dev",
-    "build": "deno run -A npm:astro build",
-    "preview": "deno run -A npm:astro preview",
-    "check-links": "deno run --allow-read scripts/check_links.ts"
-  }
-}

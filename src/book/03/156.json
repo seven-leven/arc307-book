@@ -33,48 +33,35 @@
   },
   {
    "type": "note",
-   "text": "Main relocation move"
+   "text": "Masterplan zone"
   },
   {
    "type": "note",
-   "text": "Concept zone"
+   "text": "Wing connection"
   },
   {
    "type": "note",
-   "text": "Concept connection"
+   "text": "Main vistas"
   },
   {
    "type": "note",
-   "text": "Amenity core node"
+   "text": "Zones"
   },
   {
    "type": "note",
-   "text": "Stitch link"
+   "text": "Underutilised east beach area"
   },
   {
    "type": "note",
-   "text": "Vista / breeze cut"
+   "text": "Underutilised west beach area"
   },
   {
    "type": "note",
-   "text": "Hulhangu monsoon"
+   "text": "Underutilised publicly inaccessible plot"
   },
   {
    "type": "note",
-   "text": "Iruvai monsoon"
-  },
-  {
-   "type": "note",
-   "text": "Parti step"
-  },
-  {
-   "type": "note",
-   "text": "Masterplan boundary"
-  },
-  {
-   "type": "note",
-   "text": "Sea / lagoon"
+   "text": "Adjacent zone to redevelopment"
   }
- ],
- "draft": "Masterplan waiting to be finalised."
+ ]
 }

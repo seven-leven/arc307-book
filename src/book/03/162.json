@@ -15,7 +15,7 @@
   },
   {
    "type": "para",
-   "text": "The area has no shared public space today. The plan spreads parks and open space across the site: pavilions facing the sea, community gardens, pocket parks and places for young people. Open-air classrooms, a jogging track and food gardens give residents reasons to be outside together."
+   "text": "The masterplan builds on the site’s existing green character by preserving vegetation and introducing new layers of open space. Pocket parks create breathing spaces within the existing residential blocks, while community food gardens and public green spaces add opportunities for gathering, recreation and everyday use. Overall open space increases from 23% to 26%."
   },
   {
    "type": "caption",
@@ -45,6 +45,14 @@
   },
   {
    "type": "note",
+   "text": "Community food garden"
+  },
+  {
+   "type": "note",
+   "text": "Solar garden"
+  },
+  {
+   "type": "note",
    "text": "Tree canopy / shade"
   },
   {
@@ -57,24 +65,7 @@
   },
   {
    "type": "note",
-   "text": "Shaded pedestrian link"
-  },
-  {
-   "type": "note",
-   "text": "Beach / swim & dive entry"
-  },
-  {
-   "type": "note",
-   "text": "Sky / vertical park"
-  },
-  {
-   "type": "note",
-   "text": "Masterplan boundary"
-  },
-  {
-   "type": "note",
    "text": "Sea / lagoon"
   }
- ],
- "draft": "Masterplan waiting to be finalised."
+ ]
 }

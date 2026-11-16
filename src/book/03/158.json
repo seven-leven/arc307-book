@@ -33,10 +33,6 @@
   },
   {
    "type": "note",
-   "text": "Existing building — retained"
-  },
-  {
-   "type": "note",
    "text": "To be demolished"
   },
   {
@@ -45,19 +41,11 @@
   },
   {
    "type": "note",
-   "text": "Heritage / cultural building"
+   "text": "Relocated"
   },
   {
    "type": "note",
-   "text": "Use to be relocated"
-  },
-  {
-   "type": "note",
-   "text": "Congestion / conflict zone"
-  },
-  {
-   "type": "note",
-   "text": "Existing road"
+   "text": "Existing roads"
   },
   {
    "type": "note",
@@ -65,12 +53,7 @@
   },
   {
    "type": "note",
-   "text": "Masterplan boundary"
-  },
-  {
-   "type": "note",
-   "text": "Sea / lagoon"
+   "text": "Existing buildings"
   }
- ],
- "draft": "Masterplan waiting to be finalised."
+ ]
 }

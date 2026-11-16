@@ -33,40 +33,19 @@
   },
   {
    "type": "note",
-   "text": "Civic / terminal"
+   "text": "Commercial / retail"
   },
   {
    "type": "note",
-   "text": "Commercial / retail / F&B"
+   "text": "Institutional"
   },
   {
    "type": "note",
-   "text": "Market"
-  },
-  {
-   "type": "note",
-   "text": "Waterfront hub"
-  },
-  {
-   "type": "note",
-   "text": "Ceremonial / cultural"
+   "text": "Utility & industrial area"
   },
   {
    "type": "note",
    "text": "Amenity core"
-  },
-  {
-   "type": "note",
-   "text": "Active ground-floor frontage"
-  },
-  {
-   "type": "note",
-   "text": "Masterplan boundary"
-  },
-  {
-   "type": "note",
-   "text": "Sea / lagoon"
   }
- ],
- "draft": "Masterplan waiting to be finalised."
+ ]
 }

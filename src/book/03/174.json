@@ -11,9 +11,13 @@
  "text": [
   {
    "type": "caption",
-   "text": "",
-   "label": "Figure",
-   "num": "3.1.3H"
+   "text": "Masterplan views.",
+   "label": "Figures",
+   "num": "3.1.1H to 3.1.3H"
+  },
+  {
+   "type": "sub",
+   "text": "Vehicle-free pedestrian zone"
   }
  ]
 }

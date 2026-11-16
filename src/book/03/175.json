@@ -66,8 +66,10 @@
    "text": "AFTER"
   },
   {
-   "type": "strongnote",
-   "text": "Sources"
+   "type": "caption",
+   "text": "and 3.1.2H Site metrics and buildings on the 12 ha site, existing and proposed. Figure 3.1.4H",
+   "label": "Tables",
+   "num": "3.1.1H"
   },
   {
    "type": "note",
@@ -111,7 +113,7 @@
   },
   {
    "type": "note",
-   "text": "MASTERPLAN_METRICS.xlsx, 12 ha site. Working figures."
+   "text": "Land use before and after, in hectares. Source: the Hulhumalé group’s masterplan metrics worksheet; working figures."
   },
   {
    "type": "heading",
